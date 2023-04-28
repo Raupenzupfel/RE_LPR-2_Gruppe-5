@@ -3,9 +3,9 @@
 \contentsline {section}{\numberline {2}Theoretischer Hintergrund}{1}{}%
 \contentsline {section}{\numberline {3}Versuchsbeschreibug}{2}{}%
 \contentsline {section}{\numberline {4}Vorbereitungsfragen}{3}{}%
-\contentsline {subsection}{\numberline {4.1}Photovoltaik-Inselanlage}{5}{}%
-\contentsline {subsubsection}{\numberline {4.1.1}Geben Sie vier Konzepte von PV-Inselanlagen mit je einem Einsatzbeispiel an}{5}{}%
-\contentsline {subsubsection}{\numberline {4.1.2}Die Anlagenkomponenten sollen im Inselsystem auf ihre Funktionsfähigkeit hin geprüft werden. Was messen Sie in welcher Reihenfolge?}{5}{}%
+\contentsline {subsection}{\numberline {4.1}Photovoltaik-Inselanlage}{3}{}%
+\contentsline {subsubsection}{\numberline {4.1.1}Geben Sie vier Konzepte von PV-Inselanlagen mit je einem Einsatzbeispiel an}{3}{}%
+\contentsline {subsubsection}{\numberline {4.1.2}Die Anlagenkomponenten sollen im Inselsystem auf ihre Funktionsfähigkeit hin geprüft werden. Was messen Sie in welcher Reihenfolge?}{3}{}%
 \contentsline {subsection}{\numberline {4.2}Laderregler}{5}{}%
 \contentsline {subsubsection}{\numberline {4.2.1}Welche Voraussetzungen müssen Anlagen mit Akku ohne Laderegler haben? Wann wird ein Laderegler notwendig?}{5}{}%
 \contentsline {subsubsection}{\numberline {4.2.2}Geben Sie Verfahren zur Laderegelung in PV-Inselanlagen an und erläutern Sie deren Funktionsprinzip! Unter welchen Bedingungen ist welches Verfahren von Vorteil? (Beachten Sie auch den Kostenaspekt!)}{5}{}%
