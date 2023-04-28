@@ -3,10 +3,31 @@
 \contentsline {section}{\numberline {2}Theoretischer Hintergrund}{1}{}%
 \contentsline {section}{\numberline {3}Versuchsbeschreibug}{2}{}%
 \contentsline {section}{\numberline {4}Vorbereitungsfragen}{3}{}%
-\contentsline {subsection}{\numberline {4.1}Frage 1}{3}{}%
-\contentsline {subsection}{\numberline {4.2}Frage 2}{3}{}%
-\contentsline {section}{\numberline {5}Versuchsdurchführung}{3}{}%
-\contentsline {section}{\numberline {6}Auswertung}{3}{}%
-\contentsline {section}{\numberline {7}Quellen}{5}{}%
-\contentsline {section}{\numberline {8}Anhang}{6}{}%
+\contentsline {subsection}{\numberline {4.1}Photovoltaik-Inselanlage}{5}{}%
+\contentsline {subsubsection}{\numberline {4.1.1}Geben Sie vier Konzepte von PV-Inselanlagen mit je einem Einsatzbeispiel an}{5}{}%
+\contentsline {subsubsection}{\numberline {4.1.2}Die Anlagenkomponenten sollen im Inselsystem auf ihre Funktionsfähigkeit hin geprüft werden. Was messen Sie in welcher Reihenfolge?}{5}{}%
+\contentsline {subsection}{\numberline {4.2}Laderregler}{5}{}%
+\contentsline {subsubsection}{\numberline {4.2.1}Welche Voraussetzungen müssen Anlagen mit Akku ohne Laderegler haben? Wann wird ein Laderegler notwendig?}{5}{}%
+\contentsline {subsubsection}{\numberline {4.2.2}Geben Sie Verfahren zur Laderegelung in PV-Inselanlagen an und erläutern Sie deren Funktionsprinzip! Unter welchen Bedingungen ist welches Verfahren von Vorteil? (Beachten Sie auch den Kostenaspekt!)}{5}{}%
+\contentsline {subsubsection}{\numberline {4.2.3}Es soll eine defekte Batterie des Batteriesystems aus der Anlage gewechselt werden. Geben Sie die Reihenfolge Ihres Vorgehens schrittweise an.}{5}{}%
+\contentsline {subsection}{\numberline {4.3}Batteriesysteme}{5}{}%
+\contentsline {subsubsection}{\numberline {4.3.1}Welche Batterie-Typen werden in PV-Anlagen häufig eingesetzt? Nennen Sie Vor-und Nachteile! Was ist bei deren Laderegelung zu beachten?}{5}{}%
+\contentsline {subsubsection}{\numberline {4.3.2}Welche Anforderungen werden an einen Batterieraum gestellt?}{5}{}%
+\contentsline {subsubsection}{\numberline {4.3.3}Geben Sie die häufig eingesetzten Systemspannungen an! Was ist bei Gleichspannungsverbrauchern (insbesondere bei niedriger Spannung) im Vergleich zu Wechselstromverbrauchern zu beachten?}{5}{}%
+\contentsline {subsection}{\numberline {4.4}Wechselrichter in PV-Inselanlagen}{5}{}%
+\contentsline {subsubsection}{\numberline {4.4.1}Nach welchen Kriterien erfolgt die Auswahl eines Insel-Wechselrichters?}{5}{}%
+\contentsline {subsubsection}{\numberline {4.4.2}Welche Insel-Wechselrichter-Typen können zum Einsatz kommen (Kosten beachten)?}{5}{}%
+\contentsline {subsubsection}{\numberline {4.4.3}Woran erkennen Sie während des Betriebes einen „schlechten“ Wechselrichter? (niedriger Wirkungsgrad)?}{5}{}%
+\contentsline {subsubsection}{\numberline {4.4.4}Welche Anforderungen an den Einbauort des Wechselrichters müssen gewährleistet sein?}{5}{}%
+\contentsline {subsubsection}{\numberline {4.4.5}Unter welchen Umständen muss am WR einer PV-Inselanlage sofortige Lastabschaltung erfolgen?}{5}{}%
+\contentsline {subsubsection}{\numberline {4.4.6}Wie wirkt sich die benötigte Blindleistung auf die Dimensionierung des Wechselrichters aus?}{5}{}%
+\contentsline {subsubsection}{\numberline {4.4.7}Ein PC (einschließlich Peripherie) benötigt 120 W. Der Inselwechselrichter der unter 3. beschriebenen Anlage schaltet wegen Batterieerschöpfung nach 2 Tagen Betriebsdauer ab. Welche Möglichkeit des Dauerbetriebs der Anlage schlagen Sie vor. Begründen Sie die Realisierbarkeit.}{5}{}%
+\contentsline {subsection}{\numberline {4.5}Einstrahlung und Umgebungsbedingungen}{5}{}%
+\contentsline {subsubsection}{\numberline {4.5.1}Welche aus verschiedenen physikalischen Prinzipien resultierenden Messverfahren zur Erfassung der Globalstrahlung kennen Sie?}{5}{}%
+\contentsline {subsubsection}{\numberline {4.5.2}Welchen Einfluss haben diffuse und direkte Sonnenstrahlung auf die Leistung des PV-Generators?}{5}{}%
+\contentsline {subsubsection}{\numberline {4.5.3}Wovon hängt die Modultemperatur ab und welchen Einfluss hat sie?}{5}{}%
+\contentsline {section}{\numberline {5}Versuchsdurchführung}{5}{}%
+\contentsline {section}{\numberline {6}Auswertung}{6}{}%
+\contentsline {section}{\numberline {7}Quellen}{7}{}%
+\contentsline {section}{\numberline {8}Anhang}{8}{}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

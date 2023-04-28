@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2022.12.17)  27 APR 2023 23:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2022.12.17)  28 APR 2023 10:25
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -782,7 +782,50 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
  []
 
-) (Sub-Files/Auswertung.tex
+Package epstopdf Info: Source file: <./Abbildungen//HTWLogo.eps>
+(epstopdf)                    date: 2023-04-27 22:26:43
+(epstopdf)                    size: 328130 bytes
+(epstopdf)             Output file: <./Abbildungen//HTWLogo-eps-converted-to.pdf>
+(epstopdf)                    date: 2023-04-27 23:33:46
+(epstopdf)                    size: 27804 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=./Abbildungen//HTWLogo-eps-converted-to.pdf ./Abbildungen//HTWLogo.eps>
+(epstopdf)             \includegraphics on input line 3.
+Package epstopdf Info: Output file is already uptodate.
+File: ./Abbildungen//HTWLogo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./Abbildungen//HTWLogo-eps-converted-to.pdf>
+Package pdftex.def Info: ./Abbildungen//HTWLogo-eps-converted-to.pdf  used on input line 3.
+(pdftex.def)             Requested size: 36.04643pt x 20.0pt.
+[3]
+Package epstopdf Info: Source file: <./Abbildungen//HTWLogo.eps>
+(epstopdf)                    date: 2023-04-27 22:26:43
+(epstopdf)                    size: 328130 bytes
+(epstopdf)             Output file: <./Abbildungen//HTWLogo-eps-converted-to.pdf>
+(epstopdf)                    date: 2023-04-27 23:33:46
+(epstopdf)                    size: 27804 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=./Abbildungen//HTWLogo-eps-converted-to.pdf ./Abbildungen//HTWLogo.eps>
+(epstopdf)             \includegraphics on input line 3.
+Package epstopdf Info: Output file is already uptodate.
+File: ./Abbildungen//HTWLogo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./Abbildungen//HTWLogo-eps-converted-to.pdf>
+Package pdftex.def Info: ./Abbildungen//HTWLogo-eps-converted-to.pdf  used on input line 3.
+(pdftex.def)             Requested size: 36.04643pt x 20.0pt.
+ [4]
+Overfull \vbox (249.46353pt too high) has occurred while \output is active []
+
+Package epstopdf Info: Source file: <./Abbildungen//HTWLogo.eps>
+(epstopdf)                    date: 2023-04-27 22:26:43
+(epstopdf)                    size: 328130 bytes
+(epstopdf)             Output file: <./Abbildungen//HTWLogo-eps-converted-to.pdf>
+(epstopdf)                    date: 2023-04-27 23:33:46
+(epstopdf)                    size: 27804 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=./Abbildungen//HTWLogo-eps-converted-to.pdf ./Abbildungen//HTWLogo.eps>
+(epstopdf)             \includegraphics on input line 3.
+Package epstopdf Info: Output file is already uptodate.
+File: ./Abbildungen//HTWLogo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./Abbildungen//HTWLogo-eps-converted-to.pdf>
+Package pdftex.def Info: ./Abbildungen//HTWLogo-eps-converted-to.pdf  used on input line 3.
+(pdftex.def)             Requested size: 36.04643pt x 20.0pt.
+ [5]) (Sub-Files/Auswertung.tex
 Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
  []
@@ -797,20 +840,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--7
 
  []
 
-Package epstopdf Info: Source file: <./Abbildungen//HTWLogo.eps>
-(epstopdf)                    date: 2023-04-27 22:26:43
-(epstopdf)                    size: 328130 bytes
-(epstopdf)             Output file: <./Abbildungen//HTWLogo-eps-converted-to.pdf>
-(epstopdf)                    date: 2023-04-27 23:33:46
-(epstopdf)                    size: 27804 bytes
-(epstopdf)             Command: <miktex-epstopdf --outfile=./Abbildungen//HTWLogo-eps-converted-to.pdf ./Abbildungen//HTWLogo.eps>
-(epstopdf)             \includegraphics on input line 7.
-Package epstopdf Info: Output file is already uptodate.
-File: ./Abbildungen//HTWLogo-eps-converted-to.pdf Graphic file (type pdf)
-<use ./Abbildungen//HTWLogo-eps-converted-to.pdf>
-Package pdftex.def Info: ./Abbildungen//HTWLogo-eps-converted-to.pdf  used on input line 7.
-(pdftex.def)             Requested size: 36.04643pt x 20.0pt.
-[3]
+
 Overfull \hbox (5.22751pt too wide) in paragraph at lines 8--9
 []\T1/lmr/m/n/14.4 Eine voll-stän-di-ge, ta-bel-la-ri-sche Auf-lis-tung der Mess-wer-te ein-schlieÿ-lich mög-
  []
@@ -839,7 +869,7 @@ File: ./Abbildungen//HTWLogo-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Abbildungen//HTWLogo-eps-converted-to.pdf>
 Package pdftex.def Info: ./Abbildungen//HTWLogo-eps-converted-to.pdf  used on input line 50.
 (pdftex.def)             Requested size: 36.04643pt x 20.0pt.
- [4] (Sub-Files/Quellen.tex
+ [6] (Sub-Files/Quellen.tex
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 8.
  (C:\Users\tadeu\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
@@ -857,7 +887,7 @@ File: ./Abbildungen//HTWLogo-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Abbildungen//HTWLogo-eps-converted-to.pdf>
 Package pdftex.def Info: ./Abbildungen//HTWLogo-eps-converted-to.pdf  used on input line 55.
 (pdftex.def)             Requested size: 36.04643pt x 20.0pt.
- [5] (Sub-Files/Anhang.tex)
+ [7] (Sub-Files/Anhang.tex)
 Package epstopdf Info: Source file: <./Abbildungen//HTWLogo.eps>
 (epstopdf)                    date: 2023-04-27 22:26:43
 (epstopdf)                    size: 328130 bytes
@@ -871,19 +901,19 @@ File: ./Abbildungen//HTWLogo-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Abbildungen//HTWLogo-eps-converted-to.pdf>
 Package pdftex.def Info: ./Abbildungen//HTWLogo-eps-converted-to.pdf  used on input line 61.
 (pdftex.def)             Requested size: 36.04643pt x 20.0pt.
- [6] (Pv_Insel.aux) ) 
+ [8] (Pv_Insel.aux) ) 
 Here is how much of TeX's memory you used:
- 12404 strings out of 475281
- 259352 string characters out of 2774064
- 749488 words of memory out of 3000000
- 33614 multiletter control sequences out of 15000+600000
+ 12415 strings out of 475281
+ 259806 string characters out of 2774064
+ 750488 words of memory out of 3000000
+ 33625 multiletter control sequences out of 15000+600000
  534441 words of font info for 76 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  113i,24n,115p,10697b,540s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/tadeu/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/tadeu/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Users/tadeu/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Users/tadeu/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/tadeu/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}<C:/Users/tadeu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/tadeu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/tadeu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx8.pfb><C:/Users/tadeu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/tadeu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/tadeu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/tadeu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/tadeu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/tadeu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/tadeu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmro10.pfb><C:/Users/tadeu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/tadeu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/tadeu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
-Output written on Pv_Insel.pdf (10 pages, 367419 bytes).
+Output written on Pv_Insel.pdf (12 pages, 377444 bytes).
 PDF statistics:
- 126 PDF objects out of 1000 (max. 8388607)
+ 132 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
