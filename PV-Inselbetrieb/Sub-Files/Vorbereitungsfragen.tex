@@ -25,24 +25,69 @@ Die Vorbereitungsfragen sollen aus Vorbereitung auf dem Versuch beantwortet werd
 
 \subsection{Wechselrichter in PV-Inselanlagen}
 \subsubsection{Nach welchen Kriterien erfolgt die Auswahl eines Insel-Wechselrichters?}
-\blindtext
+\begin{itemize}
+    \item Die Leistung des Umrichters muss an die Leistungs anforderungen des Insel-Netzes angepasst werden.
+    \item Die Signalqualität der Spannung muss auch unter Last in den erforderten grenzen der Verbraucher bleiben.
+    \item Der Wirkungsgradbereich muss nach dem Lastverhalten des Inselnetzes ausgelegt werden.
+    \item Der Umrichter muss die gleiche Phasen-Anzahl besitzen, wie das System benötigt.
+\end{itemize}
 \subsubsection{Welche Insel-Wechselrichter-Typen können zum Einsatz kommen (Kosten beachten)?}
-\blindtext
+% research requiered
 \subsubsection{Woran erkennen Sie während des Betriebes einen 'schlechten' Wechselrichter? (niedriger Wirkungsgrad)?}
-\blindtext
-\subsubsection{Welche Anforderungen an den Einbauort des Wechselrichters müssen gewährleistet sein?}
-\blindtext
-\subsubsection{Unter welchen Umständen muss am WR einer PV-Inselanlage sofortige Lastabschaltung erfolgen?}
-\blindtext
-\subsubsection{Wie wirkt sich die benötigte Blindleistung auf die Dimensionierung des Wechselrichters aus?}
-\blindtext
-\subsubsection{Ein PC (einschließlich Peripherie) benötigt 120 W. Der Inselwechselrichter der unter 3. beschriebenen Anlage schaltet wegen Batterieerschöpfung nach 2 Tagen Betriebsdauer ab. Welche Möglichkeit des Dauerbetriebs der Anlage schlagen Sie vor. Begründen Sie die Realisierbarkeit.}
-\blindtext
 
+\begin{itemize}
+    \item Die Qualität der Spannung ist durch Oberschwingungen und Verzerrungen unzureichend.
+    \item Der Umrichter produziert zu große mengen an Wärme im Nennlast betrieb.
+    \item Der momentan Wirkungsgrad des Wechselrichters kann mit hilfe von \autoref{eq:230430_WR-Wirkungsgrad} bestimmt werden.
+    \item Wenn der Wirkungsgrad bei Nennleistung deutlich unter einem wert von 90\% liegt, kann der Umrichter als 'schlecht' bezeichnet werden.
+\end{itemize}
+
+\begin{equation}
+    \eta = \frac{P_{WR,Ein}}{P_{WR,Aus}}
+    \label{eq:230430_WR-Wirkungsgrad}
+\end{equation}
+
+\subsubsection{Welche Anforderungen an den Einbauort des Wechselrichters müssen gewährleistet sein?}
+\begin{itemize}
+    \item Der Einbauort muss vor Witterung schützen.
+    \item Der Umrichter muss gut belüftet sein.
+    \item Die Umgebungstemperatur des Umrichters, darf zu keiner zeit auhßerhalb seines angegebenen Temperaturbereichs liegen.
+    \item Die Umrichter sollten für Wartungszwecke leicht zugänglich sein.
+    \item Ein brand sollte möglichst schnell erkannt werden, durch z.B. Brandmelder und sollte keine anderen komponenten beeinflussen durch genügend Abstand oder abschirmung.
+\end{itemize}
+\subsubsection{Unter welchen Umständen muss am WR einer PV-Inselanlage sofortige Lastabschaltung erfolgen?}
+Bei jedweder gefahr entdeclkung für die verbraucher:
+\begin{itemize}
+    \item überspannungen durch z.B. Blitzeinschlag
+    \item Kurzschlüsse durch z.B. Hochwasser
+    \item Bei Feuer am Umrichter.
+\end{itemize}
+\subsubsection{Wie wirkt sich die benötigte Blindleistung auf die Dimensionierung des Wechselrichters aus?}
+% research requiered
+\subsubsection{Ein PC (einschließlich Peripherie) benötigt 120 W. Der Inselwechselrichter der unter 3. beschriebenen Anlage schaltet wegen Batterieerschöpfung nach 2 Tagen Betriebsdauer ab. Welche Möglichkeit des Dauerbetriebs der Anlage schlagen Sie vor. Begründen Sie die Realisierbarkeit.}
+Es wird ein Umrichter benötigt, welcher sowohl Spannungsgeregelt als auch Stromgereglet betrieben werden kann, um zwischen Inselbetrieb und Netzbetrieb wechseln zu können.
+% research requiered
 \subsection{Einstrahlung und Umgebungsbedingungen}
 \subsubsection{Welche aus verschiedenen physikalischen Prinzipien resultierenden Messverfahren zur Erfassung der Globalstrahlung kennen Sie?}
-\blindtext
+Es gibt 2 Physikalische Effekte, welche konventionell zu messung der Globalstrahlung verwendet werden. 
+Der Photo-Effekt, welcher in Pyranomatern mit Halbleitersensoren verwendet wird. 
+Dieser Basiert auf dem selben Prinzip wie eine Photovoltaikzelle und setzt die Einstrahlung in Proportion mit dem Strom.
+Außerdem kann der Seebeck-Effejt verwendet werden, welcher in thermischen Pyranometern verwendet wird.
+Hierbei wird eine von zwei miteinander verbundenen metallplatten durch die Bestrahlung aufgeheizt. 
+Der Seebeck-Effekt besagt, dass durch eine Temperaturdifferenz zwischen 2 Leitermaterialien eine elektrische Spannung entsteht.\cite{Wiki-Seebeck}
+Dies hat den Vorteil, dass ein viel größerer Teil des Spektrums gemessen wird.
+
 \subsubsection{Welchen Einfluss haben diffuse und direkte Sonnenstrahlung auf die Leistung des PV-Generators?}
-\blindtext
+Der PV-Generaotr kan problemlos sowohl direkter als auch difuser Bestrahlung Leistung entnehmen. 
+Jedoch hat die Difuse Einstrahlung eine geringere spezifische Leistung, da sie mehrweg durch die Atmosphäre zurückgeleht hat und somit einige Wellenlängen durch Absorptionsbänder herausgefiltert wurden.
 \subsubsection{Wovon hängt die Modultemperatur ab und welchen Einfluss hat sie?}
-\blindtext
+Die Modultemperatue wird durch mehrere Fakotern beeinflusst.
+\begin{itemize}
+    \item Die Umgebungstemperatur
+    \item Die Bestrahlungsstärke
+    \item Die Einbauart (Hinterlüftet, aktive Kühlung etc.)
+\end{itemize}
+Hierbei ist zu beachten, dass nicht alle Wellenlängen des Sonnenlichts in einem Modul in Wärme umgewandelt werden, nur welche mehr Energie als die Bandlücke besitzen.
+Diese erzeugen zwar auch ein Elektron-Loch-Paar, Generieren aber durch die übereregung Wärme innerhalb des Halbleiters.
+Die Modul Temperatur hat direkten einfluss auf die Leistung des PV-Moduls.
+Bei steigender Temperatur sinkt die Modulspannung deutlich und der Modulstrom steigt minimal.
