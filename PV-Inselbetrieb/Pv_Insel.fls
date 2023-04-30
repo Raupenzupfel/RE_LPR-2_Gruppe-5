@@ -1139,15 +1139,6 @@ INPUT Pv_Insel.lot
 INPUT Pv_Insel.lot
 INPUT C:\Users\tadeu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmr8.tfm
 OUTPUT Pv_Insel.lot
-INPUT .\Abbildungen\\HTWLogo.eps
-INPUT Abbildungen\\HTWLogo.eps
-INPUT .\Abbildungen\\HTWLogo.eps
-INPUT .\Abbildungen\\HTWLogo.eps
-INPUT .\Abbildungen\\HTWLogo-eps-converted-to.pdf
-INPUT .\Abbildungen\\HTWLogo-eps-converted-to.pdf
-INPUT .\Abbildungen\\HTWLogo.eps
-INPUT .\Abbildungen\\HTWLogo-eps-converted-to.pdf
-INPUT .\Abbildungen\\HTWLogo-eps-converted-to.pdf
 INPUT .\Sub-Files\AbkVerzeichnis.tex
 INPUT .\Sub-Files\AbkVerzeichnis.tex
 INPUT .\Sub-Files\AbkVerzeichnis.tex
@@ -1234,6 +1225,7 @@ INPUT Sub-Files\Vorbereitungsfragen.tex
 INPUT .\Sub-Files\Vorbereitungsfragen.tex
 INPUT .\Sub-Files\Vorbereitungsfragen.tex
 INPUT Sub-Files\Vorbereitungsfragen.tex
+INPUT C:\Users\tadeu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmssbx10.tfm
 INPUT .\Abbildungen\\HTWLogo.eps
 INPUT Abbildungen\\HTWLogo.eps
 INPUT .\Abbildungen\\HTWLogo.eps
@@ -1243,7 +1235,6 @@ INPUT .\Abbildungen\\HTWLogo-eps-converted-to.pdf
 INPUT .\Abbildungen\\HTWLogo.eps
 INPUT .\Abbildungen\\HTWLogo-eps-converted-to.pdf
 INPUT .\Abbildungen\\HTWLogo-eps-converted-to.pdf
-INPUT C:\Users\tadeu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmssbx10.tfm
 INPUT .\Abbildungen\\HTWLogo.eps
 INPUT Abbildungen\\HTWLogo.eps
 INPUT .\Abbildungen\\HTWLogo.eps
