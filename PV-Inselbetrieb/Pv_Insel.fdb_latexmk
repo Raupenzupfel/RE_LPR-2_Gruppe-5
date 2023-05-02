@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex Pv_Insel"] 1682860111 "Pv_Insel.aux" "Pv_Insel.bbl" "Pv_Insel" 1682860191 0
+["bibtex Pv_Insel"] 1683020467 "Pv_Insel.aux" "Pv_Insel.bbl" "Pv_Insel" 1683020596 0
   "./Libs/Tadeus_Quellen.bib" 0 -1 0 ""
   "C:/Users/tadeu/AppData/Local/Programs/MiKTeX/bibtex/bst/bibtex/unsrt.bst" 1291868336 18030 1376b4b231b50c66211e47e42eda2875 ""
-  "Pv_Insel.aux" 1682860190 11479 6881a9c84ec316bd6c26717dfc2572ff "pdflatex"
+  "Pv_Insel.aux" 1683020595 11480 453812d2767da571b6eb3239fd94d6aa "pdflatex"
   (generated)
   "Pv_Insel.bbl"
   "Pv_Insel.blg"
   (rewritten before read)
-["pdflatex"] 1682860187 "c:/Users/tadeu/Documents/0 Studium/6. Semester/LPR 2/PV-Inselbetrieb/Pv_Insel.tex" "Pv_Insel.pdf" "Pv_Insel" 1682860191 0
+["pdflatex"] 1683020592 "c:/Users/tadeu/Documents/0 Studium/6. Semester/LPR 2/PV-Inselbetrieb/Pv_Insel.tex" "Pv_Insel.pdf" "Pv_Insel" 1683020596 0
   "Abbildungen//HTWLogo.eps" 1682627203 328130 13b943232719acfa146eab843bbe6010 ""
   "Abbildungen/Beispielbild_Versuchsaufbau.eps" 1682627203 58784 d0fed2a4714c67cefaf73a514e3d4545 ""
   "C:/Users/tadeu/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1682852963 81107 70b8516c68c2e617189c5e44bfd16b96 ""
@@ -28,6 +28,7 @@
   "C:/Users/tadeu/AppData/Local/Programs/MiKTeX/fonts/tfm/public/lm/ec-lmbx8.tfm" 1256933040 12076 360d279d01701e9e9f0f2427c1d230fe ""
   "C:/Users/tadeu/AppData/Local/Programs/MiKTeX/fonts/tfm/public/lm/ec-lmr10.tfm" 1256933040 12056 7e13df7fe4cbce21b072ba7c4f4deb6e ""
   "C:/Users/tadeu/AppData/Local/Programs/MiKTeX/fonts/tfm/public/lm/ec-lmr12.tfm" 1256933040 12092 7b1546e2d096cfd5dcbd4049b0b1ec2e ""
+  "C:/Users/tadeu/AppData/Local/Programs/MiKTeX/fonts/tfm/public/lm/ec-lmr17.tfm" 1256933040 12156 ca1ae6a3c8564e89597f1f993fba1608 ""
   "C:/Users/tadeu/AppData/Local/Programs/MiKTeX/fonts/tfm/public/lm/ec-lmr8.tfm" 1256933040 12064 9b9ade9f64cb32ce1d9a88d21fbd5c2d ""
   "C:/Users/tadeu/AppData/Local/Programs/MiKTeX/fonts/tfm/public/lm/ec-lmri10.tfm" 1256933040 17148 9556e1b5f936b77a796f68d2d559ba99 ""
   "C:/Users/tadeu/AppData/Local/Programs/MiKTeX/fonts/tfm/public/lm/ec-lmro10.tfm" 1256933040 12196 3ef208c5996a6e35328a273ab73fa1e1 ""
@@ -58,6 +59,7 @@
   "C:/Users/tadeu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb" 1256933040 30696 3da7e46ecf5615eedebd9f27dab4d9d7 ""
   "C:/Users/tadeu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb" 1256933040 119235 05e5c8d6d60439433e50047898c2c0e0 ""
   "C:/Users/tadeu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb" 1256933040 113634 9384aebdf26f9881e046a4b5574566db ""
+  "C:/Users/tadeu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb" 1256933040 119752 1bd8d06e4079df624bf59ce3ad7c9aa6 ""
   "C:/Users/tadeu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb" 1256933040 122174 a2d5e73f396ddbeb3bdf5c79aea0993d ""
   "C:/Users/tadeu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb" 1256933040 112593 fda2373ba4420af33949610de4c28fe8 ""
   "C:/Users/tadeu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmro10.pfb" 1256933040 131205 90f3d90290ebfcc804c60fc5dc87b3cb ""
@@ -174,13 +176,13 @@
   "C:/Users/tadeu/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388494052 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/tadeu/AppData/Local/Programs/MiKTeX/tex/latex/wrapfig/wrapfig.sty" 1044406800 26220 3701aebf80ccdef248c0c20dd062fea9 ""
   "C:/Users/tadeu/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1656236890 56148 51a9a8571c07b9921892ae11063ae853 ""
-  "Pv_Insel.aux" 1682860190 11479 6881a9c84ec316bd6c26717dfc2572ff "pdflatex"
+  "Pv_Insel.aux" 1683020595 11480 453812d2767da571b6eb3239fd94d6aa "pdflatex"
   "Pv_Insel.bbl" 1682856719 222 dc0c396bc21b51d7d9c2d53f68b4f717 "bibtex Pv_Insel"
-  "Pv_Insel.lof" 1682860190 216 17131e3e49f4447e505d76a1c815470d "pdflatex"
-  "Pv_Insel.lot" 1682860190 286 cfec74a2ef2e64b423eb33e7ff826523 "pdflatex"
-  "Pv_Insel.out" 1682860189 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "Pv_Insel.lof" 1683020595 216 17131e3e49f4447e505d76a1c815470d "pdflatex"
+  "Pv_Insel.lot" 1683020595 286 eedadac3aee440a61e269e826fb6d5e4 "pdflatex"
+  "Pv_Insel.out" 1683020594 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   "Pv_Insel.tex" 1682859959 1065 5e343161d480242c13b278032e62f748 ""
-  "Pv_Insel.toc" 1682860190 4609 7ef0b0eb53c7519e72d730e10ae215fd "pdflatex"
+  "Pv_Insel.toc" 1683020595 4610 80f3a8662f5d573ac6df4ede6522f356 "pdflatex"
   "Sub-Files/AbkVerzeichnis.tex" 1682859774 230 fd261747fdf3629a600299ca39683f5f ""
   "Sub-Files/Anhang.tex" 1682627202 202 88b52ce181bd154acfa5b3271d6bcfc3 ""
   "Sub-Files/Auswertung.tex" 1682627202 4032 ad3e68dd5ec5e5eed3b87c1caf862bd5 ""
@@ -189,7 +191,7 @@
   "Sub-Files/Versuchsbeschreibung.tex" 1682856663 1009 98b3f1b6e7ecad59e206a70d610f2b0e ""
   "Sub-Files/Versuchsdurchfuehrung.tex" 1682627202 714 6a426a227d41e9506a9063f4fee3600b ""
   "Sub-Files/Versuchsziele.tex" 1682627202 1174 a0500e4486be2a79d052d1c91736e2d3 ""
-  "Sub-Files/Vorbereitungsfragen.tex" 1682860186 6569 87e94ec3a3efe944e82474bb622247c0 ""
+  "Sub-Files/Vorbereitungsfragen.tex" 1683020591 6975 daa022b4c7de0e2b244929e3a94bbc73 ""
   "Sub-Files/head.tex" 1682856528 1371 76aaa0b0aed99a4b97ae6f569b96bd8f ""
   "Sub-Files/style.tex" 1682627202 475 2d407ae1d8bcce1c78f526a7ea6f1643 ""
   "Sub-Files/title.tex" 1682860033 1283 3637bcaa6e17af2e4bca901c8bfd97fa ""
