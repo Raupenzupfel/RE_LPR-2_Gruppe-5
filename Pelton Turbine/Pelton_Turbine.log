@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.6)  6 MAY 2023 19:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.6)  6 MAY 2023 19:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -864,9 +864,6 @@ File: Abbildungen/Beispielbild_Versuchsaufbau-eps-converted-to.pdf Graphic file 
 <use Abbildungen/Beispielbild_Versuchsaufbau-eps-converted-to.pdf>
 Package pdftex.def Info: Abbildungen/Beispielbild_Versuchsaufbau-eps-converted-to.pdf  used on input line 6.
 (pdftex.def)             Requested size: 227.62206pt x 140.07767pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
 ) (Sub-Files/Vorbereitungsfragen.tex
 Package epstopdf Info: Source file: <./Abbildungen//HTWLogo.eps>
 (epstopdf)                    date: 2023-05-04 15:38:20
@@ -906,32 +903,32 @@ File: ./Abbildungen//HTWLogo-eps-converted-to.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./Abbildungen//HTWLogo-eps-converted-to.pdf  used on input line 1.
 (pdftex.def)             Requested size: 36.04643pt x 20.0pt.
  [2 <./Abbildungen/Beispielbild_Versuchsaufbau-eps-converted-to.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 2--3
+Underfull \hbox (badness 10000) in paragraph at lines 2--5
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--5
+Underfull \hbox (badness 10000) in paragraph at lines 6--11
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--7
+Underfull \hbox (badness 10000) in paragraph at lines 12--14
 
  []
 
 
-Overfull \hbox (5.22751pt too wide) in paragraph at lines 8--9
+Overfull \hbox (5.22751pt too wide) in paragraph at lines 15--19
 []\T1/lmr/m/n/14.4 Eine voll-stän-di-ge, ta-bel-la-ri-sche Auf-lis-tung der Mess-wer-te ein-schlieÿ-lich mög-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8--9
+Underfull \hbox (badness 10000) in paragraph at lines 15--19
 
  []
 
 
-Overfull \hbox (17.09552pt too wide) in paragraph at lines 14--29
+Overfull \hbox (17.09552pt too wide) in paragraph at lines 24--39
  [][] 
  []
 
