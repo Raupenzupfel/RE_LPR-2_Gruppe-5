@@ -5,10 +5,9 @@ Reallocating 'name_of_file' (item size: 1) to 6 items.
 The style file: unsrt.bst
 Reallocating 'name_of_file' (item size: 1) to 34 items.
 Database file #1: Sub-Files/Libs/Tadeus_Quellen.bib
-Warning--I didn't find a database entry for "SPM20"
 You've used 2 entries,
             1791 wiz_defined-function locations,
-            457 strings with 3863 characters,
+            455 strings with 3853 characters,
 and the built_in function-call counts, 238 in all, are:
 = -- 20
 > -- 2
@@ -47,4 +46,3 @@ warning$ -- 0
 while$ -- 0
 width$ -- 3
 write$ -- 20
-(There was 1 warning)
