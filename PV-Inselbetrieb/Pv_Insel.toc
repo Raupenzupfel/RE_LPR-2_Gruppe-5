@@ -26,11 +26,11 @@
 \contentsline {subsubsection}{\numberline {3.5.2}Welchen Einfluss haben diffuse und direkte Sonnenstrahlung auf die Leistung des PV-Generators?}{9}{subsubsection.3.5.2}%
 \contentsline {subsubsection}{\numberline {3.5.3}Wovon hängt die Modultemperatur ab und welchen Einfluss hat sie?}{9}{subsubsection.3.5.3}%
 \contentsline {section}{\numberline {4}Versuchsdurchführung}{10}{section.4}%
-\contentsline {section}{\numberline {5}Auswertung}{10}{section.5}%
-\contentsline {subsection}{\numberline {5.1}PV Wechselrichter}{10}{subsection.5.1}%
-\contentsline {subsubsection}{\numberline {5.1.1}Wirkungsgrad Kennlinie}{10}{subsubsection.5.1.1}%
-\contentsline {subsubsection}{\numberline {5.1.2}Frequenz- und Spannungsstabilität}{11}{subsubsection.5.1.2}%
+\contentsline {section}{\numberline {5}Auswertung}{11}{section.5}%
+\contentsline {subsection}{\numberline {5.1}PV Wechselrichter}{11}{subsection.5.1}%
+\contentsline {subsubsection}{\numberline {5.1.1}Wirkungsgrad Kennlinie}{11}{subsubsection.5.1.1}%
+\contentsline {subsubsection}{\numberline {5.1.2}Frequenz- und Spannungsstabilität}{12}{subsubsection.5.1.2}%
 \contentsline {subsubsection}{\numberline {5.1.3}Leistungsbeiwert}{12}{subsubsection.5.1.3}%
-\contentsline {section}{\numberline {6}Quellen}{13}{section.6}%
-\contentsline {section}{\numberline {7}Anhang}{14}{section.7}%
+\contentsline {section}{\numberline {6}Quellen}{14}{section.6}%
+\contentsline {section}{\numberline {7}Anhang}{15}{section.7}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
