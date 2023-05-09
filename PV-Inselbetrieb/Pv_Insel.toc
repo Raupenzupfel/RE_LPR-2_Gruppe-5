@@ -21,8 +21,8 @@
 \contentsline {subsubsection}{\numberline {3.4.5}Unter welchen Umständen muss am WR einer PV-Inselanlage sofortige Lastabschaltung erfolgen?}{8}{subsubsection.3.4.5}%
 \contentsline {subsubsection}{\numberline {3.4.6}Wie wirkt sich die benötigte Blindleistung auf die Dimensionierung des Wechselrichters aus?}{8}{subsubsection.3.4.6}%
 \contentsline {subsubsection}{\numberline {3.4.7}Ein PC (einschließlich Peripherie) benötigt 120 W. Der Inselwechselrichter der unter 3. beschriebenen Anlage schaltet wegen Batterieerschöpfung nach 2 Tagen Betriebsdauer ab. Welche Möglichkeit des Dauerbetriebs der Anlage schlagen Sie vor. Begründen Sie die Realisierbarkeit.}{8}{subsubsection.3.4.7}%
-\contentsline {subsection}{\numberline {3.5}Einstrahlung und Umgebungsbedingungen}{8}{subsection.3.5}%
-\contentsline {subsubsection}{\numberline {3.5.1}Welche aus verschiedenen physikalischen Prinzipien resultierenden Messverfahren zur Erfassung der Globalstrahlung kennen Sie?}{8}{subsubsection.3.5.1}%
+\contentsline {subsection}{\numberline {3.5}Einstrahlung und Umgebungsbedingungen}{9}{subsection.3.5}%
+\contentsline {subsubsection}{\numberline {3.5.1}Welche aus verschiedenen physikalischen Prinzipien resultierenden Messverfahren zur Erfassung der Globalstrahlung kennen Sie?}{9}{subsubsection.3.5.1}%
 \contentsline {subsubsection}{\numberline {3.5.2}Welchen Einfluss haben diffuse und direkte Sonnenstrahlung auf die Leistung des PV-Generators?}{9}{subsubsection.3.5.2}%
 \contentsline {subsubsection}{\numberline {3.5.3}Wovon hängt die Modultemperatur ab und welchen Einfluss hat sie?}{9}{subsubsection.3.5.3}%
 \contentsline {section}{\numberline {4}Versuchsdurchführung}{10}{section.4}%
