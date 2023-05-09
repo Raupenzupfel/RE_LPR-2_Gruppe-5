@@ -1,12 +1,12 @@
 \section{Auswertung}
 \subsection{PV Wechselrichter}
 \subsubsection{Wirkungsgrad Kennlinie}
-	Laut Datenblatt hat der Wechselrichter Sunny Island 2012/2224 im Betrieb ohne Last einen Eigenverbrauch von 21W. In unserem Fall lag der Eigenverbauch ohne Last bei 29,7 W. Der Eigenverbrauch wird dabei nach Formel \ref{eq:2} aus der Leistung am LR im Leerlauf bestimmt.
+Laut Datenblatt hat der Wechselrichter Sunny Island 2012/2224 im Betrieb, ohne Last, einen Eigenverbrauch von 21W. In unserem Fall lag der Eigenverbauch ohne Last bei 29,7 W. Der Eigenverbrauch wird dabei nach Formel \ref{eq:2} aus der Leistung am LR im Leerlauf bestimmt. Der Eigenverbrauch des Wechselrichters hat seine Ursachen dabei größtenteils aus den Schaltvorgängen, der in ihm verbauten Halbleiter, und den Ohmschen Widerständen.
 %
 \begin{equation}
 	P_{ Eigenverbrauch }= U_{ LR} * I_{ LR }
 \label{eq:2}
-\end{equation}
+\end{equation} 
 %
 \begin{table}[!ht]
     \centering
@@ -18,7 +18,6 @@
         Staub\_2 & R-L & 24 & 460 & 32,2 & 12,49 & 23,3 & 15,6 & -27,2 & 43,4 & 942 & 227,47 & 4,33 & 50;75 & 93,15\% & 0,956398484 \\ \hline
         Staub\_3 & R-L & 23 & 471 & 36,8 & 7,66 & 23,2 & 10,94 & -46,2 & 57,3 & 1208 & 226,98 & 5,05 & 50;66,67 & 90,87\% & 1,053872239 \\ \hline
         S-Bahn\_Heizung & R & 23 & 601 & 34,8 & 16,15 & 23,2 & 20,51 & -33,7 & 55,7 & 1186 & 227,4 & 5 & 50;56 & 91,78\% & 1,043095866 \\ \hline
-\label{tab:alles}
     \end{tabular}
 \end{table}
 
@@ -36,14 +35,14 @@ Der Wirkungsgrad des Wechselrichters berechnet sich nach folgender Formel:
 		\label{fig:WRkennlinie}
 \end{figure}
 %
-Dabei ist in Abbildung \ref{fig:WRkennlinie} zu erkennen, dass der Wirkungsgrad des Wechselrichters sich nicht linear verhält. Zunächst ist sehr niedrig und nähert sich dann einem Maximum an. Anschließend fällt der Wirkungsgrad wieder leicht ab, was an den steigenden Ohmschenverlusten liegt, die bei immer höher werdenen Strömen immer größer werden. Der maximale Wirkungsgrad liegt bei uns sogar bei 95 Prozent. Dies ist sogar 2 Prozent über dem Wirkungsgrad den der Hersteller angibt.
+Dabei ist in Abbildung \ref{fig:WRkennlinie} zu erkennen, dass der Wirkungsgrad des Wechselrichters sich nicht linear verhält. Zunächst ist sehr niedrig und nähert sich dann einem Maximum an. Anschließend fällt der Wirkungsgrad wieder leicht ab, was an den steigenden Ohmschenverlusten liegt, die bei immer höher werdenen Strömen immer größer werden. Der maximale Wirkungsgrad liegt bei uns sogar bei 95 Prozent. Dies ist sogar 2 Prozent über dem Wirkungsgrad den der Hersteller angibt. Die ermittelte Kurve für den Wirkungsgrad ist dabei gut mit der Theorie zu vereinbaren. Des Weiteren ist zu erkennen, dass dieser Wechselrichter bereits ab 30 \% der Nennleistung sehr hohe Wirkungsgrade beseitzt, was ihn besonders gut macht für Standorte, die häufig Teilleistung liefern.
 \subsubsection{Frequenz- und Spannungsstabilität}
-Wie in unseren Messwerten zu sehen liegt die Spannung zwischen 226V und 230V. Die Spannung nimmt dabei mit steigender Leistung ab. Diese Werte passen auch sehr gut mit den Datenblattwert von 230 Volt zusammen. Die Frequenz bleibt dabei konstant bei 50 Hertz, wie man auf den Osziloskopbildern erkennen kann. Jedoch ist auch zu erkennen, dass es der Sinus nur im Leerlauf und beim anschließen der Straßenbahnheizung ohne Oberschwingungen daherkommt. Dies liegt daran, das hier ausschließlich wirkleistung benötigt wird. Beim Anschließen des STaubsaugers erkennt man die Oberschwingungen die entstehen. Dies liegt daran, dass der Staubsauer auch Blindleistung benötigt.
+Wie in unseren Messwerten zu sehen liegt die Spannung zwischen 226V und 230V. Die Spannung nimmt dabei mit steigender Leistung ab. Diese Werte passen auch sehr gut mit den Datenblattwert von 230 Volt zusammen. Die Frequenz bleibt dabei konstant bei 50 Hertz, wie man auf den Osziloskopbildern \ref{fig:oszi} erkennen kann. Jedoch ist auch zu erkennen, dass der Sinus nur im Leerlauf und beim Anschließen der Straßenbahnheizung ohne Oberschwingungen daherkommt. Dies liegt daran, das hier ausschließlich Wirkleistung benötigt wird. Beim Anschließen des Staubsaugers erkennt man \ref{fig:oszi} die Oberschwingungen die entstehen. Dies liegt daran, dass der Staubsauer auch Blindleistung benötigt.
 %
 \begin{figure}[!h]
 		\centering
 		\includegraphics[width=0.5\textwidth]{Abbildungen/MergedImages}
-		\caption{Von links nachrechts sieht man hier die Osziloskopbilder des Versuchs zuerst im Leerlauf, dann mit dem Staubsauger von STufe 1-3 und im letzten Bild wurde die STrßenbahnheizung angeschlossen.}
+		\caption{Von links nach rechts sieht man hier die Osziloskopbilder des Versuchs zuerst im Leerlauf, dann mit dem Staubsauger von Stufe 1-3 und im letzten Bild wurde die Straßenbahnheizung angeschlossen.}
 		\label{fig:oszi}
 \end{figure}
 %
@@ -54,4 +53,4 @@ Der Leistungsbeiwert $ \phi $ berechnet sich wie folgt:
 	cos(\phi)=\frac{ P_{ ACwirk } }{  I_{ AC }*U_{AC }}
 \end{equation}
 %
-Dabei ist in der Tabelle zu sehen. Dass bei immer größerer Leistung beim Staubsauger Der Leistungsbeiwet sich immer näher an 1 annähert, was bedeutet, dass fast nur Wirkleistung benötigt wird.
+Dabei ist in der Tabelle zu sehen. Dass bei immer größerer Leistung beim Staubsauger Der Leistungsbeiwet sich immer näher an 1 annähert, was bedeutet, dass fast nur Wirkleistung benötigt wird. Leider ist es nicht möglich den Leistungsbeiwert anhand unserer Oszilosgramme zu bestimmen. Dies liegt daran, dass es nicht möglich war ein stehendes Bild \ref{fig:oszi}  zu erzeugen, anhand dessen es möglich wäre eine Aussage über den Phasenversatz zu machen. In der Theorie sollte mit steigendem Blndleistungsbedarf ein immer größer Phasenversatz zu sehen sein.
