@@ -1,14 +1,14 @@
 # Fdb version 4
-["bibtex Pv_Insel"] 1683642249 "Pv_Insel.aux" "Pv_Insel.bbl" "Pv_Insel" 1683642567 0
+["bibtex Pv_Insel"] 1683874120 "Pv_Insel.aux" "Pv_Insel.bbl" "Pv_Insel" 1683874479 0
   "./Sub-Files/Libs/Niels_Quellen.bib" 1683634253 350 9374c08f2e1ad5dca0a1bf7a53258a88 ""
   "./Sub-Files/Libs/Tadeus_Quellen.bib" 1683020911 484 6c4955eabedad1b8fc166ba9f26c46f2 ""
   "C:/Users/tadeu/AppData/Local/Programs/MiKTeX/bibtex/bst/bibtex/unsrt.bst" 1291868336 18030 1376b4b231b50c66211e47e42eda2875 ""
-  "Pv_Insel.aux" 1683642564 12729 69db1f18e194045092469822369a5c8f "pdflatex"
+  "Pv_Insel.aux" 1683874477 13002 d9d55b5774ca22af523f553e4f77f029 "pdflatex"
   (generated)
   "Pv_Insel.bbl"
   "Pv_Insel.blg"
   (rewritten before read)
-["pdflatex"] 1683642557 "c:/Users/tadeu/Documents/0 Studium/6. Semester/LPR 2/PV-Inselbetrieb/Pv_Insel.tex" "Pv_Insel.pdf" "Pv_Insel" 1683642567 0
+["pdflatex"] 1683874473 "c:/Users/tadeu/Documents/0 Studium/6. Semester/LPR 2/PV-Inselbetrieb/Pv_Insel.tex" "Pv_Insel.pdf" "Pv_Insel" 1683874479 0
   "Abbildungen//HTWLogo.eps" 1682627203 328130 13b943232719acfa146eab843bbe6010 ""
   "Abbildungen/Kennlinie wr.jpg" 1683634253 64418 db95943b2b9d6539aeed9ba8f79fa345 ""
   "Abbildungen/Oszi_Leerlauf.jpg" 1683638445 26946 77f88aaeeaea8f7b088d7bd731cb24dd ""
@@ -179,16 +179,16 @@
   "C:/Users/tadeu/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388494052 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/tadeu/AppData/Local/Programs/MiKTeX/tex/latex/wrapfig/wrapfig.sty" 1044406800 26220 3701aebf80ccdef248c0c20dd062fea9 ""
   "C:/Users/tadeu/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1656236890 56148 51a9a8571c07b9921892ae11063ae853 ""
-  "Pv_Insel.aux" 1683642564 12729 69db1f18e194045092469822369a5c8f "pdflatex"
-  "Pv_Insel.bbl" 1683642249 747 390720ffed652ae5c029bb265a1fbbc6 "bibtex Pv_Insel"
-  "Pv_Insel.lof" 1683642564 608 06e08402c5c6e7be1a1aa7f4aea15db5 "pdflatex"
-  "Pv_Insel.lot" 1683642564 95 266fb778c506bbca413fec0c0a8f3005 "pdflatex"
-  "Pv_Insel.out" 1683642561 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "Pv_Insel.aux" 1683874477 13002 d9d55b5774ca22af523f553e4f77f029 "pdflatex"
+  "Pv_Insel.bbl" 1683874120 747 390720ffed652ae5c029bb265a1fbbc6 "bibtex Pv_Insel"
+  "Pv_Insel.lof" 1683874477 608 144fde4f5cc8a89d833b08bf694cd770 "pdflatex"
+  "Pv_Insel.lot" 1683874477 188 90751e55657929a1a941e8ae039a2b09 "pdflatex"
+  "Pv_Insel.out" 1683874475 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   "Pv_Insel.tex" 1683634253 1077 a1b84930bf29cf816a5dc429801b3526 ""
-  "Pv_Insel.toc" 1683642564 4917 46ce7453fbed604a1cbed3b107e6487f "pdflatex"
+  "Pv_Insel.toc" 1683874477 4917 c4dede5bd3a1d3ec6ceac90d79bc4e61 "pdflatex"
   "Sub-Files/AbkVerzeichnis.tex" 1682859774 230 fd261747fdf3629a600299ca39683f5f ""
   "Sub-Files/Anhang.tex" 1682627202 202 88b52ce181bd154acfa5b3271d6bcfc3 ""
-  "Sub-Files/Auswertung.tex" 1683642556 5740 98e9a0fd7f9cf6c230eabcbec41f74c9 ""
+  "Sub-Files/Auswertung.tex" 1683874471 5595 2725af212876ed50c022713c0702945d ""
   "Sub-Files/Quellen.tex" 1683634417 101 c741e1389da650bb9159474a08d78275 ""
   "Sub-Files/Versuchsbeschreibung.tex" 1683634253 1659 9b56c014fc99c184fa0fd14d8c838869 ""
   "Sub-Files/Versuchsdurchfuehrung.tex" 1683634253 1798 a8472ab292fd0d5b074d5e7c79c70b3b ""

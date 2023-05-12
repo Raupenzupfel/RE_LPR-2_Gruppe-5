@@ -30,7 +30,7 @@
 \contentsline {subsection}{\numberline {5.1}PV Wechselrichter}{11}{subsection.5.1}%
 \contentsline {subsubsection}{\numberline {5.1.1}Wirkungsgrad Kennlinie}{11}{subsubsection.5.1.1}%
 \contentsline {subsubsection}{\numberline {5.1.2}Frequenz- und Spannungsstabilität}{12}{subsubsection.5.1.2}%
-\contentsline {subsubsection}{\numberline {5.1.3}Leistungsbeiwert}{12}{subsubsection.5.1.3}%
+\contentsline {subsubsection}{\numberline {5.1.3}Leistungsbeiwert}{13}{subsubsection.5.1.3}%
 \contentsline {section}{\numberline {6}Quellen}{14}{section.6}%
 \contentsline {section}{\numberline {7}Anhang}{15}{section.7}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
