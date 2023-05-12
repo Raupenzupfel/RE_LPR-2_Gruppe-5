@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2022.12.17)  12 MAY 2023 08:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2022.12.17)  12 MAY 2023 08:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -820,12 +820,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--1
 
  []
 
-<Abbildungen/nachgeführte PV.jpeg, id=72, 1493.58pt x 1991.44pt>
+<Abbildungen/nachgeführte PV.jpeg, id=66, 1493.58pt x 1991.44pt>
 File: Abbildungen/nachgeführte PV.jpeg Graphic file (type jpg)
 <use Abbildungen/nachgeführte PV.jpeg>
 Package pdftex.def Info: Abbildungen/nachgeführte PV.jpeg  used on input line 13.
 (pdftex.def)             Requested size: 223.07211pt x 297.42686pt.
-<Abbildungen/stationäre PV.jpeg, id=73, 1493.58pt x 1991.44pt>
+<Abbildungen/stationäre PV.jpeg, id=67, 1493.58pt x 1991.44pt>
 File: Abbildungen/stationäre PV.jpeg Graphic file (type jpg)
 <use Abbildungen/stationäre PV.jpeg>
 Package pdftex.def Info: Abbildungen/stationäre PV.jpeg  used on input line 20.
@@ -989,6 +989,9 @@ Overfull \hbox (3.19193pt too wide) in paragraph at lines 2--15
  []
 
 ) (Sub-Files/Auswertung.tex
+
+LaTeX Warning: Reference `eq:230509_Eigenverbrauch' on page 10 undefined on input line 6.
+
 Package epstopdf Info: Source file: <./Abbildungen//HTWLogo.eps>
 (epstopdf)                    date: 2023-04-27 22:26:43
 (epstopdf)                    size: 328130 bytes
@@ -1002,12 +1005,12 @@ File: ./Abbildungen//HTWLogo-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Abbildungen//HTWLogo-eps-converted-to.pdf>
 Package pdftex.def Info: ./Abbildungen//HTWLogo-eps-converted-to.pdf  used on input line 8.
 (pdftex.def)             Requested size: 36.04643pt x 20.0pt.
- [10]
+[10]
 Overfull \hbox (16.1858pt too wide) in paragraph at lines 18--28
  [][] 
  []
 
-<Abbildungen/Kennlinie wr.jpg, id=147, 369.38pt x 306.14375pt>
+<Abbildungen/Kennlinie wr.jpg, id=140, 369.38pt x 306.14375pt>
 File: Abbildungen/Kennlinie wr.jpg Graphic file (type jpg)
 <use Abbildungen/Kennlinie wr.jpg>
 Package pdftex.def Info: Abbildungen/Kennlinie wr.jpg  used on input line 40.
@@ -1029,27 +1032,27 @@ File: ./Abbildungen//HTWLogo-eps-converted-to.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./Abbildungen//HTWLogo-eps-converted-to.pdf  used on input line 46.
 (pdftex.def)             Requested size: 36.04643pt x 20.0pt.
 [11]
-<Abbildungen/Oszi_Leerlauf.jpg, id=160, 344.03531pt x 281.55188pt>
+<Abbildungen/Oszi_Leerlauf.jpg, id=156, 344.03531pt x 281.55188pt>
 File: Abbildungen/Oszi_Leerlauf.jpg Graphic file (type jpg)
 <use Abbildungen/Oszi_Leerlauf.jpg>
 Package pdftex.def Info: Abbildungen/Oszi_Leerlauf.jpg  used on input line 67.
 (pdftex.def)             Requested size: 86.49748pt x 70.78732pt.
-<Abbildungen/Oszi_Staub_1.jpg, id=161, 301.8778pt x 238.64156pt>
+<Abbildungen/Oszi_Staub_1.jpg, id=157, 301.8778pt x 238.64156pt>
 File: Abbildungen/Oszi_Staub_1.jpg Graphic file (type jpg)
 <use Abbildungen/Oszi_Staub_1.jpg>
 Package pdftex.def Info: Abbildungen/Oszi_Staub_1.jpg  used on input line 71.
 (pdftex.def)             Requested size: 86.49748pt x 68.37767pt.
-<Abbildungen/Oszi_Staub_2.jpg, id=162, 404.26031pt x 340.27126pt>
+<Abbildungen/Oszi_Staub_2.jpg, id=158, 404.26031pt x 340.27126pt>
 File: Abbildungen/Oszi_Staub_2.jpg Graphic file (type jpg)
 <use Abbildungen/Oszi_Staub_2.jpg>
 Package pdftex.def Info: Abbildungen/Oszi_Staub_2.jpg  used on input line 75.
 (pdftex.def)             Requested size: 86.49748pt x 72.80382pt.
-<Abbildungen/Oszi_Staub_3.jpg, id=163, 319.1925pt x 266.49562pt>
+<Abbildungen/Oszi_Staub_3.jpg, id=159, 319.1925pt x 266.49562pt>
 File: Abbildungen/Oszi_Staub_3.jpg Graphic file (type jpg)
 <use Abbildungen/Oszi_Staub_3.jpg>
 Package pdftex.def Info: Abbildungen/Oszi_Staub_3.jpg  used on input line 79.
 (pdftex.def)             Requested size: 86.49748pt x 72.21503pt.
-<Abbildungen/Oszi_S-Bahn_Heiz.jpg, id=164, 290.58563pt x 228.855pt>
+<Abbildungen/Oszi_S-Bahn_Heiz.jpg, id=160, 290.58563pt x 228.855pt>
 File: Abbildungen/Oszi_S-Bahn_Heiz.jpg Graphic file (type jpg)
 <use Abbildungen/Oszi_S-Bahn_Heiz.jpg>
 Package pdftex.def Info: Abbildungen/Oszi_S-Bahn_Heiz.jpg  used on input line 83.
@@ -1139,21 +1142,27 @@ File: ./Abbildungen//HTWLogo-eps-converted-to.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./Abbildungen//HTWLogo-eps-converted-to.pdf  used on input line 57.
 (pdftex.def)             Requested size: 36.04643pt x 20.0pt.
  [15] (Pv_Insel.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `Pv_Insel.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 19457 strings out of 475281
- 374307 string characters out of 2774064
+ 19455 strings out of 475281
+ 374262 string characters out of 2774064
  883990 words of memory out of 3000000
- 40483 multiletter control sequences out of 15000+600000
+ 40481 multiletter control sequences out of 15000+600000
  531444 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  113i,24n,121p,10697b,609s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/tadeu/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/tadeu/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/tadeu/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/tadeu/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Users/tadeu/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}<C:/Users/tadeu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/tadeu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/tadeu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/tadeu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/tadeu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/tadeu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/tadeu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/tadeu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/tadeu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/tadeu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmro10.pfb><C:/Users/tadeu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/tadeu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/tadeu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
-Output written on Pv_Insel.pdf (18 pages, 1490787 bytes).
+Output written on Pv_Insel.pdf (18 pages, 1490240 bytes).
 PDF statistics:
- 312 PDF objects out of 1000 (max. 8388607)
+ 308 PDF objects out of 1000 (max. 8388607)
  70 named destinations out of 1000 (max. 500000)
  150 words of extra memory for PDF output out of 10000 (max. 10000000)
 
