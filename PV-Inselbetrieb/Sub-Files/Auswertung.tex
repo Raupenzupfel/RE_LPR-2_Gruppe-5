@@ -13,7 +13,7 @@ Der Eigenverbrauch des Wechselrichters hat seine Ursachen dabei größtenteils a
 
 
 \begin{table}[!ht]
-    \caption{test 1234}
+    \caption{Messdaten der Ströme, Spannungn und Leistungen }
 	\centering
     \begin{tabular}{|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|}
     \hline
@@ -42,7 +42,20 @@ Der Wirkungsgrad des Wechselrichters berechnet sich nach folgender Formel:
 		\label{fig:230512_WRkennlinie}
 \end{figure}
 %
-Dabei ist in \autoref{fig:230512_WRkennlinie} zu erkennen, dass der Wirkungsgrad des Wechselrichters sich nicht linear verhält. Zunächst ist sehr niedrig und nähert sich dann einem Maximum an. Anschließend fällt der Wirkungsgrad wieder leicht ab, was an den steigenden Ohmschenverlusten liegt, die bei immer höher werdenen Strömen immer größer werden. Der maximale Wirkungsgrad liegt bei uns sogar bei 95 Prozent. Dies ist sogar 2 Prozent über dem Wirkungsgrad den der Hersteller angibt. Die ermittelte Kurve für den Wirkungsgrad ist dabei gut mit der Theorie zu vereinbaren. Des Weiteren ist zu erkennen, dass dieser Wechselrichter bereits ab 30 \% der Nennleistung sehr hohe Wirkungsgrade beseitzt, was ihn besonders gut macht für Standorte, die häufig Teilleistung liefern.
+\begin{table}[]
+ \caption{Wirkungsgrad und Leistungsbeiwert}
+	\centering
+\begin{tabular}{|l|l|l|}
+\hline
+WR\_allein      & 48,71\% & 0          \\ \hline
+Staub\_1        & 95,05\% & 0,73419325 \\ \hline
+Staub\_2        & 93,15\% & 0,95639848 \\ \hline
+Staub\_3        & 90,87\% & 1,05387224 \\ \hline
+S-Bahn\_Heizung & 91,78\% & 1,04309587 \\  \hline
+\label{tab:150523_Messtabelle}
+\end{tabular}
+\end{table}
+Dabei ist in \autoref{fig:230512_WRkennlinie} zu erkennen, dass der Wirkungsgrad des Wechselrichters sich nicht linear verhält. Zunächst ist sehr niedrig und nähert sich dann einem Maximum an. Anschließend fällt der Wirkungsgrad wieder leicht ab, was an den steigenden Ohmschenverlusten liegt, die bei immer höher werdenen Strömen immer größer werden. Der maximale Wirkungsgrad liegt bei uns sogar bei 95 Prozent (\autoref{fig:230512_WRkennlinie}). Dies ist sogar 2 Prozent über dem Wirkungsgrad den der Hersteller angibt. Die ermittelte Kurve für den Wirkungsgrad ist dabei gut mit der Theorie zu vereinbaren. Des Weiteren ist zu erkennen, dass dieser Wechselrichter bereits ab 30 \% der Nennleistung sehr hohe Wirkungsgrade beseitzt, was ihn besonders gut macht für Standorte, die häufig Teilleistung liefern.
 \subsubsection{Frequenz- und Spannungsstabilität}
 Wie in unseren Messwerten zu sehen liegt die Spannung zwischen 226V und 230V. 
 Die Spannung nimmt dabei mit steigender Leistung ab. 
@@ -96,7 +109,7 @@ Der Leistungsbeiwert $ \cos(\phi) $ berechnet sich nach \autoref{eq:230509_Cos(p
 	\label{eq:230509_Cos(phi)}
 \end{equation}
 %
-Dabei ist in der Tabelle zu sehen, dass bei immer größerer Leistung beim Staubsauger Der Leistungsbeiwet sich immer näher an 1 annähert, was bedeutet, dass fast nur Wirkleistung benötigt wird. 
+Dabei ist in der Tabelle zu sehen, dass bei immer größerer Leistung beim Staubsauger der Leistungsbeiwet sich immer näher an 1 annähert (\autoref{tab:150523_Messtabelle}), was bedeutet, dass fast nur Wirkleistung benötigt wird. 
 Leider ist es nicht möglich den Leistungsbeiwert anhand unserer Oszilosgramme zu bestimmen. 
 Dies liegt daran, dass es nicht möglich war ein stehendes Bild zu erzeugen, anhand dessen es möglich wäre eine Aussage über den Phasenversatz zu machen. 
 In der Theorie sollte mit steigendem Blindleistungsbedarf ein immer größer Phasenversatz zu sehen sein.
