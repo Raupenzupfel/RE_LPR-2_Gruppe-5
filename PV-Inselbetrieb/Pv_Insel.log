@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2022.12.17)  12 MAY 2023 08:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2022.12.17)  12 MAY 2023 12:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1012,9 +1012,6 @@ File: Abbildungen/Kennlinie wr.jpg Graphic file (type jpg)
 <use Abbildungen/Kennlinie wr.jpg>
 Package pdftex.def Info: Abbildungen/Kennlinie wr.jpg  used on input line 40.
 (pdftex.def)             Requested size: 318.66948pt x 264.11465pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
 Package epstopdf Info: Source file: <./Abbildungen//HTWLogo.eps>
 (epstopdf)                    date: 2023-04-27 22:26:43
 (epstopdf)                    size: 328130 bytes
@@ -1144,14 +1141,14 @@ Package rerunfilecheck Info: File `Pv_Insel.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  19457 strings out of 475281
- 374307 string characters out of 2774064
+ 374314 string characters out of 2774064
  883990 words of memory out of 3000000
  40483 multiletter control sequences out of 15000+600000
  531444 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  113i,24n,121p,10697b,609s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/tadeu/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/tadeu/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/tadeu/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/tadeu/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Users/tadeu/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}<C:/Users/tadeu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/tadeu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/tadeu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/tadeu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/tadeu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/tadeu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/tadeu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/tadeu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/tadeu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/tadeu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmro10.pfb><C:/Users/tadeu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/tadeu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/tadeu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
-Output written on Pv_Insel.pdf (18 pages, 1490792 bytes).
+Output written on Pv_Insel.pdf (18 pages, 1491035 bytes).
 PDF statistics:
  312 PDF objects out of 1000 (max. 8388607)
  70 named destinations out of 1000 (max. 500000)

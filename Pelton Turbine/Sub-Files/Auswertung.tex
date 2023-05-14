@@ -1,41 +1,35 @@
 \section{Auswertung}
-In diesem Abschnitt erfolgt die Auswertung der aufgenommenen Messwerte des
- Versuchs, die genaue Aufgabenstellung hängt vom Versuchsthema ab. Ergebnisse
-  sind graphisch, ggf. zusätzlich auch tabellarisch darzustellen.\\
+\subsection{Kennlinie der Pumpe}
+Damit die Pumpenkennlinie dargestellt werden kann, müssen die gemessenen Ströme für den Volumenstrom und den Druck erst in verwwendbare Einheiten umgewandelt werden. 
+Hierzu werden Proportionalitätsfaktoren und Kalibrieungsoffsets benötigt. 
+Die Offsets wurden gemessen und batragen $I_{off,Q}=4,05 mA$ und $I_{off,p}=5,868 mA$.
+Die Proportionalitätsfaktoren wurden in der Versuchsanleitung gegeben und betragen $K_Q = 6,3 \frac{l}{min \cdot mA}$ und $K_p = 0,6 \frac{bar}{mA}$.
+Die Volumenströme in $\frac{m^3}{h}$ lassen sich mittels \autoref{eq:230513_Volumenstrom} berechnen und die Drücke in bar mittels \autoref{eq:230513_Druck}.
+\begin{equation}
+  Q = (I_{mess}-I_{off,Q})\cdot K_Q \cdot \frac{60\frac{min}{h}}{1000\frac{l}{m^3}}
+  \label{eq:230513_Volumenstrom}
+\end{equation}
 
-Diagramme der Auswertung erhalten ebenfalls eine Bildunterschrift mit
-fortlaufender Nummerierung, Tabellen eine Bildüberschrift (siehe z.B. Tabelle 1).
-Jedes Ergebnis ist im Anschluss mit ein bis zwei Sätzen zu kommentieren damit auch
-Leser, die nicht mit dem Stoff vertraut sind,
-die Auswertung nachvollziehen können.\\
+\begin{equation}
+  p = (I_{mess}-I_{off,p})\cdot K_p
+  \label{eq:230513_Druck}
+\end{equation}
 
-Für die \textbf{Fehlerbetrachtung} ist zu prüfen, welche Toleranzen sich aufgrund
- der begrenzten Genauigkeit der verwendeten Messgeräte ergeben.\\
+Des wieteren müssen die Drücke in Förderhöhen umgewandelt werden. Hierzu wird die gravitationknostante $g = 9,81 \frac{m}{s^2}$ und die Dichte des Wassers $\rho = 998 \frac{kg}{m^3}$ benötigt.
+Dies erfolgt mit \autoref{eq:230513_Förderhöhe}, wobei der Druck in Pascal und nicht in bar angegeben werden muss.
 
-Eine vollständige, tabellarische Auflistung der Messwerte einschließlich
- möglicher Anmerkungen (\glqq Noch zu wenig Wind, WEA dreht nicht\grqq{}) muss
-  im \textbf{Anhang} erfolgen. Ggf. erfordert die Aufgabenstellung auch
-   die tabellarische Darstellung einzelner Werte im Rahmen der Auswertung.\\
+\begin{equation}
+  H = \frac{p}{\rho \cdot g}
+  \label{eq:230513_Förderhöhe}
+\end{equation}
 
-\begin{table}
-\centering
-\caption{Speicherkapazitäten für H\textsubscript{2} und Methan in Deutschland (Daten: [UBA10; LBG13], Stand 2013)}
-\arrayrulecolor{black}
-\begin{tabular}{|l|l|l|l|} 
-\hhline{~---|}
-\multicolumn{1}{l|}{\multirow{2}{*}{}}                                       & {\cellcolor[rgb]{0.463,0.725,0}}                                                                                                                                            & \multicolumn{2}{l|}{{\cellcolor[rgb]{0.463,0.725,0}}\begin{tabular}[c]{@{}>{\cellcolor[rgb]{0.463,0.725,0}}l@{}}\textbf{Speicherkapazität~}\\\textbf{in TWh für}\\ \end{tabular}}  \\ 
-\hhline{~>{\arrayrulecolor[rgb]{0.463,0.725,0}}->{\arrayrulecolor{black}}--|}
-\multicolumn{1}{l|}{}                                                        & \multirow{-2}{*}{{\cellcolor[rgb]{0.463,0.725,0}}\begin{tabular}[c]{@{}>{\cellcolor[rgb]{0.463,0.725,0}}l@{}}\textbf{Arbeitsgasvolumen~}\\\textbf{in Mio. m\textsuperscript{3}}\end{tabular}} & {\cellcolor[rgb]{0.463,0.725,0}}\textbf{H2-Gas~} & {\cellcolor[rgb]{0.463,0.725,0}}\textbf{Methan}                                                                                 \\ 
-\hline
-Porenspeicher in Betrieb                                                     & 10,6                                                                                                                                                                        & ---                                              & 106                                                                                                                             \\ 
-\hline
-\rowcolor[rgb]{0.827,0.886,0.729} Kavernenspeicher in Betrieb                & 12,1                                                                                                                                                                        & 36                                               & 121                                                                                                                             \\ 
-\hline
-Kavernenspeicher in Betrieb, Bau oder Planung                                & 10,9                                                                                                                                                                        & 33                                               & 109                                                                                                                             \\ 
-\hline
-\rowcolor[rgb]{0.827,0.886,0.729} Kavernenspeicher Langfrist-Gesamtpotenzial & 36,8                                                                                                                                                                        & 110                                              & 368                                                                                                                             \\
-\hline
-\end{tabular}
-\end{table}
+Aus den im Anhang gegebenen Messtabelln ergibt sich die \autoref{fig:230513_Pumpenkennlinie}.
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[width=0.8\textwidth]{Abbildungen/Pumpenkennlinie.png}
+  \caption{Pumpenkennlinie bei gemessenen Arbeitspunkten}
+  \label{fig:230513_Pumpenkennlinie}
+\end{figure}
 
-
+\subsection{Betriebspunkte der Pelton-Turbine}
+\subsection{Verlustbeiwert der Düse}
