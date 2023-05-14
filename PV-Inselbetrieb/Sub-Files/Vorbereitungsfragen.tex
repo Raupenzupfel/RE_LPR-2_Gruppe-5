@@ -22,19 +22,46 @@ Umrichter.\\
 
 \subsection{Laderregler}
 \subsubsection{Welche Voraussetzungen müssen Anlagen mit Akku ohne Laderegler haben? Wann wird ein Laderegler notwendig?}
-\blindtext
+Inselnetzanlagen müssen in der Lage sein, die Ladung des Akkus und die Stromversorgung des angeschlossenen Verbrauchers zu gewährleisten. Dementsprechend müssen die einzelnen Bauteile aufeinander ausgelegt werden, um eine Beschädigung der Komponenten zu vermeiden. Ein Laderegler wird benötigt, sobald die Leerlaufspannung der Module die maximale Ladespannung der Batterie überschreitet, eine spannungsunabhängige Schaltung umgesetzt werden soll (bei größeren Anlagen) oder keine konstanten Wetterbedingungen garantiert werden können. Ein Laderegler sorgt dafür die Batterie vor Tiefenentladung und Überladung zu schützen. In Kombination mit einem MPP-Tracker kann ein Laderegler auch den Energieertrag erhöhen. 
 \subsubsection{Geben Sie Verfahren zur Laderegelung in PV-Inselanlagen an und erläutern Sie deren Funktionsprinzip! Unter welchen Bedingungen ist welches Verfahren von Vorteil? (Beachten Sie auch den Kostenaspekt!)}
-\blindtext
+Es wird in drei unterschiedliche Arten von Ladereglern (LR) unterschieden:
+\begin{itemize}
+\begin{figure}[!h]
+		\centering
+		\includegraphics[width=0.7\textwidth]{Abbildungen/Serienladeregler}
+		\caption{Photovoltaik-Batteriesystem mit einem Serienladeregler  }
+		\label{fig:Serienladeregler}
+\end{figure}
+\item In Serienladereglern (auch Längsregler) (\autoref{fig:Serienladeregler}) werden Leistungshalbleiter als Schalter verwendet um den Stromfluss zu unterbrechen. Das hat zur Folge, dass beim Laden des Akkus immer Durchlassverluste entstehen. Serienladeregler sind die preiswertesten LR und können auch für nicht kurzschlussfeste Verbraucher genutzt werden. 
+
+\begin{figure}[!h]
+		\centering
+		\includegraphics[width=0.7\textwidth]{Abbildungen/Shuntladeregler}
+		\caption{Photovoltaik-Batteriesystem mit einem Shuntladeregler}
+		\label{fig:Shuntladeregler}
+\end{figure}
+
+\item Shuntregler (auch Parallelregler) (\autoref{fig:Shuntladeregler}) sind am weitesten verbreitet. Diese schalten bei vollgeladenem Akku den Solargenerator kurz. Dieser Kurzschluss stellt im regulären Betrieb kein Problem dar kann aber bei Abschattungen zu extremen Belastungen einzelner Zellen führen.
+
+\item MPP-Laderegler können auch bei wechselnden Wetterbedingungen beste Ladeleistungen erreichen. Nachteilig sind allerdings die hohen Anschaffungskosten.
+
+\end{itemize}
 \subsubsection{Es soll eine defekte Batterie des Batteriesystems aus der Anlage gewechselt werden. Geben Sie die Reihenfolge Ihres Vorgehens schrittweise an.}
-\blindtext
+Das Wechseln der Batterie erfolgt in 7 einzelnen Schritten. Als erste sollte die Betriebsanleitung gelesen und danach die Last abgeschaltet und vom System getrennt werden. Darauffolgend muss sowohl der PV-Generator als auch die Batterie vom Laderegler getrennt werden. Nun kann die neue Batterie und danach der PV-Generator an den Laderegler angeschlossen werden. Als letztes wird die Last wieder angeschaltet.
 
 \subsection{Batteriesysteme}
 \subsubsection{Welche Batterie-Typen werden in PV-Anlagen häufig eingesetzt? Nennen Sie Vor-und Nachteile! Was ist bei deren Laderegelung zu beachten?}
-\blindtext
+Die beiden am häufigsten verwendeten Akkumulatoren sind Blei- und Lithium-Ionen-Akkus.
+Blei Akkus haben zum Vorteil, dass sie schon sehr lange beispielsweise für Kraftfahrzeuge in der Benutzung sind und so sehr weit optimiert werden konnten. Außerdem sind die Speicher preiswert und leicht zu erwerben. Nachteilig sind sowohl die geringe Energiedichte (im Vergleich mit Lithium Akkus) als auch die Selbstentladung von ca. 10\% pro Monat (bei 25°C). Um eine Tiefenentladung zu vermeiden, müssen Bleiakkumulatoren deshalb regelmäßig nachgeladen werden. Dazukommend darf der Akku nicht mit zu hoher Spannung geladen werden um Gasung zu vermeiden. Deshalb muss bei der Wahl eines Batterieraums auf eine gute Durchlüftung geachtet werden.\\\\
+Lithium-Ionen-Akkus zeichnen sich durch ihre hohe Energiedichte und geringe Selbstentladerate aus. Beachtet werden muss allerdings der höhere Preis und die zeitweilig geringe Verfügbarkeit auf Grund der hohen Nachfrage. Ein weiterer Nachteil ist die Empfindlichkeit der Batteriezellen, weshalb diese mit einem elektronischem Batteriemanagementsystem überwacht und geschützt werden müssen.\\\\
+Bei der Ladereglung von Batteriesystemen ist es besonders wichtig auf die Ladeströme und Spannungen, die Batterieräume als auch auf die Empfindlichkeit der Batteriezellen zu achten, um Beschädigungen des Systems zu vermeiden.
+
 \subsubsection{Welche Anforderungen werden an einen Batterieraum gestellt?}
-\blindtext
+Ein Batterieraum sollte trocken, gut belüftet, mit einem Rauchmelder ausgestattet und gleichmäßig im zulässigen Temperaturbereich temperiert sein.
 \subsubsection{Geben Sie die häufig eingesetzten Systemspannungen an! Was ist bei Gleichspannungsverbrauchern (insbesondere bei niedriger Spannung) im Vergleich zu Wechselstromverbrauchern zu beachten?}
-\blindtext
+Häufige Systemspannungen sind 12 V, 24V, 48V, und 72V.
+Bei DC-Verbrauchern kann es zu hohen Strömen kommen weshalb große Kabelquerschnitte vorteilhafter sind.
+
 
 \subsection{Wechselrichter in PV-Inselanlagen}
 \subsubsection{Nach welchen Kriterien erfolgt die Auswahl eines Insel-Wechselrichters?}
