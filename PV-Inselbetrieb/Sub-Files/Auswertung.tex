@@ -1,5 +1,39 @@
 \section{Auswertung}
-\subsection{PV Wechselrichter}
+\subsection{PV-Generatorwirkungsgrad}
+Die Messungen erfolgen bei 26°C um 12:37Uhr Ortszeit.
+ 
+ \begin{table}[]
+\begin{tabular}{|l|l|}
+\hline
+\rowcolor[HTML]{C0C0C0} 
+{\color[HTML]{000000} Wirkungsgrad\_WR} & {\color[HTML]{000000} cos(phi)} \\ \hline
+48,71\%                                 & 0                               \\ \hline
+95,05\%                                 & 0,73419325                      \\ \hline
+93,15\%                                 & 0,95639848                      \\ \hline
+90,87\%                                 & 1,05387224                      \\ \hline
+91,78\%                                 & 1,04309587                      \\ \hline
+\end{tabular}
+\label{tab:230514_Messtabelle}
+\end{table}
+
+\begin{equation}
+\eta_{Gen}=\frac{P_{Gen}}{P_{Sonne}}=\frac{P_{MPP}}{E\cdot A_{Modul}}
+\label{eq:230514_Wirkungsgrad_Generator}
+\end{equation}
+
+\subsubsection{feststehende Anlage}
+\begin{equation}
+P = U \cdot I
+\label{eq:230514_Leistung}
+\end{equation}
+
+\begin{equation}
+P_{MPP} = U \cdot I \cdot FF
+\label{eq:230509_Leistung_im_MPP}
+\end{equation}
+
+\subsubsection{nachgeführte Anlage}
+\subsection{Wechselrichter}
 \subsubsection{Wirkungsgrad Kennlinie}
 Laut Datenblatt hat der Wechselrichter Sunny Island 2012/2224 im Betrieb, ohne Last, einen Eigenverbrauch von 21W. 
 In unserem Fall lag der Eigenverbauch ohne Last bei 29,7 W. 
@@ -113,3 +147,5 @@ Dabei ist in der Tabelle zu sehen, dass bei immer größerer Leistung beim Staub
 Leider ist es nicht möglich den Leistungsbeiwert anhand unserer Oszilosgramme zu bestimmen. 
 Dies liegt daran, dass es nicht möglich war ein stehendes Bild zu erzeugen, anhand dessen es möglich wäre eine Aussage über den Phasenversatz zu machen. 
 In der Theorie sollte mit steigendem Blindleistungsbedarf ein immer größer Phasenversatz zu sehen sein.
+
+\subsection{Leistungs-und Energiebilanz}
