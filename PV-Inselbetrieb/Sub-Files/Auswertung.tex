@@ -2,16 +2,13 @@
 \subsection{PV-Generatorwirkungsgrad}
 Die Messungen erfolgen bei 26°C um 12:37Uhr Ortszeit.
  
- \begin{table}[]
-\begin{tabular}{|l|l|}
-\hline
+ \begin{table}[!ht]
+ \caption{Messdaten von Strom und Spannung in Abhängigkeit von der Bestrahlungsstärke}
+\begin{tabular}{llllll}
 \rowcolor[HTML]{C0C0C0} 
-{\color[HTML]{000000} Wirkungsgrad\_WR} & {\color[HTML]{000000} cos(phi)} \\ \hline
-48,71\%                                 & 0                               \\ \hline
-95,05\%                                 & 0,73419325                      \\ \hline
-93,15\%                                 & 0,95639848                      \\ \hline
-90,87\%                                 & 1,05387224                      \\ \hline
-91,78\%                                 & 1,04309587                      \\ \hline
+                                            & U in V & I in A & E in W/m\textasciicircum{}2 & FF in \%   & A in m\textasciicircum{}2 \\
+\cellcolor[HTML]{C0C0C0}feststehnde Anlage  & 41,7   & 10     & 670,10309                   &            & 0,420876                  \\
+\cellcolor[HTML]{C0C0C0}nachgeführte Anlage & 41,6   & 9,7    & 650                         & 67,0103093 & 0,420876                 
 \end{tabular}
 \label{tab:230514_Messtabelle}
 \end{table}
@@ -23,10 +20,11 @@ Die Messungen erfolgen bei 26°C um 12:37Uhr Ortszeit.
 
 \subsubsection{feststehende Anlage}
 \begin{equation}
-P = U \cdot I
+P_{Gen} = U_{Gen} \cdot I_{Gen}
 \label{eq:230514_Leistung}
 \end{equation}
 
+$ 41,7V \cdot 10A = 417W $ 
 \begin{equation}
 P_{MPP} = U \cdot I \cdot FF
 \label{eq:230509_Leistung_im_MPP}
@@ -149,3 +147,25 @@ Dies liegt daran, dass es nicht möglich war ein stehendes Bild zu erzeugen, anh
 In der Theorie sollte mit steigendem Blindleistungsbedarf ein immer größer Phasenversatz zu sehen sein.
 
 \subsection{Leistungs-und Energiebilanz}
+\subsubsection{Energiebilanz}
+
+\begin{table}[!ht]
+\caption{Energiebilanz}
+\begin{tabular}{|l|l|l|l|}
+\hline
+\rowcolor[HTML]{76B900} 
+P\_Batterie & P\_Laderegler & P\_Wrein & $P_{WR_E} = P_{LR}-P_{Bat}$ \\ \hline
+\rowcolor[HTML]{FFFFFF} 
+3,81        & 29,718        & 24,638   & 5,08                        \\ \hline
+\rowcolor[HTML]{C0C0C0} 
+-257,25     & 218,05        & 536,55   & -318,5                      \\ \hline
+-633,76     & 363,48        & 1011,22  & -647,74                     \\ \hline
+\rowcolor[HTML]{C0C0C0} 
+-1071,84    & 253,808       & 1329,36  & -1075,552                   \\ \hline
+-781,84     & 475,832       & 1292,24  & -816,408                    \\ \hline
+\end{tabular}
+\label{tab:230514_Energiebilanz}
+\end{table}
+
+\subsubsection{Verlustquellen}
+\subsubsection{Vor-und Nachteile Direktbetrieb einer PV-Anlage}
