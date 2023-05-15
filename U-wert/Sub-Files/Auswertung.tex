@@ -7,7 +7,7 @@ Zunächst wird die Formel für die Wärmestromdichte benötigt. Diese lautet wie
 \end{equation}
 Die Fläche beträgt dabei ............... Der Wärmeübergangskoeffizient $h_{i}$ kann mit Hilfe des Wärmeübergangswiderstand $R_{si}$ aus DIN4108-4 ($R_{si}=0,13 m^2$) bestimmt werden.
 \begin{equation}
-hi=\frac{ 1 }{ R_{ si } }=\frac{ 1 }{ 0,13m^2\cdot K \cdot W^{-1} }
+h_{i}=\frac{ 1 }{ R_{ si } }=\frac{ 1 }{ 0,13m^2\cdot K \cdot W^{-1} }
   \label{eq:230514_Wärmeübergangskoeffizient}
 \end{equation}
 Unter der Annahme, dass die Wärmestromdichte von innen nach aussen konstant ist, ist der innere Wärmestrom gleich dem gesammten Wärmestrom. Dank diesem Umstand lässt sich der U-Wert mit Hilfe von 3 gemessenen Temperaturen berechnen.
@@ -17,7 +17,7 @@ Unter der Annahme, dass die Wärmestromdichte von innen nach aussen konstant ist
 \end{equation}
 nach U umgestellt ergibt sich: 
 \begin{equation}
-U = \frac{ T_{Li} - T_{Wi}}{ R_{ si } \cdot  T_{Li} - T_{La}}
+U = \frac{ T_{Li} - T_{Wi}}{ R_{ si } \cdot  (T_{Li} - T_{La})}
   \label{eq:230514_u2}
 \end{equation}
 Der Wärmeübergangskoeffizient für außen $h_{e}$ lässt sich mit Hilfe des spezifischen Wärmestroms bestimmen. 
@@ -32,4 +32,4 @@ Anschließend lässt sich die Wärmeleitfähigkeit wie folgt berechnen:
 \end{equation}
 In Tabelle ..........  sind dabei die berechneten Werte dargstellt.
 \subsection{Berechnen Sie Wärmedurchlasswiderstand R für den zweiten Wandaufbau der 2. Messreihe}
-Der Wärmewiderstand für den inneren- $R_{si}=0,13\frac{ m^2 \cdot K }{W} $ und den äüßeren- $R_{se}=0,04 \frac{ m^2 \cdot K }{W}$ Wärmewiderstand sind dabei in DIN 4108-4 festgelegt.
+Der Wärmewiderstand für den inneren- $R_{si}=0,13\frac{ m^2 \cdot K }{W} $ und den äüßeren- $R_{se}=0,04 \frac{ m^2 \cdot K }{W}$ Wärmewiderstand sind dabei in DIN 4108-4 festgelegt. Dabei berechnet sich der Wärmewiderstand wie folgt:
