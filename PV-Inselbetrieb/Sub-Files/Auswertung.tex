@@ -1,3 +1,4 @@
+\newpage
 \section{Auswertung}
 \subsection{PV-Generatorwirkungsgrad}
 Die Messungen erfolgen bei 26°C um 12:37Uhr Ortszeit.
@@ -175,14 +176,7 @@ Dies liegt daran, dass es nicht möglich war ein stehendes Bild zu erzeugen, anh
 In der Theorie sollte mit steigendem Blindleistungsbedarf ein immer größer Phasenversatz zu sehen sein.
 
 \subsection{Leistungsbilanz}
-\subsubsection{Energiebilanz}
-\begin{figure}[!ht]
-		\centering
-		\includegraphics[width=\linewidth]{Abbildungen/Leistungsbilanz.png}
-		\caption{Leistungsbilanz der Anlage}
-		\label{fig:230512_Leistungsbilanz}
-\end{figure}
-
+\subsubsection{Leistungsbilanz}
 \begin{table}[!ht]
 \centering
 \caption{Leistungsbilanz}
@@ -203,7 +197,18 @@ $P_{Sonne}$ & $P_{Gen_{DC}}$ & $P_{LR}$ & $P_{Bat}$ & $P_{WR}$ & $P_{AC}$ & $P_{
 
 
 \subsubsection{Verlustquellen}
-Die Länge der Kabel, sowie Beladung und Entladung der Zwischenspeicherbatterie stellen Verlustquellen dar. Weitere Verluste entstehen bei der Umwandlung von DC in AC Spannung im Wechselrichter.
+\begin{figure}[!ht]
+		\centering
+		\includegraphics[width=\linewidth]{Abbildungen/Leistungsbilanz.png}
+		\caption{Leistungsbilanz der Anlage}
+		\label{fig:230512_Leistungsbilanz}
+\end{figure}
+
+\autoref{fig:230512_Leistungsbilanz} stellt schematisch den Anlagenaufbau und Leistungsfluss dar. Hierbei ist der erste Verlustfaktor der Anlagenwirkungsgrad da nicht 100\% der Sonnenenergie in Leistung umgewandelt werden kann. Der Wirkungsgrad des verwendeten Ladereglers liegt bei 98\%, womit es zu geringfügigen Verlusten kommt. Je nachdem ob es einen Leistungsüberschuss oder ein Leistungsdefizit gibt, stellt die Batterie Strom zur Verfügung. Die Selbstentladung von 2\% pro Monat der Batterie kann in diesem Fall vernachlässigt werden, da im betrachteten Fall die Messdauer sehr kurz ist. Der Wechselrichter besitzt einen Wirkungsgrad von 93\%. Im Wechselrichter kommt es zu den höchsten Umwandlungsverlusten bei der Umwandlung von DC in AC Spannung.
+Die Länge der Kabel stellen eine weitere Verlustquellen dar.
+
 
 \subsubsection{Vor-und Nachteile Direktbetrieb einer PV-Anlage}
-Vorteilhaft am Direktbetrieb einer PV-Anlage sind vorallem die günstigen Kosten und einfache 
+Vorteilhaft am Direktbetrieb einer PV-Anlage sind vorallem die günstigen Kosten durch das Wegfallen von Batterie, Laderegler und Wechselrichter.
+
+
