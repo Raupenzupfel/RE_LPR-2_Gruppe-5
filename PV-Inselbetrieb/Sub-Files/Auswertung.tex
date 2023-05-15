@@ -57,7 +57,7 @@ Die Wirkungsgrade für beide PV-Generatoren sind demnach naheliegend.
 
 \subsection{Wechselrichter}
 \subsubsection{Wirkungsgrad Kennlinie}
-Laut Datenblatt hat der Wechselrichter Sunny Island 2012/2224 im Betrieb, ohne Last, einen Eigenverbrauch von 21W. 
+Laut Datenblatt hat der Wechselrichter Sunny Island 2224 im Betrieb, ohne Last, einen Eigenverbrauch von 21W. 
 In unserem Fall lag der Eigenverbauch ohne Last bei 29,7 W. 
 Der Eigenverbrauch wird dabei nach Formel \autoref{eq:230509_Eigenverbrauch} aus der Leistung am LR im Leerlauf bestimmt. 
 Der Eigenverbrauch des Wechselrichters hat seine Ursachen dabei größtenteils aus den Schaltvorgängen, der in ihm verbauten Halbleiter, und den Ohmschen Widerständen.
@@ -181,22 +181,27 @@ In der Theorie sollte mit steigendem Blindleistungsbedarf ein immer größer Pha
 \centering
 \caption{Leistungsbilanz}
 \renewcommand{\arraystretch}{1.5}
-\begin{tabularx}{\textwidth}{|X|X|X|X|X|X|X|X|}
+\begin{tabularx}{\linewidth}{|X|X|X|X|X|X|X|X|X|}
 \hline
 \rowcolor[HTML]{76B900} 
-$P_{Sonne}$ & $P_{Gen_{DC}}$ & $P_{LR}$ & $P_{Bat}$ & $P_{WR}$ & $P_{AC}$ & $P_{Verluste}$ & Verluste \\ \hline
-690$\frac{W}{m^2}$                              &  33,01$W$                & 29,72$W$          &   -3,81$W$            &   24,64$W$          & 12$W$              & 17,20$W$                  & 59\%    \\ \hline
-550$\frac{W}{m^2}$                              & 263,42$W$               & 218,05$W$          &  257,25$W$           &  536,55$W$          & 510$W$             & 10,67$W$                  & 2,05\%    \\ \hline
-460$\frac{W}{m^2}$                              & 402,18$W$               & 363,48$W$          &  633,76$W$           & 1011,22$W$         & 942$W$             & 93,94$W$                  & 9,07\%    \\ \hline
-471$\frac{W}{m^2}$                              & 281,89$W$               & 253,81$W$         & 1071,84$W$          & 1329,36$W$         & 1208$W$            & 145,73$W$                 & 10,8\%    \\ \hline
-601$\frac{W}{m^2}$                              & 562,02$W$                & 475,83$W$         &  781,84$W$           & 1292,24$W$         & 1186$W$            & 157,86$W$                  & 11,75\%    \\ \hline
+Verbraucher &$P_{Sonne}$ & $P_{Gen_{DC}}$ & $P_{LR}$ & $P_{Bat}$ & $P_{WR_E}$ & $P_{AC}$ & $P_{Verluste}$ & Verluste \\ \hline
+\cellcolor[HTML]{CFE5A8}${WR}_{allein}$ & 690$\frac{W}{m^2}$     &33,01$W$ & 29,72$W$ & -3,81$W$ & 24,64$W$ & 12$W$ & 17,20$W$ & 59\% \\ \hline
+\cellcolor[HTML]{CFE5A8}$Staub_{1}$     & 550$\frac{W}{m^2}$ & 263,42$W$ & 218,05$W$ &  257,25$W$ & 536,55$W$ & 510$W$ & 10,67$W$                  & 2,05\%    \\ \hline
+\cellcolor[HTML]{CFE5A8}$Staub_{2}$     & 460$\frac{W}{m^2}$ & 402,18$W$ & 363,48$W$ &  633,76$W$ & 1011,22$W$ & 942$W$ & 93,94$W$                  & 9,07\%    \\ \hline
+\cellcolor[HTML]{CFE5A8}$Staub_{3}$     &471$\frac{W}{m^2}$  & 281,89$W$ & 253,81$W$ & 1071,84$W$ & 1329,36$W$ & 1208$W$ & 145,73$W$                 & 10,8\%    \\ \hline
+\cellcolor[HTML]{CFE5A8}$SB_{Heizung}$  &601$\frac{W}{m^2}$  & 562,02$W$ & 475,83$W$ &  781,84$W$ & 1292,24$W$ & 1186$W$ & 157,86$W$                  & 11,75\%    \\ \hline
 \end{tabularx}
 \label{tab:230514_Leistungsbilanz}
 \end{table}
 
+\autoref{tab:230514_Leistungsbilanz} stellt die gemessene Leistung im Bezug auf die einzelnen Anlagenkomponenten dar.
+Im Belastungsfall ohne Verbraucher nimmt die Batterie 3,81W Leistung auf. In allen anderen Fällen reicht die vom PV-Generator bereitgestellte Energie nicht aus um die Verbraucher direkt zu betreiben, weshalb die Batterie Energie abgibt. Die größten Verluste treten im Betrieb ohne zusätzliche Last auf. Bei geringer Last sind die Verluste mit 2,05\% am geringsten. Beim Erhöhen der Last steigen die Verluste prozentual ebenfalls. 
+Die instabilen Wetterverhältnisse beeinflussen die Messdaten zu erkennen in der schwankenden Bestrahlungsstärke.
+
 
 
 \subsubsection{Verlustquellen}
+
 \begin{figure}[!ht]
 		\centering
 		\includegraphics[width=\linewidth]{Abbildungen/Leistungsbilanz.png}
@@ -205,10 +210,16 @@ $P_{Sonne}$ & $P_{Gen_{DC}}$ & $P_{LR}$ & $P_{Bat}$ & $P_{WR}$ & $P_{AC}$ & $P_{
 \end{figure}
 
 \autoref{fig:230512_Leistungsbilanz} stellt schematisch den Anlagenaufbau und Leistungsfluss dar. Hierbei ist der erste Verlustfaktor der Anlagenwirkungsgrad da nicht 100\% der Sonnenenergie in Leistung umgewandelt werden kann. Der Wirkungsgrad des verwendeten Ladereglers liegt bei 98\%, womit es zu geringfügigen Verlusten kommt. Je nachdem ob es einen Leistungsüberschuss oder ein Leistungsdefizit gibt, stellt die Batterie Strom zur Verfügung. Die Selbstentladung von 2\% pro Monat der Batterie kann in diesem Fall vernachlässigt werden, da im betrachteten Fall die Messdauer sehr kurz ist. Der Wechselrichter besitzt einen Wirkungsgrad von 93\%. Im Wechselrichter kommt es zu den höchsten Umwandlungsverlusten bei der Umwandlung von DC in AC Spannung.
+Über die Leistungsbilanz ohne Verbraucher können der Eigenverbrauch des Ladereglers und des Wechselrichters als weitere Verlustquelle bestimmt werden. 
+Für den Laderegler ergibt das:
+$$ P_{LR_{Eigen}}= P_{Gen} - P_{LR} = 33,01W -29,72W =3,29W$$
+Im Datenblatt des SUNNY ISLAND Charger 50 wird ein Eigenverbrauch von unter 5W im Tagesbetrieb angegeben.
+Für den Wechselrichter:
+$$P_{WR_{Eigen}}= P_{WR_E}-P_{AC} = 24,64W -12W = 12,64W$$
+Im Datenblatt des SUNNY ISLAND wird ein Eigenverbrauch von 21W angegeben.
 Die Länge der Kabel stellen eine weitere Verlustquellen dar.
 
 
 \subsubsection{Vor-und Nachteile Direktbetrieb einer PV-Anlage}
-Vorteilhaft am Direktbetrieb einer PV-Anlage sind vorallem die günstigen Kosten durch das Wegfallen von Batterie, Laderegler und Wechselrichter.
-
-
+Vorteilhaft am Direktbetrieb einer PV-Anlage sind die günstigen Kosten durch das Wegfallen von Batterie, Laderegler und Wechselrichter. Der Aufbau von Anlagen ohne die aufgeführten Komponenten ist unkomplizierter. Einerseits gibt keine Bauteil bedingten Leistungsverluste  im Betrieb, andererseits arbeitet die Anlage nicht dauerhaft im MPP wodurch im mittel geringere Leistungsausbeuten auftreten können.  
+Durch die fehlende Batterie ist es nicht möglich Energie speichern, wodurch Insel-Systeme keine Tage mit geringer Bestrahlungsstärke überbrücken können. 
