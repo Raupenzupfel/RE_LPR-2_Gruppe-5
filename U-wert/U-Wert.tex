@@ -1,0 +1,57 @@
+%!TEX root = U-Wert.tex
+%Einbindung Pakete
+\input{Sub-Files/head}
+
+%Initialisierung des Dokuments
+\begin{document}
+
+%Einbindung unterschiedlicher Befehlsänderungen
+\input{Sub-Files/style}
+
+\parindent 0cm
+
+%Zeilenabstand	
+\onehalfspacing			 									
+\addtolength{\footskip}{-8mm}
+
+%Titelseite
+\input{Sub-Files/title}
+\newpage
+
+%Abstract (dieser ist für Laborprotokolle in der Regel nicht notwendig)
+%\input{abstract}
+\newpage
+
+\pagenumbering{roman}
+
+%Inhaltsverzeichnis
+\setcounter{tocdepth}{2}
+\tableofcontents
+\newpage
+
+%Abbildungsverzeichnis, Tabellenverzeichnis und Abkürzungsverzeichnis
+\listoffigures
+\listoftables
+\input{Sub-Files/AbkVerzeichnis}
+\newpage
+
+\pagenumbering{arabic}
+
+%Inhaltlicher Teil
+\input{Sub-Files/Versuchsziele}
+\input{Sub-Files/Versuchsbeschreibung}
+\input{Sub-Files/Vorbereitungsfragen}
+\input{Sub-Files/Versuchsdurchfuehrung}
+\input{Sub-Files/Auswertung}
+\newpage
+%Quellenverzeichnis
+\sloppy
+\input{Sub-Files/Quellen}
+\fussy
+\newpage
+
+%Anhang
+\input{Sub-Files/Anhang}
+
+
+\end{document}
