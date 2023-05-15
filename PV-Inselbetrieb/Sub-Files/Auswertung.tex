@@ -12,8 +12,8 @@ Der MPP wird mithilfe der Tangentensteigung abgeschätzt.
 \hline
 \rowcolor[HTML]{76B900} 
                                             & $U_{Leer}$ in $V$ & $I_K$ in $A$ & $U_{MPP}$ in $V$ & $I_{MPP}$ in $A$ & E in $\frac{W}{m^2}$ & FF in \% & A in $m^2$ \\ \hline
-\cellcolor[HTML]{76B900}feststehnde Anlage  & 41,7              & 10           & 31,6             & 9,5            & 670,10                      & 0,72     & 0,4209     \\ \hline
-\cellcolor[HTML]{76B900}nachgeführte Anlage & 41,6              & 9,7          & 32               & 9,37           & 650,00                      & 0,74     & 0,4209     \\ \hline
+\cellcolor[HTML]{76B900}feststehnde Anlage  & 41,7              & 10           & 31,6             & 9,5            & 670,10                      & 0,72     & 0,36    \\ \hline
+\cellcolor[HTML]{76B900}nachgeführte Anlage & 41,6              & 9,7          & 32               & 9,37           & 650,00                      & 0,74     & 0,36     \\ \hline
 \end{tabular}
 \end{table}
 
@@ -33,25 +33,26 @@ Um den Wirkungsgrad des PV-Generators zu bestimmen muss zunächst die Leistung i
 $$P_{MPP} = 31,6V \cdot 9,50A = 300,2W$$ 
 \\
 Die Leistung eingesetzt in Formel \autoref{eq:230514_Wirkungsgrad_Generator}:\\
-$$\eta_{Gen,fest}=\frac{300,2W}{670\frac{W}{m^2}\cdot 8\cdot0,4209 m^2}
-=0,1331 \approx 13,31\%$$\\
-Der Wirkungsgrad der feststehenden Anlage beträgt $13,31\%$.
+$$\eta_{Gen,fest}=\frac{300,2W}{670\frac{W}{m^2}\cdot 8\cdot0,36 m^2}
+=0,15557 \approx 15,56\%$$\\
+Der Wirkungsgrad der feststehenden Anlage beträgt $15,56\%$.
 \subsubsection{nachgeführte Anlage}
 Um den Wirkungsgrad des PV-Generators zu bestimmen muss zunächst die Leistung im MPP über Formel \autoref{eq:230514_Leistung_im_MPP} bestimmt werden:
 \\
 $$P_{MPP} = 32V \cdot 9,037A = 289,18W$$ \\
 Die Leistung eingesetzt in Formel \autoref{eq:230514_Wirkungsgrad_Generator}:\\
-$$\eta_{Gen,nach}=\frac{289,18W}{650\frac{W}{m^2}\cdot 8\cdot 0,4209 m^2}
-=0,1321\approx 13,21\%$$\\
-Der Wirkungsgrad der nachgeführten Anlage beträgt $13,21\%$.
+$$\eta_{Gen,nach}=\frac{289,18W}{650\frac{W}{m^2}\cdot 8\cdot 0,36 m^2}
+=0,1544\approx 15,44\%$$\\
+Der Wirkungsgrad der nachgeführten Anlage beträgt $15,44\%$.
 \subsubsection{Bewertung der Ergebnisse}
 
 Laut Datenblatt des SW-8046 beträgt der $P_{MPP}$ des Moduls bei $1000\frac{W}{m^2}$ bis zu $60Wp$.
 Die Leistung eingesetzt in Formel \autoref{eq:230514_Wirkungsgrad_Generator}:\\
-$$\eta_{Modul}=\frac{60W}{650\frac{W}{m^2}\cdot 0,4209 m^2}
-=0,14255\approx 14,26\%$$\\
-Für monokristalline PV-Module aus dem Jahr 2008 ist ein Modul Wirkungsgrad von 14-18\% plausibel. Eine Wirkungsgradminderung von 3,75-7,5\% sind für einen Zeitraum von 15Jahren wahrscheinlich. Im Bezug auf die Wirkungsgrade sind die Module gut erhalten. Weitere Verlustquellen können die langen Kabel und geringfügige Beschädigungen der Solarzellen darstellen.
+$$\eta_{Modul}=\frac{60W}{1000\frac{W}{m^2}\cdot 0,36 m^2}
+=0,16\approx 16\%$$\\
+Für monokristalline PV-Module aus dem Jahr 2008 ist ein Modul Wirkungsgrad von 14-18\% plausibel. Eine Wirkungsgradminderung von 3,75-7,5\% sind für einen Zeitraum von 15Jahren wahrscheinlich. Im Bezug auf die Wirkungsgrade sind die Module gut erhalten. Weitere Verlustquellen können die langen Kabel und geringfügige Beschädigungen der Solarzellen darstellen. Auffällig ist, dass der Wirkungsgrad der nachgeführten Anlage etwas geringer im Vergleich zur feststehenden Anlage ausfällt, obwohl der Ausrichtungswinkel günstiger ist. Diese Beobachtung ist auf die instabilen Wetterverhältnisse während den zwei Messungen zurückzuführen und die hieraus unterschiedliche Bestrahlungsstärke.
 Die Wirkungsgrade für beide PV-Generatoren sind demnach naheliegend.
+
 
 \subsection{Wechselrichter}
 \subsubsection{Wirkungsgrad Kennlinie}
@@ -99,14 +100,12 @@ Der Wirkungsgrad des Wechselrichters berechnet sich nach folgender Formel:
 \begin{table}[]
  \caption{Wirkungsgrad und Leistungsbeiwert}
 	\centering
-\begin{tabular}{|l|l|l|}
+\begin{tabular}{|r|r|r|r|r|r|}
 \hline
-WR\_allein      & 48,71\% & 0          \\ \hline
-Staub\_1        & 95,05\% & 0,73419325 \\ \hline
-Staub\_2        & 93,15\% & 0,95639848 \\ \hline
-Staub\_3        & 90,87\% & 1,05387224 \\ \hline
-S-Bahn\_Heizung & 91,78\% & 1,04309587 \\  \hline
-\label{tab:150523_Messtabelle}
+\rowcolor[HTML]{76B900} 
+Aufgabe                                  & $WR_{allein}$ & $Staubsauger_1$ & $Staubsauger_2$ & $Staubsauger_3$ & S-Bahn Heizung \\ \hline
+\cellcolor[HTML]{76B900}Wirkungsgrad\_WR & 49\%       & 95\%     & 93\%     & 91\%     & 92\%            \\ \hline
+\cellcolor[HTML]{76B900}cos(phi)         & 0,00       & 0,73     & 0,96     & 1,05     & 1,04            \\ \hline
 \end{tabular}
 \end{table}
 Dabei ist in \autoref{fig:230512_WRkennlinie} zu erkennen, dass der Wirkungsgrad des Wechselrichters sich nicht linear verhält. Zunächst ist sehr niedrig und nähert sich dann einem Maximum an. Anschließend fällt der Wirkungsgrad wieder leicht ab, was an den steigenden Ohmschenverlusten liegt, die bei immer höher werdenen Strömen immer größer werden. Der maximale Wirkungsgrad liegt bei uns sogar bei 95 Prozent (\autoref{fig:230512_WRkennlinie}). Dies ist sogar 2 Prozent über dem Wirkungsgrad den der Hersteller angibt. Die ermittelte Kurve für den Wirkungsgrad ist dabei gut mit der Theorie zu vereinbaren. Des Weiteren ist zu erkennen, dass dieser Wechselrichter bereits ab 30 \% der Nennleistung sehr hohe Wirkungsgrade beseitzt, was ihn besonders gut macht für Standorte, die häufig Teilleistung liefern.
@@ -168,26 +167,36 @@ Leider ist es nicht möglich den Leistungsbeiwert anhand unserer Oszilosgramme z
 Dies liegt daran, dass es nicht möglich war ein stehendes Bild zu erzeugen, anhand dessen es möglich wäre eine Aussage über den Phasenversatz zu machen. 
 In der Theorie sollte mit steigendem Blindleistungsbedarf ein immer größer Phasenversatz zu sehen sein.
 
-\subsection{Leistungs-und Energiebilanz}
+\subsection{Leistungsbilanz}
 \subsubsection{Energiebilanz}
+\begin{figure}[!ht]
+		\centering
+		\includegraphics[width=\linewidth]{Abbildungen/Leistungsbilanz.png}
+		\caption{Leistungsbilanz der Anlage}
+		\label{fig:230512_Leistungsbilanz}
+\end{figure}
 
 \begin{table}[!ht]
-\caption{Energiebilanz}
-\begin{tabular}{|l|l|l|l|}
+\centering
+\caption{Leistungsbilanz}
+\renewcommand{\arraystretch}{1.5}
+\begin{tabularx}{\textwidth}{|X|X|X|X|X|X|X|X|}
 \hline
 \rowcolor[HTML]{76B900} 
-P\_Batterie & P\_Laderegler & P\_Wrein & $P_{WR_E} = P_{LR}-P_{Bat}$ \\ \hline
-\rowcolor[HTML]{FFFFFF} 
-3,81        & 29,718        & 24,638   & 5,08                        \\ \hline
-\rowcolor[HTML]{C0C0C0} 
--257,25     & 218,05        & 536,55   & -318,5                      \\ \hline
--633,76     & 363,48        & 1011,22  & -647,74                     \\ \hline
-\rowcolor[HTML]{C0C0C0} 
--1071,84    & 253,808       & 1329,36  & -1075,552                   \\ \hline
--781,84     & 475,832       & 1292,24  & -816,408                    \\ \hline
-\end{tabular}
-\label{tab:230514_Energiebilanz}
+$P_{Sonne}$ & $P_{Gen_{DC}}$ & $P_{LR}$ & $P_{Bat}$ & $P_{WR}$ & $P_{AC}$ & $P_{Verluste}$ & Verluste \\ \hline
+690$\frac{W}{m^2}$                              &  33,01$W$                & 29,72$W$          &   -3,81$W$            &   24,64$W$          & 12$W$              & 17,20$W$                  & 59\%    \\ \hline
+550$\frac{W}{m^2}$                              & 263,42$W$               & 218,05$W$          &  257,25$W$           &  536,55$W$          & 510$W$             & 10,67$W$                  & 2,05\%    \\ \hline
+460$\frac{W}{m^2}$                              & 402,18$W$               & 363,48$W$          &  633,76$W$           & 1011,22$W$         & 942$W$             & 93,94$W$                  & 9,07\%    \\ \hline
+471$\frac{W}{m^2}$                              & 281,89$W$               & 253,81$W$         & 1071,84$W$          & 1329,36$W$         & 1208$W$            & 145,73$W$                 & 10,8\%    \\ \hline
+601$\frac{W}{m^2}$                              & 562,02$W$                & 475,83$W$         &  781,84$W$           & 1292,24$W$         & 1186$W$            & 157,86$W$                  & 11,75\%    \\ \hline
+\end{tabularx}
+\label{tab:230514_Leistungsbilanz}
 \end{table}
 
+
+
 \subsubsection{Verlustquellen}
+Die Länge der Kabel, sowie Beladung und Entladung der Zwischenspeicherbatterie stellen Verlustquellen dar. Weitere Verluste entstehen bei der Umwandlung von DC in AC Spannung im Wechselrichter.
+
 \subsubsection{Vor-und Nachteile Direktbetrieb einer PV-Anlage}
+Vorteilhaft am Direktbetrieb einer PV-Anlage sind vorallem die günstigen Kosten und einfache 
