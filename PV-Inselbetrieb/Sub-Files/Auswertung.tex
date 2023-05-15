@@ -12,8 +12,8 @@ Der MPP wird mithilfe der Tangentensteigung abgeschätzt.
 \hline
 \rowcolor[HTML]{76B900} 
                                             & $U_{Leer}$ in $V$ & $I_K$ in $A$ & $U_{MPP}$ in $V$ & $I_{MPP}$ in $A$ & E in $\frac{W}{m^2}$ & FF in \% & A in $m^2$ \\ \hline
-\cellcolor[HTML]{76B900}feststehnde Anlage  & 41,7              & 10           & 31,6             & 9,5            & 670,10                      & 0,72     & 0,36    \\ \hline
-\cellcolor[HTML]{76B900}nachgeführte Anlage & 41,6              & 9,7          & 32               & 9,37           & 650,00                      & 0,74     & 0,36     \\ \hline
+\cellcolor[HTML]{cfe5a8}feststehnde Anlage  & 41,7              & 10           & 31,6             & 9,5            & 670,10                      & 0,72     & 0,36    \\ \hline
+\cellcolor[HTML]{cfe5a8}nachgeführte Anlage & 41,6              & 9,7          & 32               & 9,37           & 650,00                      & 0,74     & 0,36     \\ \hline
 \end{tabular}
 \end{table}
 
@@ -70,15 +70,22 @@ Der Eigenverbrauch des Wechselrichters hat seine Ursachen dabei größtenteils a
 \begin{table}[!ht]
     \caption{Messdaten der Ströme, Spannungn und Leistungen }
 	\centering
-    \begin{tabular}{|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|}
-    \hline
-        Aufgabe & $P_{Sonne}$ & $U_{Gen}$ & $I_{Gen}$ & $U_{LR}$ & $I_{LR}$ & $I_{Batt}$ & $I_{WR}$ & $P_{AC}$ & $U_{AC}$ & $I_{AC}$ & f \\ \hline
-        ${WR}_{allein}$ & 690 & 39,3 & 0,84 & 25,4 & 1,17 & 0,15 & 0,97 & 12 & 229,83 & 0 & 50 \\ \hline
-        $Staub_{1}$ & 550 & 33,6 & 7,84 & 24,5 & 8,9 & -10,5 & 21,9 & 510 & 228,5 & 3,04 & 55;99  \\ \hline
-        $Staub_{2}$ & 460 & 32,2 & 12,49 & 23,3 & 15,6 & -27,2 & 43,4 & 942 & 227,47 & 4,33 & 50;75 \\ \hline
-        $Staub_{3}$ & 471 & 36,8 & 7,66 & 23,2 & 10,94 & -46,2 & 57,3 & 1208 & 226,98 & 5,05 & 50;67 \\ \hline
-        SB-Heizung & 601 & 34,8 & 16,15 & 23,2 & 20,51 & -33,7 & 55,7 & 1186 & 227,4 & 5 & 50;56 \\ \hline
-    \end{tabular}
+	\renewcommand{\arraystretch}{2}
+\begin{tabularx}{\linewidth}{|r|X|X|X|X|X|X|X|X|X|X|X|}
+\hline
+\rowcolor[HTML]{76B900} 
+{\color[HTML]{000000} Aufgabe}          & {\color[HTML]{000000} $P_{Sonne}$} & {\color[HTML]{000000} $U_{Gen}$} & {\color[HTML]{000000} $I_{Gen}$} & {\color[HTML]{000000} $U_{LR}$} & {\color[HTML]{000000} $I_{LR}$} & {\color[HTML]{000000} $I_{Batt}$} & {\color[HTML]{000000} $I_{WR}$} & {\color[HTML]{000000} $P_{AC}$} & {\color[HTML]{000000} $U_{AC}$} & {\color[HTML]{000000} $I_{AC}$} & {\color[HTML]{000000} f} \\ \hline
+\rowcolor[HTML]{FFFFFF} 
+\cellcolor[HTML]{CFE5A8}${WR}_{allein}$      & 690                             & 39,3                          & 0,84                          & 25,4                         & 1,17                         & 0,15                           & 0,97                         & 12                           & 229,83                       & 0                            & 50Hz                       \\ \hline
+\rowcolor[HTML]{FFFFFF} 
+\cellcolor[HTML]{CFE5A8}$Staub_{1}$        & 550                             & 33,6                          & 7,84                          & 24,5                         & 8,9                          & -10,5                          & 21,9                         & 510                          & 228,5                        & 3,04                         & 55Hz\\ \hline
+\rowcolor[HTML]{FFFFFF} 
+\cellcolor[HTML]{CFE5A8}$Staub_{2}$        & 460                             & 32,2                          & 12,49                         & 23,3                         & 15,6                         & -27,2                          & 43,4                         & 942                          & 227,47                       & 4,33                         & 50Hz\\ \hline
+\rowcolor[HTML]{FFFFFF} 
+\cellcolor[HTML]{CFE5A8}$Staub_{3}$        & 471                             & 36,8                          & 7,66                          & 23,2                         & 10,94                        & -46,2                          & 57,3                         & 1208                         & 226,98                       & 5,05                         & 50Hz\\ \hline
+\rowcolor[HTML]{FFFFFF} 
+\cellcolor[HTML]{CFE5A8}S-Bahn Heizung & 601                             & 34,8                          & 16,15                         & 23,2                         & 20,51                        & -33,7                          & 55,7                         & 1186                         & 227,4                        & 5                            & 50Hz                    \\ \hline
+\end{tabularx}
 	\label{tab:230512_Messtabelle}
 \end{table}
 
@@ -104,8 +111,8 @@ Der Wirkungsgrad des Wechselrichters berechnet sich nach folgender Formel:
 \hline
 \rowcolor[HTML]{76B900} 
 Aufgabe                                  & $WR_{allein}$ & $Staubsauger_1$ & $Staubsauger_2$ & $Staubsauger_3$ & S-Bahn Heizung \\ \hline
-\cellcolor[HTML]{76B900}Wirkungsgrad\_WR & 49\%       & 95\%     & 93\%     & 91\%     & 92\%            \\ \hline
-\cellcolor[HTML]{76B900}cos(phi)         & 0,00       & 0,73     & 0,96     & 1,05     & 1,04            \\ \hline
+\cellcolor[HTML]{cfe5a8}Wirkungsgrad\_WR & 49\%       & 95\%     & 93\%     & 91\%     & 92\%            \\ \hline
+\cellcolor[HTML]{cfe5a8}cos(phi)         & 0,00       & 0,73     & 0,96     & 1,05     & 1,04            \\ \hline
 \end{tabular}
 \end{table}
 Dabei ist in \autoref{fig:230512_WRkennlinie} zu erkennen, dass der Wirkungsgrad des Wechselrichters sich nicht linear verhält. Zunächst ist sehr niedrig und nähert sich dann einem Maximum an. Anschließend fällt der Wirkungsgrad wieder leicht ab, was an den steigenden Ohmschenverlusten liegt, die bei immer höher werdenen Strömen immer größer werden. Der maximale Wirkungsgrad liegt bei uns sogar bei 95 Prozent (\autoref{fig:230512_WRkennlinie}). Dies ist sogar 2 Prozent über dem Wirkungsgrad den der Hersteller angibt. Die ermittelte Kurve für den Wirkungsgrad ist dabei gut mit der Theorie zu vereinbaren. Des Weiteren ist zu erkennen, dass dieser Wechselrichter bereits ab 30 \% der Nennleistung sehr hohe Wirkungsgrade beseitzt, was ihn besonders gut macht für Standorte, die häufig Teilleistung liefern.
