@@ -1237,6 +1237,15 @@ INPUT .\Abbildungen\\HTWLogo-eps-converted-to.pdf
 INPUT .\Abbildungen\\HTWLogo.eps
 INPUT .\Abbildungen\\HTWLogo-eps-converted-to.pdf
 INPUT .\Abbildungen\\HTWLogo-eps-converted-to.pdf
+INPUT .\Abbildungen\\HTWLogo.eps
+INPUT Abbildungen\\HTWLogo.eps
+INPUT .\Abbildungen\\HTWLogo.eps
+INPUT .\Abbildungen\\HTWLogo.eps
+INPUT .\Abbildungen\\HTWLogo-eps-converted-to.pdf
+INPUT .\Abbildungen\\HTWLogo-eps-converted-to.pdf
+INPUT .\Abbildungen\\HTWLogo.eps
+INPUT .\Abbildungen\\HTWLogo-eps-converted-to.pdf
+INPUT .\Abbildungen\\HTWLogo-eps-converted-to.pdf
 INPUT .\Sub-Files\Quellen.tex
 INPUT .\Sub-Files\Quellen.tex
 INPUT .\Sub-Files\Quellen.tex
@@ -1276,9 +1285,9 @@ INPUT .\Abbildungen\\HTWLogo-eps-converted-to.pdf
 INPUT U-Wert.aux
 INPUT .\U-Wert.out
 INPUT .\U-Wert.out
-INPUT C:\Users\tadeu\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-mathsy.enc
 INPUT C:\Users\tadeu\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-rm.enc
 INPUT C:\Users\tadeu\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-mathit.enc
+INPUT C:\Users\tadeu\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-mathsy.enc
 INPUT C:\Users\tadeu\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-ec.enc
 INPUT C:\Users\tadeu\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmbx10.pfb
 INPUT C:\Users\tadeu\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmbx10.pfb
@@ -1286,6 +1295,8 @@ INPUT C:\Users\tadeu\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmbx12.
 INPUT C:\Users\tadeu\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmbx12.pfb
 INPUT C:\Users\tadeu\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmmi10.pfb
 INPUT C:\Users\tadeu\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmmi10.pfb
+INPUT C:\Users\tadeu\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmmi12.pfb
+INPUT C:\Users\tadeu\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmmi12.pfb
 INPUT C:\Users\tadeu\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr10.pfb
 INPUT C:\Users\tadeu\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr10.pfb
 INPUT C:\Users\tadeu\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr12.pfb
