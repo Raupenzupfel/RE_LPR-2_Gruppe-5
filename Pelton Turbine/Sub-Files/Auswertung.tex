@@ -24,7 +24,7 @@ Dies erfolgt mit \autoref{eq:230513_Förderhöhe}, wobei der Druck in Pascal und
 \end{equation}
 
 Aus den im Anhang gegebenen Messtabelln ergibt sich die \autoref{fig:230513_Pumpenkennlinie}.
-\begin{figure}[!ht]
+\begin{figure}[H]
   \centering
   \includegraphics[width=0.8\textwidth]{Abbildungen/Pumpenkennlinie.png}
   \caption{Pumpenkennlinie bei gemessenen Arbeitspunkten}
@@ -41,16 +41,10 @@ Die hydraulische Leistung wird mittels \autoref{eq:230514_hydraulische_Leistung}
   \label{eq:230514_hydraulische_Leistung}
 \end{equation}
 
-Die mechanische Leistung lässt sich mittels \autoref{eq:230514_mechanische_Leistung} berechnen.
+Die mechanische Leistung lässt sich mittels der \autoref{eq:230512_MechanischeLeistung} aus \autoref{subsec:P_mech-n} berechnen.
 Jedoch mussten zuerst die Messwerte des Kraftsensors ausgewertet und in ein Moment umgerechnet werden.
 Dieser hat zeitreihen der ausgeübten Kraft aufgezeichnet, von welchen die Mittelwerte gebildet wurden.
-Anschließend wurden diese Kräft mit der Länge des Hebelarms $l = 290 mm$ verrechnet, um ein Moment heraus zu bekommen.
-
-\begin{equation}
-  P_{Mech.} = M \cdot 2 \pi \cdot n
-  \label{eq:230514_mechanische_Leistung}
-\end{equation}
-
+Anschließend wurden diese Kräft mit der Länge des Hebelarms $l = 290 mm$ verrechnet, um ein Moment heraus zu bekommen.\\
 Die elektrische Leistung lies sich durch die Gemessenen Phasenströme und -Spannungen mittels \autoref{eq:230514_elektrische_Leistung} berechen:
 
 \begin{equation}
@@ -59,7 +53,7 @@ Die elektrische Leistung lies sich durch die Gemessenen Phasenströme und -Spann
 \end{equation}
 
 Die Leistungen bei den verschiedenen Arbeitspunkten lassen sich in \autoref{tab:230514_Arbeitspunkte} finden.
-\begin{table}[!ht]
+\begin{table}[H]
   \caption{Drehzahlen,Leistungen und Wirkungsgrade der Pelton Turbine bei verschiedenen Arbeitspunkten}
   \centering
   \begin{tabular}{|l|l|l|l|l|}
