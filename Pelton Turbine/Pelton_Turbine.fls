@@ -1178,11 +1178,6 @@ INPUT Sub-Files\Versuchsbeschreibung.tex
 INPUT .\Sub-Files\Versuchsbeschreibung.tex
 INPUT .\Sub-Files\Versuchsbeschreibung.tex
 INPUT Sub-Files\Versuchsbeschreibung.tex
-INPUT C:\Users\NJF\AppData\Local\Programs\MiKTeX\tex\latex\lm\ts1lmr.fd
-INPUT C:\Users\NJF\AppData\Local\Programs\MiKTeX\tex\latex\lm\ts1lmr.fd
-INPUT C:\Users\NJF\AppData\Local\Programs\MiKTeX\tex\latex\lm\ts1lmr.fd
-INPUT C:\Users\NJF\AppData\Local\Programs\MiKTeX\tex\latex\lm\ts1lmr.fd
-INPUT C:\Users\NJF\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ts1-lmr12.tfm
 INPUT .\Abbildungen\Aufbau Pelton.jpeg
 INPUT .\Abbildungen\Aufbau Pelton.jpeg
 INPUT Abbildungen\Aufbau Pelton.jpeg
@@ -1211,6 +1206,20 @@ INPUT .\Abbildungen\Kraftsensor.jpeg
 INPUT .\Abbildungen\Kraftsensor.jpeg
 INPUT .\Abbildungen\Kraftsensor.jpeg
 INPUT .\Abbildungen\Kraftsensor.jpeg
+INPUT .\Abbildungen\Drehzahlmesser 1.jpeg
+INPUT .\Abbildungen\Drehzahlmesser 1.jpeg
+INPUT Abbildungen\Drehzahlmesser 1.jpeg
+INPUT .\Abbildungen\Drehzahlmesser 1.jpeg
+INPUT .\Abbildungen\Drehzahlmesser 1.jpeg
+INPUT .\Abbildungen\Drehzahlmesser 1.jpeg
+INPUT .\Abbildungen\Drehzahlmesser 1.jpeg
+INPUT .\Abbildungen\Schalttafel.jpeg
+INPUT .\Abbildungen\Schalttafel.jpeg
+INPUT Abbildungen\Schalttafel.jpeg
+INPUT .\Abbildungen\Schalttafel.jpeg
+INPUT .\Abbildungen\Schalttafel.jpeg
+INPUT .\Abbildungen\Schalttafel.jpeg
+INPUT .\Abbildungen\Schalttafel.jpeg
 INPUT .\Sub-Files\Vorbereitungsfragen.tex
 INPUT .\Sub-Files\Vorbereitungsfragen.tex
 INPUT .\Sub-Files\Vorbereitungsfragen.tex
@@ -1218,25 +1227,6 @@ INPUT Sub-Files\Vorbereitungsfragen.tex
 INPUT .\Sub-Files\Vorbereitungsfragen.tex
 INPUT .\Sub-Files\Vorbereitungsfragen.tex
 INPUT Sub-Files\Vorbereitungsfragen.tex
-INPUT .\Abbildungen\\HTWLogo.eps
-INPUT Abbildungen\\HTWLogo.eps
-INPUT .\Abbildungen\\HTWLogo.eps
-INPUT .\Abbildungen\\HTWLogo.eps
-INPUT .\Abbildungen\\HTWLogo-eps-converted-to.pdf
-INPUT .\Abbildungen\\HTWLogo-eps-converted-to.pdf
-INPUT .\Abbildungen\\HTWLogo.eps
-INPUT .\Abbildungen\\HTWLogo-eps-converted-to.pdf
-INPUT .\Abbildungen\\HTWLogo-eps-converted-to.pdf
-INPUT C:\Users\NJF\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-ts1.enc
-INPUT .\Abbildungen\\HTWLogo.eps
-INPUT Abbildungen\\HTWLogo.eps
-INPUT .\Abbildungen\\HTWLogo.eps
-INPUT .\Abbildungen\\HTWLogo.eps
-INPUT .\Abbildungen\\HTWLogo-eps-converted-to.pdf
-INPUT .\Abbildungen\\HTWLogo-eps-converted-to.pdf
-INPUT .\Abbildungen\\HTWLogo.eps
-INPUT .\Abbildungen\\HTWLogo-eps-converted-to.pdf
-INPUT .\Abbildungen\\HTWLogo-eps-converted-to.pdf
 INPUT C:\Users\NJF\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmssbx10.tfm
 INPUT C:\Users\NJF\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\rm-lmr12.tfm
 INPUT C:\Users\NJF\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\rm-lmr10.tfm
@@ -1253,19 +1243,21 @@ INPUT C:\Users\NJF\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbo
 INPUT C:\Users\NJF\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Users\NJF\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Users\NJF\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
+INPUT .\Abbildungen\\HTWLogo.eps
+INPUT Abbildungen\\HTWLogo.eps
+INPUT .\Abbildungen\\HTWLogo.eps
+INPUT .\Abbildungen\\HTWLogo.eps
+INPUT .\Abbildungen\\HTWLogo-eps-converted-to.pdf
+INPUT .\Abbildungen\\HTWLogo-eps-converted-to.pdf
+INPUT .\Abbildungen\\HTWLogo.eps
+INPUT .\Abbildungen\\HTWLogo-eps-converted-to.pdf
+INPUT .\Abbildungen\\HTWLogo-eps-converted-to.pdf
 INPUT .\Abbildungen\Rohrleitungskennlinie.jpg
 INPUT Abbildungen\Rohrleitungskennlinie.jpg
 INPUT .\Abbildungen\Rohrleitungskennlinie.jpg
 INPUT .\Abbildungen\Rohrleitungskennlinie.jpg
 INPUT .\Abbildungen\Rohrleitungskennlinie.jpg
 INPUT .\Abbildungen\Rohrleitungskennlinie.jpg
-INPUT .\Sub-Files\Versuchsdurchfuehrung.tex
-INPUT .\Sub-Files\Versuchsdurchfuehrung.tex
-INPUT .\Sub-Files\Versuchsdurchfuehrung.tex
-INPUT Sub-Files\Versuchsdurchfuehrung.tex
-INPUT .\Sub-Files\Versuchsdurchfuehrung.tex
-INPUT .\Sub-Files\Versuchsdurchfuehrung.tex
-INPUT Sub-Files\Versuchsdurchfuehrung.tex
 INPUT .\Abbildungen\\HTWLogo.eps
 INPUT Abbildungen\\HTWLogo.eps
 INPUT .\Abbildungen\\HTWLogo.eps
@@ -1278,6 +1270,22 @@ INPUT .\Abbildungen\\HTWLogo-eps-converted-to.pdf
 INPUT C:\Users\NJF\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-mathit.enc
 INPUT C:\Users\NJF\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-rm.enc
 INPUT C:\Users\NJF\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-mathsy.enc
+INPUT .\Abbildungen\\HTWLogo.eps
+INPUT Abbildungen\\HTWLogo.eps
+INPUT .\Abbildungen\\HTWLogo.eps
+INPUT .\Abbildungen\\HTWLogo.eps
+INPUT .\Abbildungen\\HTWLogo-eps-converted-to.pdf
+INPUT .\Abbildungen\\HTWLogo-eps-converted-to.pdf
+INPUT .\Abbildungen\\HTWLogo.eps
+INPUT .\Abbildungen\\HTWLogo-eps-converted-to.pdf
+INPUT .\Abbildungen\\HTWLogo-eps-converted-to.pdf
+INPUT .\Sub-Files\Versuchsdurchfuehrung.tex
+INPUT .\Sub-Files\Versuchsdurchfuehrung.tex
+INPUT .\Sub-Files\Versuchsdurchfuehrung.tex
+INPUT Sub-Files\Versuchsdurchfuehrung.tex
+INPUT .\Sub-Files\Versuchsdurchfuehrung.tex
+INPUT .\Sub-Files\Versuchsdurchfuehrung.tex
+INPUT Sub-Files\Versuchsdurchfuehrung.tex
 INPUT .\Sub-Files\Auswertung.tex
 INPUT .\Sub-Files\Auswertung.tex
 INPUT .\Sub-Files\Auswertung.tex
