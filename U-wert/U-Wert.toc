@@ -10,6 +10,8 @@
 \contentsline {subsection}{\numberline {3.6}Überlegen Sie, warum es zu Unterschieden zwischen Ihren nach Norm und nach Messungen berechneten U-Werten kommen kann.}{2}{subsection.3.6}%
 \contentsline {section}{\numberline {4}Versuchsdurchführung}{2}{section.4}%
 \contentsline {section}{\numberline {5}Auswertung}{2}{section.5}%
-\contentsline {section}{\numberline {6}Quellen}{3}{section.6}%
-\contentsline {section}{\numberline {7}Anhang}{4}{section.7}%
+\contentsline {subsection}{\numberline {5.1}Bestimmung der Wärmeleitfähigkeiten und des Wärmedurchgangskoeffizienten für Polystyrol(1,84 cm), Holz (1,22 cm, 3,21 cm) und Glas(0,5 cm)}{2}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Berechnen Sie Wärmedurchlasswiderstand R für den zweiten Wandaufbau der 2. Messreihe}{3}{subsection.5.2}%
+\contentsline {section}{\numberline {6}Quellen}{4}{section.6}%
+\contentsline {section}{\numberline {7}Anhang}{5}{section.7}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
