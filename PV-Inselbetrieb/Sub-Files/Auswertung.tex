@@ -2,20 +2,20 @@
 \section{Auswertung}
 \subsection{PV-Generatorwirkungsgrad}
 Die Messungen erfolgen bei 26°C um 12:37Uhr Ortszeit.
-Nach Aufnahme der grafischen Kennlinie wird eine Auswertung vorgenommen, 
+Nach Aufnahme der grafischen Kennlinie aus Abbildung 5 wird eine Auswertung vorgenommen und die Werte in  \autoref{tab:230515_Messdaten_PVGenKennlinie} eingetragen. 
 Der MPP wird mithilfe der Tangentensteigung abgeschätzt.
  
 \begin{table}[!ht]
 \centering
 \caption{Messdaten von Strom und Spannung in Abhängigkeit von Bestrahlungsstärke}
 \label{tab:230515_Messdaten_PVGenKennlinie}
-\begin{tabular}{|l|l|l|l|l|l|l|l|}
+\begin{tabularx}{\textwidth}{|r|X|X|X|X|X|X|X|}
 \hline
 \rowcolor[HTML]{76B900} 
                                             & $U_{Leer}$ in $V$ & $I_K$ in $A$ & $U_{MPP}$ in $V$ & $I_{MPP}$ in $A$ & E in $\frac{W}{m^2}$ & FF in \% & A in $m^2$ \\ \hline
 \cellcolor[HTML]{cfe5a8}feststehnde Anlage  & 41,7              & 10           & 31,6             & 9,5            & 670,10                      & 0,72     & 0,36    \\ \hline
 \cellcolor[HTML]{cfe5a8}nachgeführte Anlage & 41,6              & 9,7          & 32               & 9,37           & 650,00                      & 0,74     & 0,36     \\ \hline
-\end{tabular}
+\end{tabularx}
 \end{table}
 
 \begin{equation}
@@ -23,7 +23,7 @@ Der MPP wird mithilfe der Tangentensteigung abgeschätzt.
 \label{eq:230514_Wirkungsgrad_Generator}
 \end{equation}
 
-\subsubsection{feststehende Anlage}
+\subsubsection{Feststehende Anlage}
 \begin{equation}
 P_{MPP} = U_{MPP} \cdot I_{MPP}
 \label{eq:230514_Leistung_im_MPP}
@@ -37,7 +37,7 @@ Die Leistung eingesetzt in Formel \autoref{eq:230514_Wirkungsgrad_Generator}:\\
 $$\eta_{Gen,fest}=\frac{300,2W}{670\frac{W}{m^2}\cdot 8\cdot0,36 m^2}
 =0,15557 \approx 15,56\%$$\\
 Der Wirkungsgrad der feststehenden Anlage beträgt $15,56\%$.
-\subsubsection{nachgeführte Anlage}
+\subsubsection{Nachgeführte Anlage}
 Um den Wirkungsgrad des PV-Generators zu bestimmen muss zunächst die Leistung im MPP über Formel \autoref{eq:230514_Leistung_im_MPP} bestimmt werden:
 \\
 $$P_{MPP} = 32V \cdot 9,037A = 289,18W$$ \\
@@ -57,7 +57,7 @@ Die Wirkungsgrade für beide PV-Generatoren sind demnach naheliegend.
 
 \subsection{Wechselrichter}
 \subsubsection{Wirkungsgrad Kennlinie}
-Laut Datenblatt hat der Wechselrichter Sunny Island 2224 im Betrieb, ohne Last, einen Eigenverbrauch von 21W. 
+Laut Datenblatt hat der Wechselrichter Sunny Island 2224 im Betrieb und ohne Last, einen Eigenverbrauch von 21W. 
 In unserem Fall lag der Eigenverbauch ohne Last bei 29,7 W. 
 Der Eigenverbrauch wird dabei nach Formel \autoref{eq:230509_Eigenverbrauch} aus der Leistung am LR im Leerlauf bestimmt. 
 Der Eigenverbrauch des Wechselrichters hat seine Ursachen dabei größtenteils aus den Schaltvorgängen, der in ihm verbauten Halbleiter, und den Ohmschen Widerständen.
@@ -71,21 +71,22 @@ Der Eigenverbrauch des Wechselrichters hat seine Ursachen dabei größtenteils a
 \begin{table}[!ht]
     \caption{Messdaten der Ströme, Spannungn und Leistungen }
 	\centering
+	\small
 	\renewcommand{\arraystretch}{2}
-\begin{tabularx}{\linewidth}{|r|X|X|X|X|X|X|X|X|X|X|X|}
+\begin{tabularx}{\linewidth}{|l|l|X|X|X|X|X|X|X|X|X|X|}
 \hline
 \rowcolor[HTML]{76B900} 
 {\color[HTML]{000000} Aufgabe}          & {\color[HTML]{000000} $P_{Sonne}$} & {\color[HTML]{000000} $U_{Gen}$} & {\color[HTML]{000000} $I_{Gen}$} & {\color[HTML]{000000} $U_{LR}$} & {\color[HTML]{000000} $I_{LR}$} & {\color[HTML]{000000} $I_{Batt}$} & {\color[HTML]{000000} $I_{WR}$} & {\color[HTML]{000000} $P_{AC}$} & {\color[HTML]{000000} $U_{AC}$} & {\color[HTML]{000000} $I_{AC}$} & {\color[HTML]{000000} f} \\ \hline
 \rowcolor[HTML]{FFFFFF} 
-\cellcolor[HTML]{CFE5A8}${WR}_{allein}$      & 690                             & 39,3                          & 0,84                          & 25,4                         & 1,17                         & 0,15                           & 0,97                         & 12                           & 229,83                       & 0                            & 50Hz                       \\ \hline
+\cellcolor[HTML]{CFE5A8}${WR}_{allein}$      & 690 $\frac{W}{m^2}$                            & 39,3 $V$                         & 0,84 $A$                         & 25,4                        $V$ & 1,17 $A$                        & 0,15  $A$                         & 0,97                        $A$ & 12 $W$                          & 229,83 $V$                      & 0                           $A$ & 50Hz                       \\ \hline
 \rowcolor[HTML]{FFFFFF} 
-\cellcolor[HTML]{CFE5A8}$Staub_{1}$        & 550                             & 33,6                          & 7,84                          & 24,5                         & 8,9                          & -10,5                          & 21,9                         & 510                          & 228,5                        & 3,04                         & 55Hz\\ \hline
+\cellcolor[HTML]{CFE5A8}$Staub_{1}$        & 550$\frac{W}{m^2}$                                                        & 33,6 $V$                         & 7,84  $A$                        & 24,5                        $V$ & 8,9 $A$                         & -10,5 $A$                         & 21,9                        $A$ & 510 $W$                         & 228,5 $V$                       & 3,04                        $A$ & 55Hz\\ \hline
 \rowcolor[HTML]{FFFFFF} 
-\cellcolor[HTML]{CFE5A8}$Staub_{2}$        & 460                             & 32,2                          & 12,49                         & 23,3                         & 15,6                         & -27,2                          & 43,4                         & 942                          & 227,47                       & 4,33                         & 50Hz\\ \hline
+\cellcolor[HTML]{CFE5A8}$Staub_{2}$        & 460$\frac{W}{m^2}$                                                        & 32,2$V$                          & 12,49 $A$                        & 23,3                        $V$ & 15,6 $A$                        & -27,2 $A$                         & 43,4                        $A$ & 942 $W$                         & 227,47   $V$                    & 4,33                        $A$ & 50Hz\\ \hline
 \rowcolor[HTML]{FFFFFF} 
-\cellcolor[HTML]{CFE5A8}$Staub_{3}$        & 471                             & 36,8                          & 7,66                          & 23,2                         & 10,94                        & -46,2                          & 57,3                         & 1208                         & 226,98                       & 5,05                         & 50Hz\\ \hline
+\cellcolor[HTML]{CFE5A8}$Staub_{3}$        & 471$\frac{W}{m^2}$                                                        & 36,8 $V$                         & 7,66  $A$                        & 23,2                        $V$ & 10,94 $A$                       & -46,2 $A$                         & 57,3                        $A$ & 1208 $W$                        & 226,98    $V$                   & 5,05                        $A$ & 50Hz\\ \hline
 \rowcolor[HTML]{FFFFFF} 
-\cellcolor[HTML]{CFE5A8}S-Bahn Heizung & 601                             & 34,8                          & 16,15                         & 23,2                         & 20,51                        & -33,7                          & 55,7                         & 1186                         & 227,4                        & 5                            & 50Hz                    \\ \hline
+\cellcolor[HTML]{CFE5A8}$Heizung$ & 601$\frac{W}{m^2}$                                                        & 34,8   $V$                       & 16,15 $A$                        & 23,2                        $V$ & 20,51 $A$                        & -33,7 $A$                          & 55,7                        $A$ & 1186 $W$                        & 227,4 $V$                       & 5                           $A$ & 50Hz                    \\ \hline
 \end{tabularx}
 	\label{tab:230512_Messtabelle}
 \end{table}
@@ -180,8 +181,9 @@ In der Theorie sollte mit steigendem Blindleistungsbedarf ein immer größer Pha
 \begin{table}[!ht]
 \centering
 \caption{Leistungsbilanz}
+\small
 \renewcommand{\arraystretch}{1.5}
-\begin{tabularx}{\linewidth}{|X|X|X|X|X|X|X|X|X|}
+\begin{tabularx}{\linewidth}{|l|X|X|X|X|X|X|X|X|}
 \hline
 \rowcolor[HTML]{76B900} 
 Verbraucher &$P_{Sonne}$ & $P_{Gen_{DC}}$ & $P_{LR}$ & $P_{Bat}$ & $P_{WR_E}$ & $P_{AC}$ & $P_{Verluste}$ & Verluste \\ \hline
@@ -189,7 +191,7 @@ Verbraucher &$P_{Sonne}$ & $P_{Gen_{DC}}$ & $P_{LR}$ & $P_{Bat}$ & $P_{WR_E}$ & 
 \cellcolor[HTML]{CFE5A8}$Staub_{1}$     & 550$\frac{W}{m^2}$ & 263,42$W$ & 218,05$W$ &  257,25$W$ & 536,55$W$ & 510$W$ & 10,67$W$                  & 2,05\%    \\ \hline
 \cellcolor[HTML]{CFE5A8}$Staub_{2}$     & 460$\frac{W}{m^2}$ & 402,18$W$ & 363,48$W$ &  633,76$W$ & 1011,22$W$ & 942$W$ & 93,94$W$                  & 9,07\%    \\ \hline
 \cellcolor[HTML]{CFE5A8}$Staub_{3}$     &471$\frac{W}{m^2}$  & 281,89$W$ & 253,81$W$ & 1071,84$W$ & 1329,36$W$ & 1208$W$ & 145,73$W$                 & 10,8\%    \\ \hline
-\cellcolor[HTML]{CFE5A8}$SB_{Heizung}$  &601$\frac{W}{m^2}$  & 562,02$W$ & 475,83$W$ &  781,84$W$ & 1292,24$W$ & 1186$W$ & 157,86$W$                  & 11,75\%    \\ \hline
+\cellcolor[HTML]{CFE5A8}$Heizung$  &601$\frac{W}{m^2}$  & 562,02$W$ & 475,83$W$ &  781,84$W$ & 1292,24$W$ & 1186$W$ & 157,86$W$                  & 11,75\%    \\ \hline
 \end{tabularx}
 \label{tab:230514_Leistungsbilanz}
 \end{table}
