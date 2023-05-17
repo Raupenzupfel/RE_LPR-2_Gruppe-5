@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.5.4)  17 MAY 2023 22:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.5.4)  17 MAY 2023 22:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -839,13 +839,33 @@ Overfull \hbox (32.27261pt too wide) in paragraph at lines 2--1
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 7.
  (C:\Users\NJF\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)) (Sub-Files/Vorbereitungsfragen.tex
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 5.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 5.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 5.
+)
+<Abbildungen/Aufbau Pelton.jpeg, id=101, 1493.58pt x 1991.44pt>
+File: Abbildungen/Aufbau Pelton.jpeg Graphic file (type jpg)
+<use Abbildungen/Aufbau Pelton.jpeg>
+Package pdftex.def Info: Abbildungen/Aufbau Pelton.jpeg  used on input line 16.
+(pdftex.def)             Requested size: 227.62206pt x 303.47385pt.
+<Abbildungen/Generator.jpeg, id=102, 1991.44pt x 1493.58pt>
+File: Abbildungen/Generator.jpeg Graphic file (type jpg)
+<use Abbildungen/Generator.jpeg>
+Package pdftex.def Info: Abbildungen/Generator.jpeg  used on input line 22.
+(pdftex.def)             Requested size: 227.62206pt x 170.69833pt.
+<Abbildungen/Druck- & Volumenstrom-Messung.jpeg, id=103, 1493.58pt x 1991.44pt>
+File: Abbildungen/Druck- & Volumenstrom-Messung.jpeg Graphic file (type jpg)
+<use Abbildungen/Druck- & Volumenstrom-Messung.jpeg>
+Package pdftex.def Info: Abbildungen/Druck- & Volumenstrom-Messung.jpeg  used on input line 30.
+(pdftex.def)             Requested size: 223.07211pt x 297.42686pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--31
+[][][]|\T1/lmr/m/n/10.95 Druck- und Volumenstrom-
+ []
+
+<Abbildungen/Kraftsensor.jpeg, id=104, 1991.44pt x 1493.58pt>
+File: Abbildungen/Kraftsensor.jpeg Graphic file (type jpg)
+<use Abbildungen/Kraftsensor.jpeg>
+Package pdftex.def Info: Abbildungen/Kraftsensor.jpeg  used on input line 37.
+(pdftex.def)             Requested size: 223.07211pt x 167.30261pt.
+) (Sub-Files/Vorbereitungsfragen.tex
 Package epstopdf Info: Source file: <./Abbildungen//HTWLogo.eps>
 (epstopdf)                    date: 2023-05-04 18:01:51
 (epstopdf)                    size: 328130 bytes
@@ -853,19 +873,41 @@ Package epstopdf Info: Source file: <./Abbildungen//HTWLogo.eps>
 (epstopdf)                    date: 2023-05-04 18:01:51
 (epstopdf)                    size: 27804 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=./Abbildungen//HTWLogo-eps-converted-to.pdf ./Abbildungen//HTWLogo.eps>
-(epstopdf)             \includegraphics on input line 8.
+(epstopdf)             \includegraphics on input line 1.
 Package epstopdf Info: Output file is already uptodate.
 File: ./Abbildungen//HTWLogo-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Abbildungen//HTWLogo-eps-converted-to.pdf>
-Package pdftex.def Info: ./Abbildungen//HTWLogo-eps-converted-to.pdf  used on input line 8.
+Package pdftex.def Info: ./Abbildungen//HTWLogo-eps-converted-to.pdf  used on input line 1.
 (pdftex.def)             Requested size: 36.04643pt x 20.0pt.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.8 \end{equation}
-                   [1{C:/Users/NJF/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}]
-<Abbildungen/Rohrleitungskennlinie.jpg, id=98, 527.9725pt x 314.67563pt>
+l.1 \section
+            {Vorbereitungsfragen} [1{C:/Users/NJF/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}]
+Overfull \vbox (164.98956pt too high) has occurred while \output is active []
+
+Package epstopdf Info: Source file: <./Abbildungen//HTWLogo.eps>
+(epstopdf)                    date: 2023-05-04 18:01:51
+(epstopdf)                    size: 328130 bytes
+(epstopdf)             Output file: <./Abbildungen//HTWLogo-eps-converted-to.pdf>
+(epstopdf)                    date: 2023-05-04 18:01:51
+(epstopdf)                    size: 27804 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=./Abbildungen//HTWLogo-eps-converted-to.pdf ./Abbildungen//HTWLogo.eps>
+(epstopdf)             \includegraphics on input line 1.
+Package epstopdf Info: Output file is already uptodate.
+File: ./Abbildungen//HTWLogo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./Abbildungen//HTWLogo-eps-converted-to.pdf>
+Package pdftex.def Info: ./Abbildungen//HTWLogo-eps-converted-to.pdf  used on input line 1.
+(pdftex.def)             Requested size: 36.04643pt x 20.0pt.
+ [2 <./Abbildungen/Aufbau Pelton.jpeg> <./Abbildungen/Generator.jpeg> <./Abbildungen/Druck- & Volumenstrom-Messung.jpeg> <./Abbildungen/Kraftsensor.jpeg>]
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <14.4> on input line 5.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 5.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 5.
+<Abbildungen/Rohrleitungskennlinie.jpg, id=113, 527.9725pt x 314.67563pt>
 File: Abbildungen/Rohrleitungskennlinie.jpg Graphic file (type jpg)
 <use Abbildungen/Rohrleitungskennlinie.jpg>
 Package pdftex.def Info: Abbildungen/Rohrleitungskennlinie.jpg  used on input line 15.
@@ -884,7 +926,7 @@ File: ./Abbildungen//HTWLogo-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Abbildungen//HTWLogo-eps-converted-to.pdf>
 Package pdftex.def Info: ./Abbildungen//HTWLogo-eps-converted-to.pdf  used on input line 1.
 (pdftex.def)             Requested size: 36.04643pt x 20.0pt.
- [2{C:/Users/NJF/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/NJF/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/NJF/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc} <./Abbildungen/Rohrleitungskennlinie.jpg>]
+ [3{C:/Users/NJF/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/NJF/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/NJF/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc} <./Abbildungen/Rohrleitungskennlinie.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
  []
@@ -903,8 +945,8 @@ File: ./Abbildungen//HTWLogo-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Abbildungen//HTWLogo-eps-converted-to.pdf>
 Package pdftex.def Info: ./Abbildungen//HTWLogo-eps-converted-to.pdf  used on input line 16.
 (pdftex.def)             Requested size: 36.04643pt x 20.0pt.
- [3]
-<Abbildungen/Pumpenkennlinie.png, id=122, 774.7344pt x 593.0958pt>
+ [4]
+<Abbildungen/Pumpenkennlinie.png, id=138, 774.7344pt x 593.0958pt>
 File: Abbildungen/Pumpenkennlinie.png Graphic file (type png)
 <use Abbildungen/Pumpenkennlinie.png>
 Package pdftex.def Info: Abbildungen/Pumpenkennlinie.png  used on input line 29.
@@ -922,7 +964,7 @@ File: ./Abbildungen//HTWLogo-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Abbildungen//HTWLogo-eps-converted-to.pdf>
 Package pdftex.def Info: ./Abbildungen//HTWLogo-eps-converted-to.pdf  used on input line 42.
 (pdftex.def)             Requested size: 36.04643pt x 20.0pt.
- [4 <./Abbildungen/Pumpenkennlinie.png (PNG copy)>]
+ [5 <./Abbildungen/Pumpenkennlinie.png (PNG copy)>]
 Package epstopdf Info: Source file: <./Abbildungen//HTWLogo.eps>
 (epstopdf)                    date: 2023-05-04 18:01:51
 (epstopdf)                    size: 328130 bytes
@@ -936,8 +978,8 @@ File: ./Abbildungen//HTWLogo-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Abbildungen//HTWLogo-eps-converted-to.pdf>
 Package pdftex.def Info: ./Abbildungen//HTWLogo-eps-converted-to.pdf  used on input line 109.
 (pdftex.def)             Requested size: 36.04643pt x 20.0pt.
- [5]
-<Abbildungen/Wirkungsgrade.png, id=147, 774.7344pt x 593.0958pt>
+ [6]
+<Abbildungen/Wirkungsgrade.png, id=162, 774.7344pt x 593.0958pt>
 File: Abbildungen/Wirkungsgrade.png Graphic file (type png)
 <use Abbildungen/Wirkungsgrade.png>
 Package pdftex.def Info: Abbildungen/Wirkungsgrade.png  used on input line 120.
@@ -955,7 +997,7 @@ File: ./Abbildungen//HTWLogo-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Abbildungen//HTWLogo-eps-converted-to.pdf>
 Package pdftex.def Info: ./Abbildungen//HTWLogo-eps-converted-to.pdf  used on input line 124.
 (pdftex.def)             Requested size: 36.04643pt x 20.0pt.
- [6]
+ [7]
 Underfull \hbox (badness 10000) in paragraph at lines 148--151
 
  []
@@ -973,8 +1015,8 @@ File: ./Abbildungen//HTWLogo-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Abbildungen//HTWLogo-eps-converted-to.pdf>
 Package pdftex.def Info: ./Abbildungen//HTWLogo-eps-converted-to.pdf  used on input line 151.
 (pdftex.def)             Requested size: 36.04643pt x 20.0pt.
-[7 <./Abbildungen/Wirkungsgrade.png (PNG copy)>]
-<Abbildungen/Arbeitspunkte.jpg, id=166, 382.93062pt x 325.215pt>
+[8 <./Abbildungen/Wirkungsgrade.png (PNG copy)>]
+<Abbildungen/Arbeitspunkte.jpg, id=181, 382.93062pt x 325.215pt>
 File: Abbildungen/Arbeitspunkte.jpg Graphic file (type jpg)
 <use Abbildungen/Arbeitspunkte.jpg>
 Package pdftex.def Info: Abbildungen/Arbeitspunkte.jpg  used on input line 154.
@@ -998,7 +1040,7 @@ File: ./Abbildungen//HTWLogo-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Abbildungen//HTWLogo-eps-converted-to.pdf>
 Package pdftex.def Info: ./Abbildungen//HTWLogo-eps-converted-to.pdf  used on input line 47.
 (pdftex.def)             Requested size: 36.04643pt x 20.0pt.
- [8 <./Abbildungen/Arbeitspunkte.jpg>] (Sub-Files/Quellen.tex (Pelton_Turbine.bbl
+ [9 <./Abbildungen/Arbeitspunkte.jpg>] (Sub-Files/Quellen.tex (Pelton_Turbine.bbl
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 6.
  (C:\Users\NJF\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
@@ -1021,7 +1063,7 @@ File: ./Abbildungen//HTWLogo-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Abbildungen//HTWLogo-eps-converted-to.pdf>
 Package pdftex.def Info: ./Abbildungen//HTWLogo-eps-converted-to.pdf  used on input line 52.
 (pdftex.def)             Requested size: 36.04643pt x 20.0pt.
- [9] (Sub-Files/Anhang.tex)
+ [10] (Sub-Files/Anhang.tex)
 Package epstopdf Info: Source file: <./Abbildungen//HTWLogo.eps>
 (epstopdf)                    date: 2023-05-04 18:01:51
 (epstopdf)                    size: 328130 bytes
@@ -1035,22 +1077,22 @@ File: ./Abbildungen//HTWLogo-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Abbildungen//HTWLogo-eps-converted-to.pdf>
 Package pdftex.def Info: ./Abbildungen//HTWLogo-eps-converted-to.pdf  used on input line 58.
 (pdftex.def)             Requested size: 36.04643pt x 20.0pt.
- [10] (Pelton_Turbine.aux)
+ [11] (Pelton_Turbine.aux)
 Package rerunfilecheck Info: File `Pelton_Turbine.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 19519 strings out of 476331
- 374877 string characters out of 5788710
+ 19555 strings out of 476331
+ 375995 string characters out of 5788710
  1878660 words of memory out of 5000000
- 39503 multiletter control sequences out of 15000+600000
+ 39531 multiletter control sequences out of 15000+600000
  571482 words of font info for 78 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  113i,24n,121p,11009b,551s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/NJF/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/NJF/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/NJF/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/NJF/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/NJF/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/NJF/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/NJF/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/NJF/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr7.pfb><C:/Users/NJF/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/NJF/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmro10.pfb><C:/Users/NJF/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/NJF/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/NJF/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/Users/NJF/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
-Output written on Pelton_Turbine.pdf (13 pages, 709705 bytes).
+Output written on Pelton_Turbine.pdf (14 pages, 1554869 bytes).
 PDF statistics:
- 331 PDF objects out of 1000 (max. 8388607)
- 57 named destinations out of 1000 (max. 500000)
- 186 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 347 PDF objects out of 1000 (max. 8388607)
+ 61 named destinations out of 1000 (max. 500000)
+ 206 words of extra memory for PDF output out of 10000 (max. 10000000)
 
