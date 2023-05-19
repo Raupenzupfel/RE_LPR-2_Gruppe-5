@@ -165,3 +165,37 @@ Wie zu erwarten war, entspricht der gemessene optimale Arbeitspunkt nicht dem be
 
 
 \subsection{Verlustbeiwert der Düse}
+
+Der Verlust der Düseaustrittsgeschwindigkeit wird mithilfe von Gleichung \autoref{eq:230519_Austrittsdruckdifferenz} ermittelt:
+\begin{equation}
+\Delta c = c_{0.H} - c_{0.Q} = ( 2\cdot g \cdot H_T)^{0,5} - (\frac{4\cdot Q}{\pi \cdot D_D^2)}
+\label{eq:230519_Austrittsdruckdifferenz}
+\end{equation}
+$$\Delta c =[( 2\cdot 9,81 \frac{m}{s^2} \cdot 33,60m
+)^{0,5}] -[ 4\cdot \frac{2,5425\frac{m^3}{h}}{3600\cdot \pi \cdot (0,007m)^2}] $$
+
+$$ =7,32 \frac{m}{s}$$
+
+Im Folgeschritt wird der Druckhöhenverlust mittels Gleichung \autoref{eq:230519_Druckhöhenverlust} bestimmt:
+
+\begin{equation}
+H_{V.D} = \frac{\Delta c^2}{2\cdot g}
+\label{eq:230519_Druckhöhenverlust}
+\end{equation}
+
+$$ H_{V.D} = \frac{2,81754125}{2\cdot 9,81} $$
+$$ H_{V.D} = 0,273m $$
+
+Für die Berechnung des Verlustbeiwerts gibt es zwei Möglichkeiten wie in Gleichung \autoref{eq:230519_Verlustbeiwert} aufgeführt.
+
+\begin{equation}
+\zeta_D =1 - \frac{H_{V.D} \cdot 2 \cdot g}{c_{o.Q}^2}= 1 - \frac{\Delta c^2}{c_{p.Q}^2}
+\label{eq:230519_Verlustbeiwert}
+\end{equation}
+
+$$\zeta_{D} = 1 - \frac{(7,32\frac{m}{s})^2}{(18,35)^2}$$
+$$ \zeta_{D} = 1 - 0,159 \approx 15,9\% = 0,841 \approx 84\% $$
+
+Mittels $\Delta c$ ergibt sich ein Verlustbeiwert von $0,841 \approx 84\%$.
+Bei großen Anlagen liegt der Verlustbeiwert bei $0,96-99$. 
+In Anbetracht der Skalierung auf einen kleineren Versuchsaufbau und im Hinblick auf den für Pelton-Turbinen geringen Wirkungsgrad ist dieser Wert plausibel.
