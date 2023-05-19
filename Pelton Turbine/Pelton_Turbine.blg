@@ -7,34 +7,34 @@ Reallocating 'name_of_file' (item size: 1) to 34 items.
 Database file #1: Sub-Files/Libs/Tadeus_Quellen.bib
 You've used 2 entries,
             1791 wiz_defined-function locations,
-            455 strings with 3934 characters,
-and the built_in function-call counts, 238 in all, are:
-= -- 20
-> -- 2
+            455 strings with 3954 characters,
+and the built_in function-call counts, 263 in all, are:
+= -- 22
+> -- 5
 < -- 0
-+ -- 2
-- -- 0
++ -- 3
+- -- 1
 * -- 2
-:= -- 31
-add.period$ -- 6
+:= -- 41
+add.period$ -- 7
 call.type$ -- 2
 change.case$ -- 2
 chr.to.int$ -- 0
 cite$ -- 2
 duplicate$ -- 10
 empty$ -- 37
-format.name$ -- 0
-if$ -- 59
+format.name$ -- 1
+if$ -- 62
 int.to.chr$ -- 0
 int.to.str$ -- 2
 missing$ -- 0
-newline$ -- 13
-num.names$ -- 0
-pop$ -- 16
+newline$ -- 14
+num.names$ -- 1
+pop$ -- 15
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 6
+skip$ -- 5
 stack$ -- 0
 substring$ -- 0
 swap$ -- 2
@@ -43,6 +43,6 @@ text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 0
+while$ -- 1
 width$ -- 3
-write$ -- 20
+write$ -- 22
