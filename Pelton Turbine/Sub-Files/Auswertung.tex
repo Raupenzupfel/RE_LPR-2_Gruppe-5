@@ -166,11 +166,30 @@ Wie zu erwarten war, entspricht der gemessene optimale Arbeitspunkt nicht dem be
 
 \subsection{Verlustbeiwert der Düse}
 
+Die Werte der Düse sind in Tabelle \autoref{tab:230519_Volumenstrom_und_Duese} festgehalten.
+
+\begin{table}[!ht]
+\centering
+\caption{Volumenstrom und Fallhöhe der Düse}
+\label{tab:230519_Volumenstrom_und_Duese}
+\begin{tabular}{|c|c|c|}
+\hline
+\rowcolor[HTML]{70AD47} 
+{\color[HTML]{FFFFFF} Düse}         & {\color[HTML]{FFFFFF} Volumenstrom Q}          & \cellcolor[HTML]{70AD47}{\color[HTML]{FFFFFF}Fallhöhe $H_{T}$ }\\ \hline
+\cellcolor[HTML]{A9D08E}Einstellung & \cellcolor[HTML]{5B9BD5}Volumenstrom   in m³/h & \cellcolor[HTML]{5B9BD5}in m              \\ \hline
+\rowcolor[HTML]{DDEBF7} 
+\cellcolor[HTML]{CFE5A8}Offen       & 2,5425                                         & 33,604                                    \\ \hline
+\end{tabular}
+\end{table}
+
 Der Verlust der Düseaustrittsgeschwindigkeit wird mithilfe von Gleichung \autoref{eq:230519_Austrittsdruckdifferenz} ermittelt:
 \begin{equation}
 \Delta c = c_{0.H} - c_{0.Q} = ( 2\cdot g \cdot H_T)^{0,5} - (\frac{4\cdot Q}{\pi \cdot D_D^2)}
 \label{eq:230519_Austrittsdruckdifferenz}
 \end{equation}
+
+Werte eingesetzt in \autoref{eq:230519_Austrittsdruckdifferenz}:
+
 $$\Delta c =[( 2\cdot 9,81 \frac{m}{s^2} \cdot 33,60m
 )^{0,5}] -[ 4\cdot \frac{2,5425\frac{m^3}{h}}{3600\cdot \pi \cdot (0,007m)^2}] $$
 
@@ -182,6 +201,7 @@ Im Folgeschritt wird der Druckhöhenverlust mittels Gleichung \autoref{eq:230519
 H_{V.D} = \frac{\Delta c^2}{2\cdot g}
 \label{eq:230519_Druckhöhenverlust}
 \end{equation}
+Werte eingesetzt in \autoref{eq:230519_Druckhöhenverlust}:
 
 $$ H_{V.D} = \frac{2,81754125}{2\cdot 9,81} $$
 $$ H_{V.D} = 0,273m $$
@@ -192,7 +212,7 @@ Für die Berechnung des Verlustbeiwerts gibt es zwei Möglichkeiten wie in Gleic
 \zeta_D =1 - \frac{H_{V.D} \cdot 2 \cdot g}{c_{o.Q}^2}= 1 - \frac{\Delta c^2}{c_{p.Q}^2}
 \label{eq:230519_Verlustbeiwert}
 \end{equation}
-
+Werte eingesetzt in \autoref{eq:230519_Verlustbeiwert}:
 $$\zeta_{D} = 1 - \frac{(7,32\frac{m}{s})^2}{(18,35)^2}$$
 $$ \zeta_{D} = 1 - 0,159 \approx 15,9\% = 0,841 \approx 84\% $$
 
