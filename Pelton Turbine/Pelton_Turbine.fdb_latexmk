@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex Pelton_Turbine"] 1684527710 "Pelton_Turbine.aux" "Pelton_Turbine.bbl" "Pelton_Turbine" 1684527720 0
+["bibtex Pelton_Turbine"] 1684529711 "Pelton_Turbine.aux" "Pelton_Turbine.bbl" "Pelton_Turbine" 1684529728 0
   "./Sub-Files/Libs/Tadeus_Quellen.bib" 1684527541 1058 40278ea88cbc0bf8bd48d54e68f5db34 ""
   "C:/Users/NJF/AppData/Local/Programs/MiKTeX/bibtex/bst/bibtex/unsrt.bst" 1291868336 18030 1376b4b231b50c66211e47e42eda2875 ""
-  "Pelton_Turbine.aux" 1684527718 21638 d9d00a09d87355275bf67a893d6e216b "pdflatex"
+  "Pelton_Turbine.aux" 1684529725 21799 80069052312232797a87afc88317c6cf "pdflatex"
   (generated)
   "Pelton_Turbine.bbl"
   "Pelton_Turbine.blg"
   (rewritten before read)
-["pdflatex"] 1684527711 "d:/NIELS/UNI/Bachelor RE/6. Semester/Lab2/RE_LPR-2_Gruppe-5/Pelton Turbine/Pelton_Turbine.tex" "Pelton_Turbine.pdf" "Pelton_Turbine" 1684527720 0
+["pdflatex"] 1684529713 "d:/NIELS/UNI/Bachelor RE/6. Semester/Lab2/RE_LPR-2_Gruppe-5/Pelton Turbine/Pelton_Turbine.tex" "Pelton_Turbine.pdf" "Pelton_Turbine" 1684529728 0
   "Abbildungen//HTWLogo.eps" 1683216111 328130 13b943232719acfa146eab843bbe6010 ""
   "Abbildungen/Arbeitspunkte.jpg" 1684352223 64661 fa3d4ba7927e7a62b5ab1db1e33bb150 ""
   "Abbildungen/Aufbau Pelton.jpeg" 1684414699 253719 0f0b7063258b79ddff34f17d0d9e594e ""
@@ -63,6 +63,7 @@
   "C:/Users/NJF/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb" 1256933040 23055 2e5b42921de910eaa97b85df04ca4891 ""
   "C:/Users/NJF/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb" 1256933040 30388 702fae6a5f0e6e9c48a1d872b442ffcf ""
   "C:/Users/NJF/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb" 1256933040 30696 3da7e46ecf5615eedebd9f27dab4d9d7 ""
+  "C:/Users/NJF/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi7.pfb" 1256933040 30789 39c6b966e509dbc60e7a1aaaf85d08a0 ""
   "C:/Users/NJF/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb" 1256933040 30635 833ec815d446ec453a4913fc26d24cbc ""
   "C:/Users/NJF/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb" 1256933040 119235 05e5c8d6d60439433e50047898c2c0e0 ""
   "C:/Users/NJF/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb" 1256933040 113634 9384aebdf26f9881e046a4b5574566db ""
@@ -184,15 +185,15 @@
   "C:/Users/NJF/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388494052 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/NJF/AppData/Local/Programs/MiKTeX/tex/latex/wrapfig/wrapfig.sty" 1044406800 26220 3701aebf80ccdef248c0c20dd062fea9 ""
   "C:/Users/NJF/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1656236890 56148 51a9a8571c07b9921892ae11063ae853 ""
-  "Pelton_Turbine.aux" 1684527718 21638 d9d00a09d87355275bf67a893d6e216b "pdflatex"
-  "Pelton_Turbine.bbl" 1684527711 563 64b267d237fada89b6082f3be309f26e "bibtex Pelton_Turbine"
-  "Pelton_Turbine.lof" 1684527718 1016 7f08c8ae9dd48bbe1556dd1517bb7d1d "pdflatex"
-  "Pelton_Turbine.lot" 1684527718 391 2d303149601903829a7263198f4978b7 "pdflatex"
-  "Pelton_Turbine.out" 1684527715 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "Pelton_Turbine.aux" 1684529725 21799 80069052312232797a87afc88317c6cf "pdflatex"
+  "Pelton_Turbine.bbl" 1684529713 563 64b267d237fada89b6082f3be309f26e "bibtex Pelton_Turbine"
+  "Pelton_Turbine.lof" 1684529725 1016 7f08c8ae9dd48bbe1556dd1517bb7d1d "pdflatex"
+  "Pelton_Turbine.lot" 1684529725 391 2d303149601903829a7263198f4978b7 "pdflatex"
+  "Pelton_Turbine.out" 1684529721 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   "Pelton_Turbine.tex" 1684527706 1084 4239d1e66f3d1c341a629b84fb0ab53b ""
-  "Pelton_Turbine.toc" 1684527718 2281 fc86999b59110cf2b1381924dabc0613 "pdflatex"
+  "Pelton_Turbine.toc" 1684529725 2281 fc86999b59110cf2b1381924dabc0613 "pdflatex"
   "Sub-Files/AbkVerzeichnis.tex" 1683216111 187 90b3e9f84c199836b9b9cb7576b66df2 ""
-  "Sub-Files/Auswertung.tex" 1684527466 12741 8ecd7f71fdf96a84e8e6a20de89f288e ""
+  "Sub-Files/Auswertung.tex" 1684529689 12898 40d113cb0afee2e22a5b181f1146d8ba ""
   "Sub-Files/Quellen.tex" 1684527653 67 2fc927f44d35679c4b080f5a102ba813 ""
   "Sub-Files/Theoretischer Hintergrund.tex" 1684524042 2654 3969d9ed8a3a4003202539fb3cee6c55 ""
   "Sub-Files/Versuchsbeschreibung.tex" 1684524209 2349 ba2086e89c50fb894913f489706a2974 ""
