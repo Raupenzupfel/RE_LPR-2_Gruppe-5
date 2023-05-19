@@ -1171,6 +1171,21 @@ INPUT Sub-Files\Theoretischer Hintergrund.tex
 INPUT .\Sub-Files\Theoretischer Hintergrund.tex
 INPUT .\Sub-Files\Theoretischer Hintergrund.tex
 INPUT Sub-Files\Theoretischer Hintergrund.tex
+INPUT C:\Users\NJF\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\rm-lmr12.tfm
+INPUT C:\Users\NJF\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\rm-lmr10.tfm
+INPUT C:\Users\NJF\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\rm-lmr7.tfm
+INPUT C:\Users\NJF\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\lmmi12.tfm
+INPUT C:\Users\NJF\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\lmmi10.tfm
+INPUT C:\Users\NJF\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\lmmi7.tfm
+INPUT C:\Users\NJF\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\lmsy10.tfm
+INPUT C:\Users\NJF\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\lmsy10.tfm
+INPUT C:\Users\NJF\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\lmsy7.tfm
+INPUT C:\Users\NJF\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Users\NJF\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Users\NJF\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam7.tfm
+INPUT C:\Users\NJF\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Users\NJF\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Users\NJF\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
 INPUT .\Sub-Files\Versuchsbeschreibung.tex
 INPUT .\Sub-Files\Versuchsbeschreibung.tex
 INPUT .\Sub-Files\Versuchsbeschreibung.tex
@@ -1186,6 +1201,18 @@ INPUT .\Abbildungen\Aufbau Pelton.jpeg
 INPUT .\Abbildungen\Aufbau Pelton.jpeg
 INPUT .\Abbildungen\Aufbau Pelton.jpeg
 INPUT .\Abbildungen\Aufbau Pelton.jpeg
+INPUT .\Abbildungen\\HTWLogo.eps
+INPUT Abbildungen\\HTWLogo.eps
+INPUT .\Abbildungen\\HTWLogo.eps
+INPUT .\Abbildungen\\HTWLogo.eps
+INPUT .\Abbildungen\\HTWLogo-eps-converted-to.pdf
+INPUT .\Abbildungen\\HTWLogo-eps-converted-to.pdf
+INPUT .\Abbildungen\\HTWLogo.eps
+INPUT .\Abbildungen\\HTWLogo-eps-converted-to.pdf
+INPUT .\Abbildungen\\HTWLogo-eps-converted-to.pdf
+INPUT C:\Users\NJF\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-mathit.enc
+INPUT C:\Users\NJF\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-rm.enc
+INPUT C:\Users\NJF\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-mathsy.enc
 INPUT .\Abbildungen\Generator.jpeg
 INPUT .\Abbildungen\Generator.jpeg
 INPUT Abbildungen\Generator.jpeg
@@ -1217,30 +1244,6 @@ INPUT .\Sub-Files\Vorbereitungsfragen.tex
 INPUT .\Sub-Files\Vorbereitungsfragen.tex
 INPUT Sub-Files\Vorbereitungsfragen.tex
 INPUT C:\Users\NJF\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmssbx10.tfm
-INPUT C:\Users\NJF\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\rm-lmr12.tfm
-INPUT C:\Users\NJF\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\rm-lmr10.tfm
-INPUT C:\Users\NJF\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\rm-lmr7.tfm
-INPUT C:\Users\NJF\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\lmmi12.tfm
-INPUT C:\Users\NJF\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\lmmi10.tfm
-INPUT C:\Users\NJF\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\lmmi7.tfm
-INPUT C:\Users\NJF\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\lmsy10.tfm
-INPUT C:\Users\NJF\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\lmsy10.tfm
-INPUT C:\Users\NJF\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\lmsy7.tfm
-INPUT C:\Users\NJF\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
-INPUT C:\Users\NJF\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
-INPUT C:\Users\NJF\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam7.tfm
-INPUT C:\Users\NJF\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
-INPUT C:\Users\NJF\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
-INPUT C:\Users\NJF\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
-INPUT .\Abbildungen\\HTWLogo.eps
-INPUT Abbildungen\\HTWLogo.eps
-INPUT .\Abbildungen\\HTWLogo.eps
-INPUT .\Abbildungen\\HTWLogo.eps
-INPUT .\Abbildungen\\HTWLogo-eps-converted-to.pdf
-INPUT .\Abbildungen\\HTWLogo-eps-converted-to.pdf
-INPUT .\Abbildungen\\HTWLogo.eps
-INPUT .\Abbildungen\\HTWLogo-eps-converted-to.pdf
-INPUT .\Abbildungen\\HTWLogo-eps-converted-to.pdf
 INPUT .\Abbildungen\Rohrleitungskennlinie.jpg
 INPUT Abbildungen\Rohrleitungskennlinie.jpg
 INPUT .\Abbildungen\Rohrleitungskennlinie.jpg
@@ -1256,9 +1259,6 @@ INPUT .\Abbildungen\\HTWLogo-eps-converted-to.pdf
 INPUT .\Abbildungen\\HTWLogo.eps
 INPUT .\Abbildungen\\HTWLogo-eps-converted-to.pdf
 INPUT .\Abbildungen\\HTWLogo-eps-converted-to.pdf
-INPUT C:\Users\NJF\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-mathit.enc
-INPUT C:\Users\NJF\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-rm.enc
-INPUT C:\Users\NJF\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-mathsy.enc
 INPUT .\Sub-Files\Versuchsdurchfuehrung.tex
 INPUT .\Sub-Files\Versuchsdurchfuehrung.tex
 INPUT .\Sub-Files\Versuchsdurchfuehrung.tex
@@ -1332,12 +1332,6 @@ INPUT .\Abbildungen\\HTWLogo-eps-converted-to.pdf
 INPUT .\Abbildungen\\HTWLogo.eps
 INPUT .\Abbildungen\\HTWLogo-eps-converted-to.pdf
 INPUT .\Abbildungen\\HTWLogo-eps-converted-to.pdf
-INPUT .\Abbildungen\Arbeitspunkte.jpg
-INPUT Abbildungen\Arbeitspunkte.jpg
-INPUT .\Abbildungen\Arbeitspunkte.jpg
-INPUT .\Abbildungen\Arbeitspunkte.jpg
-INPUT .\Abbildungen\Arbeitspunkte.jpg
-INPUT .\Abbildungen\Arbeitspunkte.jpg
 INPUT .\Abbildungen\\HTWLogo.eps
 INPUT Abbildungen\\HTWLogo.eps
 INPUT .\Abbildungen\\HTWLogo.eps
@@ -1347,6 +1341,12 @@ INPUT .\Abbildungen\\HTWLogo-eps-converted-to.pdf
 INPUT .\Abbildungen\\HTWLogo.eps
 INPUT .\Abbildungen\\HTWLogo-eps-converted-to.pdf
 INPUT .\Abbildungen\\HTWLogo-eps-converted-to.pdf
+INPUT .\Abbildungen\Arbeitspunkte.jpg
+INPUT Abbildungen\Arbeitspunkte.jpg
+INPUT .\Abbildungen\Arbeitspunkte.jpg
+INPUT .\Abbildungen\Arbeitspunkte.jpg
+INPUT .\Abbildungen\Arbeitspunkte.jpg
+INPUT .\Abbildungen\Arbeitspunkte.jpg
 INPUT .\Abbildungen\\HTWLogo.eps
 INPUT Abbildungen\\HTWLogo.eps
 INPUT .\Abbildungen\\HTWLogo.eps
