@@ -122,18 +122,46 @@ Die Turbinen Wirkungsgrade können durch \autoref{eq:230512_Turbinenwirkungsgrad
   \label{fig:230514_Wirkungsgrade}
 \end{figure}
 
-\subsubsection{Vergleichen Sie den Arbeitspunkt mit bestem Wirkungsgrad mit den theoretischen Betrachtungen}
+\subsubsection{Vergleichen Sie den Arbeitspunkt mit dem bestem Wirkungsgrad und mit den theoretischen Betrachtungen}
+
+Um den Arbeitspunkt zu bestimmen wird die Gleichung der Umlaufgeschwindigkeit (\autoref{eq:230515_umlaufgeschwindigkeit}) mit Hilfe der \autoref{eq:230515_austrittsgeschwindigkeit} nach der optimalen Drehzahl umgestellt.
+
+\begin{equation}
+  u_{opt} = \frac{c_{0}}{2}=\pi \cdot u_{opt} \cdot d_{2}
+  \label{eq:230515_umlaufgeschwindigkeit}
+\end{equation}
+
+
+\begin{equation}
+c_{0}=\frac{4 \cdot Q}{\pi \cdot D_{D}^2}
+  \label{eq:230515_austrittsgeschwindigkeit}
+\end{equation}
+
+Zum Bestimmen der Drehzahl wird der gemessene Wert Q zum Zeitpunkt des besten Wirkungsgrads ($\eta=21,14\%$), der Stahlkreis-Durchmesser $d_{2} = 96mm$ und der Durchmesser der Düse $D_{D} = 7mm$ eingesetzt. 
+
+\begin{equation}
+ n_{opt}=\frac{c_{0}}{2 \cdot \pi \cdot d_{2}}=\frac{2 \cdot Q}{d_{2} \cdot \pi^2  \cdot D_{D}^2}=1766,23  min^-1
+\label{eq:230515_n-optimal}
+\end{equation}
+
+
+ Die optimale Drehzahl ergibt sich nach \autoref{eq:230515_n-optimal} als 1766,23 Umdrehungen pro Minute.
+\\\\
+Die gemessene Drehzahl zum Zeitpunkt des besten Wirkungsgrads ($\eta=21,14\%$) beträgt $2050 min^-1$ und liegt somit über der berechneten optimalen Drehzahl. 
+
+\begin{figure}[!ht]
+		\centering
+		\includegraphics[width=0.5\textwidth]{Abbildungen/Arbeitspunkte}
+		\caption{Arbeitspunkte der Turbine}
+		\label{fig:230515_Arbeitspunkte}
+\end{figure}
+
+Wie in \autoref{fig:230515_Arbeitspunkte} aus der Versuchsanleitung zu erkennen ist liegt die optimale Drehzahl theoretisch am gleichen Punkt wie der optimale Wirkungsgrad, was in dieser Messung nicht der Fall ist und auch nicht zu erwarten war.  (umformulieren) 
+
+
 \subsubsection{Interpretieren Sie evtl. auftretende Abweichungen des optimalen Arbeitspunkts.}
 
+Wie zu erwarten war, entspricht der gemessene optimale Arbeitspunkt nicht dem berechneten. Das lässt sich vor allem auf Messungenauigkeiten und Fehler als auch auf die Leckagen am Versuchsaufbau zurück führen. \\\\ Auffällig ist außerdem, dass der aus den Messungen bestimmte Wirkungsgrad sehr viel kleiner (21,14\%) als real mögliche Wirkungsgrade von Pelton Turbinen ($\approx90\%$) ist. Das lässt sich durch einen Vergleich der Dimensionen des Versuchsaufbaus und Pelton Turbinen in der tatsächlichen Nutzung erklären. (umformulieren?)
+
+
 \subsection{Verlustbeiwert der Düse}
-\begin{equation}
-\delta_c = c_{0.H} - c_{0.Q} = ( 2\cdot g \cdot H_T)^{0,5} - 4\cdot \frac{Q}{\pi \cdot D_D^2}
-\end{equation}
-
-\begin{equation}
-H_{V.D} = \frac{\Delta c^2}{2\cdot g}
-\end{equation}
-
-\begin{equation}
-\zeta_D = \frac{H_{V.D} \cdot 2 \cdot g}{c_{o.Q}^2}
-\end{equation}
