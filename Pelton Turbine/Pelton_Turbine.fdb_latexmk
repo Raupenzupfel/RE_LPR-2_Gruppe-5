@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex Pelton_Turbine"] 1684514836 "Pelton_Turbine.aux" "Pelton_Turbine.bbl" "Pelton_Turbine" 1684515670 0
+["bibtex Pelton_Turbine"] 1684520425 "Pelton_Turbine.aux" "Pelton_Turbine.bbl" "Pelton_Turbine" 1684520789 0
   "./Sub-Files/Libs/Tadeus_Quellen.bib" 1684414699 792 d9e36365a14a11542b3ccbbf886e6e06 ""
   "C:/Users/NJF/AppData/Local/Programs/MiKTeX/bibtex/bst/bibtex/unsrt.bst" 1291868336 18030 1376b4b231b50c66211e47e42eda2875 ""
-  "Pelton_Turbine.aux" 1684515669 21327 9ea408ba89e61594f3899723b96af4ab "pdflatex"
+  "Pelton_Turbine.aux" 1684520786 21327 9ea408ba89e61594f3899723b96af4ab "pdflatex"
   (generated)
   "Pelton_Turbine.bbl"
   "Pelton_Turbine.blg"
   (rewritten before read)
-["pdflatex"] 1684515664 "d:/NIELS/UNI/Bachelor RE/6. Semester/Lab2/RE_LPR-2_Gruppe-5/Pelton Turbine/Pelton_Turbine.tex" "Pelton_Turbine.pdf" "Pelton_Turbine" 1684515670 0
+["pdflatex"] 1684520779 "d:/NIELS/UNI/Bachelor RE/6. Semester/Lab2/RE_LPR-2_Gruppe-5/Pelton Turbine/Pelton_Turbine.tex" "Pelton_Turbine.pdf" "Pelton_Turbine" 1684520789 0
   "Abbildungen//HTWLogo.eps" 1683216111 328130 13b943232719acfa146eab843bbe6010 ""
   "Abbildungen/Arbeitspunkte.jpg" 1684352223 64661 fa3d4ba7927e7a62b5ab1db1e33bb150 ""
   "Abbildungen/Aufbau Pelton.jpeg" 1684414699 253719 0f0b7063258b79ddff34f17d0d9e594e ""
@@ -181,20 +181,20 @@
   "C:/Users/NJF/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388494052 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/NJF/AppData/Local/Programs/MiKTeX/tex/latex/wrapfig/wrapfig.sty" 1044406800 26220 3701aebf80ccdef248c0c20dd062fea9 ""
   "C:/Users/NJF/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1656236890 56148 51a9a8571c07b9921892ae11063ae853 ""
-  "Pelton_Turbine.aux" 1684515669 21327 9ea408ba89e61594f3899723b96af4ab "pdflatex"
-  "Pelton_Turbine.bbl" 1684514836 499 47669428ffc13249700f54ee9fe78991 "bibtex Pelton_Turbine"
-  "Pelton_Turbine.lof" 1684515669 1015 07a852ec4aabe30457835e99d951af32 "pdflatex"
-  "Pelton_Turbine.lot" 1684515669 270 b0087d47fd83185fbfc483bf3b9c803d "pdflatex"
-  "Pelton_Turbine.out" 1684515667 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "Pelton_Turbine.aux" 1684520786 21327 9ea408ba89e61594f3899723b96af4ab "pdflatex"
+  "Pelton_Turbine.bbl" 1684520426 499 47669428ffc13249700f54ee9fe78991 "bibtex Pelton_Turbine"
+  "Pelton_Turbine.lof" 1684520786 1015 07a852ec4aabe30457835e99d951af32 "pdflatex"
+  "Pelton_Turbine.lot" 1684520786 270 b0087d47fd83185fbfc483bf3b9c803d "pdflatex"
+  "Pelton_Turbine.out" 1684520783 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   "Pelton_Turbine.tex" 1683216111 1131 2448669eb39cc2fef6d8f215c7d91467 ""
-  "Pelton_Turbine.toc" 1684515669 2344 5dd4c9a926386f82821c257a84aea6f5 "pdflatex"
+  "Pelton_Turbine.toc" 1684520786 2344 5dd4c9a926386f82821c257a84aea6f5 "pdflatex"
   "Sub-Files/AbkVerzeichnis.tex" 1683216111 187 90b3e9f84c199836b9b9cb7576b66df2 ""
   "Sub-Files/Anhang.tex" 1683216111 202 88b52ce181bd154acfa5b3271d6bcfc3 ""
   "Sub-Files/Auswertung.tex" 1684514186 10277 f6d48cd79f971a5d9f4f8f4f147b1701 ""
   "Sub-Files/Quellen.tex" 1684352223 99 3acd77ed6fe31ab12f4ceb360bbbd93d ""
-  "Sub-Files/Theoretischer Hintergrund.tex" 1684514825 2660 14aaea5fcea18a2d2538eea86a7c12b3 ""
+  "Sub-Files/Theoretischer Hintergrund.tex" 1684520412 2660 14aaea5fcea18a2d2538eea86a7c12b3 ""
   "Sub-Files/Versuchsbeschreibung.tex" 1684416365 2350 3866d9d11594a6688de7fac68be716ad ""
-  "Sub-Files/Versuchsdurchfuehrung.tex" 1684416864 2043 1d9b5f534a757b8c8f38e7d647083a8c ""
+  "Sub-Files/Versuchsdurchfuehrung.tex" 1684520776 2051 b2ccdbe22586bfe657cc669bac4eb854 ""
   "Sub-Files/Versuchsziele.tex" 1684515661 466 a59c5a2f3c5c25bb0ef59ca22f504d1b ""
   "Sub-Files/Vorbereitungsfragen.tex" 1684352223 1823 c2878764b78e7e2571979d6c21f75c99 ""
   "Sub-Files/head.tex" 1684515371 1400 1ab9d6db0a83b099d0f2759b56c83dd0 ""
