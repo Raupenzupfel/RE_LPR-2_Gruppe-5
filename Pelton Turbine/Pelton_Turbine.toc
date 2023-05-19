@@ -2,8 +2,8 @@
 \contentsline {section}{\numberline {1}Versuchsziele}{1}{section.1}%
 \contentsline {section}{\numberline {2}Theoretischer Hintergrund}{1}{section.2}%
 \contentsline {section}{\numberline {3}Versuchsbeschreibung}{3}{section.3}%
-\contentsline {section}{\numberline {4}Vorbereitungsfragen}{5}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Wie ist die hydraulische Leistung definiert?}{5}{subsection.4.1}%
+\contentsline {section}{\numberline {4}Vorbereitungsfragen}{4}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Wie ist die hydraulische Leistung definiert?}{4}{subsection.4.1}%
 \contentsline {subsection}{\numberline {4.2}Skizzieren Sie den typischen Verlauf einer Rohrleitungskennlinie}{5}{subsection.4.2}%
 \contentsline {subsection}{\numberline {4.3}Welche Proportionalität ergib sich bei Strömungsmaschinen zwischen Leistung und Drehzahl?}{5}{subsection.4.3}%
 \contentsline {subsection}{\numberline {4.4}Wie lässt sich der Betriebspunkt einer Pelton-Turbine einstellen?}{5}{subsection.4.4}%
@@ -17,6 +17,6 @@
 \contentsline {subsubsection}{\numberline {6.2.3}Vergleichen Sie den Arbeitspunkt mit dem bestem Wirkungsgrad und mit den theoretischen Betrachtungen}{10}{subsubsection.6.2.3}%
 \contentsline {subsubsection}{\numberline {6.2.4}Interpretieren Sie evtl. auftretende Abweichungen des optimalen Arbeitspunkts.}{11}{subsubsection.6.2.4}%
 \contentsline {subsection}{\numberline {6.3}Verlustbeiwert der Düse}{12}{subsection.6.3}%
-\contentsline {section}{\numberline {7}Quellen}{13}{section.7}%
-\contentsline {section}{\numberline {8}Anhang}{14}{section.8}%
+\contentsline {section}{\numberline {7}Quellen}{14}{section.7}%
+\contentsline {section}{\numberline {8}Anhang}{15}{section.8}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
