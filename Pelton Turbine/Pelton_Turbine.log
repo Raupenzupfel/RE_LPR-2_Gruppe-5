@@ -976,7 +976,7 @@ File: ./Abbildungen//HTWLogo-eps-converted-to.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./Abbildungen//HTWLogo-eps-converted-to.pdf  used on input line 1.
 (pdftex.def)             Requested size: 36.04643pt x 20.0pt.
 [6]
-<Abbildungen/Pumpenkennlinie.png, id=166, 774.7344pt x 593.0958pt>
+<Abbildungen/Pumpenkennlinie.png, id=165, 774.7344pt x 593.0958pt>
 File: Abbildungen/Pumpenkennlinie.png Graphic file (type png)
 <use Abbildungen/Pumpenkennlinie.png>
 Package pdftex.def Info: Abbildungen/Pumpenkennlinie.png  used on input line 29.
@@ -1009,7 +1009,7 @@ File: ./Abbildungen//HTWLogo-eps-converted-to.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./Abbildungen//HTWLogo-eps-converted-to.pdf  used on input line 53.
 (pdftex.def)             Requested size: 36.04643pt x 20.0pt.
  [8 <./Abbildungen/Pumpenkennlinie.png (PNG copy)>]
-<Abbildungen/Wirkungsgrade.png, id=196, 774.7344pt x 593.0958pt>
+<Abbildungen/Wirkungsgrade.png, id=191, 774.7344pt x 593.0958pt>
 File: Abbildungen/Wirkungsgrade.png Graphic file (type png)
 <use Abbildungen/Wirkungsgrade.png>
 Package pdftex.def Info: Abbildungen/Wirkungsgrade.png  used on input line 120.
@@ -1046,7 +1046,7 @@ File: ./Abbildungen//HTWLogo-eps-converted-to.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./Abbildungen//HTWLogo-eps-converted-to.pdf  used on input line 151.
 (pdftex.def)             Requested size: 36.04643pt x 20.0pt.
 [10 <./Abbildungen/Wirkungsgrade.png (PNG copy)>]
-<Abbildungen/Arbeitspunkte.jpg, id=216, 382.93062pt x 325.215pt>
+<Abbildungen/Arbeitspunkte.jpg, id=211, 382.93062pt x 325.215pt>
 File: Abbildungen/Arbeitspunkte.jpg Graphic file (type jpg)
 <use Abbildungen/Arbeitspunkte.jpg>
 Package pdftex.def Info: Abbildungen/Arbeitspunkte.jpg  used on input line 154.
@@ -1118,36 +1118,21 @@ File: ./Abbildungen//HTWLogo-eps-converted-to.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./Abbildungen//HTWLogo-eps-converted-to.pdf  used on input line 58.
 (pdftex.def)             Requested size: 36.04643pt x 20.0pt.
  [13] (Pelton_Turbine.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package rerunfilecheck Info: File `Pelton_Turbine.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 19548 strings out of 476331
- 375419 string characters out of 5788710
+ 19544 strings out of 476331
+ 375367 string characters out of 5788710
  1879660 words of memory out of 5000000
  39513 multiletter control sequences out of 15000+600000
  575369 words of font info for 78 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  113i,24n,121p,11009b,551s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-pdfTeX warning (dest): name{equation.6.20} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{equation.6.19} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{equation.6.18} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{equation.4.11} has been referenced but does not exist, replaced by a fixed one
-
 <C:/Users/NJF/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/NJF/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/NJF/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/NJF/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/NJF/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/NJF/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/NJF/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/NJF/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/NJF/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr7.pfb><C:/Users/NJF/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/NJF/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/NJF/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmro10.pfb><C:/Users/NJF/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/NJF/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/NJF/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/Users/NJF/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
-Output written on Pelton_Turbine.pdf (16 pages, 1620885 bytes).
+Output written on Pelton_Turbine.pdf (16 pages, 1620192 bytes).
 PDF statistics:
- 393 PDF objects out of 1000 (max. 8388607)
- 75 named destinations out of 1000 (max. 500000)
+ 386 PDF objects out of 1000 (max. 8388607)
+ 71 named destinations out of 1000 (max. 500000)
  206 words of extra memory for PDF output out of 10000 (max. 10000000)
 
