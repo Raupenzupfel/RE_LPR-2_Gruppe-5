@@ -1,10 +1,10 @@
 \section{Auswertung}
 \subsection{Kennlinie der Pumpe} \label{sec:230514_Kennlinie_der_Pumpe}
-Damit die Pumpenkennlinie dargestellt werden kann, müssen die gemessenen Ströme für den Volumenstrom und den Druck erst in verwwendbare Einheiten umgewandelt werden. 
+Damit die Pumpenkennlinie dargestellt werden kann, müssen die gemessenen Ströme für den Volumenstrom und den Druck erst in verwendbare Einheiten umgewandelt werden. 
 Hierzu werden Proportionalitätsfaktoren und Kalibrieungsoffsets benötigt. 
-Die Offsets wurden gemessen und batragen $I_{off,Q}=4,05 mA$ und $I_{off,p}=5,868 mA$.
+Die Offsets wurden gemessen und betragen $I_{off,Q}=4,05 mA$ und $I_{off,p}=5,868 mA$.
 Die Proportionalitätsfaktoren wurden in der Versuchsanleitung gegeben und betragen $K_Q = 6,3 \frac{l}{min \cdot mA}$ und $K_p = 0,6 \frac{bar}{mA}$.
-Die Volumenströme in $\frac{m^3}{h}$ lassen sich mittels \autoref{eq:230513_Volumenstrom} berechnen und die Drücke in bar mittels \autoref{eq:230513_Druck}.
+Die Volumenströme in $\frac{m^3}{h}$ lassen sich mittels \autoref{eq:230513_Volumenstrom} berechnen und die Drücke in $bar$ mittels \autoref{eq:230513_Druck} berechnen.
 \begin{equation}
   Q = (I_{mess}-I_{off,Q})\cdot K_Q \cdot \frac{60\frac{min}{h}}{1000\frac{l}{m^3}}
   \label{eq:230513_Volumenstrom}
@@ -15,15 +15,15 @@ Die Volumenströme in $\frac{m^3}{h}$ lassen sich mittels \autoref{eq:230513_Vol
   \label{eq:230513_Druck}
 \end{equation}
 
-Des wieteren müssen die Drücke in Förderhöhen umgewandelt werden. Hierzu wird die gravitationknostante $g = 9,81 \frac{m}{s^2}$ und die Dichte des Wassers $\rho = 998 \frac{kg}{m^3}$ benötigt.
-Dies erfolgt mit \autoref{eq:230513_Förderhöhe}, wobei der Druck in Pascal und nicht in bar angegeben werden muss.
+Des Weiteren müssen die Drücke in Förderhöhen umgewandelt werden. Hierzu wird die Gravitationkonstante $g = 9,81 \frac{m}{s^2}$ und die Dichte des Wassers $\rho = 998 \frac{kg}{m^3}$ benötigt.
+Dies erfolgt mit \autoref{eq:230513_Förderhöhe}, wobei der Druck in $Pascal$ und nicht in $bar$ angegeben werden muss.
 
 \begin{equation}
   H = \frac{p}{\rho \cdot g}
   \label{eq:230513_Förderhöhe}
 \end{equation}
 
-Aus den im Anhang gegebenen Messtabelln ergibt sich die \autoref{fig:230513_Pumpenkennlinie}.
+Aus den im Anhang gegebenen Messtabellen ergibt sich die \autoref{fig:230513_Pumpenkennlinie}.
 \begin{figure}[H]
   \centering
   \includegraphics[width=0.8\textwidth]{Abbildungen/Pumpenkennlinie.png}
@@ -33,8 +33,8 @@ Aus den im Anhang gegebenen Messtabelln ergibt sich die \autoref{fig:230513_Pump
 
 \subsection{Betriebspunkte der Pelton-Turbine}
 \subsubsection{Berechnen Sie die hydraulische Leistung, die mechanische Leistung und die elektrische Leistung in jedem Arbeitspunkt.}
-Zur berechnung der hydraulischen Leistung werden erneut die Volumenströme und Förderhöhen benötigt, welche Analog zu dem vorgehen in \autoref{sec:230514_Kennlinie_der_Pumpe} berechnet wurden.
-Die hydraulische Leistung wird mittels \autoref{eq:230514_hydraulische_Leistung} berechnt:
+Zur Berechnung der hydraulischen Leistung werden erneut die Volumenströme und Förderhöhen benötigt, welche Analog zu dem Vorgehen in \autoref{sec:230514_Kennlinie_der_Pumpe} berechnet wurden.
+Die hydraulische Leistung wird mittels \autoref{eq:230514_hydraulische_Leistung} berechnet:
 
 \begin{equation}
   P_{Hyd.} = \rho \cdot g \cdot Q \cdot H
@@ -43,9 +43,9 @@ Die hydraulische Leistung wird mittels \autoref{eq:230514_hydraulische_Leistung}
 
 Die mechanische Leistung lässt sich mittels der \autoref{eq:230512_MechanischeLeistung} aus \autoref{subsec:P_mech-n} berechnen.
 Jedoch mussten zuerst die Messwerte des Kraftsensors ausgewertet und in ein Moment umgerechnet werden.
-Dieser hat zeitreihen der ausgeübten Kraft aufgezeichnet, von welchen die Mittelwerte gebildet wurden.
+Dieser hat Zeitreihen der ausgeübten Kraft aufgezeichnet, von welchen die Mittelwerte gebildet wurden.
 Anschließend wurden diese Kräft mit der Länge des Hebelarms $l = 290 mm$ verrechnet, um ein Moment heraus zu bekommen.\\
-Die elektrische Leistung lies sich durch die Gemessenen Phasenströme und -Spannungen mittels \autoref{eq:230514_elektrische_Leistung} berechen:
+Die elektrische Leistung lies sich durch die gemessenen Phasenströme und -spannungen mittels \autoref{eq:230514_elektrische_Leistung} berechnen:
 
 \begin{equation}
   P_{El.} = U \cdot I
@@ -108,7 +108,7 @@ Die Leistungen bei den verschiedenen Arbeitspunkten lassen sich in \autoref{tab:
 \end{table}
 
 \subsubsection{Bestimmen Sie den Turbinenwirkungsgrad und tragen diesen grafisch über der Drehzahl auf.}
-Die Turbinen Wirkungsgrade können durch \autoref{eq:230512_Turbinenwirkungsgrad} berechnet und werden in \autoref{tab:230514_Arbeitspunkte} Numerisch und in \autoref{fig:230514_Wirkungsgrade} grafisch über die Drehzahl abgebildet. 
+Die Turbinenwirkungsgrade können durch \autoref{eq:230512_Turbinenwirkungsgrad} berechnet und werden in \autoref{tab:230514_Arbeitspunkte} nummerisch und in \autoref{fig:230514_Wirkungsgrade} grafisch über die Drehzahl abgebildet. 
 
 \begin{equation}
   \eta_{Turbine} = \frac{P_{Hyd.}}{P_{Mech.}}
@@ -122,7 +122,105 @@ Die Turbinen Wirkungsgrade können durch \autoref{eq:230512_Turbinenwirkungsgrad
   \label{fig:230514_Wirkungsgrade}
 \end{figure}
 
-\subsubsection{Vergleichen Sie den Arbeitspunkt mit bestem Wirkungsgrad mit den theoretischen Betrachtungen}
+\subsubsection{Vergleichen Sie den Arbeitspunkt mit dem bestem Wirkungsgrad und mit den theoretischen Betrachtungen}
+
+Um den Arbeitspunkt zu bestimmen wird die Gleichung der Umlaufgeschwindigkeit (\autoref{eq:230515_umlaufgeschwindigkeit}) mit Hilfe der \autoref{eq:230515_austrittsgeschwindigkeit} nach der optimalen Drehzahl umgestellt.
+
+\begin{equation}
+  u_{opt} = \frac{c_{0}}{2}=\pi \cdot u_{opt} \cdot d_{2}
+  \label{eq:230515_umlaufgeschwindigkeit}
+\end{equation}
+
+
+\begin{equation}
+c_{0}=\frac{4 \cdot Q}{\pi \cdot D_{D}^2}
+  \label{eq:230515_austrittsgeschwindigkeit}
+\end{equation}
+
+Zum Bestimmen der Drehzahl wird der gemessene Wert Q zum Zeitpunkt des besten Wirkungsgrads ($\eta=21,14\%$), der Stahlkreis-Durchmesser $d_{2} = 96mm$ und der Durchmesser der Düse $D_{D} = 7mm$ eingesetzt. 
+
+\begin{equation}
+ n_{opt}=\frac{c_{0}}{2 \cdot \pi \cdot d_{2}}=\frac{2 \cdot Q}{d_{2} \cdot \pi^2  \cdot D_{D}^2}
+\label{eq:230515_n-optimal}
+\end{equation}
+
+\begin{equation}
+n_{opt}=\frac{ 2 \cdot \frac{2,46 \frac{m^3}{h}}{60}}{\pi \cdot 0,096 m \cdot 0,007^2m}=1766,23  min^-1
+\label{eq:230515_n-optimal2}
+\end{equation}
+
+
+ Die optimale Drehzahl ergibt sich nach \autoref{eq:230515_n-optimal} als 1766,23 Umdrehungen pro Minute.
+\\\\
+Die gemessene Drehzahl zum Zeitpunkt des besten Wirkungsgrads ($\eta=21,14\%$) beträgt $2050 min^-1$ und liegt somit über der berechneten optimalen Drehzahl. 
+
+\begin{figure}[!ht]
+		\centering
+		\includegraphics[width=0.5\textwidth]{Abbildungen/Arbeitspunkte}
+		\caption{Arbeitspunkte der Turbine}
+		\label{fig:230515_Arbeitspunkte}
+\end{figure}
+
+Wie in \autoref{fig:230515_Arbeitspunkte} aus der Versuchsanleitung zu erkennen ist liegt die optimale Drehzahl theoretisch am gleichen Punkt wie der optimale Wirkungsgrad, was in dieser Messung nicht der Fall ist und auch nicht zu erwarten war.
+
+
 \subsubsection{Interpretieren Sie evtl. auftretende Abweichungen des optimalen Arbeitspunkts.}
 
+Wie zu erwarten war, entspricht der gemessene optimale Arbeitspunkt nicht dem Berechneten. Das lässt sich vor allem auf Messungenauigkeiten und Fehler als auch auf die Leckagen am Versuchsaufbau zurückführen. \\\\ Auffällig ist außerdem, dass der aus den Messungen bestimmte Wirkungsgrad sehr viel kleiner (21,14\%) ist, als der real mögliche Wirkungsgrad einer Pelton-Turbinen ($\approx90\%$). Das lässt sich durch einen Vergleich der Dimensionen des Versuchsaufbaus und Pelton-Turbinen in der tatsächlichen Nutzung erklären.
+
+
 \subsection{Verlustbeiwert der Düse}
+
+Die Werte der Düse sind in Tabelle \autoref{tab:230519_Volumenstrom_und_Duese} festgehalten.
+
+\begin{table}[!ht]
+\centering
+\caption{Volumenstrom und Fallhöhe der Düse}
+\label{tab:230519_Volumenstrom_und_Duese}
+\begin{tabular}{|c|c|c|}
+\hline
+\rowcolor[HTML]{70AD47} 
+{\color[HTML]{FFFFFF} Düse}         & {\color[HTML]{FFFFFF} Volumenstrom Q}          & \cellcolor[HTML]{70AD47}{\color[HTML]{FFFFFF}Fallhöhe $H_{T}$ }\\ \hline
+\cellcolor[HTML]{A9D08E}Einstellung & \cellcolor[HTML]{5B9BD5}Volumenstrom   in m³/h & \cellcolor[HTML]{5B9BD5}in m              \\ \hline
+\rowcolor[HTML]{DDEBF7} 
+\cellcolor[HTML]{CFE5A8}Offen       & 2,5425                                         & 33,604                                    \\ \hline
+\end{tabular}
+\end{table}
+
+Der Verlust der Düseaustrittsgeschwindigkeit wird mithilfe von Gleichung \autoref{eq:230519_Austrittsdruckdifferenz} ermittelt:
+\begin{equation}
+\Delta c = c_{0.H} - c_{0.Q} = ( 2\cdot g \cdot H_T)^{0,5} - (\frac{4\cdot Q}{\pi \cdot D_D^2)}
+\label{eq:230519_Austrittsdruckdifferenz}
+\end{equation}
+
+Werte eingesetzt in \autoref{eq:230519_Austrittsdruckdifferenz}:
+
+$$\Delta c =[( 2\cdot 9,81 \frac{m}{s^2} \cdot 33,60m
+)^{0,5}] -[ 4\cdot \frac{2,5425\frac{m^3}{h}}{3600\cdot \pi \cdot (0,007m)^2}] $$
+
+$$ =7,32 \frac{m}{s}$$
+
+Im Folgeschritt wird der Druckhöhenverlust mittels Gleichung \autoref{eq:230519_Druckhöhenverlust} bestimmt:
+
+\begin{equation}
+H_{V.D} = \frac{\Delta c^2}{2\cdot g}
+\label{eq:230519_Druckhöhenverlust}
+\end{equation}
+Werte eingesetzt in \autoref{eq:230519_Druckhöhenverlust}:
+
+$$ H_{V.D} = \frac{2,81754125}{2\cdot 9,81} $$
+$$ H_{V.D} = 0,273m $$
+
+Für die Berechnung des Verlustbeiwerts gibt es zwei Möglichkeiten wie in Gleichung \autoref{eq:230519_Verlustbeiwert} aufgeführt.
+
+\begin{equation}
+\zeta_D =1 - \frac{H_{V.D} \cdot 2 \cdot g}{c_{o.Q}^2}= 1 - \frac{\Delta c^2}{c_{p.Q}^2}
+\label{eq:230519_Verlustbeiwert}
+\end{equation}
+Werte eingesetzt in \autoref{eq:230519_Verlustbeiwert}:
+$$\zeta_{D} = 1 - \frac{(7,32\frac{m}{s})^2}{(18,35)^2}$$
+$$ \zeta_{D} = 1 - 0,159 \approx 15,9\% = 0,841 \approx 84\% $$
+
+Mittels $\Delta c$ ergibt sich ein Verlustbeiwert von $0,841 \approx 84\%$.
+Bei großen Anlagen liegt der Verlustbeiwert bei $0,96-99$ \cite[S.32]{TUMUC}. 
+In Anbetracht der Skalierung auf einen kleineren Versuchsaufbau und im Hinblick auf den für Pelton-Turbinen geringen Wirkungsgrad ist dieser Wert plausibel.
