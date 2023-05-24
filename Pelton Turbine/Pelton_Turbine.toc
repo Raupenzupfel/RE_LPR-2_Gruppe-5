@@ -2,13 +2,13 @@
 \contentsline {section}{\numberline {1}Versuchsziele}{1}{section.1}%
 \contentsline {section}{\numberline {2}Theoretischer Hintergrund}{1}{section.2}%
 \contentsline {section}{\numberline {3}Versuchsbeschreibung}{3}{section.3}%
-\contentsline {section}{\numberline {4}Vorbereitungsfragen}{4}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Definition hydraulische Leistung}{4}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Typischer Verlauf Rohrleitungskennlinie}{4}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}Proportionalität zwischen Leistung und Drehzahl}{5}{subsection.4.3}%
-\contentsline {subsection}{\numberline {4.4}Einstellungsmöglichkeiten für den Betriebspunkt}{5}{subsection.4.4}%
-\contentsline {subsection}{\numberline {4.5}Regelung der Pelton-Turbine über hydraulischen Parameter}{5}{subsection.4.5}%
-\contentsline {section}{\numberline {5}Versuchsdurchführung}{5}{section.5}%
+\contentsline {section}{\numberline {4}Vorbereitungsfragen}{5}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Wie ist die hydraulische Leistung definiert?}{5}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Skizzieren Sie den typischen Verlauf einer Rohrleitungskennlinie}{5}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Welche Proportionalität ergib sich bei Strömungsmaschinen zwischen Leistung und Drehzahl?}{5}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Wie lässt sich der Betriebspunkt einer Pelton-Turbine einstellen?}{5}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Welcher hydraulische Parameter wird zur Regelung der Pelton-Turbine verändert? Durch welche Einstellung passiert das?}{6}{subsection.4.5}%
+\contentsline {section}{\numberline {5}Versuchsdurchführung}{6}{section.5}%
 \contentsline {section}{\numberline {6}Auswertung}{7}{section.6}%
 \contentsline {subsection}{\numberline {6.1}Kennlinie der Pumpe}{7}{subsection.6.1}%
 \contentsline {subsection}{\numberline {6.2}Betriebspunkte der Pelton-Turbine}{8}{subsection.6.2}%
@@ -16,6 +16,6 @@
 \contentsline {subsubsection}{\numberline {6.2.2}Bestimmen Sie den Turbinenwirkungsgrad und tragen diesen grafisch über der Drehzahl auf.}{9}{subsubsection.6.2.2}%
 \contentsline {subsubsection}{\numberline {6.2.3}Vergleichen Sie den Arbeitspunkt mit dem bestem Wirkungsgrad und mit den theoretischen Betrachtungen}{10}{subsubsection.6.2.3}%
 \contentsline {subsubsection}{\numberline {6.2.4}Interpretieren Sie evtl. auftretende Abweichungen des optimalen Arbeitspunkts.}{11}{subsubsection.6.2.4}%
-\contentsline {subsection}{\numberline {6.3}Verlustbeiwert der Düse}{11}{subsection.6.3}%
-\contentsline {section}{\numberline {7}Quellen}{13}{section.7}%
+\contentsline {subsection}{\numberline {6.3}Verlustbeiwert der Düse}{12}{subsection.6.3}%
+\contentsline {section}{\numberline {7}Quellen}{14}{section.7}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
