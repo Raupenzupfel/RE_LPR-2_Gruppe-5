@@ -1,16 +1,16 @@
 \section{Auswertung}
-\subsection{Bestimmung der Wärmeleitfähigkeiten und des Wärmedurchgangskoeffizienten für Polystyrol(1,84 cm), Holz (1,22 cm, 3,21 cm) und Glas(0,5 cm)}
+\subsection{Bestimmung der Wärmeleitfähigkeiten und des Wärmedurchgangskoeffizienten für Polystyrol(1,84 cm), Holz (1,22 cm,  2,24 cm) und Glas(0,5 cm)}
 Zunächst wird die Formel für die Wärmestromdichte benötigt. Diese lautet wie folgt:
 \begin{equation}
-\dot q=\frac{ Q }{ A }=h_{ i }\cdot(T_{ Li }-T_{Wi })
+\dot q=\frac{ Q }{ A }=h_{ i }\cdot(T_{ Li }-T_{Wi})
   \label{eq:230514_Wärmestromdichte}
 \end{equation}
-Der Wärmeübergangskoeffizient $h_{i}$ kann mit Hilfe des Wärmeübergangswiderstand $R_{si}$ aus DIN4108-4 ($R_{si}=0,13 m^2$) bestimmt werden.
+Der Wärmeübergangskoeffizient $h_{i}$ kann mithilfe des Wärmeübergangswiderstand $R_{si}$ aus DIN4108-4 ($R_{si}=0,13 m^2$) bestimmt werden.
 \begin{equation}
 h_{i}=\frac{ 1 }{ R_{ si } }=\frac{ 1 }{ 0,13m^2\cdot K \cdot W^{-1} }
   \label{eq:230514_Wärmeübergangskoeffizient}
 \end{equation}
-Unter der Annahme, dass die Wärmestromdichte von innen nach aussen konstant ist, ist der innere Wärmestrom gleich dem gesammten Wärmestrom. Dank diesem Umstand lässt sich der U-Wert mit Hilfe von 3 gemessenen Temperaturen berechnen.
+Unter der Annahme, dass die Wärmestromdichte von innen nach außen konstant ist, ist der innere Wärmestrom gleich dem gesamten Wärmestrom. Dank diesem Umstand lässt sich der U-Wert mithilfe von 3 gemessenen Temperaturen berechnen.
 \begin{equation}
 \frac{ T_{Li} - T_{Wi}}{ R_{ si } }=U \cdot T_{Li} - T_{La}
   \label{eq:230514_u1}
@@ -20,25 +20,43 @@ nach U umgestellt ergibt sich:
 U = \frac{ T_{Li} - T_{Wi}}{ R_{ si } \cdot  (T_{Li} - T_{La})}
   \label{eq:230514_u2}
 \end{equation}
-Der Wärmeübergangskoeffizient für außen $h_{e}$ lässt sich mit Hilfe des spezifischen Wärmestroms bestimmen. Dabei ist $R_{se}=0,04 \frac{ m^2 \cdot K }{W}$ (siehe DIN4108-4)
+Der Wärmeübergangskoeffizient für außen $h_{e}$ lässt sich mithilfe des spezifischen Wärmestroms bestimmen. Dabei ist $R_{se}=0,04 \frac{ m^2 \cdot K }{W}$ (siehe DIN4108-4)
 \begin{equation}
 h_{e}=\frac{ q }{ T_{Wa} - T_{La} }   \qquad  mit     \qquad       R_{se}=\frac{ 1 }{ h_{e} }
   \label{eq:230514_h_e}
 \end{equation}
 Anschließend lässt sich die Wärmeleitfähigkeit wie folgt berechnen:
 \begin{equation}
-\lambda=\frac{ Q \cdot d }{ A \cdot ( T_{Wi} - T_{Wa} )}
+\lambda=\frac{ \dot q \cdot d }{  ( T_{Wi} - T_{Wa} )}
   \label{eq:230514_lamda}
 \end{equation}
-In Tabelle ..........  sind dabei die berechneten Werte dargstellt.
+\begin{table}[!ht]
+    \centering
+\caption{Berechnete Werte Für die Wärmestromdichte $\dot q$, den Wärmedurchgangskoeffizienten U und die Wärmeleitfähigkeit  $\lambda$ }
+\label{tab:230524_Messdaten_Messreihe1(1)}
+    \begin{tabular}{|l|l|l|}
+    \hline
+        Wärmestromdichte $\dot q$ in W/$m^2$ & Wärmedurchgangskoeffizient (U) in W/($m^2$*K) & Wärmeleitfähigkeit ($\lambda$) in W/(mK) \\ \hline
+        Polystyrol 1,84 cm & 45,52 & 1,35 \\ \hline
+        Holz 1,22 cm & 114,48 & 3,40 \\ \hline
+        Holz 2,24 cm & 103,14 & 3,06 \\ \hline
+        Glas 0,5 cm & 122,31 & 3,63 \\ \hline
+    \end{tabular}
+\end{table}
+In Tabelle \textcolor{red}{..........}  sind dabei die berechneten Werte dargestellt.
+%
+%
+% 
+%
+%
 \subsection{Berechnen Sie Wärmedurchlasswiderstand R für den zweiten Wandaufbau der 2. Messreihe}
 Der Wärmewiderstand lässt sich mit folgender Formel berechnen:
 %
 \begin{equation}
-R=\frac{(T_{!!!!!!!!!!!!!!!!! noch bennenen } \cdot T_{!!!!!!!!!!!!!} )}{\dot q}
+R=\frac{(T_{\textcolor{red}{!!!!!!!!!!!!!!!!! noch bennenen }} \cdot T_{\textcolor{red}{!!!!!!!!!!!!!}} )}{\dot q}
   \label{eq:230522_Wärmewiderstand}
 \end{equation}
 %
-In Tabelle ---------  ist dabei der Wärmewiderstand der verschiedenen Schichten zu sehen.
+In Tabelle \textcolor{red}{..........}  ist dabei der Wärmewiderstand der verschiedenen Schichten zu sehen.
 
-\textbf{Noch zu tun Fehler abschätzen. und Fotos einfügen, sowie  }
+\textcolor{red}{\textbf{Noch zu tun Fehler abschätzen. Und Fotos einfügen, sowie  }}
