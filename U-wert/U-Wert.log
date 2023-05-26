@@ -1,40 +1,30 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.5.6)  23 MAY 2023 10:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.5.6)  26 MAY 2023 14:09
 entering extended mode
  restricted \write18 enabled.
+ file:line:error style messages enabled.
  %&-line parsing enabled.
-**./U-Wert.tex
-(U-Wert.tex
+**d:/Repository/U-wert/U-Wert.tex
+(d:/Repository/U-wert/U-Wert.tex
 LaTeX2e <2022-11-01> patch level 1
-L3 programming layer <2023-04-20> (Sub-Files/head.tex
-(D:\Programme\MikTex\tex/latex/koma-script\scrartcl.cls
+L3 programming layer <2023-04-20> (Sub-Files/head.tex (D:\Programme\MikTex\tex/latex/koma-script\scrartcl.cls
 Document Class: scrartcl 2023/04/24 v3.40 KOMA-Script document class (article)
 (D:\Programme\MikTex\tex/latex/koma-script\scrkbase.sty
-Package: scrkbase 2023/04/24 v3.40 KOMA-Script package (KOMA-Script-dependent b
-asics and keyval usage)
-
-(D:\Programme\MikTex\tex/latex/koma-script\scrbase.sty
-Package: scrbase 2023/04/24 v3.40 KOMA-Script package (KOMA-Script-independent 
-basics and keyval usage)
-
-(D:\Programme\MikTex\tex/latex/koma-script\scrlfile.sty
+Package: scrkbase 2023/04/24 v3.40 KOMA-Script package (KOMA-Script-dependent basics and keyval usage)
+ (D:\Programme\MikTex\tex/latex/koma-script\scrbase.sty
+Package: scrbase 2023/04/24 v3.40 KOMA-Script package (KOMA-Script-independent basics and keyval usage)
+ (D:\Programme\MikTex\tex/latex/koma-script\scrlfile.sty
 Package: scrlfile 2023/04/24 v3.40 KOMA-Script package (file load hooks)
-
-(D:\Programme\MikTex\tex/latex/koma-script\scrlfile-hook.sty
+ (D:\Programme\MikTex\tex/latex/koma-script\scrlfile-hook.sty
 Package: scrlfile-hook 2023/04/24 v3.40 KOMA-Script package (using LaTeX hooks)
-
-
-(D:\Programme\MikTex\tex/latex/koma-script\scrlogo.sty
+ (D:\Programme\MikTex\tex/latex/koma-script\scrlogo.sty
 Package: scrlogo 2023/04/24 v3.40 KOMA-Script package (logo)
-)))
-(D:\Programme\MikTex\tex/latex/graphics\keyval.sty
+))) (D:\Programme\MikTex\tex/latex/graphics\keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks16
 )
 Applying: [2021/05/01] Usage of raw or classic option list on input line 252.
-Already applied: [0000/00/00] Usage of raw or classic option list on input line
- 368.
-))
-(D:\Programme\MikTex\tex/latex/koma-script\tocbasic.sty
+Already applied: [0000/00/00] Usage of raw or classic option list on input line 368.
+)) (D:\Programme\MikTex\tex/latex/koma-script\tocbasic.sty
 Package: tocbasic 2023/04/24 v3.40 KOMA-Script package (handling toc-files)
 \scr@dte@tocline@numberwidth=\skip48
 \scr@dte@tocline@numbox=\box51
@@ -54,14 +44,10 @@ Class scrartcl Info: You've used standard option `oneside'.
 (scrartcl)           If you'd like to set the option with \KOMAoptions,
 (scrartcl)           you'd have to use `twoside=false' there
 (scrartcl)           instead of `oneside', too.
-Class scrartcl Info: File `scrsize11pt.clo' used to setup font sizes on input l
-ine 2418.
-
-(D:\Programme\MikTex\tex/latex/koma-script\scrsize11pt.clo
-File: scrsize11pt.clo 2023/04/24 v3.40 KOMA-Script font size class option (11pt
-)
-)
-(D:\Programme\MikTex\tex/latex/koma-script\typearea.sty
+Class scrartcl Info: File `scrsize11pt.clo' used to setup font sizes on input line 2418.
+ (D:\Programme\MikTex\tex/latex/koma-script\scrsize11pt.clo
+File: scrsize11pt.clo 2023/04/24 v3.40 KOMA-Script font size class option (11pt)
+) (D:\Programme\MikTex\tex/latex/koma-script\typearea.sty
 Package: typearea 2023/04/24 v3.40 KOMA-Script package (type area)
 \ta@bcor=\skip49
 \ta@div=\count185
@@ -148,14 +134,11 @@ Package tocbasic Info: omitting babel extension for `lot'
 \c@table=\count193
 Class scrartcl Info: Redefining `\numberline' on input line 6449.
 \bibindent=\dimen140
-)
-(D:\Programme\MikTex\tex/latex/geometry\geometry.sty
+) (D:\Programme\MikTex\tex/latex/geometry\geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
-
-(D:\Programme\MikTex\tex/generic/iftex\ifvtex.sty
+ (D:\Programme\MikTex\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
-
-(D:\Programme\MikTex\tex/generic/iftex\iftex.sty
+ (D:\Programme\MikTex\tex/generic/iftex\iftex.sty
 Package: iftex 2022/02/03 v1.0f TeX engine tests
 ))
 \Gm@cnth=\count194
@@ -170,12 +153,9 @@ Package: iftex 2022/02/03 v1.0f TeX engine tests
 \Gm@layouthoffset=\dimen147
 \Gm@layoutvoffset=\dimen148
 \Gm@dimlist=\toks17
-
-(D:\Programme\MikTex\tex/latex/geometry\geometry.cfg))
-(D:\Programme\MikTex\tex/latex/setspace\setspace.sty
+ (D:\Programme\MikTex\tex/latex/geometry\geometry.cfg)) (D:\Programme\MikTex\tex/latex/setspace\setspace.sty
 Package: setspace 2022/12/04 v6.7b set line spacing
-)
-(D:\Programme\MikTex\tex/latex/footmisc\footmisc.sty
+) (D:\Programme\MikTex\tex/latex/footmisc\footmisc.sty
 Package: footmisc 2022/03/08 v6.0d a miscellany of footnote facilities
 \FN@temptoken=\toks18
 \footnotemargin=\dimen149
@@ -184,12 +164,9 @@ Package footmisc Info: Declaring symbol style bringhurst on input line 695.
 Package footmisc Info: Declaring symbol style chicago on input line 703.
 Package footmisc Info: Declaring symbol style wiley on input line 712.
 Package footmisc Info: Declaring symbol style lamport-robust on input line 723.
-
 Package footmisc Info: Declaring symbol style lamport* on input line 743.
-Package footmisc Info: Declaring symbol style lamport*-robust on input line 764
-.
-)
-(D:\Programme\MikTex\tex/latex/tools\longtable.sty
+Package footmisc Info: Declaring symbol style lamport*-robust on input line 764.
+) (D:\Programme\MikTex\tex/latex/tools\longtable.sty
 Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
 \LTleft=\skip64
 \LTright=\skip65
@@ -209,22 +186,18 @@ Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
 \LT@p@ftn=\toks19
 )
 Class scrartcl Info: longtable captions redefined on input line 10.
-
-(D:\Programme\MikTex\tex/latex/base\fontenc.sty
+ (D:\Programme\MikTex\tex/latex/base\fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
-)
-(D:\Programme\MikTex\tex/latex/base\inputenc.sty
+) (D:\Programme\MikTex\tex/latex/base\inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
 \inpenc@prehook=\toks20
 \inpenc@posthook=\toks21
-)
-(D:\Programme\MikTex\tex/generic/babel\babel.sty
+) (D:\Programme\MikTex\tex/generic/babel\babel.sty
 Package: babel 2023/04/18 3.88 The Babel package
 \babel@savecnt=\count268
 \U@D=\dimen152
 \l@unhyphenated=\language79
-
-(D:\Programme\MikTex\tex/generic/babel\txtbabel.def)
+ (D:\Programme\MikTex\tex/generic/babel\txtbabel.def)
 \bbl@readstream=\read2
 \bbl@dirlevel=\count269
 
@@ -232,27 +205,19 @@ Package: babel 2023/04/18 3.88 The Babel package
 * Local config file bblopts.cfg used
 *
 (D:\Programme\MikTex\tex/latex/arabi\bblopts.cfg
-File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
- babel
-)
-(D:\Programme\MikTex\tex/latex/babel-german\ngerman.ldf
-Language: ngerman 2021/02/27 v2.13 German support for babel (post-1996 orthogra
-phy)
-
-(D:\Programme\MikTex\tex/latex/babel-german\ngermanb.ldf
-Language: ngermanb 2021/02/27 v2.13 German support for babel (post-1996 orthogr
-aphy)
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of babel
+) (D:\Programme\MikTex\tex/latex/babel-german\ngerman.ldf
+Language: ngerman 2021/02/27 v2.13 German support for babel (post-1996 orthography)
+ (D:\Programme\MikTex\tex/latex/babel-german\ngermanb.ldf
+Language: ngermanb 2021/02/27 v2.13 German support for babel (post-1996 orthography)
 Package babel Info: Making " an active character on input line 122.
-)))
-(D:\Programme\MikTex\tex/generic/babel/locale/de\babel-ngerman.tex
+))) (D:\Programme\MikTex\tex/generic/babel/locale/de\babel-ngerman.tex
 Package babel Info: Importing font and identification data for ngerman
 (babel)             from babel-de.ini. Reported on input line 11.
-)
-(D:\Programme\MikTex\tex/latex/eurosym\eurosym.sty
+) (D:\Programme\MikTex\tex/latex/eurosym\eurosym.sty
 Package: eurosym 1998/08/06 v1.1 European currency symbol ``Euro''
 \@eurobox=\box58
-)
-(D:\Programme\MikTex\tex/latex/lm\lmodern.sty
+) (D:\Programme\MikTex\tex/latex/lm\lmodern.sty
 Package: lmodern 2015/05/01 v1.6.1 Latin Modern Fonts
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
@@ -286,11 +251,9 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
-)
-(D:\Programme\MikTex\tex/latex/blindtext\blindtext.sty
+) (D:\Programme\MikTex\tex/latex/blindtext\blindtext.sty
 Package: blindtext 2012/01/06 V2.0 blindtext-Package
-
-(D:\Programme\MikTex\tex/latex/tools\xspace.sty
+ (D:\Programme\MikTex\tex/latex/tools\xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
 \c@blindtext=\count270
@@ -311,25 +274,21 @@ Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 \c@blind@randommax=\count285
 \c@blind@pangramcount=\count286
 \c@blind@pangrammax=\count287
-)
-(D:\Programme\MikTex\tex/latex/amsmath\amsmath.sty
+) (D:\Programme\MikTex\tex/latex/amsmath\amsmath.sty
 Package: amsmath 2022/04/08 v2.17n AMS math features
 \@mathmargin=\skip68
 
 For additional information on amsmath, use the `?' option.
 (D:\Programme\MikTex\tex/latex/amsmath\amstext.sty
 Package: amstext 2021/08/26 v2.01 AMS text
-
-(D:\Programme\MikTex\tex/latex/amsmath\amsgen.sty
+ (D:\Programme\MikTex\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks22
 \ex@=\dimen153
-))
-(D:\Programme\MikTex\tex/latex/amsmath\amsbsy.sty
+)) (D:\Programme\MikTex\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen154
-)
-(D:\Programme\MikTex\tex/latex/amsmath\amsopn.sty
+) (D:\Programme\MikTex\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
 \inf@bad=\count288
@@ -379,56 +338,45 @@ LaTeX Info: Redefining \Relbar on input line 971.
 \mathdisplay@stack=\toks26
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
-)
-(D:\Programme\MikTex\tex/latex/amsfonts\amssymb.sty
+) (D:\Programme\MikTex\tex/latex/amsfonts\amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
-
-(D:\Programme\MikTex\tex/latex/amsfonts\amsfonts.sty
+ (D:\Programme\MikTex\tex/latex/amsfonts\amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-))
-(D:\Programme\MikTex\tex/latex/graphics\graphicx.sty
+)) (D:\Programme\MikTex\tex/latex/graphics\graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
-
-(D:\Programme\MikTex\tex/latex/graphics\graphics.sty
+ (D:\Programme\MikTex\tex/latex/graphics\graphics.sty
 Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
-
-(D:\Programme\MikTex\tex/latex/graphics\trig.sty
+ (D:\Programme\MikTex\tex/latex/graphics\trig.sty
 Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
-)
-(D:\Programme\MikTex\tex/latex/graphics-cfg\graphics.cfg
+) (D:\Programme\MikTex\tex/latex/graphics-cfg\graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 107.
-
-(D:\Programme\MikTex\tex/latex/graphics-def\pdftex.def
+ (D:\Programme\MikTex\tex/latex/graphics-def\pdftex.def
 File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen162
 \Gin@req@width=\dimen163
-)
-(D:\Programme\MikTex\tex/latex/psfrag\psfrag.sty
+) (D:\Programme\MikTex\tex/latex/psfrag\psfrag.sty
 Package: psfrag 1998/04/11 v3.04 PSfrag (MCG)
 \pfg@pcount=\count300
 \pfg@scount=\count301
 \pfg@temp=\write3
-)
-(D:\Programme\MikTex\tex/latex/wrapfig\wrapfig.sty
+) (D:\Programme\MikTex\tex/latex/wrapfig\wrapfig.sty
 \wrapoverhang=\dimen164
 \WF@size=\dimen165
 \c@WF@wrappedlines=\count302
 \WF@box=\box61
 \WF@everypar=\toks27
 Package: wrapfig 2003/01/31  v 3.6
-)
-(D:\Programme\MikTex\tex/latex/caption\caption.sty
+) (D:\Programme\MikTex\tex/latex/caption\caption.sty
 Package: caption 2023/03/12 v3.6j Customizing captions (AR)
-
-(D:\Programme\MikTex\tex/latex/caption\caption3.sty
+ (D:\Programme\MikTex\tex/latex/caption\caption3.sty
 Package: caption3 2023/03/12 v2.4 caption3 kernel (AR)
 \caption@tempdima=\dimen166
 \captionmargin=\dimen167
@@ -439,39 +387,30 @@ Package: caption3 2023/03/12 v2.4 caption3 kernel (AR)
 \caption@parindent=\dimen172
 \caption@hangindent=\dimen173
 Package caption Info: KOMA-Script document class detected.
-
-(D:\Programme\MikTex\tex/latex/caption\caption-koma.sto
-File: caption-koma.sto 2022/12/27 v2.0c Adaption of the caption package to the 
-KOMA-Script document classes (AR)
+ (D:\Programme\MikTex\tex/latex/caption\caption-koma.sto
+File: caption-koma.sto 2022/12/27 v2.0c Adaption of the caption package to the KOMA-Script document classes (AR)
 ))
 \c@caption@flags=\count303
 \c@continuedfloat=\count304
 Package caption Info: longtable package is loaded.
-
-(D:\Programme\MikTex\tex/latex/caption\ltcaption.sty
+ (D:\Programme\MikTex\tex/latex/caption\ltcaption.sty
 Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 )
 Package caption Info: KOMA-Script scrextend package detected.
 \caption@addmargin@hsize=\dimen174
 \caption@addmargin@linewidth=\dimen175
 Package caption Info: wrapfig package is loaded.
-)
-(D:\Programme\MikTex\tex/latex/caption\subcaption.sty
+) (D:\Programme\MikTex\tex/latex/caption\subcaption.sty
 Package: subcaption 2023/02/19 v1.6 Sub-captions (AR)
 Package caption Info: New subtype `subfigure' on input line 239.
 \c@subfigure=\count305
 Package caption Info: New subtype `subtable' on input line 239.
 \c@subtable=\count306
-)
-(D:\Programme\MikTex\tex/latex/koma-script\scrlayer-scrpage.sty
-Package: scrlayer-scrpage 2023/04/24 v3.40 KOMA-Script package (end user interf
-ace for scrlayer)
-
-(D:\Programme\MikTex\tex/latex/koma-script\scrlayer.sty
-Package: scrlayer 2023/04/24 v3.40 KOMA-Script package (defining layers and pag
-e styles)
-Package scrlayer Info: patching LaTeX kernel macro \pagestyle on input line 217
-6.
+) (D:\Programme\MikTex\tex/latex/koma-script\scrlayer-scrpage.sty
+Package: scrlayer-scrpage 2023/04/24 v3.40 KOMA-Script package (end user interface for scrlayer)
+ (D:\Programme\MikTex\tex/latex/koma-script\scrlayer.sty
+Package: scrlayer 2023/04/24 v3.40 KOMA-Script package (defining layers and page styles)
+Package scrlayer Info: patching LaTeX kernel macro \pagestyle on input line 2176.
 )
 Package scrlayer-scrpage Info: Makeing stand-alone element `pagehead' from
 (scrlayer-scrpage)             alias to `pageheadfoot' on input line 1097.
@@ -482,8 +421,7 @@ Package scrlayer-scrpage Info: Makeing stand-alone element `pagehead' from
 1: subsection
 (D:\Programme\MikTex\tex/latex/tools\tabularx.sty
 Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
-
-(D:\Programme\MikTex\tex/latex/tools\array.sty
+ (D:\Programme\MikTex\tex/latex/tools\array.sty
 Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
 \col@sep=\dimen176
 \ar@mcellbox=\box62
@@ -500,15 +438,13 @@ Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
 \TX@delta=\dimen182
 \TX@cols=\count307
 \TX@ftn=\toks29
-)
-(D:\Programme\MikTex\tex/latex/multirow\multirow.sty
+) (D:\Programme\MikTex\tex/latex/multirow\multirow.sty
 Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
 \multirow@colwidth=\skip73
 \multirow@cntb=\count308
 \multirow@dima=\skip74
 \bigstrutjot=\dimen183
-)
-(D:\Programme\MikTex\tex/latex/booktabs\booktabs.sty
+) (D:\Programme\MikTex\tex/latex/booktabs\booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \heavyrulewidth=\dimen184
 \lightrulewidth=\dimen185
@@ -527,95 +463,71 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \@thisruleclass=\count311
 \@lastruleclass=\count312
 \@thisrulewidth=\dimen196
-)
-(D:\Programme\MikTex\tex/latex/colortbl\colortbl.sty
+) (D:\Programme\MikTex\tex/latex/colortbl\colortbl.sty
 Package: colortbl 2022/06/20 v1.0f Color table columns (DPC)
-
-(D:\Programme\MikTex\tex/latex/graphics\color.sty
+ (D:\Programme\MikTex\tex/latex/graphics\color.sty
 Package: color 2022/01/06 v1.3d Standard LaTeX Color (DPC)
-
-(D:\Programme\MikTex\tex/latex/graphics-cfg\color.cfg
+ (D:\Programme\MikTex\tex/latex/graphics-cfg\color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 149.
-
-(D:\Programme\MikTex\tex/latex/graphics\mathcolor.ltx))
+ (D:\Programme\MikTex\tex/latex/graphics\mathcolor.ltx))
 \everycr=\toks30
 \minrowclearance=\skip75
 \rownum=\count313
-)
-(D:\Programme\MikTex\tex/latex/url\url.sty
+) (D:\Programme\MikTex\tex/latex/url\url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
-)
-(D:\Programme\MikTex\tex/latex/hyperref\hyperref.sty
+) (D:\Programme\MikTex\tex/latex/hyperref\hyperref.sty
 Package: hyperref 2023-04-22 v7.00x Hypertext links for LaTeX
-
-(D:\Programme\MikTex\tex/generic/ltxcmds\ltxcmds.sty
+ (D:\Programme\MikTex\tex/generic/ltxcmds\ltxcmds.sty
 Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
-)
-(D:\Programme\MikTex\tex/generic/pdftexcmds\pdftexcmds.sty
-Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
-)
-
-(D:\Programme\MikTex\tex/generic/infwarerr\infwarerr.sty
+) (D:\Programme\MikTex\tex/generic/pdftexcmds\pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+ (D:\Programme\MikTex\tex/generic/infwarerr\infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-)
-(D:\Programme\MikTex\tex/latex/kvsetkeys\kvsetkeys.sty
+) (D:\Programme\MikTex\tex/latex/kvsetkeys\kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
-)
-(D:\Programme\MikTex\tex/generic/kvdefinekeys\kvdefinekeys.sty
+) (D:\Programme\MikTex\tex/generic/kvdefinekeys\kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
-)
-(D:\Programme\MikTex\tex/generic/pdfescape\pdfescape.sty
+) (D:\Programme\MikTex\tex/generic/pdfescape\pdfescape.sty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
-)
-(D:\Programme\MikTex\tex/latex/hycolor\hycolor.sty
+) (D:\Programme\MikTex\tex/latex/hycolor\hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
-)
-(D:\Programme\MikTex\tex/latex/letltxmacro\letltxmacro.sty
+) (D:\Programme\MikTex\tex/latex/letltxmacro\letltxmacro.sty
 Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
-)
-(D:\Programme\MikTex\tex/latex/auxhook\auxhook.sty
+) (D:\Programme\MikTex\tex/latex/auxhook\auxhook.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
-)
-(D:\Programme\MikTex\tex/latex/hyperref\nameref.sty
+) (D:\Programme\MikTex\tex/latex/hyperref\nameref.sty
 Package: nameref 2022-05-17 v2.50 Cross-referencing by name of section
-
-(D:\Programme\MikTex\tex/latex/refcount\refcount.sty
+ (D:\Programme\MikTex\tex/latex/refcount\refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
-)
-(D:\Programme\MikTex\tex/generic/gettitlestring\gettitlestring.sty
+) (D:\Programme\MikTex\tex/generic/gettitlestring\gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
-
-(D:\Programme\MikTex\tex/latex/kvoptions\kvoptions.sty
+ (D:\Programme\MikTex\tex/latex/kvoptions\kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
 \c@section@level=\count314
-)
-(D:\Programme\MikTex\tex/latex/etoolbox\etoolbox.sty
+) (D:\Programme\MikTex\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count315
 )
 \@linkdim=\dimen197
 \Hy@linkcounter=\count316
 \Hy@pagecounter=\count317
-
-(D:\Programme\MikTex\tex/latex/hyperref\pd1enc.def
+ (D:\Programme\MikTex\tex/latex/hyperref\pd1enc.def
 File: pd1enc.def 2023-04-22 v7.00x Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
-)
-(D:\Programme\MikTex\tex/generic/intcalc\intcalc.sty
+) (D:\Programme\MikTex\tex/generic/intcalc\intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
 \Hy@SavedSpaceFactor=\count318
-
-(D:\Programme\MikTex\tex/latex/hyperref\puenc.def
+ (D:\Programme\MikTex\tex/latex/hyperref\puenc.def
 File: puenc.def 2023-04-22 v7.00x Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
@@ -630,13 +542,10 @@ Package hyperref Info: Bookmarks ON on input line 4449.
 \c@Hy@tempcnt=\count319
 LaTeX Info: Redefining \url on input line 4787.
 \XeTeXLinkMargin=\dimen198
-
-(D:\Programme\MikTex\tex/generic/bitset\bitset.sty
+ (D:\Programme\MikTex\tex/generic/bitset\bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
-
-(D:\Programme\MikTex\tex/generic/bigintcalc\bigintcalc.sty
-Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
-)
+ (D:\Programme\MikTex\tex/generic/bigintcalc\bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
 \Fld@menulength=\count320
 \Field@Width=\dimen199
@@ -648,8 +557,7 @@ Package hyperref Info: backreferencing OFF on input line 6081.
 Package hyperref Info: Link coloring OFF on input line 6086.
 Package hyperref Info: Link coloring with OCG OFF on input line 6091.
 Package hyperref Info: PDF/A mode OFF on input line 6096.
-
-(D:\Programme\MikTex\tex/latex/base\atbegshi-ltx.sty
+ (D:\Programme\MikTex\tex/latex/base\atbegshi-ltx.sty
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
@@ -658,59 +566,46 @@ package with kernel methods
 \c@Hfootnote=\count323
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
-
-(D:\Programme\MikTex\tex/latex/hyperref\hpdftex.def
+ (D:\Programme\MikTex\tex/latex/hyperref\hpdftex.def
 File: hpdftex.def 2023-04-22 v7.00x Hyperref driver for pdfTeX
-
-(D:\Programme\MikTex\tex/latex/base\atveryend-ltx.sty
-Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
-kage
+ (D:\Programme\MikTex\tex/latex/base\atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
 with kernel methods
 )
 \Fld@listcount=\count324
 \c@bookmark@seq@number=\count325
-
-(D:\Programme\MikTex\tex/latex/rerunfilecheck\rerunfilecheck.sty
+ (D:\Programme\MikTex\tex/latex/rerunfilecheck\rerunfilecheck.sty
 Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
-
-(D:\Programme\MikTex\tex/generic/uniquecounter\uniquecounter.sty
+ (D:\Programme\MikTex\tex/generic/uniquecounter\uniquecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
-Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
-85.
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
 )
 \Hy@SectionHShift=\skip76
-)
-(D:\Programme\MikTex\tex/latex/units\units.sty
+) (D:\Programme\MikTex\tex/latex/units\units.sty
 Package: units 1998/08/04 v0.9b Typesetting units
-
-(D:\Programme\MikTex\tex/latex/base\ifthen.sty
+ (D:\Programme\MikTex\tex/latex/base\ifthen.sty
 Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
-)
-(D:\Programme\MikTex\tex/latex/units\nicefrac.sty
+) (D:\Programme\MikTex\tex/latex/units\nicefrac.sty
 Package: nicefrac 1998/08/04 v0.9b Nice fractions
 \L@UnitsRaiseDisplaystyle=\skip77
 \L@UnitsRaiseTextstyle=\skip78
 \L@UnitsRaiseScriptstyle=\skip79
-))
-(D:\Programme\MikTex\tex/latex/float\float.sty
+)) (D:\Programme\MikTex\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count326
 \float@exts=\toks31
 \float@box=\box64
 \@float@everytoks=\toks32
 \@floatcapt=\box65
-)
-(D:\Programme\MikTex\tex/latex/xcolor\xcolor.sty
+) (D:\Programme\MikTex\tex/latex/xcolor\xcolor.sty
 Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
-
-(D:\Programme\MikTex\tex/latex/graphics-cfg\color.cfg
+ (D:\Programme\MikTex\tex/latex/graphics-cfg\color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 227.
 LaTeX Info: Redefining \color on input line 711.
-
-(D:\Programme\MikTex\tex/latex/graphics\mathcolor.ltx)
+ (D:\Programme\MikTex\tex/latex/graphics\mathcolor.ltx)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1357.
 Package xcolor Info: Model `RGB' extended on input line 1369.
@@ -720,17 +615,13 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1373.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
-)
-(D:\Programme\MikTex\tex/latex/tools\hhline.sty
+) (D:\Programme\MikTex\tex/latex/tools\hhline.sty
 Package: hhline 2020/01/04 v2.04 Table rule package (DPC)
 ))
 LaTeX Font Info:    Trying to load font information for T1+lmr on input line 6.
-
-
-(D:\Programme\MikTex\tex/latex/lm\t1lmr.fd
+ (D:\Programme\MikTex\tex/latex/lm\t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-(D:\Programme\MikTex\tex/latex/l3backend\l3backend-pdftex.def
+) (D:\Programme\MikTex\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count327
 \l__pdf_internal_box=\box66
@@ -805,10 +696,8 @@ LaTeX Font Info:    ... okay on input line 6.
 \everyMPtoPDFconversion=\toks34
 ) (D:\Programme\MikTex\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-85.
-
-(D:\Programme\MikTex\tex/latex/00miktex\epstopdf-sys.cfg
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (D:\Programme\MikTex\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 Package caption Info: Begin \AtBeginDocument code.
@@ -816,8 +705,7 @@ Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
 Package hyperref Info: Link coloring OFF on input line 6.
- (U-Wert.out)
-(U-Wert.out)
+ (U-Wert.out) (U-Wert.out)
 \@outlinefile=\write4
 \openout4 = `U-Wert.out'.
 
@@ -831,54 +719,41 @@ Class scrartcl Info: loading recommended package `bookmark'.
 (scrartcl)           before \begin{document} on input line 6.
  (D:\Programme\MikTex\tex/latex/bookmark\bookmark.sty
 Package: bookmark 2020-11-06 v1.29 PDF bookmarks (HO)
-
-(D:\Programme\MikTex\tex/latex/bookmark\bkm-pdftex.def
+ (D:\Programme\MikTex\tex/latex/bookmark\bkm-pdftex.def
 File: bkm-pdftex.def 2020-11-06 v1.29 bookmark driver for pdfTeX (HO)
 \BKM@id=\count334
-)) (Sub-Files/style.tex)
-(Sub-Files/title.tex
+)) (Sub-Files/style.tex) (Sub-Files/title.tex
 Package epstopdf Info: Source file: <./Abbildungen//HTWLogo.eps>
 (epstopdf)                    date: 2023-05-15 14:04:04
 (epstopdf)                    size: 328130 bytes
-(epstopdf)             Output file: <./Abbildungen//HTWLogo-eps-converted-to.pd
-f>
+(epstopdf)             Output file: <./Abbildungen//HTWLogo-eps-converted-to.pdf>
 (epstopdf)                    date: 2023-05-15 14:04:04
 (epstopdf)                    size: 27804 bytes
-(epstopdf)             Command: <miktex-epstopdf --outfile=./Abbildungen//HTWLo
-go-eps-converted-to.pdf ./Abbildungen//HTWLogo.eps>
+(epstopdf)             Command: <miktex-epstopdf --outfile=./Abbildungen//HTWLogo-eps-converted-to.pdf ./Abbildungen//HTWLogo.eps>
 (epstopdf)             \includegraphics on input line 5.
 Package epstopdf Info: Output file is already uptodate.
 
 
-pdfTeX warning: pdflatex (file ./Abbildungen//HTWLogo-eps-converted-to.pdf): PD
-F inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+pdfTeX warning: pdflatex (file ./Abbildungen//HTWLogo-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 <./Abbildungen//HTWLogo-eps-converted-to.pdf, id=3, 155.58125pt x 86.3225pt>
 File: ./Abbildungen//HTWLogo-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Abbildungen//HTWLogo-eps-converted-to.pdf>
-Package pdftex.def Info: ./Abbildungen//HTWLogo-eps-converted-to.pdf  used on i
-nput line 5.
+Package pdftex.def Info: ./Abbildungen//HTWLogo-eps-converted-to.pdf  used on input line 5.
 (pdftex.def)             Requested size: 136.57462pt x 75.77696pt.
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 2
-8.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 28.
 (D:\Programme\MikTex\tex/latex/lm\ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 2
-8.
-
-(D:\Programme\MikTex\tex/latex/lm\omllmm.fd
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 28.
+ (D:\Programme\MikTex\tex/latex/lm\omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-28.
-
-(D:\Programme\MikTex\tex/latex/lm\omslmsy.fd
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 28.
+ (D:\Programme\MikTex\tex/latex/lm\omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-28.
-
-(D:\Programme\MikTex\tex/latex/lm\omxlmex.fd
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 28.
+ (D:\Programme\MikTex\tex/latex/lm\omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -888,25 +763,18 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <6> on input line 28.
 LaTeX Font Info:    Trying to load font information for U+msa on input line 28.
-
-
-(D:\Programme\MikTex\tex/latex/amsfonts\umsa.fd
+ (D:\Programme\MikTex\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 28.
-
-
-(D:\Programme\MikTex\tex/latex/amsfonts\umsb.fd
+ (D:\Programme\MikTex\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 Non-PDF special ignored!
 <special> header=psfrag.pro
 
-{C:/Users/Lukas/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{D:/Programme/
-MikTex/fonts/enc/dvips/lm/lm-ec.enc} <./Abbildungen//HTWLogo-eps-converted-to.p
-df>])
-LaTeX Font Info:    Trying to load font information for T1+lmss on input line 2
-9.
+{C:/Users/Lukas/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{D:/Programme/MikTex/fonts/enc/dvips/lm/lm-ec.enc} <./Abbildungen//HTWLogo-eps-converted-to.pdf>])
+LaTeX Font Info:    Trying to load font information for T1+lmss on input line 29.
  (D:\Programme\MikTex\tex/latex/lm\t1lmss.fd
 File: t1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) (U-Wert.toc)
@@ -916,18 +784,15 @@ File: t1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 Package epstopdf Info: Source file: <./Abbildungen//HTWLogo.eps>
 (epstopdf)                    date: 2023-05-15 14:04:04
 (epstopdf)                    size: 328130 bytes
-(epstopdf)             Output file: <./Abbildungen//HTWLogo-eps-converted-to.pd
-f>
+(epstopdf)             Output file: <./Abbildungen//HTWLogo-eps-converted-to.pdf>
 (epstopdf)                    date: 2023-05-15 14:04:04
 (epstopdf)                    size: 27804 bytes
-(epstopdf)             Command: <miktex-epstopdf --outfile=./Abbildungen//HTWLo
-go-eps-converted-to.pdf ./Abbildungen//HTWLogo.eps>
+(epstopdf)             Command: <miktex-epstopdf --outfile=./Abbildungen//HTWLogo-eps-converted-to.pdf ./Abbildungen//HTWLogo.eps>
 (epstopdf)             \includegraphics on input line 30.
 Package epstopdf Info: Output file is already uptodate.
 File: ./Abbildungen//HTWLogo-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Abbildungen//HTWLogo-eps-converted-to.pdf>
-Package pdftex.def Info: ./Abbildungen//HTWLogo-eps-converted-to.pdf  used on i
-nput line 30.
+Package pdftex.def Info: ./Abbildungen//HTWLogo-eps-converted-to.pdf  used on input line 30.
 (pdftex.def)             Requested size: 36.04643pt x 20.0pt.
  [1] (U-Wert.lof)
 \tf@lof=\write6
@@ -941,168 +806,221 @@ nput line 30.
 Package epstopdf Info: Source file: <./Abbildungen//HTWLogo.eps>
 (epstopdf)                    date: 2023-05-15 14:04:04
 (epstopdf)                    size: 328130 bytes
-(epstopdf)             Output file: <./Abbildungen//HTWLogo-eps-converted-to.pd
-f>
+(epstopdf)             Output file: <./Abbildungen//HTWLogo-eps-converted-to.pdf>
 (epstopdf)                    date: 2023-05-15 14:04:04
 (epstopdf)                    size: 27804 bytes
-(epstopdf)             Command: <miktex-epstopdf --outfile=./Abbildungen//HTWLo
-go-eps-converted-to.pdf ./Abbildungen//HTWLogo.eps>
+(epstopdf)             Command: <miktex-epstopdf --outfile=./Abbildungen//HTWLogo-eps-converted-to.pdf ./Abbildungen//HTWLogo.eps>
 (epstopdf)             \includegraphics on input line 36.
 Package epstopdf Info: Output file is already uptodate.
 File: ./Abbildungen//HTWLogo-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Abbildungen//HTWLogo-eps-converted-to.pdf>
-Package pdftex.def Info: ./Abbildungen//HTWLogo-eps-converted-to.pdf  used on i
-nput line 36.
+Package pdftex.def Info: ./Abbildungen//HTWLogo-eps-converted-to.pdf  used on input line 36.
 (pdftex.def)             Requested size: 36.04643pt x 20.0pt.
- [2] (Sub-Files/Versuchsziele.tex) (Sub-Files/Versuchsbeschreibung.tex) (Sub-Fi
-les/Vorbereitungsfragen.tex
-<Abbildungen/einschichtig.png, id=77, 520.22356pt x 880.2486pt>
-File: Abbildungen/einschichtig.png Graphic file (type png)
-<use Abbildungen/einschichtig.png>
-Package pdftex.def Info: Abbildungen/einschichtig.png  used on input line 8.
-(pdftex.def)             Requested size: 137.93613pt x 233.38565pt.
-<Abbildungen/mehrschichtig.png, id=79, 851.46104pt x 879.16455pt>
-File: Abbildungen/mehrschichtig.png Graphic file (type png)
-<use Abbildungen/mehrschichtig.png>
-Package pdftex.def Info: Abbildungen/mehrschichtig.png  used on input line 12.
-(pdftex.def)             Requested size: 226.25359pt x 233.608pt.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 21.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 21.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 21.
-Package epstopdf Info: Source file: <./Abbildungen//HTWLogo.eps>
-(epstopdf)                    date: 2023-05-15 14:04:04
-(epstopdf)                    size: 328130 bytes
-(epstopdf)             Output file: <./Abbildungen//HTWLogo-eps-converted-to.pd
-f>
-(epstopdf)                    date: 2023-05-15 14:04:04
-(epstopdf)                    size: 27804 bytes
-(epstopdf)             Command: <miktex-epstopdf --outfile=./Abbildungen//HTWLo
-go-eps-converted-to.pdf ./Abbildungen//HTWLogo.eps>
-(epstopdf)             \includegraphics on input line 25.
-Package epstopdf Info: Output file is already uptodate.
-File: ./Abbildungen//HTWLogo-eps-converted-to.pdf Graphic file (type pdf)
-<use ./Abbildungen//HTWLogo-eps-converted-to.pdf>
-Package pdftex.def Info: ./Abbildungen//HTWLogo-eps-converted-to.pdf  used on i
-nput line 25.
-(pdftex.def)             Requested size: 36.04643pt x 20.0pt.
+ [2{D:/Programme/MikTex/fonts/enc/dvips/lm/lm-rm.enc}{D:/Programme/MikTex/fonts/enc/dvips/lm/lm-mathit.enc}] (Sub-Files/Versuchsziele.tex
+<Abbildungen/Thurow_Deckblatt.png, id=87, 405.01312pt x 217.31187pt>
+File: Abbildungen/Thurow_Deckblatt.png Graphic file (type png)
+<use Abbildungen/Thurow_Deckblatt.png>
+Package pdftex.def Info: Abbildungen/Thurow_Deckblatt.png  used on input line 4.
+(pdftex.def)             Requested size: 318.66948pt x 170.98808pt.
+) (Sub-Files/Versuchsbeschreibung.tex
+Underfull \hbox (badness 10000) in paragraph at lines 9--1
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.25 \subsection
-                {Wie sollte eine Wand beschaffen sein, damit Temperaturschwa...
-[1{D:/Programme/MikTex/fonts/enc/dvips/lm/lm-mathit.enc}{D:/Programme/MikTex/fo
-nts/enc/dvips/lm/lm-rm.enc}{D:/Programme/MikTex/fonts/enc/dvips/lm/lm-mathsy.en
-c} <./Abbildungen/einschichtig.png> <./Abbildungen/mehrschichtig.png>])
-(Sub-Files/Versuchsdurchfuehrung.tex) (Sub-Files/Auswertung.tex
-Package epstopdf Info: Source file: <./Abbildungen//HTWLogo.eps>
-(epstopdf)                    date: 2023-05-15 14:04:04
-(epstopdf)                    size: 328130 bytes
-(epstopdf)             Output file: <./Abbildungen//HTWLogo-eps-converted-to.pd
-f>
-(epstopdf)                    date: 2023-05-15 14:04:04
-(epstopdf)                    size: 27804 bytes
-(epstopdf)             Command: <miktex-epstopdf --outfile=./Abbildungen//HTWLo
-go-eps-converted-to.pdf ./Abbildungen//HTWLogo.eps>
-(epstopdf)             \includegraphics on input line 12.
-Package epstopdf Info: Output file is already uptodate.
-File: ./Abbildungen//HTWLogo-eps-converted-to.pdf Graphic file (type pdf)
-<use ./Abbildungen//HTWLogo-eps-converted-to.pdf>
-Package pdftex.def Info: ./Abbildungen//HTWLogo-eps-converted-to.pdf  used on i
-nput line 12.
-(pdftex.def)             Requested size: 36.04643pt x 20.0pt.
- [2]
-Overfull \hbox (0.48865pt too wide) in paragraph at lines 40--43
-\T1/lmr/m/n/14.4 In Ta-bel-le --------- ist da-bei der Wär-me-wi-der-stand der 
-ver-schie-de-nen Schich-
  []
 
+) (Sub-Files/Vorbereitungsfragen.tex
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 5.
+ (D:\Programme\MikTex\tex/latex/lm\ts1lmr.fd
+File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 Package epstopdf Info: Source file: <./Abbildungen//HTWLogo.eps>
 (epstopdf)                    date: 2023-05-15 14:04:04
 (epstopdf)                    size: 328130 bytes
-(epstopdf)             Output file: <./Abbildungen//HTWLogo-eps-converted-to.pd
-f>
+(epstopdf)             Output file: <./Abbildungen//HTWLogo-eps-converted-to.pdf>
 (epstopdf)                    date: 2023-05-15 14:04:04
 (epstopdf)                    size: 27804 bytes
-(epstopdf)             Command: <miktex-epstopdf --outfile=./Abbildungen//HTWLo
-go-eps-converted-to.pdf ./Abbildungen//HTWLogo.eps>
-(epstopdf)             \includegraphics on input line 46.
+(epstopdf)             Command: <miktex-epstopdf --outfile=./Abbildungen//HTWLogo-eps-converted-to.pdf ./Abbildungen//HTWLogo.eps>
+(epstopdf)             \includegraphics on input line 6.
 Package epstopdf Info: Output file is already uptodate.
 File: ./Abbildungen//HTWLogo-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Abbildungen//HTWLogo-eps-converted-to.pdf>
-Package pdftex.def Info: ./Abbildungen//HTWLogo-eps-converted-to.pdf  used on i
-nput line 46.
+Package pdftex.def Info: ./Abbildungen//HTWLogo-eps-converted-to.pdf  used on input line 6.
 (pdftex.def)             Requested size: 36.04643pt x 20.0pt.
- [3] (Sub-Files/Quellen.tex (U-Wert.bbl
 
-LaTeX Warning: Empty `thebibliography' environment or \BreakBibliography
-               before end of `thebibliography' environment on input line 3.
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.6 
+     [1 <./Abbildungen/Thurow_Deckblatt.png>]
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <14.4> on input line 7.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 7.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 7.
 
-))
+Overfull \hbox (1.67696pt too wide) in paragraph at lines 13--14
+[]\T1/lmr/m/n/14.4 Der Wär-me-über-gangs-wi-der-stand $\OML/lmm/m/it/14.4 R[]$ \T1/lmr/m/n/14.4 be-schreibt die Wär-me-über-tra-gung
+ []
+
+<Abbildungen/einschichtig.png, id=95, 520.22356pt x 880.2486pt>
+File: Abbildungen/einschichtig.png Graphic file (type png)
+<use Abbildungen/einschichtig.png>
+Package pdftex.def Info: Abbildungen/einschichtig.png  used on input line 28.
+(pdftex.def)             Requested size: 137.93613pt x 233.38565pt.
+<Abbildungen/mehrschichtig.png, id=96, 851.46104pt x 879.16455pt>
+File: Abbildungen/mehrschichtig.png Graphic file (type png)
+<use Abbildungen/mehrschichtig.png>
+Package pdftex.def Info: Abbildungen/mehrschichtig.png  used on input line 32.
+(pdftex.def)             Requested size: 226.25359pt x 233.608pt.
 Package epstopdf Info: Source file: <./Abbildungen//HTWLogo.eps>
 (epstopdf)                    date: 2023-05-15 14:04:04
 (epstopdf)                    size: 328130 bytes
-(epstopdf)             Output file: <./Abbildungen//HTWLogo-eps-converted-to.pd
-f>
+(epstopdf)             Output file: <./Abbildungen//HTWLogo-eps-converted-to.pdf>
 (epstopdf)                    date: 2023-05-15 14:04:04
 (epstopdf)                    size: 27804 bytes
-(epstopdf)             Command: <miktex-epstopdf --outfile=./Abbildungen//HTWLo
-go-eps-converted-to.pdf ./Abbildungen//HTWLogo.eps>
+(epstopdf)             Command: <miktex-epstopdf --outfile=./Abbildungen//HTWLogo-eps-converted-to.pdf ./Abbildungen//HTWLogo.eps>
+(epstopdf)             \includegraphics on input line 38.
+Package epstopdf Info: Output file is already uptodate.
+File: ./Abbildungen//HTWLogo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./Abbildungen//HTWLogo-eps-converted-to.pdf>
+Package pdftex.def Info: ./Abbildungen//HTWLogo-eps-converted-to.pdf  used on input line 38.
+(pdftex.def)             Requested size: 36.04643pt x 20.0pt.
+[2{D:/Programme/MikTex/fonts/enc/dvips/lm/lm-ts1.enc}{D:/Programme/MikTex/fonts/enc/dvips/lm/lm-mathex.enc}]
+Package epstopdf Info: Source file: <./Abbildungen//HTWLogo.eps>
+(epstopdf)                    date: 2023-05-15 14:04:04
+(epstopdf)                    size: 328130 bytes
+(epstopdf)             Output file: <./Abbildungen//HTWLogo-eps-converted-to.pdf>
+(epstopdf)                    date: 2023-05-15 14:04:04
+(epstopdf)                    size: 27804 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=./Abbildungen//HTWLogo-eps-converted-to.pdf ./Abbildungen//HTWLogo.eps>
 (epstopdf)             \includegraphics on input line 51.
 Package epstopdf Info: Output file is already uptodate.
 File: ./Abbildungen//HTWLogo-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Abbildungen//HTWLogo-eps-converted-to.pdf>
-Package pdftex.def Info: ./Abbildungen//HTWLogo-eps-converted-to.pdf  used on i
-nput line 51.
+Package pdftex.def Info: ./Abbildungen//HTWLogo-eps-converted-to.pdf  used on input line 51.
 (pdftex.def)             Requested size: 36.04643pt x 20.0pt.
- [4] (Sub-Files/Anhang.tex)
+ [3{D:/Programme/MikTex/fonts/enc/dvips/lm/lm-mathsy.enc} <./Abbildungen/einschichtig.png> <./Abbildungen/mehrschichtig.png>]) (Sub-Files/Versuchsdurchfuehrung.tex) (Sub-Files/Auswertung.tex
 Package epstopdf Info: Source file: <./Abbildungen//HTWLogo.eps>
 (epstopdf)                    date: 2023-05-15 14:04:04
 (epstopdf)                    size: 328130 bytes
-(epstopdf)             Output file: <./Abbildungen//HTWLogo-eps-converted-to.pd
-f>
+(epstopdf)             Output file: <./Abbildungen//HTWLogo-eps-converted-to.pdf>
 (epstopdf)                    date: 2023-05-15 14:04:04
 (epstopdf)                    size: 27804 bytes
-(epstopdf)             Command: <miktex-epstopdf --outfile=./Abbildungen//HTWLo
-go-eps-converted-to.pdf ./Abbildungen//HTWLogo.eps>
+(epstopdf)             Command: <miktex-epstopdf --outfile=./Abbildungen//HTWLogo-eps-converted-to.pdf ./Abbildungen//HTWLogo.eps>
+(epstopdf)             \includegraphics on input line 7.
+Package epstopdf Info: Output file is already uptodate.
+File: ./Abbildungen//HTWLogo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./Abbildungen//HTWLogo-eps-converted-to.pdf>
+Package pdftex.def Info: ./Abbildungen//HTWLogo-eps-converted-to.pdf  used on input line 7.
+(pdftex.def)             Requested size: 36.04643pt x 20.0pt.
+ [4]
+Overfull \hbox (226.97089pt too wide) in paragraph at lines 37--45
+ [][] 
+ []
+
+Package epstopdf Info: Source file: <./Abbildungen//HTWLogo.eps>
+(epstopdf)                    date: 2023-05-15 14:04:04
+(epstopdf)                    size: 328130 bytes
+(epstopdf)             Output file: <./Abbildungen//HTWLogo-eps-converted-to.pdf>
+(epstopdf)                    date: 2023-05-15 14:04:04
+(epstopdf)                    size: 27804 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=./Abbildungen//HTWLogo-eps-converted-to.pdf ./Abbildungen//HTWLogo.eps>
+(epstopdf)             \includegraphics on input line 54.
+Package epstopdf Info: Output file is already uptodate.
+File: ./Abbildungen//HTWLogo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./Abbildungen//HTWLogo-eps-converted-to.pdf>
+Package pdftex.def Info: ./Abbildungen//HTWLogo-eps-converted-to.pdf  used on input line 54.
+(pdftex.def)             Requested size: 36.04643pt x 20.0pt.
+[5]
+Package epstopdf Info: Source file: <./Abbildungen//HTWLogo.eps>
+(epstopdf)                    date: 2023-05-15 14:04:04
+(epstopdf)                    size: 328130 bytes
+(epstopdf)             Output file: <./Abbildungen//HTWLogo-eps-converted-to.pdf>
+(epstopdf)                    date: 2023-05-15 14:04:04
+(epstopdf)                    size: 27804 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=./Abbildungen//HTWLogo-eps-converted-to.pdf ./Abbildungen//HTWLogo.eps>
+(epstopdf)             \includegraphics on input line 64.
+Package epstopdf Info: Output file is already uptodate.
+File: ./Abbildungen//HTWLogo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./Abbildungen//HTWLogo-eps-converted-to.pdf>
+Package pdftex.def Info: ./Abbildungen//HTWLogo-eps-converted-to.pdf  used on input line 64.
+(pdftex.def)             Requested size: 36.04643pt x 20.0pt.
+ [6])
+Package epstopdf Info: Source file: <./Abbildungen//HTWLogo.eps>
+(epstopdf)                    date: 2023-05-15 14:04:04
+(epstopdf)                    size: 328130 bytes
+(epstopdf)             Output file: <./Abbildungen//HTWLogo-eps-converted-to.pdf>
+(epstopdf)                    date: 2023-05-15 14:04:04
+(epstopdf)                    size: 27804 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=./Abbildungen//HTWLogo-eps-converted-to.pdf ./Abbildungen//HTWLogo.eps>
+(epstopdf)             \includegraphics on input line 46.
+Package epstopdf Info: Output file is already uptodate.
+File: ./Abbildungen//HTWLogo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./Abbildungen//HTWLogo-eps-converted-to.pdf>
+Package pdftex.def Info: ./Abbildungen//HTWLogo-eps-converted-to.pdf  used on input line 46.
+(pdftex.def)             Requested size: 36.04643pt x 20.0pt.
+ [7]
+Package epstopdf Info: Source file: <./Abbildungen//HTWLogo.eps>
+(epstopdf)                    date: 2023-05-15 14:04:04
+(epstopdf)                    size: 328130 bytes
+(epstopdf)             Output file: <./Abbildungen//HTWLogo-eps-converted-to.pdf>
+(epstopdf)                    date: 2023-05-15 14:04:04
+(epstopdf)                    size: 27804 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=./Abbildungen//HTWLogo-eps-converted-to.pdf ./Abbildungen//HTWLogo.eps>
+(epstopdf)             \includegraphics on input line 46.
+Package epstopdf Info: Output file is already uptodate.
+File: ./Abbildungen//HTWLogo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./Abbildungen//HTWLogo-eps-converted-to.pdf>
+Package pdftex.def Info: ./Abbildungen//HTWLogo-eps-converted-to.pdf  used on input line 46.
+(pdftex.def)             Requested size: 36.04643pt x 20.0pt.
+ [8] (Sub-Files/Quellen.tex (U-Wert.bbl
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 5.
+ (D:\Programme\MikTex\tex/latex/lm\t1lmtt.fd
+File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)))
+Package epstopdf Info: Source file: <./Abbildungen//HTWLogo.eps>
+(epstopdf)                    date: 2023-05-15 14:04:04
+(epstopdf)                    size: 328130 bytes
+(epstopdf)             Output file: <./Abbildungen//HTWLogo-eps-converted-to.pdf>
+(epstopdf)                    date: 2023-05-15 14:04:04
+(epstopdf)                    size: 27804 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=./Abbildungen//HTWLogo-eps-converted-to.pdf ./Abbildungen//HTWLogo.eps>
+(epstopdf)             \includegraphics on input line 51.
+Package epstopdf Info: Output file is already uptodate.
+File: ./Abbildungen//HTWLogo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./Abbildungen//HTWLogo-eps-converted-to.pdf>
+Package pdftex.def Info: ./Abbildungen//HTWLogo-eps-converted-to.pdf  used on input line 51.
+(pdftex.def)             Requested size: 36.04643pt x 20.0pt.
+ [9] (Sub-Files/Anhang.tex)
+Package epstopdf Info: Source file: <./Abbildungen//HTWLogo.eps>
+(epstopdf)                    date: 2023-05-15 14:04:04
+(epstopdf)                    size: 328130 bytes
+(epstopdf)             Output file: <./Abbildungen//HTWLogo-eps-converted-to.pdf>
+(epstopdf)                    date: 2023-05-15 14:04:04
+(epstopdf)                    size: 27804 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=./Abbildungen//HTWLogo-eps-converted-to.pdf ./Abbildungen//HTWLogo.eps>
 (epstopdf)             \includegraphics on input line 57.
 Package epstopdf Info: Output file is already uptodate.
 File: ./Abbildungen//HTWLogo-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Abbildungen//HTWLogo-eps-converted-to.pdf>
-Package pdftex.def Info: ./Abbildungen//HTWLogo-eps-converted-to.pdf  used on i
-nput line 57.
+Package pdftex.def Info: ./Abbildungen//HTWLogo-eps-converted-to.pdf  used on input line 57.
 (pdftex.def)             Requested size: 36.04643pt x 20.0pt.
- [5] (U-Wert.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
+ [10] (U-Wert.aux)
 Package rerunfilecheck Info: File `U-Wert.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 19601 strings out of 476315
- 366208 string characters out of 5798922
- 1864068 words of memory out of 5000000
- 39642 multiletter control sequences out of 15000+600000
- 573779 words of font info for 77 fonts, out of 8000000 for 9000
+ 19716 strings out of 476315
+ 368548 string characters out of 5798922
+ 1869068 words of memory out of 5000000
+ 39732 multiletter control sequences out of 15000+600000
+ 574472 words of font info for 79 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 113i,24n,121p,10926b,562s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<D:/Programme/MikTex/fonts/type1/public/lm/lmbx10.pfb><D:/Programme/MikTex/fo
-nts/type1/public/lm/lmbx12.pfb><D:/Programme/MikTex/fonts/type1/public/lm/lmmi1
-0.pfb><D:/Programme/MikTex/fonts/type1/public/lm/lmmi12.pfb><D:/Programme/MikTe
-x/fonts/type1/public/lm/lmr10.pfb><D:/Programme/MikTex/fonts/type1/public/lm/lm
-r12.pfb><D:/Programme/MikTex/fonts/type1/public/lm/lmr7.pfb><D:/Programme/MikTe
-x/fonts/type1/public/lm/lmri10.pfb><D:/Programme/MikTex/fonts/type1/public/lm/l
-mro10.pfb><D:/Programme/MikTex/fonts/type1/public/lm/lmssbx10.pfb><D:/Programme
-/MikTex/fonts/type1/public/lm/lmsy10.pfb>
-Output written on U-Wert.pdf (8 pages, 7721266 bytes).
+ 113i,24n,121p,10945b,637s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<D:/Programme/MikTex/fonts/type1/public/lm/lmbx10.pfb><D:/Programme/MikTex/fonts/type1/public/lm/lmbx12.pfb><D:/Programme/MikTex/fonts/type1/public/lm/lmex10.pfb><D:/Programme/MikTex/fonts/type1/public/lm/lmmi10.pfb><D:/Programme/MikTex/fonts/type1/public/lm/lmmi12.pfb><D:/Programme/MikTex/fonts/type1/public/lm/lmmi7.pfb><D:/Programme/MikTex/fonts/type1/public/lm/lmr10.pfb><D:/Programme/MikTex/fonts/type1/public/lm/lmr12.pfb><D:/Programme/MikTex/fonts/type1/public/lm/lmr7.pfb><D:/Programme/MikTex/fonts/type1/public/lm/lmr8.pfb><D:/Programme/MikTex/fonts/type1/public/lm/lmri10.pfb><D:/Programme/MikTex/fonts/type1/public/lm/lmro10.pfb><D:/Programme/MikTex/fonts/type1/public/lm/lmssbx10.pfb><D:/Programme/MikTex/fonts/type1/public/lm/lmsy10.pfb><D:/Programme/MikTex/fonts/type1/public/lm/lmtt12.pfb>
+Output written on U-Wert.pdf (13 pages, 8031987 bytes).
 PDF statistics:
- 227 PDF objects out of 1000 (max. 8388607)
- 38 named destinations out of 1000 (max. 500000)
- 136 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 301 PDF objects out of 1000 (max. 8388607)
+ 49 named destinations out of 1000 (max. 500000)
+ 149 words of extra memory for PDF output out of 10000 (max. 10000000)
 
