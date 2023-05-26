@@ -1,14 +1,14 @@
 # Fdb version 4
-["bibtex U-Wert"] 1685089867 "U-Wert.aux" "U-Wert.bbl" "U-Wert" 1685089894 0
+["bibtex U-Wert"] 1685090077 "U-Wert.aux" "U-Wert.bbl" "U-Wert" 1685090103 0
   "./Sub-Files/Libs/Niels_Quellen.bib" 1683886947 695 97e394598f6a60aebce6eeea431c2955 ""
   "./Sub-Files/Libs/Tadeus_Quellen.bib" 1684083567 490 efd1842f12f7bfc1659d925bab7c0483 ""
   "C:/Users/tadeu/AppData/Local/Programs/MiKTeX/bibtex/bst/bibtex/unsrt.bst" 1291868336 18030 1376b4b231b50c66211e47e42eda2875 ""
-  "U-Wert.aux" 1685089891 18692 22e9967c7e58fd80726006b0bb1810f6 "pdflatex"
+  "U-Wert.aux" 1685090101 18681 9ff0de6f91fc8e7e9b664e9063686fb7 "pdflatex"
   (generated)
   "U-Wert.bbl"
   "U-Wert.blg"
   (rewritten before read)
-["pdflatex"] 1685089868 "c:/Users/tadeu/Documents/0 Studium/6. Semester/LPR 2/U-wert/U-Wert.tex" "U-Wert.pdf" "U-Wert" 1685089894 0
+["pdflatex"] 1685090078 "c:/Users/tadeu/Documents/0 Studium/6. Semester/LPR 2/U-wert/U-Wert.tex" "U-Wert.pdf" "U-Wert" 1685090103 0
   "Abbildungen//HTWLogo.eps" 1682627203 328130 13b943232719acfa146eab843bbe6010 ""
   "Abbildungen/Thurow_Deckblatt.png" 1684918129 214680 7ccb529ab2d5331d0d36aaaa05c0e159 ""
   "Abbildungen/einschichtig.png" 1684150510 2797491 f881d40be7d95fcfc1223b1b2f2825de ""
@@ -180,17 +180,17 @@
   "Sub-Files/Versuchsbeschreibung.tex" 1684145958 70 8a71dec22f1b56d822a31e19279ad89c ""
   "Sub-Files/Versuchsdurchfuehrung.tex" 1684145966 33 556ec00a316db1c8417f2d14a99fdb95 ""
   "Sub-Files/Versuchsziele.tex" 1684918129 1028 461cce79483dc376ace1c90276ce66ab ""
-  "Sub-Files/Vorbereitungsfragen.tex" 1684918129 3814 56d86c13f217792610100d754785a70e ""
+  "Sub-Files/Vorbereitungsfragen.tex" 1685090050 3814 9e3bef91d3e80926e41c6a3655b5f231 ""
   "Sub-Files/head.tex" 1683641954 1394 09bcf7c30925afcf5fc7a86b1934b2e5 ""
   "Sub-Files/style.tex" 1682627202 475 2d407ae1d8bcce1c78f526a7ea6f1643 ""
   "Sub-Files/title.tex" 1684918129 1206 aebec62e4f7c996988dcf458fd423b7d ""
-  "U-Wert.aux" 1685089891 18692 22e9967c7e58fd80726006b0bb1810f6 "pdflatex"
-  "U-Wert.bbl" 1685089868 52 0eba253fc001332e731e8aba3f23127b "bibtex U-Wert"
-  "U-Wert.lof" 1685089891 385 20ea0437f4c94b27a4b2d79ee60c81e6 "pdflatex"
-  "U-Wert.lot" 1685089891 95 266fb778c506bbca413fec0c0a8f3005 "pdflatex"
-  "U-Wert.out" 1685089872 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "U-Wert.aux" 1685090101 18681 9ff0de6f91fc8e7e9b664e9063686fb7 "pdflatex"
+  "U-Wert.bbl" 1685090078 52 0eba253fc001332e731e8aba3f23127b "bibtex U-Wert"
+  "U-Wert.lof" 1685090101 385 20ea0437f4c94b27a4b2d79ee60c81e6 "pdflatex"
+  "U-Wert.lot" 1685090101 95 266fb778c506bbca413fec0c0a8f3005 "pdflatex"
+  "U-Wert.out" 1685090082 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   "U-Wert.tex" 1685089836 1076 782ae684aa5401a5251de0c3243f5766 ""
-  "U-Wert.toc" 1685089891 2083 24e5aca9be52e581bc519815e2463acd "pdflatex"
+  "U-Wert.toc" 1685090101 2082 e0e40eb3b8deef092fd64bdc52833fc2 "pdflatex"
   "c:/Users/tadeu/Documents/0 Studium/6. Semester/LPR 2/U-wert/U-Wert.tex" 1685089836 1076 782ae684aa5401a5251de0c3243f5766 ""
   (generated)
   "U-Wert.aux"
