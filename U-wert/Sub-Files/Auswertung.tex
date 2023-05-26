@@ -1,5 +1,5 @@
 \section{Auswertung}
-\subsection{Bestimmung der Wärmeleitfähigkeiten und des Wärmedurchgangskoeffizienten für Polystyrol(1,84 cm), Holz (1,22 cm, 3,21 cm) und Glas(0,5 cm)}
+\subsection{Bestimmung der Wärmeleitfähigkeiten und des Wärmedurchgangskoeffizienten für Polystyrol(1,84 cm), Holz (1,22 cm,  2,24 cm) und Glas(0,5 cm)}
 Zunächst wird die Formel für die Wärmestromdichte benötigt. Diese lautet wie folgt:
 \begin{equation}
 \dot q=\frac{ Q }{ A }=h_{ i }\cdot(T_{ Li }-T_{Wi})
@@ -27,18 +27,66 @@ h_{e}=\frac{ q }{ T_{Wa} - T_{La} }   \qquad  mit     \qquad       R_{se}=\frac{
 \end{equation}
 Anschließend lässt sich die Wärmeleitfähigkeit wie folgt berechnen:
 \begin{equation}
-\lambda=\frac{ Q \cdot d }{ A \cdot ( T_{Wi} - T_{Wa} )}
+\lambda=\frac{ \dot q \cdot d }{  ( T_{Wi} - T_{Wa} )}
   \label{eq:230514_lamda}
 \end{equation}
-In Tabelle \textcolor{red}{..........}  sind dabei die berechneten Werte dargestellt.
+\begin{table}[!ht]
+    \centering
+\caption{Berechnete Werte Für die Wärmestromdichte $\dot q$, den Wärmedurchgangskoeffizienten U und die Wärmeleitfähigkeit  $\lambda$ }
+\label{tab:230524_Messdaten_Messreihe1(1)}
+    \begin{tabular}{|l|l|l|l|}
+    \hline
+        ~ & Wärmestromdichte $\dot q$ in W/$m^2$ & Wärmedurchgangskoeffizient (U) in W/($m^2$*K) & Wärmeleitfähigkeit ($\lambda$) in W/(mK)  \\ \hline
+        Polystyrol 1,84 cm & 45,52 & 1,35 & 0,040  \\ \hline
+        Holz 1,22 cm & 114,48 & 3,40 & 0,158  \\ \hline
+        Holz 2,24 cm & 103,15 & 3,06 &0,167  \\ \hline
+        Glas 0,5 cm & 122,31 & 3,63 & 0,069  \\ \hline
+    \end{tabular}
+\end{table}
+In Tabelle \ref{tab:230524_Messdaten_Messreihe1(1)}  sind dabei die berechneten Werte dargestellt. Dabei ist zu erkennen, dass wie zu erwarten das Polystyrol die niedrigste Wämemestromdichte und Glas die höchste besitzt. Dabei sinkt sie auch je dicker das Holz ist. Der U-Wert verhält sich dabei genauso. Anders hingegen ist es bei der Wärmeleitfähigkeit. Hier ist zu erkennen, dass in unserem Fall das Glas einen Wärmewiderstand in einer Größenordnung wie das Polystyrol hat. Jedoch sind die Werte mit Literaturquellen zu vereinbaren. Wie zu erwarten sind die Werte beim Holz nicht Schichtdickenabhänging und sehr ähnlich. \\
+Im Falle des Float Glases gibt es zum vergleich noch eine Messung mit einem professionelleren Aufbau. 
+Dieser errechnet dabei für die Wärmestromdichte $\dot q$ einen Wert von 135,08 $\frac{W}{m^2}$ und kommt damit auf einen U-Wert von 4,53$\frac{W}{m^2 \cdot K} $. Dies ergibt eine Differenz von von etwa 10,5\% für $\dot q$ und eine Differenz von etwa 20\% für den - Wert. Dabei ist es schwer den genauen Fehler unserer Messung zu bestimmen, da weder die Messungenauigkeit der beiden Aufbauten noch die Genauigkeit der Temperaturfühler bekannt sind. Alles in allem ist jedoch davon auszugehen, dass der professionelle Aufbau deutlich genauer ist. Somit kann man davon ausgehen, dass die $\dot q$- und U-Werte mehr als 10\% vom tatsächlichen Wert abweichen können.
+%
+%
+% 
+%
+%
 \subsection{Berechnen Sie Wärmedurchlasswiderstand R für den zweiten Wandaufbau der 2. Messreihe}
-Der Wärmewiderstand lässt sich mit folgender Formel berechnen:
+Der Wärmedurchlasswiderstand lässt sich mit folgender Formel berechnen:
 %
 \begin{equation}
-R=\frac{(T_{\textcolor{red}{!!!!!!!!!!!!!!!!! noch bennenen }} \cdot T_{\textcolor{red}{!!!!!!!!!!!!!}} )}{\dot q}
+R_{Durchlass}=\frac{1} {U} - R_{se} - R_{si}
   \label{eq:230522_Wärmewiderstand}
 \end{equation}
 %
-In Tabelle \textcolor{red}{..........}  ist dabei der Wärmewiderstand der verschiedenen Schichten zu sehen.
+Der zweite Wandaufbau der 2. Messreihe besteht aus drei Schichten, einer 1,22 cm dicken Schicht aus Holz, einer 1 cm Luft und einer 0,6 cm dicken Polystyrolschicht. Zunächst wir der U-Wert der Wand mit Formel \ref{eq:230514_u2}  berechnet. Als Nächstes müssen noch $R_{si}$ und $R_{se}$ (DIN4108-4) von  $U^{-1}$ abgezogen werden und wir erhalten den Durchlasswiderstand. Dabei ergibt sich für den Durchlasswiderstand 0,174 $\frac{ m^2 \cdot K }{W}$. 
+%In Tabelle \textcolor{red}{..........}  ist dabei der Wärmewiderstand der verschiedenen Schichten zu sehen.
 
-\textcolor{red}{\textbf{Noch zu tun Fehler abschätzen. Und Fotos einfügen, sowie  }}
+
+\subsection{Berechnung der Wärmedurchgangskoeffizienten für beide mehrschichtige Wände und Vergleich mit theoretischen Werten}
+Für die Berechnung der Wärmedurchgangskoeffizienten beider mehrschichtigen Wände wurden die aufgenommenen Temperaturen gemittelt und dann entsprechend \autoref{eq:230514_u2} berechnet.
+Es ergaben sich folgende Werte:
+
+\begin{equation*}
+  U_{Wand 1} = 2,5715 \frac{W}{m^2 \cdot K}
+\end{equation*}
+\begin{equation*}
+  U_{Wand 2} = 2,9084 \frac{W}{m^2 \cdot K}
+\end{equation*}
+
+Bei der Berechnung nach DIN-Norm wurden bereits die theoretischen Wärmedurchgangskoeffizienten
+berechnet.
+
+\begin{equation*}
+  U_{Wand 1}=1,6362 \frac{W}{m^2 \cdot K}
+\end{equation*}
+\begin{equation*}
+  U_{Wand 2}=1,3311 \frac{W}{m^2 \cdot K}
+\end{equation*}
+
+Bei erster Betrachtung wird bei beiden Wänden ein relativ großer Unterschied zwischen den theoretischen und gemessenen Werten für den Wärmedurchgangskoeffizient deutlich.\\
+Hierbei interessant ist, dass bei den theoretischen Werten die zweite Wand einen geringeren U-Wert hat und bei den gemessenen Werten ist der U-Wert der ersten Wand geringer.
+Die sinnvollste Erklärung hierfür ist, dass für die verwendeten Holz- und XPS-Platten angenommen wurde, dass sie nur unterschiedlich dick sind, aber aus dem exakt gleichen Material bestehen.\\
+Bei Schichtholz, sowie XPS ist für die gewählte Wärmeleitfähigkeit entscheidend wie viel Luft im Feststoff ist, bzw. wie gut es komprimiert ist.
+So können wir mit dem ersten Blick nicht sicher sein, dass kein leicht abweichendes XPS oder Schichtholz bei den unterschiedlichen Aufbauten genutzt wurde.\\
+Die Abweichung zwischen Theorie und Messung kann ansonsten durch die Unterschiede in den Voraussetzungen des Versuches im Labor und den Voraussetzungen die für die DIN-Norm angenommen wurden erklärt werden.
