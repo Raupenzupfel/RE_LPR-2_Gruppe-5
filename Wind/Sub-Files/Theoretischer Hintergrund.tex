@@ -2,4 +2,18 @@
 Um den theoretischen Hintergrund dieses Versuchs verstehen zu können, wird im folgenden auf den Leistungsbeiwert $c_{p}$, den Momentenbeiwert $c_{m}$ und den Schubbeiwert $c_{s}$ eingegangen. Abschließend wird noch auf die Windeschwindigkeiten und deren Verzögerung eingegangen.
 \subsection{Der Leistungsbeiwert $c{p}$}
 Der Leistungsbeiwert $c_{p}$ ist wie folgt definiert.
-
+\begin{equation}
+  c_{p}= \frac{P_{WEA}}{P_{Wind}}
+    \label{eq:Leistungsbeiwert_cp}
+\end{equation}
+\begin{equation}
+  c_{p}= \frac{M \cdot 2 \cdot \pi \cdot n_{Rotor}}{\frac{\rho_{Luft}}{2}\cdot \pi \cdot \frac{d^2_{Rotor}}{4} \cdot v^3_{Wind} }
+    \label{eq:Leistungsbeiwert_cp2}
+\end{equation}
+Wie in Formel \ref{eq:Leistungsbeiwert_cp} zu sehen bildet sich $c_{p}$ aus dem Quotienten der -mechanischen- und der Windleistung. 
+In Formel \ref{eq:Leistungsbeiwert_cp2} ist dabei zu sehen wie $c_{p}$ von Anlagenspezifischen Eigenschaften beinflusst wird.
+Typischerweise wird der Leistungsbeiwert $c_{p}$ dabei über die Schnelllaufzahl $\lambda$ aufgetragen. Dabei bildet die Schnelllaufzahl das Verhältnis der Umfangsgeschwindigkeit an der Blattspitze $u_{tip}$ zur ungestörten Windgschwindigkeit ab wie in Formel \ref{eq:Schnelllaufzahl} zu sehen.
+\begin{equation}
+\lambda=\frac{u_{tip}}{u_{Wind}}=\frac{\pi \cdot n_{Rotor}\cdot d_{Rotor}}{u_{Wind}}
+    \label{eq:Schnelllaufzahl}
+\end{equation}
