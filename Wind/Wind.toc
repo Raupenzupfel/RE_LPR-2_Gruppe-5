@@ -1,0 +1,9 @@
+\babel@toc {ngerman}{}\relax 
+\contentsline {section}{\numberline {1}Versuchsziele}{1}{section.1}%
+\contentsline {section}{\numberline {2}Theoretischer Hintergrund}{1}{section.2}%
+\contentsline {section}{\numberline {3}Versuchsbeschreibung}{2}{section.3}%
+\contentsline {section}{\numberline {4}Vorbereitungsfragen}{3}{section.4}%
+\contentsline {section}{\numberline {5}Versuchsdurchführung}{3}{section.5}%
+\contentsline {section}{\numberline {6}Auswertung}{4}{section.6}%
+\contentsline {section}{\numberline {7}Quellen}{5}{section.7}%
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
