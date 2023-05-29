@@ -1178,6 +1178,12 @@ INPUT .\Abbildungen\\HTWLogo-eps-converted-to.pdf
 INPUT .\Abbildungen\\HTWLogo.eps
 INPUT .\Abbildungen\\HTWLogo-eps-converted-to.pdf
 INPUT .\Abbildungen\\HTWLogo-eps-converted-to.pdf
+INPUT C:\Users\tadeu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmssbx10.tfm
+INPUT C:\Users\tadeu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\rm-lmr12.tfm
+INPUT C:\Users\tadeu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\lmmi12.tfm
+INPUT C:\Users\tadeu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\lmsy10.tfm
+INPUT C:\Users\tadeu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Users\tadeu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT .\Abbildungen\\HTWLogo.eps
 INPUT Abbildungen\\HTWLogo.eps
 INPUT .\Abbildungen\\HTWLogo.eps
@@ -1240,7 +1246,6 @@ INPUT Sub-Files\Vorbereitungsfragen.tex
 INPUT .\Sub-Files\Vorbereitungsfragen.tex
 INPUT .\Sub-Files\Vorbereitungsfragen.tex
 INPUT Sub-Files\Vorbereitungsfragen.tex
-INPUT C:\Users\tadeu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmssbx10.tfm
 INPUT .\Abbildungen\Rohrleitungskennlinie.jpg
 INPUT Abbildungen\Rohrleitungskennlinie.jpg
 INPUT .\Abbildungen\Rohrleitungskennlinie.jpg
@@ -1391,6 +1396,8 @@ INPUT C:\Users\tadeu\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmex10.
 INPUT C:\Users\tadeu\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmex10.pfb
 INPUT C:\Users\tadeu\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmmi10.pfb
 INPUT C:\Users\tadeu\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmmi10.pfb
+INPUT C:\Users\tadeu\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmmi12.pfb
+INPUT C:\Users\tadeu\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmmi12.pfb
 INPUT C:\Users\tadeu\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmmi6.pfb
 INPUT C:\Users\tadeu\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmmi6.pfb
 INPUT C:\Users\tadeu\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmmi8.pfb

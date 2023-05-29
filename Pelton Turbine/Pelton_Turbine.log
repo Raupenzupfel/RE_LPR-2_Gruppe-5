@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2022.12.17)  29 MAY 2023 10:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2022.12.17)  29 MAY 2023 10:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -830,13 +830,13 @@ File: ./Abbildungen//HTWLogo-eps-converted-to.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./Abbildungen//HTWLogo-eps-converted-to.pdf  used on input line 36.
 (pdftex.def)             Requested size: 36.04643pt x 20.0pt.
  [2] (Sub-Files/Versuchsziele.tex) (Sub-Files/Theoretischer Hintergrund.tex
-<Abbildungen/Peltonturbine.jpeg, id=95, 1493.58pt x 1991.44pt>
+<Abbildungen/Peltonturbine.jpeg, id=98, 1493.58pt x 1991.44pt>
 File: Abbildungen/Peltonturbine.jpeg Graphic file (type jpg)
 <use Abbildungen/Peltonturbine.jpeg>
-Package pdftex.def Info: Abbildungen/Peltonturbine.jpeg  used on input line 6.
+Package pdftex.def Info: Abbildungen/Peltonturbine.jpeg  used on input line 7.
 (pdftex.def)             Requested size: 227.62206pt x 303.47385pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 2--9
+Underfull \hbox (badness 10000) in paragraph at lines 2--10
 
  []
 
@@ -847,18 +847,30 @@ Package epstopdf Info: Source file: <./Abbildungen//HTWLogo.eps>
 (epstopdf)                    date: 2023-04-27 23:33:46
 (epstopdf)                    size: 27804 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=./Abbildungen//HTWLogo-eps-converted-to.pdf ./Abbildungen//HTWLogo.eps>
-(epstopdf)             \includegraphics on input line 24.
+(epstopdf)             \includegraphics on input line 28.
 Package epstopdf Info: Output file is already uptodate.
 File: ./Abbildungen//HTWLogo-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Abbildungen//HTWLogo-eps-converted-to.pdf>
-Package pdftex.def Info: ./Abbildungen//HTWLogo-eps-converted-to.pdf  used on input line 24.
+Package pdftex.def Info: ./Abbildungen//HTWLogo-eps-converted-to.pdf  used on input line 28.
 (pdftex.def)             Requested size: 36.04643pt x 20.0pt.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.24 \begin{equation}
-                      [1 <./Abbildungen/Peltonturbine.jpeg>])
+l.28 \end{equation}
+                    [1 <./Abbildungen/Peltonturbine.jpeg>]
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 58.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 58.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 58.
+
+)
 Package epstopdf Info: Source file: <./Abbildungen//HTWLogo.eps>
 (epstopdf)                    date: 2023-04-27 22:26:43
 (epstopdf)                    size: 328130 bytes
@@ -873,7 +885,7 @@ File: ./Abbildungen//HTWLogo-eps-converted-to.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./Abbildungen//HTWLogo-eps-converted-to.pdf  used on input line 43.
 (pdftex.def)             Requested size: 36.04643pt x 20.0pt.
  [2] (Sub-Files/Versuchsbeschreibung.tex
-<Abbildungen/Aufbau Pelton.jpeg, id=122, 1493.58pt x 1991.44pt>
+<Abbildungen/Aufbau Pelton.jpeg, id=125, 1493.58pt x 1991.44pt>
 File: Abbildungen/Aufbau Pelton.jpeg Graphic file (type jpg)
 <use Abbildungen/Aufbau Pelton.jpeg>
 Package pdftex.def Info: Abbildungen/Aufbau Pelton.jpeg  used on input line 13.
@@ -883,7 +895,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 18--22
 
  []
 
-<Abbildungen/Generator.jpeg, id=124, 1991.44pt x 1493.58pt>
+<Abbildungen/Generator.jpeg, id=127, 1991.44pt x 1493.58pt>
 File: Abbildungen/Generator.jpeg Graphic file (type jpg)
 <use Abbildungen/Generator.jpeg>
 Package pdftex.def Info: Abbildungen/Generator.jpeg  used on input line 25.
@@ -902,7 +914,7 @@ File: ./Abbildungen//HTWLogo-eps-converted-to.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./Abbildungen//HTWLogo-eps-converted-to.pdf  used on input line 29.
 (pdftex.def)             Requested size: 36.04643pt x 20.0pt.
 [3 <./Abbildungen/Aufbau Pelton.jpeg>]
-<Abbildungen/Schalttafel.jpeg, id=131, 1991.44pt x 1493.58pt>
+<Abbildungen/Schalttafel.jpeg, id=134, 1991.44pt x 1493.58pt>
 File: Abbildungen/Schalttafel.jpeg Graphic file (type jpg)
 <use Abbildungen/Schalttafel.jpeg>
 Package pdftex.def Info: Abbildungen/Schalttafel.jpeg  used on input line 37.
@@ -922,7 +934,7 @@ File: ./Abbildungen//HTWLogo-eps-converted-to.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./Abbildungen//HTWLogo-eps-converted-to.pdf  used on input line 45.
 (pdftex.def)             Requested size: 36.04643pt x 20.0pt.
  [4 <./Abbildungen/Generator.jpeg> <./Abbildungen/Schalttafel.jpeg>] (Sub-Files/Vorbereitungsfragen.tex
-<Abbildungen/Rohrleitungskennlinie.jpg, id=138, 527.9725pt x 314.67563pt>
+<Abbildungen/Rohrleitungskennlinie.jpg, id=141, 527.9725pt x 314.67563pt>
 File: Abbildungen/Rohrleitungskennlinie.jpg Graphic file (type jpg)
 <use Abbildungen/Rohrleitungskennlinie.jpg>
 Package pdftex.def Info: Abbildungen/Rohrleitungskennlinie.jpg  used on input line 15.
@@ -965,7 +977,7 @@ File: ./Abbildungen//HTWLogo-eps-converted-to.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./Abbildungen//HTWLogo-eps-converted-to.pdf  used on input line 48.
 (pdftex.def)             Requested size: 36.04643pt x 20.0pt.
  [6] (Sub-Files/Auswertung.tex
-<Abbildungen/Pumpenkennlinie.png, id=158, 774.7344pt x 593.0958pt>
+<Abbildungen/Pumpenkennlinie.png, id=161, 774.7344pt x 593.0958pt>
 File: Abbildungen/Pumpenkennlinie.png Graphic file (type png)
 <use Abbildungen/Pumpenkennlinie.png>
 Package pdftex.def Info: Abbildungen/Pumpenkennlinie.png  used on input line 29.
@@ -998,7 +1010,7 @@ File: ./Abbildungen//HTWLogo-eps-converted-to.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./Abbildungen//HTWLogo-eps-converted-to.pdf  used on input line 111.
 (pdftex.def)             Requested size: 36.04643pt x 20.0pt.
  [8]
-<Abbildungen/Wirkungsgrade.png, id=183, 774.7344pt x 593.0958pt>
+<Abbildungen/Wirkungsgrade.png, id=186, 774.7344pt x 593.0958pt>
 File: Abbildungen/Wirkungsgrade.png Graphic file (type png)
 <use Abbildungen/Wirkungsgrade.png>
 Package pdftex.def Info: Abbildungen/Wirkungsgrade.png  used on input line 114.
@@ -1026,7 +1038,7 @@ Overfull \hbox (15.52649pt too wide) in paragraph at lines 146--149
 \T1/lmr/m/n/10.95 Die ge-mes-se-ne Dreh-zahl zum Zeit-punkt des bes-ten Wir-kungs-grads ($\OML/lmm/m/it/10.95 ^^Q \OT1/lmr/m/n/10.95 = 21\OML/lmm/m/it/10.95 ; \OT1/lmr/m/n/10.95 14%$\T1/lmr/m/n/10.95 ) be-trägt $\OT1/lmr/m/n/10.95 2050\OML/lmm/m/it/10.95 min[]$
  []
 
-<Abbildungen/Arbeitspunkte.jpg, id=196, 382.93062pt x 325.215pt>
+<Abbildungen/Arbeitspunkte.jpg, id=199, 382.93062pt x 325.215pt>
 File: Abbildungen/Arbeitspunkte.jpg Graphic file (type jpg)
 <use Abbildungen/Arbeitspunkte.jpg>
 Package pdftex.def Info: Abbildungen/Arbeitspunkte.jpg  used on input line 152.
@@ -1100,17 +1112,17 @@ Package rerunfilecheck Info: File `Pelton_Turbine.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 19522 strings out of 475281
- 375588 string characters out of 2774064
- 893911 words of memory out of 3000000
- 40549 multiletter control sequences out of 15000+600000
- 513612 words of font info for 58 fonts, out of 8000000 for 9000
+ 19532 strings out of 475281
+ 375705 string characters out of 2774064
+ 894911 words of memory out of 3000000
+ 40556 multiletter control sequences out of 15000+600000
+ 517629 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  113i,24n,115p,10702b,551s stack positions out of 10000i,1000n,20000p,200000b,80000s
-{C:/Users/tadeu/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/tadeu/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Users/tadeu/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/tadeu/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/tadeu/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Users/tadeu/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}<C:/Users/tadeu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/tadeu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/tadeu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/tadeu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/tadeu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi6.pfb><C:/Users/tadeu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/tadeu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/tadeu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/tadeu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Users/tadeu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/tadeu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/tadeu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmro10.pfb><C:/Users/tadeu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/tadeu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/tadeu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/Users/tadeu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb>
-Output written on Pelton_Turbine.pdf (15 pages, 1617617 bytes).
+{C:/Users/tadeu/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/tadeu/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Users/tadeu/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/tadeu/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/tadeu/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Users/tadeu/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}<C:/Users/tadeu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/tadeu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/tadeu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/tadeu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/tadeu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/tadeu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi6.pfb><C:/Users/tadeu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/tadeu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/tadeu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/tadeu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Users/tadeu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/tadeu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/tadeu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmro10.pfb><C:/Users/tadeu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/tadeu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/tadeu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/Users/tadeu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb>
+Output written on Pelton_Turbine.pdf (15 pages, 1623853 bytes).
 PDF statistics:
- 384 PDF objects out of 1000 (max. 8388607)
- 73 named destinations out of 1000 (max. 500000)
- 198 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 394 PDF objects out of 1000 (max. 8388607)
+ 74 named destinations out of 1000 (max. 500000)
+ 206 words of extra memory for PDF output out of 10000 (max. 10000000)
 
