@@ -1,0 +1,97 @@
+%% Skript: Laborversuch: Validierung eines Simulationsmodells f�r PV-Batteriesysteme
+
+close all;
+clear;
+clc;
+
+%% 1 Einlesen des Datensatzes
+
+% Anpassung erforderlich: Dateipfad, in dem sich die Datei Datensatz.mat befindet (z. B. cd 'C:\Daten')
+% cd 'C:\Daten'
+
+% Import der Eingangsdaten
+load Datensatz;
+
+
+%% 2 Vorbereitungsaufgaben
+
+%% 2.1 
+Pd = Ppvs - Pl;
+
+figure(1),
+plot(t,Ppvs/1000,t,Pl/1000,t,Pd/1000,'LineWidth',1.5);
+grid on;
+% grid minor;
+legend('P_{PVS}','P_l','P_{diff.}','Location','northeast');
+ylim([0,6]);
+xlabel('Zeit');
+ylabel('Leistung in kW');
+
+
+
+for i = 60:60:604800
+    t_m(i/60,1) = datetime(t(i));
+    P_pvsm(i/60,1) = Ppvs(i);
+    P_lm(i/60,1) = Pl(i);
+    P_dm(i/60,1) = Pd(i);
+end
+
+
+% figure(2),
+% plot(t,Ppvs/1000,t,Pl/1000,t,Pd/1000,'LineWidth',1.5);
+% grid on;
+% % grid minor;
+% legend('P_{PVS}','P_l','P_{diff.}','Location','northeast');
+% ylim([0,6]);
+% xlabel('Zeit');
+% ylabel('Leistung in kW');
+
+
+%% 2.2
+
+%% 2.3
+
+%% 2.4
+
+%% 3 Simulation des PV-Batteriesystems
+
+%% 3.1 Definition der Systemparameter
+
+% Nutzbare Speicherkapazit�t in kWh
+s.E_BAT=6.1; 
+% Nominale AC-Leistungsaufnahme des Batteriewechselrichters in kW
+s.P_AC2BAT_in=2.508; 
+% Nominale AC-Leistungsabgabe des Batteriewechselrichters in kW
+s.P_BAT2AC_out=2.499; 
+% Mittlerer Umwandlungswirkungsgrad des Batteriewechselrichters im Ladebetrieb 
+s.eta_ac2bat=0.9427;
+% Mittlerer Umwandlungswirkungsgrad des Batteriewechselrichters im Entladebetrieb 
+s.eta_bat2ac=0.9479;
+% Mittlerer Umwandlungswirkungsgrad des Batteriespeichers 
+s.eta_bat=0.927;
+% Simulationszeitschrittweite in h
+s.dt=1/3600; 
+
+%% 3.2 Simulation des Betriebsverhaltens
+% Differenzleistung in W
+Pd=Ppvs-Pl;
+
+% Aufruf des Simulationsmodells
+[Pbssim,Pbatsim,soc]=simbat(s,Pd);
+
+%% 4 Versuchsdurchf�hrung
+
+%% 4.1 Vergleich der Leistungsfl�sse 
+
+%% 4.1.1
+
+%% 4.1.2
+
+%% 4.2 Vergleich der Energiesummen
+
+%% 4.2.1
+
+%% 4.2.2
+
+
+
