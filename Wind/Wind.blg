@@ -6,6 +6,10 @@ The style file: unsrt.bst
 Reallocating 'name_of_file' (item size: 1) to 34 items.
 I found no \citation commands---while reading file Wind.aux
 Database file #1: Sub-Files/Libs/Tadeus_Quellen.bib
+"{" immediately follows a field name---line 59 of file Sub-Files/Libs/Tadeus_Quellen.bib
+ : @Comment
+ :         {jabref-meta: databaseType:bibtex;}
+I'm skipping whatever remains of this entry
 You've used 0 entries,
             1791 wiz_defined-function locations,
             445 strings with 3539 characters,
@@ -47,4 +51,4 @@ warning$ -- 0
 while$ -- 0
 width$ -- 0
 write$ -- 2
-(There was 1 error message)
+(There were 2 error messages)
