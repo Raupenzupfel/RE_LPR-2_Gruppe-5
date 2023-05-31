@@ -1,5 +1,7 @@
 %% Skript: Laborversuch: Validierung eines Simulationsmodells f�r PV-Batteriesysteme
+% Skript der Gruppe 5 SS23
 
+tic
 close all;
 clear;
 clc;
@@ -20,6 +22,7 @@ load Datensatz;
 Ppvs2l = min(Ppvs,Pl);
 
 figure(1),
+subplot(2, 2, 1)
 plot(t,Ppvs/1000,t,Pl/1000,t,Ppvs2l/1000,'LineWidth',1.5);
 grid on;
 title('Sekunden Werte');
@@ -38,7 +41,7 @@ for i = intervall:intervall:604800
     P_pvs2lm(i/intervall,1) = mean(Ppvs2l(i+1-intervall:i));
 end
 
-figure(2),
+subplot(2,2,2)
 plot(t_m,P_pvsm/1000,t_m,P_lm/1000,t_m,P_pvs2lm/1000,'LineWidth',1.5);
 grid on;
 title('Stunden Mittelwerte');
@@ -59,7 +62,7 @@ E_pvs2l = sum(Ppvs2l/1000)/3600;
 
 P_D = Ppvs - Pl;
 
-figure(3),
+subplot(2,2,3)
 plot(t,P_D/1000,t,Pbs/1000,'LineWidth',1.5);
 grid on;
 title('Differenzleistung und Batterieleistung');
@@ -71,11 +74,11 @@ ylabel('Leistung in kW');
 %% 2.4
 
 % cumsum gibt die kontinuierliche summe eines vektors an. 
-% Also statt die gesammte summe zu berechnen, wird mit cumsum auch alle zwischen summen gespeichert
+% Also statt die gesammte Summe zu berechnen, werden mit cumsum auch alle zwischen Summen gespeichert.
 
 E_PVS_Komm = cumsum(Ppvs/1000)/3600;
 
-figure(4),
+subplot(2,2,4)
 area(t,E_PVS_Komm,'LineWidth',1.5);
 grid on;
 title('Kommulierte Einstrahlung');
@@ -110,13 +113,49 @@ Pd=Ppvs-Pl;
 % Aufruf des Simulationsmodells
 [Pbssim,Pbatsim,soc]=simbat(s,Pd);
 
+intervall2 = 1800;
+
+for i = intervall2:intervall2:604800
+    t_m2(i/intervall2,1) = datetime(t(i));
+    P_BSm(i/intervall2,1) = mean(Pbs(i+1-intervall2:i));
+    P_BSsimm(i/intervall2,1) = mean(Pbssim(i+1-intervall2:i));
+    P_Batsimm(i/intervall2,1) = mean(Pbatsim(i+1-intervall2:i));
+    soc_m(i/intervall2,1) = mean(soc(i+1-intervall2:i));
+end
+
 %% 4 Versuchsdurchf�hrung
 
 %% 4.1 Vergleich der Leistungsfl�sse 
 
 %% 4.1.1
 
+figure(2),
+subplot(2,1,1)
+plot(t,Pbs/1000,t,Pbssim/1000,'LineWidth',1.5);
+grid on;
+title('Leistungsflüsse');
+legend('P_{BS}','P_{BS,Sim.}','Location','northeast');
+xlim([datetime('18-Jul-2016 04:00:00') datetime('25-Jul-2016 03:59:59')]);
+xlabel('Zeit');
+ylabel('Leistung in kW');
+
+subplot(2,1,2)
+plot(t_m2,P_BSm/1000,t_m2,P_BSsimm/1000,'LineWidth',1.5);
+grid on;
+title('Leistungsflüsse mittelwertbildung');
+legend('P_{BS}','P_{BS,Sim.}','Location','northeast');
+xlim([datetime('18-Jul-2016 04:00:00') datetime('25-Jul-2016 03:59:59')]);
+xlabel('Zeit');
+ylabel('Leistung in kW');
+
 %% 4.1.2
+
+figure(3),
+scatter(Pbs/1000, Pbssim/1000,'filled','SizeData',1.5);
+grid on;
+title('Simulation Differenz');
+xlabel('P_{BS} in kW');
+ylabel('P_{BS,Sim} in kW');
 
 %% 4.2 Vergleich der Energiesummen
 
@@ -124,5 +163,4 @@ Pd=Ppvs-Pl;
 
 %% 4.2.2
 
-
-
+toc
