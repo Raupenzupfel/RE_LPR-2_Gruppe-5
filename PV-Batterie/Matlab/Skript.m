@@ -79,7 +79,7 @@ ylabel('Leistung in kW');
 E_PVS_Komm = cumsum(Ppvs/1000)/3600;
 
 subplot(2,2,4)
-area(t,E_PVS_Komm,'LineWidth',1.5);
+plot(t,E_PVS_Komm,'LineWidth',1.5);
 grid on;
 title('Kommulierte Einstrahlung');
 legend('P_{PVS,Komm.}','Location','northeast');
@@ -160,6 +160,18 @@ ylabel('P_{BS,Sim} in kW');
 %% 4.2 Vergleich der Energiesummen
 
 %% 4.2.1
+
+E_BS = cumsum(Pbs/1000)/3600;
+E_BSSim = cumsum(Pbssim/1000)/3600;
+
+figure(4);
+plot(t,E_BS,t,E_BSSim);
+grid on;
+title('Kommulierte Leistungen');
+legend('E_{BS}','E_{BS,Sim.}','Location','northeast');
+xlim([datetime('18-Jul-2016 04:00:00') datetime('25-Jul-2016 03:59:59')]);
+xlabel('Zeit');
+ylabel('Energie in kWh');
 
 %% 4.2.2
 
