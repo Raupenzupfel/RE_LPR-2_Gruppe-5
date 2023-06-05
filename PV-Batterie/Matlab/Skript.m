@@ -186,8 +186,8 @@ Ergebnisse.E_Bat_DC_Sim = sum(abs(min(0,s.Pbatsim/1000)/3600));     % Battery DC
 Ergebnisse.E_BS_C = sum(max(0,ts.Pbs)/1000/3600);                   % Battery DC Charge         - E_AC2BS
 Ergebnisse.E_BS_C_Sim = sum(max(0,s.Pbssim)/1000/3600);             % Battery DC Charge Sim.
 
-Ergebnisse.E_BS_DC = sum(abs(min(0,ts.Pbs)/1000/3600));                % Battery DC Discharge         - E_BS2AC
-Ergebnisse.E_BS_DC_Sim = sum(abs(min(0,s.Pbssim)/1000/3600));         % Battery DC Discharge Sim.
+Ergebnisse.E_BS_DC = sum(abs(min(0,ts.Pbs)/1000/3600));             % Battery DC Discharge         - E_BS2AC
+Ergebnisse.E_BS_DC_Sim = sum(abs(min(0,s.Pbssim)/1000/3600));       % Battery DC Discharge Sim.
 
 
 close all;
