@@ -177,19 +177,46 @@ ylabel('Energie in kWh');
 
 %% 4.2.2
 
-Ergebnisse.E_Bat_C = sum(max(0,ts.Pbat/1000)/3600);                 % Battery DC Charge         - E_DC2Bat
-Ergebnisse.E_Bat_C_Sim = sum(max(0,s.Pbatsim/1000)/3600);           % Battery DC Charge Sim.
+Ergebnisse.E_Bat_C.real = sum(max(0,ts.Pbat/1000)/3600);                 % Battery DC Charge         - E_DC2Bat
+Ergebnisse.E_Bat_C.Sim = sum(max(0,s.Pbatsim/1000)/3600);           % Battery DC Charge Sim.
+Ergebnisse.E_Bat_C.A = Ergebnisse.E_Bat_C.real - Ergebnisse.E_Bat_C.Sim;
+Ergebnisse.E_Bat_C.R = Ergebnisse.E_Bat_C.A/Ergebnisse.E_Bat_C.real;
 
-Ergebnisse.E_Bat_DC = sum(abs(min(0,ts.Pbat/1000)/3600));           % Battery DC Discharge      - E_Bat2DC
-Ergebnisse.E_Bat_DC_Sim = sum(abs(min(0,s.Pbatsim/1000)/3600));     % Battery DC Discharge Sim.
+Ergebnisse.E_Bat_DC.real = sum(abs(min(0,ts.Pbat/1000)/3600));           % Battery DC Discharge      - E_Bat2DC
+Ergebnisse.E_Bat_DC.Sim = sum(abs(min(0,s.Pbatsim/1000)/3600));     % Battery DC Discharge Sim.
+Ergebnisse.E_Bat_DC.A = Ergebnisse.E_Bat_DC.real - Ergebnisse.E_Bat_DC.Sim ;
+Ergebnisse.E_Bat_DC.R = Ergebnisse.E_Bat_DC.A / Ergebnisse.E_Bat_DC.real;
 
-Ergebnisse.E_BS_C = sum(max(0,ts.Pbs)/1000/3600);                   % Battery DC Charge         - E_AC2BS
-Ergebnisse.E_BS_C_Sim = sum(max(0,s.Pbssim)/1000/3600);             % Battery DC Charge Sim.
+Ergebnisse.E_BS_C.real = sum(max(0,ts.Pbs)/1000/3600);                   % Battery AC Charge         - E_AC2BS
+Ergebnisse.E_BS_C.Sim = sum(max(0,s.Pbssim)/1000/3600);             % Battery AC Charge Sim.
+Ergebnisse.E_BS_C.A = Ergebnisse.E_BS_C.real - Ergebnisse.E_BS_C.Sim;
+Ergebnisse.E_BS_C.R = Ergebnisse.E_BS_C.A / Ergebnisse.E_BS_C.real;
 
-Ergebnisse.E_BS_DC = sum(abs(min(0,ts.Pbs)/1000/3600));             % Battery DC Discharge         - E_BS2AC
-Ergebnisse.E_BS_DC_Sim = sum(abs(min(0,s.Pbssim)/1000/3600));       % Battery DC Discharge Sim.
+Ergebnisse.E_BS_DC.real = sum(abs(min(0,ts.Pbs)/1000/3600));             % Battery AC Discharge      - E_BS2AC
+Ergebnisse.E_BS_DC.Sim = sum(abs(min(0,s.Pbssim)/1000/3600));       % Battery AC Discharge Sim.
+Ergebnisse.E_BS_DC.A = Ergebnisse.E_BS_DC.real - Ergebnisse.E_BS_DC.Sim;
+Ergebnisse.E_BS_DC.R = Ergebnisse.E_BS_DC.A / Ergebnisse.E_BS_DC.real;
 
+Ergebnisse.Eta_AC2BAT.real = Ergebnisse.E_Bat_C.real / Ergebnisse.E_BS_C.real;
+Ergebnisse.Eta_AC2BAT.Sim = Ergebnisse.E_Bat_C.Sim / Ergebnisse.E_BS_C.Sim;
+Ergebnisse.Eta_AC2BAT.A = Ergebnisse.Eta_AC2BAT.real - Ergebnisse.Eta_AC2BAT.Sim;
+Ergebnisse.Eta_AC2BAT.R = Ergebnisse.Eta_AC2BAT.A / Ergebnisse.Eta_AC2BAT.real;
 
-close all;
+Ergebnisse.Eta_BAT.real = Ergebnisse.E_Bat_DC.real / Ergebnisse.E_Bat_C.real;
+Ergebnisse.Eta_BAT.Sim = Ergebnisse.E_Bat_DC.Sim / Ergebnisse.E_Bat_C.Sim;
+Ergebnisse.Eta_BAT.A = Ergebnisse.Eta_BAT.real - Ergebnisse.Eta_BAT.Sim;
+Ergebnisse.Eta_BAT.R = Ergebnisse.Eta_BAT.A / Ergebnisse.Eta_BAT.real;
+
+Ergebnisse.Eta_BAT2AC.real = Ergebnisse.E_BS_DC.real / Ergebnisse.E_Bat_DC.real;
+Ergebnisse.Eta_BAT2AC.Sim = Ergebnisse.E_BS_DC.Sim / Ergebnisse.E_Bat_DC.Sim;
+Ergebnisse.Eta_BAT2AC.A = Ergebnisse.Eta_BAT2AC.real - Ergebnisse.Eta_BAT2AC.Sim;
+Ergebnisse.Eta_BAT2AC.R = Ergebnisse.Eta_BAT2AC.A / Ergebnisse.Eta_BAT2AC.real;
+
+Ergebnisse.Eta_AC.real = Ergebnisse.E_BS_DC.real / Ergebnisse.E_BS_C.real;
+Ergebnisse.Eta_AC.Sim = Ergebnisse.E_BS_DC.Sim / Ergebnisse.E_BS_C.Sim;
+Ergebnisse.Eta_AC.A = Ergebnisse.Eta_AC.real - Ergebnisse.Eta_AC.Sim;
+Ergebnisse.Eta_AC.R = Ergebnisse.Eta_AC.A / Ergebnisse.Eta_AC.real;
+
+% close all;
 
 toc
