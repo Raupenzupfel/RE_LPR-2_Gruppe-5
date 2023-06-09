@@ -1,6 +1,6 @@
 \section{Theoretischer Hintergrund}
-Um den theoretischen Hintergrund dieses Versuchs verstehen zu können, wird im folgenden auf den Leistungsbeiwert $c_{p}$, den Momentenbeiwert $c_{m}$ und den Schubbeiwert $c_{s}$ eingegangen. Abschließend wird noch auf die Windeschwindigkeiten und deren Verzögerung eingegangen.
-\subsection{Der Leistungsbeiwert $c{p}$}
+Um den theoretischen Hintergrund dieses Versuchs verstehen zu können, wird im folgenden auf den Leistungsbeiwert $c_{p}$, den Momentenbeiwert $c_{m}$ und den Schubbeiwert $c_{s}$ eingegangen. Abschließend wird noch auf die Windgeschwindigkeiten und deren Verzögerung eingegangen.
+\subsection{Der Leistungsbeiwert \texorpdfstring{$c_P$}{}}
 Der Leistungsbeiwert $c_{p}$ ist wie folgt definiert.
 \begin{equation}
   c_{p}= \frac{P_{WEA}}{P_{Wind}}
@@ -10,9 +10,9 @@ Der Leistungsbeiwert $c_{p}$ ist wie folgt definiert.
   c_{p}= \frac{M \cdot 2 \cdot \pi \cdot n_{Rotor}}{\frac{\rho_{Luft}}{2}\cdot \pi \cdot \frac{d^2_{Rotor}}{4} \cdot v^3_{Wind} }
     \label{eq:Leistungsbeiwert_cp2}
 \end{equation}
-Wie in Formel \ref{eq:Leistungsbeiwert_cp} zu sehen bildet sich $c_{p}$ aus dem Quotienten der -mechanischen- und der Windleistung. 
-In Formel \ref{eq:Leistungsbeiwert_cp2} ist dabei zu sehen wie $c_{p}$ von Anlagenspezifischen Eigenschaften beinflusst wird.
-Typischerweise wird der Leistungsbeiwert $c_{p}$ dabei über die Schnelllaufzahl $\lambda$ aufgetragen. Dabei bildet die Schnelllaufzahl das Verhältnis der Umfangsgeschwindigkeit an der Blattspitze $u_{tip}$ zur ungestörten Windgschwindigkeit ab wie in Formel \ref{eq:Schnelllaufzahl} zu sehen.
+Wie in Formel \ref{eq:Leistungsbeiwert_cp} zu sehen bildet sich $c_{p}$ aus dem Quotienten der Mechanischen- und der Windleistung. 
+In Formel \ref{eq:Leistungsbeiwert_cp2} ist dabei zu sehen wie $c_{p}$ von Anlagenspezifischen Eigenschaften beeinflusst wird.
+Typischerweise wird der Leistungsbeiwert $c_{p}$ dabei über die Schnelllaufzahl $\lambda$ aufgetragen. Dabei bildet die Schnelllaufzahl das Verhältnis der Umfangsgeschwindigkeit an der Blattspitze $u_{tip}$ zur ungestörten Windgeschwindigkeit ab wie in Formel \ref{eq:Schnelllaufzahl} zu sehen.
 \begin{equation}
 \lambda=\frac{u_{tip}}{u_{Wind}}=\frac{\pi \cdot n_{Rotot \cdot d_{Rotor}}}{v_{Wind}}
     \label{eq:Schnelllaufzahl}
@@ -24,15 +24,15 @@ Typischerweise wird der Leistungsbeiwert $c_{p}$ dabei über die Schnelllaufzahl
     \caption{Berechnete Leistungsbeiwerte $c_{P}$ des Rotors der Labor-Windkraftanlage in Abhängigkeit der Schnelllaufzahl $\lambda$ für unterschiedliche Blatt (Pitch-)Winkel.}
     \label{fig:cpzulambda}
 \end{figure}
-noch einfügen der Quelle (Skript von Twele also für die Abbildung)
+Noch einfügen der Quelle (Skript von Twele also für die Abbildung)
 
-\subsection{Der Momentenbeiwert $c{m}$}
+\subsection{Der Momentenbeiwert \texorpdfstring{$c_M$}{}}
 Der Momentenbeiwert beschreibt das Betriebsverhalten des Rotors bezüglich der Drehmomentabgabe, mit dessen Hilfe sich eine Aussage über das Anlaufverhalten aus dem Stillstand machen lässt. Dabei ergibt er sich aus dem Verhältnis des abgegebenen Drehmoments zum Luftkraftmoment, dass auf die Rotorfläche wirkt.
 \begin{equation}
   c_{M}= \frac{M}{ \frac{\rho_{Luft}}{2}\cdot \pi \cdot \frac{d^3_{Rotor}}{8} \cdot v^2_{Wind} }
     \label{eq:Momentenbeiwert_cm}
 \end{equation}
-Des Weiteren gilt der zusammenhang:
+Des Weiteren gilt der Zusammenhang:
 \begin{equation}
   c_{M}= c_{p} \cdot \lambda
     \label{eq:Momentenbeiwert_cm2}
@@ -44,10 +44,10 @@ Bei Schnellläufern ist der Momentenbeiwert beim Anlaufen sehr gering. Dies ist 
     \caption{Berechnete Momentenbeiwert $c_{M}$ des Rotors der Labor-Windkraftanlage in Abhängigkeit der Schnelllaufzahl $\lambda$ für unterschiedliche Blatt (Pitch-)Winkel. }
     \label{fig:cmzulambda}
 \end{figure}
-noch quelle in die Abbildung (skript twele)
+Noch quelle in die Abbildung (Skript Twele)
 
-\subsection{Der Schubbeiwert $c{s}$}
-Der Schubbeiwert $c_{s}$ ist sehr wichtig um die Windkraftanlage strukturmechanisch zu dimensionieren.  Dabei ergibt der Schubbeiwert aus der dynamischen Staukraft auf die Rotorfläche.
+\subsection{Der Schubbeiwert \texorpdfstring{$c_S$}{}}
+Der Schubbeiwert $c_{s}$ ist sehr wichtig um die Windkraftanlage Struktur-mechanisch zu dimensionieren.  Dabei ergibt der Schubbeiwert aus der dynamischen Staukraft auf die Rotorfläche.
 \begin{equation}
   c_{s}= \frac{F_{S}}{\frac{\rho_{Luft}}{2}\cdot \pi \cdot \frac{d^2_{Rotor}}{4} \cdot v^2_{Wind}}
     \label{eq:Schubbeiwert_cs}
