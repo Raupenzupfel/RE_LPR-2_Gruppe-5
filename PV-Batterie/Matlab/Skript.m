@@ -12,18 +12,18 @@ clc;
 % cd 'C:\Daten'
 
 % Import der Eingangsdaten
-load Datensatz;
+load DatensatzModified;
 
 
 %% 2 Vorbereitungsaufgaben
 
 %% 2.1 
 
-Ppvs2l = min(Ppvs,Pl);
+Ppvs2l = min(ts.Ppvs,ts.Pl);
 
 figure(1),
 subplot(2, 2, 1)
-plot(t,Ppvs/1000,t,Pl/1000,t,Ppvs2l/1000,'LineWidth',1.5);
+plot(ts.t,ts.Ppvs/1000,ts.t,ts.Pl/1000,ts.t,Ppvs2l/1000,'LineWidth',1.5);
 grid on;
 title('Sekunden Werte');
 legend('P_{PVS}','P_L','P_{PVS2L}','Location','northeast');
@@ -32,17 +32,18 @@ ylim([0,6]);
 xlabel('Zeit');
 ylabel('Leistung in kW');
 
-intervall = 3600;
+tm.intervall1 = 3600;
 
-for i = intervall:intervall:604800
-    t_m(i/intervall,1) = datetime(t(i));
-    P_pvsm(i/intervall,1) = mean(Ppvs(i+1-intervall:i));
-    P_lm(i/intervall,1) = mean(Pl(i+1-intervall:i));
-    P_pvs2lm(i/intervall,1) = mean(Ppvs2l(i+1-intervall:i));
+for i = tm.intervall1:tm.intervall1:604800
+    tm.t(i/tm.intervall1,1) = datetime(ts.t(i));
+    tm.P_pvs(i/tm.intervall1,1) = mean(ts.Ppvs(i+1-tm.intervall1:i));
+    tm.P_l(i/tm.intervall1,1) = mean(ts.Pl(i+1-tm.intervall1:i));
+    tm.P_pvs2l(i/tm.intervall1,1) = mean(Ppvs2l(i+1-tm.intervall1:i));
 end
+clear i tm.intervall1;
 
 subplot(2,2,2)
-plot(t_m,P_pvsm/1000,t_m,P_lm/1000,t_m,P_pvs2lm/1000,'LineWidth',1.5);
+plot(tm.t,tm.P_pvs/1000,tm.t,tm.P_l/1000,tm.t,tm.P_pvs2l/1000,'LineWidth',1.5);
 grid on;
 title('Stunden Mittelwerte');
 legend('P_{PVS}','P_L','P_{PVS2L}','Location','northeast');
@@ -54,16 +55,16 @@ ylabel('Leistung in kW');
 
 %% 2.2
 
-E_pvs = sum(Ppvs/1000)/3600;
-E_l = sum(Pl/1000)/3600;
-E_pvs2l = sum(Ppvs2l/1000)/3600;
+E.E_pvs = sum(ts.Ppvs/1000)/3600;
+E.E_l = sum(ts.Pl/1000)/3600;
+E.E_pvs2l = sum(Ppvs2l/1000)/3600;
 
 %% 2.3
 
-P_D = Ppvs - Pl;
+P_D = ts.Ppvs - ts.Pl;
 
 subplot(2,2,3)
-plot(t,P_D/1000,t,Pbs/1000,'LineWidth',1.5);
+plot(ts.t,P_D/1000,ts.t,ts.Pbs/1000,'LineWidth',1.5);
 grid on;
 title('Differenzleistung und Batterieleistung');
 legend('P_{Diff.}','P_{BS}','Location','northeast');
@@ -76,10 +77,10 @@ ylabel('Leistung in kW');
 % cumsum gibt die kontinuierliche summe eines vektors an. 
 % Also statt die gesammte Summe zu berechnen, werden mit cumsum auch alle zwischen Summen gespeichert.
 
-E_PVS_Komm = cumsum(Ppvs/1000)/3600;
+E_PVS_Komm = cumsum(ts.Ppvs/1000)/3600;
 
 subplot(2,2,4)
-area(t,E_PVS_Komm,'LineWidth',1.5);
+plot(ts.t,E_PVS_Komm,'LineWidth',1.5);
 grid on;
 title('Kommulierte Einstrahlung');
 legend('P_{PVS,Komm.}','Location','northeast');
@@ -108,20 +109,21 @@ s.dt=1/3600;
 
 %% 3.2 Simulation des Betriebsverhaltens
 % Differenzleistung in W
-Pd=Ppvs-Pl;
-
+% Pd=Ppvs-Pl;
 % Aufruf des Simulationsmodells
-[Pbssim,Pbatsim,soc]=simbat(s,Pd);
+[s.Pbssim,s.Pbatsim,s.soc]=simbat(s,P_D);
 
-intervall2 = 1800;
+tm.intervall2 = 1800;
 
-for i = intervall2:intervall2:604800
-    t_m2(i/intervall2,1) = datetime(t(i));
-    P_BSm(i/intervall2,1) = mean(Pbs(i+1-intervall2:i));
-    P_BSsimm(i/intervall2,1) = mean(Pbssim(i+1-intervall2:i));
-    P_Batsimm(i/intervall2,1) = mean(Pbatsim(i+1-intervall2:i));
-    soc_m(i/intervall2,1) = mean(soc(i+1-intervall2:i));
+for i = tm.intervall2:tm.intervall2:604800
+    tm.t(i/tm.intervall2,1) = datetime(ts.t(i));
+    tm.P_BS(i/tm.intervall2,1) = mean(ts.Pbs(i+1-tm.intervall2:i));
+    tm.P_BSsim(i/tm.intervall2,1) = mean(s.Pbssim(i+1-tm.intervall2:i));
+    tm.P_Batsim(i/tm.intervall2,1) = mean(s.Pbatsim(i+1-tm.intervall2:i));
+    tm.soc(i/tm.intervall2,1) = mean(s.soc(i+1-tm.intervall2:i));
 end
+
+clear i tm.intervall2;
 
 %% 4 Versuchsdurchf�hrung
 
@@ -131,7 +133,7 @@ end
 
 figure(2),
 subplot(2,1,1)
-plot(t,Pbs/1000,t,Pbssim/1000,'LineWidth',1.5);
+plot(ts.t,ts.Pbs/1000,ts.t,s.Pbssim/1000,'LineWidth',1.5);
 grid on;
 title('Leistungsflüsse');
 legend('P_{BS}','P_{BS,Sim.}','Location','northeast');
@@ -140,7 +142,7 @@ xlabel('Zeit');
 ylabel('Leistung in kW');
 
 subplot(2,1,2)
-plot(t_m2,P_BSm/1000,t_m2,P_BSsimm/1000,'LineWidth',1.5);
+plot(tm.t,tm.P_BS/1000,tm.t,tm.P_BSsim/1000,'LineWidth',1.5);
 grid on;
 title('Leistungsflüsse mittelwertbildung');
 legend('P_{BS}','P_{BS,Sim.}','Location','northeast');
@@ -151,7 +153,7 @@ ylabel('Leistung in kW');
 %% 4.1.2
 
 figure(3),
-scatter(Pbs/1000, Pbssim/1000,'filled','SizeData',1.5);
+scatter(ts.Pbs/1000, s.Pbssim/1000,'filled','SizeData',1.5);
 grid on;
 title('Simulation Differenz');
 xlabel('P_{BS} in kW');
@@ -161,6 +163,60 @@ ylabel('P_{BS,Sim} in kW');
 
 %% 4.2.1
 
+E_BS_Komm = cumsum(ts.Pbs/1000)/3600;
+E_BSSim_Komm = cumsum(s.Pbssim/1000)/3600;
+
+figure(4);
+plot(ts.t,E_BS_Komm,ts.t,E_BSSim_Komm);
+grid on;
+title('Kommulierte Leistungen');
+legend('E_{BS}','E_{BS,Sim.}','Location','northeast');
+xlim([datetime('18-Jul-2016 04:00:00') datetime('25-Jul-2016 03:59:59')]);
+xlabel('Zeit');
+ylabel('Energie in kWh');
+
 %% 4.2.2
+
+Ergebnisse.E_Bat_C.real = sum(max(0,ts.Pbat/1000)/3600);                 % Battery DC Charge         - E_DC2Bat
+Ergebnisse.E_Bat_C.Sim = sum(max(0,s.Pbatsim/1000)/3600);           % Battery DC Charge Sim.
+Ergebnisse.E_Bat_C.A = Ergebnisse.E_Bat_C.real - Ergebnisse.E_Bat_C.Sim;
+Ergebnisse.E_Bat_C.R = Ergebnisse.E_Bat_C.A/Ergebnisse.E_Bat_C.real;
+
+Ergebnisse.E_Bat_DC.real = sum(abs(min(0,ts.Pbat/1000)/3600));           % Battery DC Discharge      - E_Bat2DC
+Ergebnisse.E_Bat_DC.Sim = sum(abs(min(0,s.Pbatsim/1000)/3600));     % Battery DC Discharge Sim.
+Ergebnisse.E_Bat_DC.A = Ergebnisse.E_Bat_DC.real - Ergebnisse.E_Bat_DC.Sim ;
+Ergebnisse.E_Bat_DC.R = Ergebnisse.E_Bat_DC.A / Ergebnisse.E_Bat_DC.real;
+
+Ergebnisse.E_BS_C.real = sum(max(0,ts.Pbs)/1000/3600);                   % Battery AC Charge         - E_AC2BS
+Ergebnisse.E_BS_C.Sim = sum(max(0,s.Pbssim)/1000/3600);             % Battery AC Charge Sim.
+Ergebnisse.E_BS_C.A = Ergebnisse.E_BS_C.real - Ergebnisse.E_BS_C.Sim;
+Ergebnisse.E_BS_C.R = Ergebnisse.E_BS_C.A / Ergebnisse.E_BS_C.real;
+
+Ergebnisse.E_BS_DC.real = sum(abs(min(0,ts.Pbs)/1000/3600));             % Battery AC Discharge      - E_BS2AC
+Ergebnisse.E_BS_DC.Sim = sum(abs(min(0,s.Pbssim)/1000/3600));       % Battery AC Discharge Sim.
+Ergebnisse.E_BS_DC.A = Ergebnisse.E_BS_DC.real - Ergebnisse.E_BS_DC.Sim;
+Ergebnisse.E_BS_DC.R = Ergebnisse.E_BS_DC.A / Ergebnisse.E_BS_DC.real;
+
+Ergebnisse.Eta_AC2BAT.real = Ergebnisse.E_Bat_C.real / Ergebnisse.E_BS_C.real;
+Ergebnisse.Eta_AC2BAT.Sim = Ergebnisse.E_Bat_C.Sim / Ergebnisse.E_BS_C.Sim;
+Ergebnisse.Eta_AC2BAT.A = Ergebnisse.Eta_AC2BAT.real - Ergebnisse.Eta_AC2BAT.Sim;
+Ergebnisse.Eta_AC2BAT.R = Ergebnisse.Eta_AC2BAT.A / Ergebnisse.Eta_AC2BAT.real;
+
+Ergebnisse.Eta_BAT.real = Ergebnisse.E_Bat_DC.real / Ergebnisse.E_Bat_C.real;
+Ergebnisse.Eta_BAT.Sim = Ergebnisse.E_Bat_DC.Sim / Ergebnisse.E_Bat_C.Sim;
+Ergebnisse.Eta_BAT.A = Ergebnisse.Eta_BAT.real - Ergebnisse.Eta_BAT.Sim;
+Ergebnisse.Eta_BAT.R = Ergebnisse.Eta_BAT.A / Ergebnisse.Eta_BAT.real;
+
+Ergebnisse.Eta_BAT2AC.real = Ergebnisse.E_BS_DC.real / Ergebnisse.E_Bat_DC.real;
+Ergebnisse.Eta_BAT2AC.Sim = Ergebnisse.E_BS_DC.Sim / Ergebnisse.E_Bat_DC.Sim;
+Ergebnisse.Eta_BAT2AC.A = Ergebnisse.Eta_BAT2AC.real - Ergebnisse.Eta_BAT2AC.Sim;
+Ergebnisse.Eta_BAT2AC.R = Ergebnisse.Eta_BAT2AC.A / Ergebnisse.Eta_BAT2AC.real;
+
+Ergebnisse.Eta_AC.real = Ergebnisse.E_BS_DC.real / Ergebnisse.E_BS_C.real;
+Ergebnisse.Eta_AC.Sim = Ergebnisse.E_BS_DC.Sim / Ergebnisse.E_BS_C.Sim;
+Ergebnisse.Eta_AC.A = Ergebnisse.Eta_AC.real - Ergebnisse.Eta_AC.Sim;
+Ergebnisse.Eta_AC.R = Ergebnisse.Eta_AC.A / Ergebnisse.Eta_AC.real;
+
+% close all;
 
 toc

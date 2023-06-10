@@ -1,1 +1,2 @@
 {"rule":"ZU_SCHRIEBEN_ETC","sentence":"^\\QÜberlegen Sie, warum es zu Unterschieden zwischen Ihren nach Norm und nach Messungen berechneten U-Werten kommen kann.\\E$"}
+{"rule":"EINHEIT_LEERZEICHEN","sentence":"^\\Q0cm\\E$"}
