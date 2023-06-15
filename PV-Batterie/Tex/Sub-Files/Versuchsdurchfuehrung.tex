@@ -1,0 +1,16 @@
+\newpage
+\section{Versuchsdurchführung}
+Das gegebene Matlab Skript 'Skript.m' wurde gemäß der Versuchsanleitung \cite[S. 11]{Laboranleitung} erweitert.
+Zuerst wurde der gegebene Datensatz 'Datensatz.m' überarbeitet und in die Struktur ts zusammengefasst, um ein übersichtlicheres Arbeiten in Matlab zu ermöglichen.
+Dieser veränderte Datensatz wurde als 'DatensatzModified.m' abgespeichert und im restlichen verlauf der Durchführung verwendet.
+\subsection{Vergleich der Leistungsflüsse}
+Der vergleich zwischen den simulierten und gemessenen Leistungen wurde mittels der Plot-Funktion in Figure 2 zusammengefasst, dabei wurden zur Übersichtlichkeit zusätzlich kurzzeitmittelwerte gebildet um einen Leistungsverlauf in Minutenwerten Darzustellen.
+Das Streudiagramm wurde mit der Scatter-Funktion erstellt und in Figure 3 Dargestellt.
+\subsection{Vergleich der Energiesummen}
+Die kumulierten summen wurden mithilfe des cumsum-Befehls und der Plot-Funktion in Figure 4 dargestellt.
+Die für Aufgabe 7.2.2 der Versuchsanleitung \cite[S. 11]{Laboranleitung} verlangten Werte wurden in der Struktur Ergebnisse in Matlab zusammengefasst.
+Energiesummen der Leistungen lassen sich jeweils durch die Funktion sum() ermitteln, der absolute Fehler der Energiesummen lässt sich mit der Differenz aus den realen Energiesummen und den Simulierten Energiesummen errechnen und Der Relative aus dem Quotienten zwischen dem Absoluten Fehler und der dazugehörigen Energiesumme.
+Die AC-Batterieladung wurde ermittelt, indem nur die Batterieleistungsflüsse geloggt wurden, welche größer als 0 waren.
+Die Batterieentladung bildet dabei das Gegenstück und sind nur die Batterieleistungsflüsse, die kleiner als 0 waren.
+Für die DC-Batterieladung und -Entladung wurde genauso vorgegangen, nur das hier die Batteriesystemleistungsflüsse verwendet wurden.
+Der AC2BAT-Nutzungsgrad wurde mit $\frac{AC-Batterieladung}{DC_Batterieladung}$ berechnet, der Nutzungsgrad der Batterie mit $\frac{DC-Batterieentladung}{DC_Batterieladung}$, der BAT2AC-Nutzungsgrad mit $\frac{DC-Batterieentladung}{AC-Batterieentladung}$ und der AC-Systemnutzungsgrad mit $\frac{DC-Batterieentladung}{DC-Batterieladung}$.
