@@ -61,4 +61,102 @@
     50                                    & 48,87                                  & 6,2                                                & 1573,1                                   & 28,00488995                                          & 4,308444608                                    \\ \hline
     \end{tabular}
     \end{table}
+
+\begin{equation}
+    \centering
+    u = 2 \pi \cdot r_{Rotor} \cdot \frac{n}{60 \frac{s}{min}}
+    \label{eq:230615_Umfangsgeschwindigkeit}
+\end{equation}
+
+$$    u = 2 \pi \cdot 0,17m \cdot \frac{n}{60 \frac{s}{min}} $$
+
+\begin{equation}
+    \centering
+    \lambda = \frac{u}{v_1}
+    \label{eq:230615_Schnelllaufzahl}
+\end{equation}
+
+$$\lambda = \frac{u}{6,5 \frac{m}{s}}$$
+
+
 \subsection{Dimensionslose Kennzahlen}
+
+\begin{equation}
+    \centering
+    P_{Wind} = \frac{\rho}{2} \cdot \pi \cdot r_{Rotor}^2 \cdot v_1^3
+    \label{eq:230615_Leistung_Wind}
+\end{equation}
+
+$$P_{Wind} = \frac{1,2 \frac{kg}{m^3}}{2} \cdot \pi \cdot (0,17 m)^2 \cdot v_1^3$$
+
+\begin{equation}
+    \centering
+    M_{Gen} = 33,931\frac{mNm}{mV} \cdot U_{Rotor} + 3,1519 mNm - M_{Reibung}
+    \label{eq:230615_Genratormoment}
+\end{equation}
+
+$$M_{Gen} = 33,931\frac{mNm}{mV} \cdot U_{Rotor} + 3,1519 mNm - 6,3mNm$$
+
+\begin{equation}
+    \centering
+    P_{Mech} = M_{Gen} \cdot 2 \pi \frac{n}{60\frac{s}{min}}
+    \label{eq:230615_Mechanischeleistung}
+\end{equation}
+
+$$P_{mech} = M_{Gen} \cdot 2 \pi \frac{n}{60\frac{s}{min}}$$
+
+\begin{equation}
+    \centering
+    c_M = \frac{M_{Gen}}{ \frac{\rho}{2} \cdot \pi \cdot r_{Rotor}^3 \cdot v_1^2}
+    \label{eq:230615_Momentenbeiwert}
+\end{equation}
+
+$$c_M = \frac{M_{Gen}}{ \frac{1,2 \frac{kg}{m^3}}{2} \cdot \pi \cdot (0,17 m)^3 \cdot v_1^2}$$
+
+\begin{equation}
+    \centering
+    P_{El} = U \cdot I
+    \label{eq:230615_Elektrische_Leistung}
+\end{equation}
+
+$$P_{El} = U \cdot I$$
+
+\begin{equation}
+    \centering
+    c_P = c_M \cdot \lambda
+    \label{eq:230615_Leistungsbeiwert}
+\end{equation}
+
+$$c_P = c_M \cdot \lambda$$
+
+\begin{equation}
+    \centering
+    \eta_{Gen} = \frac{P_{El}}{P_{Mech}}
+    \label{eq:230615_Generatorwirkungsgrad}
+\end{equation}
+
+$$\eta_{Gen} = \frac{P_{El}}{P_{Mech}}$$
+
+\begin{equation}
+    \centering
+    \eta_{Gesammt} = \frac{P_{El}}{P_{Wind}}
+    \label{eq:230615_Gesammtwirkungsgrad}
+\end{equation}
+
+$$\eta_{Gesammt} = \frac{P_{El}}{P_{Wind}}$$
+
+\begin{equation}
+    \centering
+    F_S = F_{S,Mess} \cdot \frac{l}{h_N} \cdot f_{Korr}
+    \label{eq:230615_Schubkraft}
+\end{equation}
+
+$$F_S = F_{S,Mess} \cdot \frac{0,467m}{0,73m} \cdot 3,267$$
+
+\begin{equation}
+    \centering
+    C_S = \frac{F_S}{\frac{\rho}{2} \cdot \pi \cdot r_{Rotor}^2 \cdot v_1^2}
+    \label{eq:230615_Schubbeiwert}
+\end{equation}
+
+$$C_S = \frac{F_S}{\frac{1,2 \frac{kg}{m^3}}{2} \cdot \pi \cdot (0,17 m)^2 \cdot v_1^2}$$
