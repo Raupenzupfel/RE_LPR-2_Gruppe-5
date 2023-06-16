@@ -9,7 +9,7 @@ clc;
 %% 1 Einlesen des Datensatzes
 
 % Anpassung erforderlich: Dateipfad, in dem sich die Datei Datensatz.mat befindet (z. B. cd 'C:\Daten')
-% cd 'C:\Daten'
+cd 'F:\Niels\UNI\6.Semester\Lab2\RE_LPR-2_Gruppe-5\PV-Batterie\Matlab'
 
 % Import der Eingangsdaten
 load DatensatzModified;

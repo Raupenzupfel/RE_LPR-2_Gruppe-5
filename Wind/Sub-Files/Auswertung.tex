@@ -1,5 +1,162 @@
 \section{Auswertung}
 \label{sec:Auswertung}
 \subsection{Anlaufverhalten}
+\begin{table}[ht!]
+    \centering
+    \caption{Messwerte}
+    \label{tab_Messwerte_Anlauf_230615}
+    \begin{tabular}{|l|l|l|l|l|l|}
+    \hline
+    \rowcolor[HTML]{70AD47} 
+    {\color[HTML]{FFFFFF} \textbf{v\_Wind   Soll}} & {\color[HTML]{FFFFFF} \textbf{v\_Wind Ist}} & {\color[HTML]{FFFFFF} \textbf{Pitch abgelesen}} & {\color[HTML]{FFFFFF} \textbf{Pitch erwartet}} & {\color[HTML]{FFFFFF} \textbf{C\_M,0}} & {\color[HTML]{FFFFFF} \textbf{C\_M,1}} \\ \hline
+    \rowcolor[HTML]{70AD47} 
+    in m/s                                         & in m/s                                      & in °                                            & in °                                           & -                                      & -                                      \\ \hline
+    \rowcolor[HTML]{E2EFDA} 
+    1                                              & 1                                           & -                                               & -                                              & 0,666                                  & 0,666                                  \\ \hline
+    \rowcolor[HTML]{C6E0B4} 
+    1,5                                            & 1,6                                         & 45                                              & -                                              & 0,296                                  & 0,260                                  \\ \hline
+    \rowcolor[HTML]{E2EFDA} 
+    2                                              & 2,1                                         & 32                                              & -                                              & 0,167                                  & 0,151                                  \\ \hline
+    \rowcolor[HTML]{C6E0B4} 
+    2,5                                            & 2,45                                        & -5                                              & 5 bis 25                                       & 0,107                                  & 0,111                                  \\ \hline
+    \end{tabular}
+    \end{table}
+
 \subsection{Leerlauf und Maximale Schnelllaufzahl}
+\begin{table}[ht!]
+    \centering
+    \caption{Messwerte Leerlaufverhalten und maximale Schnelllaufzahl}
+    \label{tab_Messwerte_Leerlaufverhalten}
+    \begin{tabular}{|l|l|l|l|l|l|}
+    \hline
+    \rowcolor[HTML]{70AD47} 
+    {\color[HTML]{FFFFFF} \textbf{Pitch}} & {\color[HTML]{FFFFFF} \textbf{Pitch2}} & {\color[HTML]{FFFFFF} \textbf{Generator Spannung}} & {\color[HTML]{FFFFFF} \textbf{Drehzahl}} & {\color[HTML]{FFFFFF} \textbf{Blattspitzen geschw.}} & {\color[HTML]{FFFFFF} \textbf{Schnellaufzahl}} \\ \hline
+    \rowcolor[HTML]{70AD47} 
+    soll                                  & berechnet                              & abgelesen                                          & abgelesen                                & berechnet                                            & berechnet                                      \\ \hline
+    \rowcolor[HTML]{70AD47} 
+    in °                                  & in °                                   & in V                                               & in min-1                                 & in m/s                                               & -                                              \\ \hline
+    \rowcolor[HTML]{C6E0B4} 
+    -5                                    & -3,51                                  & 8,2                                                & 2068,7                                   & 36,82773876                                          & 5,665805963                                    \\ \hline
+    \rowcolor[HTML]{E2EFDA} 
+    0                                     & -1,34                                  & 9                                                  & 2272                                     & 40,44695822                                          & 6,222608957                                    \\ \hline
+    \rowcolor[HTML]{C6E0B4} 
+    5                                     & 5,45                                   & 9,48                                               & 2390,9                                   & 42,56365863                                          & 6,548255173                                    \\ \hline
+    \rowcolor[HTML]{E2EFDA} 
+    10                                    & 12,17                                  & 9,9                                                & 2512,5                                   & 44,72842541                                          & 6,881296216                                    \\ \hline
+    \rowcolor[HTML]{C6E0B4} 
+    15                                    & 18,01                                  & 9,78                                               & 2476,1                                   & 44,08041956                                          & 6,781603009                                    \\ \hline
+    \rowcolor[HTML]{E2EFDA} 
+    20                                    & 23,24                                  & 9,2                                                & 2344,8                                   & 41,74296991                                          & 6,42199537                                     \\ \hline
+    \rowcolor[HTML]{C6E0B4} 
+    25                                    & 28,22                                  & 8,6                                                & 2187,5                                   & 38,94265894                                          & 5,991178298                                    \\ \hline
+    \rowcolor[HTML]{E2EFDA} 
+    30                                    & 32,81                                  & 8                                                  & 2022,2                                   & 35,9999291                                           & 5,53845063                                     \\ \hline
+    \rowcolor[HTML]{C6E0B4} 
+    35                                    & 37,095                                 & 7,3                                                & 1863,1                                   & 33,16757388                                          & 5,102703674                                    \\ \hline
+    \rowcolor[HTML]{E2EFDA} 
+    40                                    & 40,97                                  & 6,85                                               & 1739,5                                   & 30,96720239                                          & 4,764184982                                    \\ \hline
+    \rowcolor[HTML]{C6E0B4} 
+    45                                    & 44,98                                  & 6,6                                                & 1670,8                                   & 29,74418037                                          & 4,576027748                                    \\ \hline
+    \rowcolor[HTML]{E2EFDA} 
+    50                                    & 48,87                                  & 6,2                                                & 1573,1                                   & 28,00488995                                          & 4,308444608                                    \\ \hline
+    \end{tabular}
+    \end{table}
+
+\begin{equation}
+    \centering
+    u = 2 \pi \cdot r_{Rotor} \cdot \frac{n}{60 \frac{s}{min}}
+    \label{eq:230615_Umfangsgeschwindigkeit}
+\end{equation}
+
+$$    u = 2 \pi \cdot 0,17m \cdot \frac{n}{60 \frac{s}{min}} $$
+
+\begin{equation}
+    \centering
+    \lambda = \frac{u}{v_1}
+    \label{eq:230615_Schnelllaufzahl}
+\end{equation}
+
+$$\lambda = \frac{u}{6,5 \frac{m}{s}}$$
+
+
 \subsection{Dimensionslose Kennzahlen}
+
+\begin{equation}
+    \centering
+    P_{Wind} = \frac{\rho}{2} \cdot \pi \cdot r_{Rotor}^2 \cdot v_1^3
+    \label{eq:230615_Leistung_Wind}
+\end{equation}
+
+$$P_{Wind} = \frac{1,2 \frac{kg}{m^3}}{2} \cdot \pi \cdot (0,17 m)^2 \cdot v_1^3$$
+
+\begin{equation}
+    \centering
+    M_{Gen} = 33,931\frac{mNm}{mV} \cdot U_{Rotor} + 3,1519 mNm - M_{Reibung}
+    \label{eq:230615_Genratormoment}
+\end{equation}
+
+$$M_{Gen} = 33,931\frac{mNm}{mV} \cdot U_{Rotor} + 3,1519 mNm - 6,3mNm$$
+
+\begin{equation}
+    \centering
+    P_{Mech} = M_{Gen} \cdot 2 \pi \frac{n}{60\frac{s}{min}}
+    \label{eq:230615_Mechanischeleistung}
+\end{equation}
+
+$$P_{mech} = M_{Gen} \cdot 2 \pi \frac{n}{60\frac{s}{min}}$$
+
+\begin{equation}
+    \centering
+    c_M = \frac{M_{Gen}}{ \frac{\rho}{2} \cdot \pi \cdot r_{Rotor}^3 \cdot v_1^2}
+    \label{eq:230615_Momentenbeiwert}
+\end{equation}
+
+$$c_M = \frac{M_{Gen}}{ \frac{1,2 \frac{kg}{m^3}}{2} \cdot \pi \cdot (0,17 m)^3 \cdot v_1^2}$$
+
+\begin{equation}
+    \centering
+    P_{El} = U \cdot I
+    \label{eq:230615_Elektrische_Leistung}
+\end{equation}
+
+$$P_{El} = U \cdot I$$
+
+\begin{equation}
+    \centering
+    c_P = c_M \cdot \lambda
+    \label{eq:230615_Leistungsbeiwert}
+\end{equation}
+
+$$c_P = c_M \cdot \lambda$$
+
+\begin{equation}
+    \centering
+    \eta_{Gen} = \frac{P_{El}}{P_{Mech}}
+    \label{eq:230615_Generatorwirkungsgrad}
+\end{equation}
+
+$$\eta_{Gen} = \frac{P_{El}}{P_{Mech}}$$
+
+\begin{equation}
+    \centering
+    \eta_{Gesammt} = \frac{P_{El}}{P_{Wind}}
+    \label{eq:230615_Gesammtwirkungsgrad}
+\end{equation}
+
+$$\eta_{Gesammt} = \frac{P_{El}}{P_{Wind}}$$
+
+\begin{equation}
+    \centering
+    F_S = F_{S,Mess} \cdot \frac{l}{h_N} \cdot f_{Korr}
+    \label{eq:230615_Schubkraft}
+\end{equation}
+
+$$F_S = F_{S,Mess} \cdot \frac{0,467m}{0,73m} \cdot 3,267$$
+
+\begin{equation}
+    \centering
+    C_S = \frac{F_S}{\frac{\rho}{2} \cdot \pi \cdot r_{Rotor}^2 \cdot v_1^2}
+    \label{eq:230615_Schubbeiwert}
+\end{equation}
+
+$$C_S = \frac{F_S}{\frac{1,2 \frac{kg}{m^3}}{2} \cdot \pi \cdot (0,17 m)^2 \cdot v_1^2}$$
