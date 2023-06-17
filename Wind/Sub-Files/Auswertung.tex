@@ -68,7 +68,7 @@
     \label{eq:230615_Umfangsgeschwindigkeit}
 \end{equation}
 
-$$    u = 2 \pi \cdot 0,17m \cdot \frac{n}{60 \frac{s}{min}} $$
+$$    u = 2 \pi \cdot 0,17m \cdot \frac{2512,5 \frac{1}{min}}{60 \frac{s}{min}}\approx 44,73\frac{m}{s} $$
 
 \begin{equation}
     \centering
@@ -76,7 +76,7 @@ $$    u = 2 \pi \cdot 0,17m \cdot \frac{n}{60 \frac{s}{min}} $$
     \label{eq:230615_Schnelllaufzahl}
 \end{equation}
 
-$$\lambda = \frac{u}{6,5 \frac{m}{s}}$$
+$$\lambda = \frac{44,73}{6,5 \frac{m}{s}}\approx 6,88$$
 
 
 \subsection{Dimensionslose Kennzahlen}
@@ -87,7 +87,7 @@ $$\lambda = \frac{u}{6,5 \frac{m}{s}}$$
     \label{eq:230615_Leistung_Wind}
 \end{equation}
 
-$$P_{Wind} = \frac{1,2 \frac{kg}{m^3}}{2} \cdot \pi \cdot (0,17 m)^2 \cdot v_1^3$$
+$$P_{Wind} = \frac{1,2 \frac{kg}{m^3}}{2} \cdot \pi \cdot (0,17 m)^2 \cdot (6,43)^3 \approx 14,46 W$$
 
 \begin{equation}
     \centering
@@ -95,7 +95,7 @@ $$P_{Wind} = \frac{1,2 \frac{kg}{m^3}}{2} \cdot \pi \cdot (0,17 m)^2 \cdot v_1^3
     \label{eq:230615_Genratormoment}
 \end{equation}
 
-$$M_{Gen} = 33,931\frac{mNm}{mV} \cdot U_{Rotor} + 3,1519 mNm - 6,3mNm$$
+$$M_{Gen} = 33,931\frac{mNm}{mV} \cdot 2,1631 + 3,1519 mNm - 6,3mNm \approx 70,25 mNm$$
 
 \begin{equation}
     \centering
@@ -103,7 +103,7 @@ $$M_{Gen} = 33,931\frac{mNm}{mV} \cdot U_{Rotor} + 3,1519 mNm - 6,3mNm$$
     \label{eq:230615_Mechanischeleistung}
 \end{equation}
 
-$$P_{mech} = M_{Gen} \cdot 2 \pi \frac{n}{60\frac{s}{min}}$$
+$$P_{Mech} = 70,25 \cdot 2 \pi \frac{1318,4 \frac{1}{min}}{60\frac{s}{min}} \approx 9,7W$$
 
 \begin{equation}
     \centering
@@ -111,7 +111,7 @@ $$P_{mech} = M_{Gen} \cdot 2 \pi \frac{n}{60\frac{s}{min}}$$
     \label{eq:230615_Momentenbeiwert}
 \end{equation}
 
-$$c_M = \frac{M_{Gen}}{ \frac{1,2 \frac{kg}{m^3}}{2} \cdot \pi \cdot (0,17 m)^3 \cdot v_1^2}$$
+$$c_M = \frac{70,25}{ \frac{1,2 \frac{kg}{m^3}}{2} \cdot \pi \cdot (0,17 m)^3 \cdot (6,43)^2}\approx 0,184$$
 
 \begin{equation}
     \centering
@@ -119,7 +119,7 @@ $$c_M = \frac{M_{Gen}}{ \frac{1,2 \frac{kg}{m^3}}{2} \cdot \pi \cdot (0,17 m)^3 
     \label{eq:230615_Elektrische_Leistung}
 \end{equation}
 
-$$P_{El} = U \cdot I$$
+$$P_{El} = 3V \cdot 0,915A \approx 2,745W$$
 
 \begin{equation}
     \centering
@@ -135,15 +135,15 @@ $$c_P = c_M \cdot \lambda$$
     \label{eq:230615_Generatorwirkungsgrad}
 \end{equation}
 
-$$\eta_{Gen} = \frac{P_{El}}{P_{Mech}}$$
+$$\eta_{Gen} = \frac{2,745W}{9,7W} \approx 0,2833 \approx 28,33\% $$
 
 \begin{equation}
     \centering
-    \eta_{Gesammt} = \frac{P_{El}}{P_{Wind}}
-    \label{eq:230615_Gesammtwirkungsgrad}
+    \eta_{Gesamt} = \frac{P_{El}}{P_{Wind}}
+    \label{eq:230615_Gesamtwirkungsgrad}
 \end{equation}
 
-$$\eta_{Gesammt} = \frac{P_{El}}{P_{Wind}}$$
+$$\eta_{Gesamt} = \frac{2,745}}{14,46}\approx 0,1898 = 18,98\%$$
 
 \begin{equation}
     \centering
@@ -151,7 +151,7 @@ $$\eta_{Gesammt} = \frac{P_{El}}{P_{Wind}}$$
     \label{eq:230615_Schubkraft}
 \end{equation}
 
-$$F_S = F_{S,Mess} \cdot \frac{0,467m}{0,73m} \cdot 3,267$$
+$$F_S = 0,8853N \cdot \frac{0,467m}{0,73m} \cdot 3,267 = 1,85N$$
 
 \begin{equation}
     \centering
@@ -159,4 +159,66 @@ $$F_S = F_{S,Mess} \cdot \frac{0,467m}{0,73m} \cdot 3,267$$
     \label{eq:230615_Schubbeiwert}
 \end{equation}
 
-$$C_S = \frac{F_S}{\frac{1,2 \frac{kg}{m^3}}{2} \cdot \pi \cdot (0,17 m)^2 \cdot v_1^2}$$
+$$C_S = \frac{1,85N}}{\frac{1,2 \frac{kg}{m^3}}{2} \cdot \pi \cdot (0,17 m)^2 \cdot v_1^2} = 0,822$$
+
+\begin{table}[ht!]
+    \centering
+    \caption{Dimensionslose Kennzahlen}
+    \label{tab_DimensionsloseKennzahlen_170623}
+    %\resizebox{\textwidth}{!}{%
+    \small
+    \begin{tabularx}{\textwidth}{|
+    >{\columncolor[HTML]{4472C4}}l |
+    >{\columncolor[HTML]{4472C4}}x |
+    >{\columncolor[HTML]{4472C4}}x |
+    >{\columncolor[HTML]{B4C6E7}}x |
+    >{\columncolor[HTML]{D9E1F2}}x |
+    >{\columncolor[HTML]{B4C6E7}}x |
+    >{\columncolor[HTML]{D9E1F2}}x |
+    >{\columncolor[HTML]{B4C6E7}}x |
+    >{\columncolor[HTML]{D9E1F2}}x |
+    >{\columncolor[HTML]{B4C6E7}}x |
+    >{\columncolor[HTML]{D9E1F2}}x |
+    >{\columncolor[HTML]{B4C6E7}}x |
+    >{\columncolor[HTML]{D9E1F2}}x |
+    >{\columncolor[HTML]{B4C6E7}}x |
+    >{\columncolor[HTML]{D9E1F2}}x |
+    >{\columncolor[HTML]{B4C6E7}}x |
+    >{\columncolor[HTML]{D9E1F2}}x |
+    >{\columncolor[HTML]{B4C6E7}}x |
+    >{\columncolor[HTML]{D9E1F2}}x |
+    >{\columncolor[HTML]{B4C6E7}}x |}
+    \hline
+    \cellcolor[HTML]{70AD47}{\color[HTML]{FFFFFF} \textbf{Schnelllaufzahl}}      & \cellcolor[HTML]{70AD47}Soll         & \cellcolor[HTML]{70AD47}-        & \cellcolor[HTML]{C6E0B4}6      & \cellcolor[HTML]{E2EFDA}6      & \cellcolor[HTML]{C6E0B4}6      & \cellcolor[HTML]{E2EFDA}6      & \cellcolor[HTML]{C6E0B4}6      & \cellcolor[HTML]{E2EFDA}6      & \cellcolor[HTML]{C6E0B4}6      & \cellcolor[HTML]{E2EFDA}6      & \cellcolor[HTML]{C6E0B4}6      & \cellcolor[HTML]{E2EFDA}6      & \cellcolor[HTML]{C6E0B4}6      & \cellcolor[HTML]{E2EFDA}6      & \cellcolor[HTML]{C6E0B4}6      & \cellcolor[HTML]{E2EFDA}6      & \cellcolor[HTML]{C6E0B4}6      & \cellcolor[HTML]{E2EFDA}6          & \cellcolor[HTML]{C6E0B4}6          \\ \hline
+    \cellcolor[HTML]{70AD47}{\color[HTML]{FFFFFF} \textbf{Pitch}}                & \cellcolor[HTML]{70AD47}Soll/ist     & \cellcolor[HTML]{70AD47}in °     & \cellcolor[HTML]{C6E0B4}10     & \cellcolor[HTML]{E2EFDA}10     & \cellcolor[HTML]{C6E0B4}10     & \cellcolor[HTML]{E2EFDA}10     & \cellcolor[HTML]{C6E0B4}10     & \cellcolor[HTML]{E2EFDA}10     & \cellcolor[HTML]{C6E0B4}10     & \cellcolor[HTML]{E2EFDA}10     & \cellcolor[HTML]{C6E0B4}10     & \cellcolor[HTML]{E2EFDA}10     & \cellcolor[HTML]{C6E0B4}10     & \cellcolor[HTML]{E2EFDA}10     & \cellcolor[HTML]{C6E0B4}10     & \cellcolor[HTML]{E2EFDA}10     & \cellcolor[HTML]{C6E0B4}10     & \cellcolor[HTML]{E2EFDA}10         & \cellcolor[HTML]{C6E0B4}10         \\ \hline
+    \cellcolor[HTML]{70AD47}{\color[HTML]{FFFFFF} \textbf{Windgeschw.}}          & \cellcolor[HTML]{70AD47}ist vorgabe  & \cellcolor[HTML]{70AD47}in m/s   & \cellcolor[HTML]{C6E0B4}6,5    & \cellcolor[HTML]{E2EFDA}6,5    & \cellcolor[HTML]{C6E0B4}6,5    & \cellcolor[HTML]{E2EFDA}6,5    & \cellcolor[HTML]{C6E0B4}6,5    & \cellcolor[HTML]{E2EFDA}6,5    & \cellcolor[HTML]{C6E0B4}6,5    & \cellcolor[HTML]{E2EFDA}6,5    & \cellcolor[HTML]{C6E0B4}6,5    & \cellcolor[HTML]{E2EFDA}6,5    & \cellcolor[HTML]{C6E0B4}6,5    & \cellcolor[HTML]{E2EFDA}6,5    & \cellcolor[HTML]{C6E0B4}6,5    & \cellcolor[HTML]{E2EFDA}6,5    & \cellcolor[HTML]{C6E0B4}6,5    & \cellcolor[HTML]{E2EFDA}6,5        & \cellcolor[HTML]{C6E0B4}6,5        \\ \hline
+    \cellcolor[HTML]{5B9BD5}{\color[HTML]{FFFFFF} \textbf{v1 Mittelwert}}        & \cellcolor[HTML]{5B9BD5}ist gemessen & \cellcolor[HTML]{5B9BD5}m/s      & \cellcolor[HTML]{BDD7EE}6,48   & \cellcolor[HTML]{DDEBF7}6,47   & \cellcolor[HTML]{BDD7EE}6,45   & \cellcolor[HTML]{DDEBF7}6,44   & \cellcolor[HTML]{BDD7EE}6,41   & \cellcolor[HTML]{DDEBF7}6,44   & \cellcolor[HTML]{BDD7EE}6,41   & \cellcolor[HTML]{DDEBF7}6,42   & \cellcolor[HTML]{BDD7EE}6,39   & \cellcolor[HTML]{DDEBF7}6,41   & \cellcolor[HTML]{BDD7EE}6,43   & \cellcolor[HTML]{DDEBF7}6,38   & \cellcolor[HTML]{BDD7EE}6,39   & \cellcolor[HTML]{DDEBF7}6,44   & \cellcolor[HTML]{BDD7EE}6,39   & \cellcolor[HTML]{DDEBF7}6,42       & \cellcolor[HTML]{BDD7EE}6,42       \\ \hline
+    \cellcolor[HTML]{5B9BD5}{\color[HTML]{FFFFFF} \textbf{Turbulenz}}            & \cellcolor[HTML]{5B9BD5}             & \cellcolor[HTML]{5B9BD5}m/s      & \cellcolor[HTML]{BDD7EE}0,0185 & \cellcolor[HTML]{DDEBF7}0,0303 & \cellcolor[HTML]{BDD7EE}0,0212 & \cellcolor[HTML]{DDEBF7}0,0134 & \cellcolor[HTML]{BDD7EE}0,0174 & \cellcolor[HTML]{DDEBF7}0,0238 & \cellcolor[HTML]{BDD7EE}0,0209 & \cellcolor[HTML]{DDEBF7}0,0228 & \cellcolor[HTML]{BDD7EE}0,0175 & \cellcolor[HTML]{DDEBF7}0,024  & \cellcolor[HTML]{BDD7EE}0,0246 & \cellcolor[HTML]{DDEBF7}0,0299 & \cellcolor[HTML]{BDD7EE}0,1889 & \cellcolor[HTML]{DDEBF7}0,0293 & \cellcolor[HTML]{BDD7EE}0,0192 & \cellcolor[HTML]{DDEBF7}0,0237     & \cellcolor[HTML]{BDD7EE}0,2556     \\ \hline
+    \cellcolor[HTML]{5B9BD5}{\color[HTML]{FFFFFF} \textbf{V3 Mittelwert}}        & \cellcolor[HTML]{5B9BD5}             & \cellcolor[HTML]{5B9BD5}m/s      & \cellcolor[HTML]{BDD7EE}3,53   & \cellcolor[HTML]{DDEBF7}3,456  & \cellcolor[HTML]{BDD7EE}3,495  & \cellcolor[HTML]{DDEBF7}3,289  & \cellcolor[HTML]{BDD7EE}3,21   & \cellcolor[HTML]{DDEBF7}3,147  & \cellcolor[HTML]{BDD7EE}3,116  & \cellcolor[HTML]{DDEBF7}3,189  & \cellcolor[HTML]{BDD7EE}2,963  & \cellcolor[HTML]{DDEBF7}2,992  & \cellcolor[HTML]{BDD7EE}3,128  & \cellcolor[HTML]{DDEBF7}4,498  & \cellcolor[HTML]{BDD7EE}4,407  & \cellcolor[HTML]{DDEBF7}4,486  & \cellcolor[HTML]{BDD7EE}4,511  & \cellcolor[HTML]{DDEBF7}4,389      & \cellcolor[HTML]{BDD7EE}4,321      \\ \hline
+    {\color[HTML]{FFFFFF} \textbf{v3/v1}}                                        &                                      & -                                & 0,545                          & 0,534                          & 0,542                          & 0,511                          & 0,501                          & 0,489                          & 0,486                          & 0,496                          & 0,464                          & 0,467                          & 0,487                          & 0,706                          & 0,689                          & 0,697                          & 0,706                          & 0,684                              & 0,673                              \\ \hline
+    {\color[HTML]{FFFFFF} \textbf{Windleistung}}                                 &                                      & W                                & 14,809                         & 14,734                         & 14,631                         & 14,557                         & 14,341                         & 14,563                         & 14,347                         & 14,442                         & 14,194                         & 14,321                         & 14,455                         & 14,114                         & 14,234                         & 14,536                         & 14,227                         & 14,388                             & 14,401                             \\ \hline
+    \cellcolor[HTML]{70AD47}{\color[HTML]{FFFFFF} \textbf{Last}}                 & \cellcolor[HTML]{70AD47}             & \cellcolor[HTML]{70AD47}in \%    & \cellcolor[HTML]{C6E0B4}0      & \cellcolor[HTML]{E2EFDA}5      & \cellcolor[HTML]{C6E0B4}10     & \cellcolor[HTML]{E2EFDA}15     & \cellcolor[HTML]{C6E0B4}20     & \cellcolor[HTML]{E2EFDA}25     & \cellcolor[HTML]{C6E0B4}30     & \cellcolor[HTML]{E2EFDA}35     & \cellcolor[HTML]{C6E0B4}40     & \cellcolor[HTML]{E2EFDA}45     & \cellcolor[HTML]{C6E0B4}50     & \cellcolor[HTML]{E2EFDA}55     & \cellcolor[HTML]{C6E0B4}60     & \cellcolor[HTML]{E2EFDA}65     & \cellcolor[HTML]{C6E0B4}70     & \cellcolor[HTML]{E2EFDA}75         & \cellcolor[HTML]{C6E0B4}80         \\ \hline
+    \cellcolor[HTML]{5B9BD5}{\color[HTML]{FFFFFF} \textbf{Rotordrehzahl}}        & \cellcolor[HTML]{5B9BD5}gemessen     & \cellcolor[HTML]{5B9BD5}in min-1 & 2478,8                         & 2371,1                         & 2279,4                         & 2196,2                         & 2089,2                         & 2035,8                         & 1956,5                         & 1908,4                         & 1817,1                         & 1452,9                         & 1318,4                         & 402,1                          & 462,8                          & 435,4                          & 431,4                          & 460,8                              & 511,6                              \\ \hline
+    {\color[HTML]{FFFFFF} \textbf{Umfangsgeschw.}}                               &                                      & m/s                              & 44,128                         & 42,211                         & 40,579                         & 39,098                         & 37,193                         & 36,242                         & 34,830                         & 33,974                         & 32,349                         & 25,865                         & 23,471                         & 7,158                          & 8,239                          & 7,751                          & 7,680                          & 8,203                              & 9,108                              \\ \hline
+    {\color[HTML]{FFFFFF} \textbf{Schnellaufzahl}}                               &                                      & -                                & 6,812                          & 6,527                          & 6,289                          & 6,070                          & 5,803                          & 5,626                          & 5,434                          & 5,289                          & 5,065                          & 4,038                          & 3,652                          & 1,123                          & 1,289                          & 1,204                          & 1,201                          & 1,279                              & 1,419                              \\ \hline
+    \cellcolor[HTML]{70AD47}{\color[HTML]{FFFFFF} \textbf{Drehmoment Rotor}}     & \cellcolor[HTML]{70AD47}gemessen     & \cellcolor[HTML]{70AD47}in ?     & \cellcolor[HTML]{C6E0B4}0,2313 & \cellcolor[HTML]{E2EFDA}0,4092 & \cellcolor[HTML]{C6E0B4}0,5676 & \cellcolor[HTML]{E2EFDA}0,6909 & \cellcolor[HTML]{C6E0B4}0,8235 & \cellcolor[HTML]{E2EFDA}0,9423 & \cellcolor[HTML]{C6E0B4}1,0459 & \cellcolor[HTML]{E2EFDA}1,1541 & \cellcolor[HTML]{C6E0B4}1,2894 & \cellcolor[HTML]{E2EFDA}1,9163 & \cellcolor[HTML]{C6E0B4}2,1631 & \cellcolor[HTML]{E2EFDA}1,2746 & \cellcolor[HTML]{C6E0B4}1,4226 & \cellcolor[HTML]{E2EFDA}1,3671 & \cellcolor[HTML]{C6E0B4}1,3382 & \cellcolor[HTML]{E2EFDA}1,4327     & \cellcolor[HTML]{C6E0B4}1,5324     \\ \hline
+    {\color[HTML]{FFFFFF} \textbf{Drehmoment Generator}}                         & annachme: Messung un   N             & mNm                              & 16,83                          & 34,62                          & 50,46                          & 62,79                          & 76,05                          & 87,93                          & 98,29                          & 109,11                         & 122,64                         & 185,33                         & 210,01                         & 121,16                         & 135,96                         & 130,41                         & 127,52                         & 136,97                             & 146,94                             \\ \hline
+    {\color[HTML]{FFFFFF} \textbf{Drehmoment Generator2}}                        & annahme: Messung in   mV             & mNm                              & 4,70                           & \cellcolor[HTML]{B4C6E7}10,74  & 16,11                          & \cellcolor[HTML]{B4C6E7}20,29  & 24,79                          & \cellcolor[HTML]{B4C6E7}28,83  & 32,34                          & \cellcolor[HTML]{B4C6E7}36,01  & 40,60                          & \cellcolor[HTML]{B4C6E7}61,87  & 70,25                          & \cellcolor[HTML]{B4C6E7}40,10  & 45,12                          & \cellcolor[HTML]{B4C6E7}43,24  & 42,26                          & \cellcolor[HTML]{B4C6E7}45,46      & 48,85                              \\ \hline
+    {\color[HTML]{FFFFFF} \textbf{Mechanische Leistung}}                         &                                      & W                                & 1,22                           & 2,67                           & 3,85                           & 4,67                           & 5,42                           & 6,15                           & 6,63                           & 7,20                           & 7,73                           & 9,41                           & 9,70                           & 1,69                           & 2,19                           & 1,97                           & 1,91                           & 2,19                               & 2,62                               \\ \hline
+    {\color[HTML]{FFFFFF} \textbf{Momentbeiwert}}                                &                                      & -                                & 0,012                          & 0,028                          & 0,042                          & 0,053                          & 0,065                          & 0,075                          & 0,085                          & 0,094                          & 0,107                          & 0,163                          & 0,184                          & 0,107                          & 0,119                          & 0,113                          & 0,112                          & 0,119                              & 0,128                              \\ \hline
+    \cellcolor[HTML]{70AD47}{\color[HTML]{FFFFFF} \textbf{Generatorspannung}}    & \cellcolor[HTML]{70AD47}gemessen     & \cellcolor[HTML]{70AD47}in V     & \cellcolor[HTML]{C6E0B4}9,8    & \cellcolor[HTML]{E2EFDA}9      & \cellcolor[HTML]{C6E0B4}8,45   & \cellcolor[HTML]{E2EFDA}7,9    & \cellcolor[HTML]{C6E0B4}7,6    & \cellcolor[HTML]{E2EFDA}6,75   & \cellcolor[HTML]{C6E0B4}6,35   & \cellcolor[HTML]{E2EFDA}6,49   & \cellcolor[HTML]{C6E0B4}6,1    & \cellcolor[HTML]{E2EFDA}3,9    & \cellcolor[HTML]{C6E0B4}3      & \cellcolor[HTML]{E2EFDA}0,248  & \cellcolor[HTML]{C6E0B4}0,275  & \cellcolor[HTML]{E2EFDA}0,26   & \cellcolor[HTML]{C6E0B4}0,245  & \cellcolor[HTML]{E2EFDA}0,275      & \cellcolor[HTML]{C6E0B4}0,3        \\ \hline
+    \cellcolor[HTML]{70AD47}{\color[HTML]{FFFFFF} \textbf{Generatorstrom}}       & \cellcolor[HTML]{70AD47}gemessen     & \cellcolor[HTML]{70AD47}in A     & \cellcolor[HTML]{C6E0B4}0,0214 & \cellcolor[HTML]{E2EFDA}0,11   & \cellcolor[HTML]{C6E0B4}0,175  & \cellcolor[HTML]{E2EFDA}0,233  & \cellcolor[HTML]{C6E0B4}0,291  & \cellcolor[HTML]{E2EFDA}0,343  & \cellcolor[HTML]{C6E0B4}0,39   & \cellcolor[HTML]{E2EFDA}0,443  & \cellcolor[HTML]{C6E0B4}0,511  & \cellcolor[HTML]{E2EFDA}0,8    & \cellcolor[HTML]{C6E0B4}0,915  & \cellcolor[HTML]{E2EFDA}0,528  & \cellcolor[HTML]{C6E0B4}0,6    & \cellcolor[HTML]{E2EFDA}0,545  & \cellcolor[HTML]{C6E0B4}0,611  & \cellcolor[HTML]{E2EFDA}0,58       & \cellcolor[HTML]{C6E0B4}0,615      \\ \hline
+    {\color[HTML]{FFFFFF} \textbf{Elektrische Leistung}}                         & M*2pin - P\_verl                     & W                                & 1,219                          & 2,646                          & 3,796                          & 4,579                          & 5,286                          & 5,953                          & 6,378                          & 6,877                          & 7,300                          & 8,371                          & 8,334                          & 1,234                          & 1,600                          & 1,487                          & 1,301                          & 1,646                              & 2,000                              \\ \hline
+    {\color[HTML]{FFFFFF} \textbf{Elektrische Leistung2}}                        & U*I                                  & W                                & 0,210                          & 0,990                          & 1,479                          & 1,841                          & 2,212                          & 2,315                          & 2,477                          & 2,875                          & 3,117                          & 3,120                          & 2,745                          & 0,131                          & 0,165                          & 0,142                          & 0,150                          & 0,160                              & 0,185                              \\ \hline
+    {\color[HTML]{FFFFFF} \textbf{Elektrischer Leistungsbeiwert}}                &                                      & -                                & 0,014                          & 0,067                          & 0,101                          & 0,126                          & 0,154                          & 0,159                          & 0,173                          & 0,199                          & 0,220                          & 0,218                          & 0,190                          & 0,009                          & 0,012                          & 0,010                          & 0,011                          & 0,011                              & 0,013                              \\ \hline
+    {\color[HTML]{FFFFFF} \textbf{Leistungsbeiwert}}                             & nach cm*Lambda                       & -                                & 0,082                          & 0,181                          & 0,263                          & 0,321                          & 0,378                          & 0,422                          & 0,462                          & 0,498                          & 0,544                          & 0,657                          & 0,671                          & 0,120                          & 0,154                          & 0,136                          & 0,134                          & 0,152                              & 0,182                              \\ \hline
+    {\color[HTML]{FFFFFF} \textbf{Leistungsbeiwert2}}                            & nach P/P                             & -                                & 0,082                          & 0,181                          & 0,263                          & 0,321                          & 0,378                          & 0,422                          & 0,462                          & 0,498                          & 0,544                          & 0,657                          & 0,671                          & 0,120                          & 0,154                          & 0,136                          & 0,134                          & 0,152                              & 0,182                              \\ \hline
+    {\color[HTML]{FFFFFF} \textbf{Generator Wirkungsgrad}}                       &                                      & -                                & 17,19\%                        & 37,14\%                        & 38,45\%                        & 39,44\%                        & 40,77\%                        & 37,68\%                        & 37,38\%                        & 39,95\%                        & 40,35\%                        & 33,14\%                        & 28,30\%                        & 7,75\%                         & 7,55\%                         & 7,19\%                         & 7,84\%                         & 7,27\%                             & 7,05\%                             \\ \hline
+    {\color[HTML]{FFFFFF} \textbf{Gesamtwirkungsgrad}}                           &                                      & -                                & 1,42\%                         & 6,72\%                         & 10,11\%                        & 12,65\%                        & 15,42\%                        & 15,90\%                        & 17,26\%                        & 19,91\%                        & 21,96\%                        & 21,79\%                        & 18,99\%                        & 0,93\%                         & 1,16\%                         & 0,97\%                         & 1,05\%                         & 1,11\%                             & 1,28\%                             \\ \hline
+    \cellcolor[HTML]{5B9BD5}{\color[HTML]{FFFFFF} \textbf{Normalkraft}}          & \cellcolor[HTML]{5B9BD5}             & \cellcolor[HTML]{5B9BD5}N        & \cellcolor[HTML]{BDD7EE}1,048  & \cellcolor[HTML]{DDEBF7}1,043  & \cellcolor[HTML]{BDD7EE}1,037  & \cellcolor[HTML]{DDEBF7}1,024  & \cellcolor[HTML]{BDD7EE}0,991  & \cellcolor[HTML]{DDEBF7}0,997  & \cellcolor[HTML]{BDD7EE}0,972  & \cellcolor[HTML]{DDEBF7}0,971  & \cellcolor[HTML]{BDD7EE}0,949  & \cellcolor[HTML]{DDEBF7}0,900  & \cellcolor[HTML]{BDD7EE}0,885  & \cellcolor[HTML]{DDEBF7}0,468  & \cellcolor[HTML]{BDD7EE}0,503  & \cellcolor[HTML]{DDEBF7}0,495  & \cellcolor[HTML]{BDD7EE}0,484  & \cellcolor[HTML]{DDEBF7}0,5028     & \cellcolor[HTML]{BDD7EE}0,5286     \\ \hline
+    \cellcolor[HTML]{5B9BD5}{\color[HTML]{FFFFFF} \textbf{Schubkraft auf Rotor}} & \cellcolor[HTML]{5B9BD5}             & \cellcolor[HTML]{5B9BD5}N        & \cellcolor[HTML]{BDD7EE}2,191  & \cellcolor[HTML]{DDEBF7}2,180  & \cellcolor[HTML]{BDD7EE}2,168  & \cellcolor[HTML]{DDEBF7}2,140  & \cellcolor[HTML]{BDD7EE}2,072  & \cellcolor[HTML]{DDEBF7}2,083  & \cellcolor[HTML]{BDD7EE}2,030  & \cellcolor[HTML]{DDEBF7}2,030  & \cellcolor[HTML]{BDD7EE}1,984  & \cellcolor[HTML]{DDEBF7}1,882  & \cellcolor[HTML]{BDD7EE}1,850  & \cellcolor[HTML]{DDEBF7}0,977  & \cellcolor[HTML]{BDD7EE}1,051  & \cellcolor[HTML]{DDEBF7}1,035  & \cellcolor[HTML]{BDD7EE}1,011  & \cellcolor[HTML]{DDEBF7}1,05084442 & \cellcolor[HTML]{BDD7EE}1,10476603 \\ \hline
+    {\color[HTML]{FFFFFF} \textbf{Schubbeiwert}}                                 &                                      &                                  & 0,958                          & 0,957                          & 0,956                          & 0,947                          & 0,926                          & 0,921                          & 0,907                          & 0,903                          & 0,893                          & 0,842                          & 0,823                          & 0,442                          & 0,472                          & 0,458                          & 0,454                          & 0,468609                           & 0,492348                           \\ \hline
+    {\color[HTML]{FFFFFF} \textbf{R\_Last}}                                      &                                      &                                  & 457,944                        & 81,818                         & 48,286                         & 33,906                         & 26,117                         & 19,679                         & 16,282                         & 14,650                         & 11,937                         & 4,875                          & 3,279                          & 0,470                          & 0,458                          & 0,477                          & 0,401                          & 0,47413793                         & 0,48780488                         \\ \hline
+    \end{tabular}%
+    }
+    \end{table}
