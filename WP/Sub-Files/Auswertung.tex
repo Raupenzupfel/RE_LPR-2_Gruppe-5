@@ -1,2 +1,38 @@
+\newpage
 \section{Auswertung}
 \label{sec:Auswertung}
+\subsection{Energiebilanz der Anlage und äußere Leistungszahl}
+In diesem Teil werden die Leistungszahlen und die Energiebilanz der Anlage berechnet.
+\subsubsection{Prüfen Sie die im Bedienmodul angegebene Heizleistung anhand Vor- und Rücklauftemperatur und Heizdurchfluss}
+Die Heizleistung lässt sich mit der folgenden Formel berechnen:
+\begin{equation}
+\dot Q_{Kond}= \dot m \cdot cp_{W} \cdot (T_{V} - T_{R})
+\label{eq:110623_Heizleistung}
+\end{equation}
+Mit einem Massenstrom von 0,38 $\frac{kg}{s}$, einer Vorlauftemperatur von 48°C und Rücklauftemperatur von 43°C im Kondensator ergibt sich daraus mit Formel \ref{eq:110623_Heizleistung} eine Heizleistung von 8,14 $\frac{kJ}{s}$ bzw $kW$. Wobei auf dem Display eine Heizleistung von 8,3kW angezeit wird, was nur minimal von unserem errechneten Wert abweicht.
+\subsubsection{Berechnen Sie die äußere Leistungszahl der Anlage}
+Die tatsächliche äußere Leistungszahl berechnet sich wie in Formel \ref{eq:110623_aeußere Leistungszahl_tatsächlich} dargestellt und beträgt 3,53.
+\begin{equation}
+\epsilon_{real,a} = \frac{\dot Q_{Nutz}}{P_{el}}
+\label{eq:110623_aeußere Leistungszahl_tatsächlich}
+\end{equation}
+\subsubsection{Berechnen Sie aus der Gesamt-Energiebilanz der Anlage den aus der Umgebung aufgenommenen Wärmestrom im Verdampfer.
+Welcher Luftvolumenstrom muss durchgesetzt werden, wenn die Luft um 5 K abgekühlt wird?}
+Um den aus der Umgebung aufgenommenen Wärmestrom zu bestimmen muss die Gesammt-Energiebilanz der Anlage verwendet werden:
+\begin{equation}
+\dot Q_{Verd}=\dot Q_{Verd}-P_{el}
+\label{eq:110623_aeußere Leistungszahl}
+\end{equation}
+Mit der berechneten Heizleistung von 8,14kW und einer elektrischen Leistung von 2304W ergibt sich ein vom Verdampfer aufgenommerner Wärmestrom von 5,84kW. Nun wird der benötigte Luftstrom, unter der Annahme, dass die durchströmende Luft um 5K abgekühlt wird, berechnet.
+\begin{equation}
+\dot V_{L}=\frac{\dot Q_{verd}}{\rho_{Luft} \cdot cp_{Luft} \cdot \Delta T}
+\label{eq:110623_benoetigter_Luftstrom}
+\end{equation}
+Der benötigte Luftstrom beträgt nach Formel \ref{eq:110623_benoetigter_Luftstrom} 1,36$\frac{m^3}{s}$. 
+\subsubsection{Berechnen Sie die äußere Carnot-Leistungszahl der Anlage $\epsilon_{Carnot,a}$ anhand der erreichten Mitteltemperatur der Nutzwärme TmN =(TKessel + TRück )/2 und der Umgebungstemperatur.}
+Für die äußere Carnot-Leistungszahl der Anlage benötigt man die Umgebungstemperatur $T_{U}=$24°C und die mittlere Temperatur der Nutzwärme $T_{mN}=$48,25°C. Die äußere Carnot-Leistungszahl berechnet sich dann wie folgt: 
+\begin{equation}
+\epsilon_{Carnot,aussen} = \frac{T_{mN}}{T_{mN}-T_{U}}
+\label{eq:110623_aeußere Carnot Leistungszahl}
+\end{equation}
+Sie beläuft sich dabei auf 13,25.
