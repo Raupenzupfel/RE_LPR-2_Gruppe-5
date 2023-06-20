@@ -104,3 +104,94 @@ Das theoretisch benötigte Wasserstoffvolumen lässt sich mittels \autoref{eq:23
     V_{H_2} = \frac{I \cdot t \cdot V_m}{z \cdot F}
     \label{eq:230618_Volumen-H2-Theoretisch}
 \end{equation}
+
+\subsection{Formulieren Sie desgleichen den elektroenergetischen Wirkungsgrad.}
+
+Der Elektroenergetische Wirkungsgrad berechnet sich aus gewonnenen elektrischen Energie und der verbrauchten chemischen nach \autoref{eq:230619_Elektroenergetisch} \cite{BZ-Folien}.
+
+\begin{equation}
+    \eta_{Energetisch} = \frac{E_{Elektrisch}}{E_{Chemie}} = \frac{U \cdot I \cdot t}{\Delta H_{(H_2)} \cdot V_{Praktisch}}
+    \label{eq:230619_Elektroenergetisch}
+\end{equation}
+
+\subsection{Erläutern Sie die Begriffe Gleichgewichtsspannung und Thermoneutrale Spannung bei Standardbedingungen.}
+
+Standardbedingungen beschreiben in diesem Fall den Normaldruck von $1015mBar$, eine Luftfeuchte von $0\%$ und eine Umgebungstemperatur von 25°C.
+Die Thermoneutrale Spannung stellt hier die maximal erreichbare Spannung einer einzelnen Brennstoffzelle dar und beläuft sich bei Standardbedingungen auf $U_{th} = 1,48V$, 
+die Gleichgewichtsspannung hingegen ist die elektrisch maximal nutzbare Spannung und beträgt bei Standardbedingungen $U_0 = 1,23V$ die Differenz zwischen der Thermoneutralen und der Gleichgewichtsspannung lässt sich auf die Entropie das Wassers zurückführen.   
+
+\subsection{Berechnen Sie für den Prozesstemperaturbereich von 0°C bis etwa 1500 °C bei 25°C
+Umgebungstemperatur den Carnot-Wirkungsgrad und den Gibbs- Helmholtz-Wirkungsgrad
+und stellen Sie beide Verläufe in einem Bild grafisch dar! Zur Erleichterung sei auf den
+linearen Enthalpie verlauf hingewiesen.}
+
+Die Wirkungsgrade lassen sich mittels der Gleichungen \ref{eq:230620_Carnot} und \ref{eq:230620_Gibbs-Helmholtz} berechnen. 
+$T_{Unten}$ bezeichnet die niedrigere Temperatur im Prozess, $T_{Oben}$ die höhere, $\Delta G_R$ ist die freie Reaktionsenthalpie und $\Delta H_R$ die Enthalpie des Wassers.
+zur numerischen Ermittlung der Enthalpien wurde die beigelegt Grafik und das Programm PowerToys - Bildschirmlineal verwendet.
+Damit wurden genaue pixelabstände zwischen den Linien bestimmt werden und zu den gegeben Einheit umgerechnet werden.
+Es wurden damit folgende Eckdaten ermittelt:
+\begin{align}
+    \Delta G_R(300K) &= 227 \frac{kJ}{mol} \nonumber\\
+    \Delta G_R(373K) &= 212 \frac{kJ}{mol} \nonumber\\
+    \Delta G_R(1100K) &= 167 \frac{kJ}{mol} \nonumber\\
+    \Delta H_R(T) &= 
+        \begin{cases}
+            286 \frac{kJ}{mol} & T < 373 K \\
+            246 \frac{kJ}{mol} & T \geq 373 K
+        \end{cases} \nonumber
+\end{align}
+
+Durch diese Punkte konnten für $\Delta G_R$ 2 lineare Gleichungen aufgestellt werden welche sich zu \autoref{eq:230620_d_G_R} kombinieren.
+
+\begin{equation}
+    \Delta G_R(T) =
+    \begin{cases}
+        -0,2055 \cdot T + 288,6438 & T < 373 K \\
+        -0,0619 \cdot T + 235,0880 & T \geq 373 K
+    \end{cases}
+    \label{eq:230620_d_G_R}
+\end{equation}
+
+\begin{equation}
+    \eta_{Carnot} = 1 - \frac{T_{Unten}}{T_{Oben}}
+    \label{eq:230620_Carnot}
+\end{equation}
+
+\begin{equation}
+    \eta_{th} = \frac{\Delta G_R}{\Delta H_R}
+    \label{eq:230620_Gibbs-Helmholtz}
+\end{equation}
+
+Die errechneten Werte konnten nun mittels Matlab Dargestellt werden.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{Abbildungen/Enthalpien.png}
+    \caption{freie Standardenthalpie und Enthalpie von Wasser über der Temperatur}
+    \label{fig:230620_Enthalpie}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{Abbildungen/Wirkungsgrade.png}
+    \caption{Carnot-Wirkungsgrad und Gibbs-Helmholtz-Wirkungsgrad über der Temperatur}
+    \label{fig:230620_Wirkungsgrade}
+\end{figure}
+
+\subsection{Vergleichen Sie Thermische Energiesysteme mit Brennstoffzellensystemen.}
+
+Thermische Energiesysteme haben im allgemeinen einen geringeren Wirkungsgrad als als Brennstoffzellensysteme, da sie  mehr Energieumwandlungen durchlaufen müssen:
+$$E_{Chemisch} \Rightarrow E_{Thermisch} \Rightarrow E_{Mechanisch} \Rightarrow E_{Elektrisch}$$ 
+Brennstoffzellensysteme durchgehen aufgrund der kalten Verbrennung nur eine Umwandlung:
+$$E_{Chemisch} \Rightarrow E_{Elektrisch}$$
+
+\subsection{Ermitteln Sie für einen 1,2 kW-Brennstoffzellen Stack, der in einem 24-V-System mit
+BleiGel Batteriepuffer im Nennbetrieb arbeitet, die stündlich entstehende Wassermenge.
+Während eines Volladezyklus schwankt die BZ-Zellspannung zwischen 1 und 0,6 Volt.}
+\label{sec:VF_H2O_Menge}
+\subsection{Der Stack von \ref{sec:VF_H2O_Menge} verbraucht bei Nennstrom stündlich 904 Liter Wasserstoff (Messung
+bei 24°C und 1018mbar äußerem Luftdruck). Bestimmen und kommentieren Sie den
+Faraday'schen Wirkungsgrad. Wie groß ist der elektroenergetische Wirkungsgrad?}
+\subsection{Berechnen Sie die Wärmeentwicklung an der Brennstoffzelle im Betriebsfall.}
+\subsection{Wie groß ist der elektrische Wirkungsgrad, wenn der Stack eine Wärmeleistung von
+230W produziert und bei einer Spannung von 42V ein Strom von 10 A entnommen werden kann?}

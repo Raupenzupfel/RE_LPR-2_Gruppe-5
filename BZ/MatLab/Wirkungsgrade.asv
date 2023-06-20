@@ -1,0 +1,28 @@
+% Näherungsrechnung für Carnot Wirkungsgrad und Thermodynamischen Wirkungsgrad
+% Johannes Tadeus Ranisch
+% Erstellt am 11.06.2023
+
+%% Setup
+
+tic
+
+clear;
+close all;
+clc;
+
+%% Festlegungen
+
+T0(1:1501) = 273;
+Temp = 0:1500 ;
+T_U(1:1501) = 25;
+
+
+d_G(1:101) = linspace(358.4,212,101);
+d_G(102:1501) = linspace(212,125.3425,1400);
+
+%% Rechnung
+
+
+
+Wirkungsgrad_Carnot(1:1501) = 1- (T_U + T0)/(Temp + T0);
+toc
