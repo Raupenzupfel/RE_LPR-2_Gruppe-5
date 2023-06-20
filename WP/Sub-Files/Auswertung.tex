@@ -32,7 +32,64 @@ Der benötigte Luftstrom beträgt nach Formel \ref{eq:110623_benoetigter_Luftstr
 \subsubsection{Berechnen Sie die äußere Carnot-Leistungszahl der Anlage $\epsilon_{Carnot,a}$ anhand der erreichten Mitteltemperatur der Nutzwärme TmN =(TKessel + TRück )/2 und der Umgebungstemperatur.}
 Für die äußere Carnot-Leistungszahl der Anlage benötigt man die Umgebungstemperatur $T_{U}=$24°C und die mittlere Temperatur der Nutzwärme $T_{mN}=$48,25°C. Die äußere Carnot-Leistungszahl berechnet sich dann wie folgt: 
 \begin{equation}
-\epsilon_{Carnot,aussen} = \frac{T_{mN}}{T_{mN}-T_{U}}
+\epsilon_{Carnot, Außen} = \frac{T_{mN}}{T_{mN}-T_{U}}
 \label{eq:110623_aeußere Carnot Leistungszahl}
 \end{equation}
 Sie beläuft sich dabei auf 13,25.
+
+\subsection{Arbeitsmittelkreislauf und innere Leistungszahlen}
+Entsprechend der Werte aus Messreihe 1, welche in \autoref{tab:Arbeitspunkte} zusammengefasst sind, kann das passende
+lg(p)-h-Diagramm, mit den Arbeitspunkten 1-4 erstellt werden. Aus diesem Diagramm lassen sich die in \autoref{tab:Arbeitspunkte} ebenfalls
+notierten Enthalpien ablesen.
+
+\begin{table}[!h]
+    \centering
+    \resizebox{\textwidth}{!}{%
+    \begin{tabular}{|c|c|c|c|}
+    \hline
+    \multicolumn{1}{|l|}{Arbeitspunkt} & Bezeichnung                  & \multicolumn{1}{l|}{Temperatur in °C} & \multicolumn{1}{l|}{Enthalpie in kJ/kg} \\ \hline
+    1                                  & Temperatur nach Verdampfer   & 18                                    & 425                                     \\ \hline
+    2                                  & Heißgastemperatur            & 63                                    & 448                                     \\ \hline
+    3                                  & Temperatur nach Verflüssiger & 43                                    & 280                                     \\ \hline
+    4                                  & Temperatur vor Verdampfer    & 16                                    & 280                                     \\ \hline
+    \end{tabular}%
+    }
+    \caption{Arbeitspunkte entsprechend Messreihe 1}
+    \label{tab:Arbeitspunkte}
+    \end{table}
+
+    Zusätzlich kann das obere Druckniveau von 29,5 bar und das unter Druckniveau von rund 13 bar abgelesen werden.
+    Des Weiteren ist in \autoref{fig:lgp-h-Diagramm} ersichtlich, dass die Ergebnisse plausibel sind, da der dargestellte Kreisprozess dem erwarteten Bild entspricht.\\
+
+    \begin{figure}[!h]
+        \centering
+        \includegraphics[width=0.5\textwidth]{Abbildungen/lgp-h-diagramm.jpg}
+        \caption{lg(p)-h-Diagramm mit den Arbeitspunkten aus Messreihe 1}
+        \label{fig:lgp-h-Diagramm}
+    \end{figure}
+
+Mit den Temperaturen aus \autoref{tab:Arbeitspunkte} kann mittels \autoref{eq:Innere Carnot-Leistungszahl} die innere Carnot-Leistungszahl
+ermittelt werden. Die Berechnung ergibt dann eine innere Carnot-Leistungszahl von 7,15.
+
+    \begin{equation}
+        \epsilon_{Carnot, Innen}=\frac{T_{max}}{T_{max}-T_{min}}=\frac{T_{Kond}}{T_{Kond}-T_{Verd}}=\frac{336,15 K}{336,15 K-289,15 K}=7,15
+        \label{eq:Innere Carnot-Leistungszahl}
+    \end{equation}
+
+ In \autoref{fig:lgp-h-Diagramm-is} ist zusätzlich der isentrope Arbeitspunkt 2 eingezeichnet und somit die isentrope Enthalpie für diesen Arbeitspunkt von $440 \frac{kJ}{kg}$
+ eingezeichnet und abzulesen.
+    
+ \begin{figure}[!h]
+        \centering
+        \includegraphics[width=0.5\textwidth]{Abbildungen/lgp-h-diagramm-is.jpg}
+        \caption{lg(p)-h-Diagramm mit dem isentropen Arbeitspunkt 2}
+        \label{fig:lgp-h-Diagramm-is}
+    \end{figure}
+
+    Mittels der nun bekannten isentropen Enthalpie für Arbeitspunkt 2 kann mittels \autoref{eq:Isentropenwirkungsgrad} der Isentropenwirkungsgrad ermittelt werden.
+\begin{equation}
+    \eta_{is}=\frac{h_{2,is}-h_{1}}{h_{2}-h_{1}}=\frac{433 kJ/kg-425 kJ/kg}{448 kJ/kg-425 kJ/kg}=0,6521
+    \label{eq:Isentropenwirkungsgrad}
+\end{equation}
+
+Der Isentropenwirkungsgrad für diesen Fall beträgt demnach 0,6521.\\
