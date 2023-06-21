@@ -4,6 +4,7 @@
 \subsection{Energiebilanz der Anlage und äußere Leistungszahl}
 In diesem Teil werden die Leistungszahlen und die Energiebilanz der Anlage berechnet.
 \subsubsection{Prüfen Sie die im Bedienmodul angegebene Heizleistung anhand Vor- und Rücklauftemperatur und Heizdurchfluss}
+\label{subsubsec:Heizleistung}
 Die Heizleistung lässt sich mit der folgenden Formel berechnen:
 \begin{equation}
 \dot Q_{Kond}= \dot m \cdot cp_{W} \cdot (T_{V} - T_{R})
@@ -29,7 +30,7 @@ Mit der berechneten Heizleistung von 8,14kW und einer elektrischen Leistung von 
 \label{eq:110623_benoetigter_Luftstrom}
 \end{equation}
 Der benötigte Luftstrom beträgt nach Formel \ref{eq:110623_benoetigter_Luftstrom} 1,36$\frac{m^3}{s}$. 
-\subsubsection{Berechnen Sie die äußere Carnot-Leistungszahl der Anlage $\epsilon_{Carnot,a}$ anhand der erreichten Mitteltemperatur der Nutzwärme TmN =(TKessel + TRück )/2 und der Umgebungstemperatur.}
+\subsubsection{Berechnen Sie die äußere Carnot-Leistungszahl der Anlage \texorpdfstring{$\epsilon_{Carnot,a}$}{} anhand der erreichten Mitteltemperatur der Nutzwärme TmN =(TKessel + TRück )/2 und der Umgebungstemperatur.}
 Für die äußere Carnot-Leistungszahl der Anlage benötigt man die Umgebungstemperatur $T_{U}=$24°C und die mittlere Temperatur der Nutzwärme $T_{mN}=$48,25°C. Die äußere Carnot-Leistungszahl berechnet sich dann wie folgt: 
 \begin{equation}
 \epsilon_{Carnot, Außen} = \frac{T_{mN}}{T_{mN}-T_{U}}
@@ -93,3 +94,115 @@ ermittelt werden. Die Berechnung ergibt dann eine innere Carnot-Leistungszahl vo
 \end{equation}
 
 Der Isentropenwirkungsgrad für diesen Fall beträgt demnach 0,6521.\\
+
+
+\subsection{Leistungszahlen und Verlustursachen}
+
+\subsection{Energiebilanzen Einzelapparate}
+
+\subsubsection{} 
+\label{subsec:Massenstrom}
+
+\subsubsection{}
+\subsubsection{Der Durchmesser der Heißgasleitung beträgt 16 mm, der der Kondensatleitung 10
+mm. Berechnen Sie mit Hilfe der aus Diagramm bzw. Dampftafel abgelesenen spezifischen Volumina die Strömungsgeschwindigkeiten von Gas und Flüssigkeit.}
+
+Das spezifische Volumen des Gases kann aus dem lg(p)-h Diagramm abgelesen werden zu: $V_{Gas}=0,02 m^3/kg$. Die Dichte, welche der Kehrwert des spezifischen Volumens ist, ergibt sich als $\rho=50 kg/m^3$. 
+Mit dem durchschnittlichen Massenstrom aus \autoref{subsec:Massenstrom} können die Strömungsgeschwindigkeiten über den Volumenstrom nach folgenden Gleichungen berechnet werden.
+
+\begin{equation}
+    \dot{V}= \frac{\dot{m}}{\rho }
+    \label{eq:230620_Volumenstrom}
+\end{equation}
+
+\begin{equation}
+    \dot{V}= v \cdot \frac{\pi}{4} \cdot d^2
+    \label{eq:230620_Volumenstrom2}
+\end{equation}
+
+Werden \autoref{eq:230620_Volumenstrom} und \autoref{eq:230620_Volumenstrom2} gleichgesetzt ergibt sich die Strömungsgeschwindigkeit nach \autoref{eq:230620_Strömungsgeschwindigkeiten}.
+
+\begin{equation}
+    v = \frac{\dot{m}}{\frac{\pi}{4}\cdot \rho \cdot d^2}
+    \label{eq:230620_Strömungsgeschwindigkeiten}
+\end{equation}
+
+Am Arbeitspunkt 1 ergibt sich die Strömungsgeschwindigkeit:
+$$v=\frac{0,0444 kg/s}{\frac{\pi}{4}\cdot 50 kg/m^3 \cdot (0,016 m)^2}=4,42 m/s $$
+
+Der Druck am Arbeitspunkt 3 kann aus dem lg(p)-h Diagramm als $p=30 bar$ abgelesen werden. Mithilfe dessen lässt sich die Dichte aus der Dampftafel als $\rho=914,34 kg/m^3$ bestimmen.
+Die Strömungsgeschwindigkeit der Flüssigkeit am Arbeitspunkt 3 berechnet sich dann zu:
+$$v=\frac{0,0444 kg/s}{\frac{\pi}{4}\cdot 914,37 kg/m^3 \cdot (0,01 m)^2}=0,618 m/s $$
+
+\subsubsection{Skizzieren Sie ein T,A-Schaubild des kleinen Gegenstrom-Plattenwärmeübertragers
+zwischen internem und externem Heizkreis. Berechnen Sie den erreichten k-Wert,
+wenn der Apparat eine Wärmeübertragerfläche eine Fläche von \texorpdfstring{$A = 0,4 m^2$}{} hat.}
+
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{Abbildungen/TA,Diagramm.jpeg}
+    \caption{T,A-Schaubild eines Gegenstrom-Plattenwärmeübertragers}
+    \label{fig:TA,Diagramm}
+\end{figure}
+
+NOCHMAL NEU ZEICHNEN!!!!
+
+Für die Berechnung des K-Wert muss im Vorfeld $\Delta T_M$ bestimmt werden. Das passiert nach folgender Gleichung.
+
+\begin{equation}
+    \Delta T_{MAX}= \Delta T_{HA}-\Delta T_{KE}
+    \label{eq:230621_DeltaTMAX}
+\end{equation}
+
+$$\Delta T_{MAX}= 41°C-24°C= 17K$$
+
+\begin{equation}
+    \Delta T_{MIN}= \Delta T_{HE}-\Delta T_{KA}
+    \label{eq:230621_DeltaTMIN}
+\end{equation}
+
+$$\Delta T_{MIN}= 54°C-51°C= 3K$$
+
+\begin{equation}
+    \Delta T_{M}= \frac{\Delta T_{MAX}-\Delta T_{MIN}}{ln\frac{\Delta T_{MAX}}{\Delta T_{MIN}}}
+    \label{eq:230621_DeltaTM}
+\end{equation}
+
+$$\Delta T_M= \frac{17K-3K}{ln\frac{17K}{3K}}= 8,07K$$
+
+Mithilfe der \autoref{eq:230621_Q} und der Heizleistung lässt sich der k-Wert bestimmen.
+
+\begin{equation}
+    \dot{Q}=k\cdot A \cdot \Delta T_M
+    \label{eq:230621_Q}
+\end{equation}
+
+\begin{equation}
+    k = \frac{\dot{Q}}{ A \cdot \Delta T_M} 
+    \label{eq:230621_k}
+\end{equation}
+
+$$k=\frac{8,14 kW}{ 0,4m^2 \cdot 8,07K}=6,3 kW/m^2K$$
+
+\subsubsection{Wie lange dauert es bei konstanter Wärmepumpenleistung, bis ausgehend von einer
+konstanten Anfangstemperatur \texorpdfstring{$T_{Sp,U}$}{} der gesamte Speicherinhalt (450 l) aufgeheizt ist?}
+
+Die Wärmemenge die benötigt wird um den Speicher aufzuheizen berechnet sich nach:
+
+\begin{equation}
+Q = m \cdot c_p \cdot \Delta T = \rho \cdot V \cdot c_p \cdot \Delta T
+\end{equation}
+
+$$Q= 997 kg/m^3 \cdot 0,45 m^3 \cdot 4,18 kJ/kgK (35°C-22°C)K=24,4 MJ$$
+
+Da die Heizleistung nur eine Energieangabe pro Zeiteinheit ist lässt sich die Zeit durch eine einfache Gleichung bestimmen.
+
+\begin{equation}
+    P_{Heiz}= \frac{Q}{t}
+\end{equation}
+
+\begin{equation}
+ t = \frac{Q}{P_{Heiz}}
+\end{equation}
+
+$$ t= \frac{24,4 MJ}{8,14 kW}=2995 s= 49,9 min$$
