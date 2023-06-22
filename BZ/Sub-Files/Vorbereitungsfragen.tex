@@ -52,10 +52,10 @@ An der Kathode werden die Elektronen mit den Wasserstoffprotonen und Sauerstoff 
 \end{figure}
 
 In \autoref{fig:230618_U-I-Kennlinie} ist eine Skizze der U-J Kennlinie einer Brennstoffzelle zu erkennen.
-Durch die Proportionalität zwischen Stromdichte und der Stromstärke ist das qualitative aussehen der U-I und der U-J Kennlinie deckungsgleich.
+Durch die Proportionalität zwischen Stromdichte und der Stromstärke ist das qualitative Aussehen der U-I und der U-J Kennlinie deckungsgleich.
 Die maskierten Bereiche unterscheiden sich jeweils durch die vorherrschenden Verluste.
 In Bereich 1 sind die Aktivierungsverluste maßgeblich, da eine Energiebarriere der Reaktion überwunden werden muss.
-Im 2. Bereich dominieren die Ohm'schen Verluste, die aufgrund des Transports der Ionen durch den Elektrolyten und der Elektronen durch das Elektrodenmaterials auftreten.
+Im 2. Bereich dominieren die Ohm'schen Verluste, die aufgrund des Transports der Ionen durch den Elektrolyten und der Elektronen durch das Elektrodenmaterial auftreten.
 Im Bereich 3 wird die Reaktion durch die Diffusionsfähigkeit der Gase und der Elektrodenstruktur bestimmt.
 
 \subsection{Wiederholen Sie kurz die Faraday'schen Gesetze.}
@@ -77,7 +77,7 @@ Durch Erweiterungen wird es heutzutage wie in \autoref{eq:230618_1FaradayGesetz_
 
 \subsubsection{2. Faraday'sches Gesetz}
 
-Die durch eine bestimmte Ladung abgeschiedene Masse eines Elements ist proportional zum Atomgewicht des abgeschiedenen Elements und umgekehrt proportional zu seiner Wertigkeit, daher zur Anzahl von einwertigen Atomen, die sich mit diesem Element verbinden können \cite{Faraday_G} und formuliert die \autoref{eq:230618_2FaradayGesetz}.
+Die durch eine bestimmte Ladung abgeschiedene Masse eines Elements ist proportional zum Atomgewicht des abgeschiedenen Elements und umgekehrt proportional zu seiner Wertigkeit, daher zur Anzahl von einwertigen Atomen, die sich mit diesem Element verbinden können \cite{Faraday_G}, und formuliert die \autoref{eq:230618_2FaradayGesetz}.
 Heutzutage wird das 2. Faraday'sche Gesetz mit \autoref{eq:230618_2FaradayGesetz_Heute} Formuliert.
 
 \begin{equation}
@@ -104,3 +104,139 @@ Das theoretisch benötigte Wasserstoffvolumen lässt sich mittels \autoref{eq:23
     V_{H_2} = \frac{I \cdot t \cdot V_m}{z \cdot F}
     \label{eq:230618_Volumen-H2-Theoretisch}
 \end{equation}
+
+\subsection{Formulieren Sie desgleichen den elektroenergetischen Wirkungsgrad.}
+
+Der Elektroenergetische Wirkungsgrad berechnet sich aus gewonnenen elektrischen Energie und der verbrauchten chemischen nach \autoref{eq:230619_Elektroenergetisch} \cite{BZ-Folien}.
+
+\begin{equation}
+    \eta_{Energetisch} = \frac{E_{Elektrisch}}{E_{Chemie}} = \frac{U \cdot I \cdot t}{\Delta H_{(H_2)} \cdot V_{Praktisch}}
+    \label{eq:230619_Elektroenergetisch}
+\end{equation}
+
+\subsection{Erläutern Sie die Begriffe Gleichgewichtsspannung und Thermoneutrale Spannung bei Standardbedingungen.}
+
+Standardbedingungen beschreiben in diesem Fall den Normaldruck von $1015mBar$, eine Luftfeuchte von $0\%$ und eine Umgebungstemperatur von 25°C.
+Die Thermoneutrale Spannung stellt hier die maximal erreichbare Spannung einer einzelnen Brennstoffzelle dar und beläuft sich bei Standardbedingungen auf $U_{th} = 1,48V$, 
+die Gleichgewichtsspannung hingegen ist die elektrisch maximal nutzbare Spannung und beträgt bei Standardbedingungen $U_0 = 1,23V$ die Differenz zwischen der Thermoneutralen und der Gleichgewichtsspannung lässt sich auf die Entropie des Wassers zurückführen.   
+
+\subsection{Berechnen Sie für den Prozesstemperaturbereich von 0°C bis etwa 1500 °C bei 25°C
+Umgebungstemperatur den Carnot-Wirkungsgrad und den Gibbs-Helmholtz-Wirkungsgrad
+und stellen Sie beide Verläufe in einem Bild grafisch dar! Zur Erleichterung sei auf den
+linearen Enthalpie verlauf hingewiesen.}
+
+Die Wirkungsgrade lassen sich mittels der Gleichungen \ref{eq:230620_Carnot} und \ref{eq:230620_Gibbs-Helmholtz} berechnen. 
+$T_{Unten}$ bezeichnet die niedrigere Temperatur im Prozess, $T_{Oben}$ die höhere, $\Delta G_R$ ist die freie Reaktionsenthalpie und $\Delta H_R$ die Enthalpie des Wassers.
+Zur numerischen Ermittlung der Enthalpien wurde die beigelegte Grafik und das Programm PowerToys - Bildschirmlineal verwendet.
+Damit wurden genaue pixelabstände zwischen den Linien bestimmt werden und zu den gegeben Einheit umgerechnet werden.
+Es wurden damit folgende Eckdaten ermittelt:
+\begin{align}
+    \Delta G_R(300K) &= 227 \frac{kJ}{mol} \nonumber\\
+    \Delta G_R(373K) &= 212 \frac{kJ}{mol} \nonumber\\
+    \Delta G_R(1100K) &= 167 \frac{kJ}{mol} \nonumber\\
+    \Delta H_R(T) &= 
+        \begin{cases}
+            286 \frac{kJ}{mol}, & T < 373 K \\
+            246 \frac{kJ}{mol}, & T \geq 373 K
+        \end{cases} \nonumber
+\end{align}
+
+Durch diese Punkte konnten für $\Delta G_R$ 2 lineare Gleichungen aufgestellt werden welche sich zu \autoref{eq:230620_d_G_R} kombinieren.
+
+\begin{equation}
+    \Delta G_R(T) =
+    \begin{cases}
+        -0,2055 \cdot T + 288,6438 K, & T < 373 K \\
+        -0,0619 \cdot T + 235,0880 K, & T \geq 373 K
+    \end{cases}
+    \label{eq:230620_d_G_R}
+\end{equation}
+
+\begin{equation}
+    \eta_{Carnot} = 1 - \frac{T_{Unten}}{T_{Oben}}
+    \label{eq:230620_Carnot}
+\end{equation}
+
+\begin{equation}
+    \eta_{th} = \frac{\Delta G_R}{\Delta H_R}
+    \label{eq:230620_Gibbs-Helmholtz}
+\end{equation}
+
+Die errechneten Werte konnten nun mittels Matlab in \autoref{fig:230620_Enthalpie} und \autoref{fig:230620_Wirkungsgrade} Dargestellt werden.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{Abbildungen/Enthalpien.png}
+    \caption{Freie Standardenthalpie und Enthalpie von Wasser über der Temperatur}
+    \label{fig:230620_Enthalpie}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{Abbildungen/Wirkungsgrade.png}
+    \caption{Carnot-Wirkungsgrad und Gibbs-Helmholtz-Wirkungsgrad über der Temperatur}
+    \label{fig:230620_Wirkungsgrade}
+\end{figure}
+
+\subsection{Vergleichen Sie Thermische Energiesysteme mit Brennstoffzellensystemen.}
+
+Thermische Energiesysteme haben im Allgemeinen einen geringeren Wirkungsgrad als Brennstoffzellensysteme, da sie  mehr Energieumwandlungen durchlaufen müssen:
+$$E_{Chemisch} \Rightarrow E_{Thermisch} \Rightarrow E_{Mechanisch} \Rightarrow E_{Elektrisch}$$ 
+Brennstoffzellensysteme durchgehen aufgrund der kalten Verbrennung nur eine Umwandlung:
+$$E_{Chemisch} \Rightarrow E_{Elektrisch}$$
+
+\subsection{Ermitteln Sie für einen 1,2 kW-Brennstoffzellen Stack, der in einem 24-V-System mit
+BleiGel Batteriepuffer im Nennbetrieb arbeitet, die stündlich entstehende Wassermenge.
+Während eines Volladezyklus schwankt die BZ-Zellspannung zwischen 1 und 0,6 Volt.}
+\label{sec:VF_H2O_Menge}
+
+Zunächst muss mit \autoref{eq:230620_n_Zelle} die mögliche anzahl an Brennstoffzellen berechnet werden.
+
+\begin{equation}
+    n_{Zellen} = \frac{U_{System}}{U_{Zelle}}\\
+    \label{eq:230620_n_Zelle}
+\end{equation}
+
+\begin{align}
+    n_{Zelle,Min} &= \frac{24V}{1V} = 24 \nonumber\\
+    n_{Zelle,Max} &= \frac{24V}{0.6V} = 40 \nonumber
+\end{align}
+
+Anschlißend kann mit \autoref{eq:230620_Wassermenge} (den Faraday'schen Gesetzen) die entstehende Wassermenge bzw. der Massenstrom des Wassers berechnet werden.
+Hierbei wird von einer Molarenmasse für Wasser von $M_{Wasser} = 18 \cdot 10^{-3} \frac{kg}{mol}$ und der Faradaykonstante von $F =96485,33 \frac{A\cdot s}{mol}$ ausgegangen.
+
+\begin{equation}
+    m = \frac{M \cdot I \cdot t}{z \cdot F} \Leftrightarrow \frac{m}{t} = \dot{m} = \frac{M \cdot \frac{P_{System}}{U_{System}}}{z \cdot F} \cdot 3600 \frac{s}{h}
+    \label{eq:230620_Wassermenge}
+\end{equation}
+
+$$\dot{m}_{Zelle} = 0,403 \frac{kg}{h}$$
+
+Durch die Multiplikation mit der Zellenanzahl ergibt sich damit die Wassermenge für den gesamten Brennstoffzellenstack in einer Stunde, wie in Gleichung \autoref{eq:230620_gesamt_Wassermenge} veranschaulicht.
+
+\begin{equation}
+    \dot{m}_{gesamt} = \dot{m}_{Zelle} \cdot n_{Zelle}
+    \label{eq:230620_gesamt_Wassermenge}
+\end{equation}
+\begin{align}
+    \dot{m}_{gesamt,Min} &= \dot{m}_{Zelle} \cdot n_{Zelle,Min} = 0,403 \frac{kg}{h} \cdot 24 = 9,672 \frac{kg}{h} \nonumber\\
+    \dot{m}_{gesamt,Max} &= \dot{m}_{Zelle} \cdot n_{Zelle,Max} = 0,403 \frac{kg}{h} \cdot 40 = 16,12 \frac{kg}{h} \nonumber\\
+    \dot{m}_{gesamt} &= (9,672 \dots 16,12) \frac{kg}{h} \nonumber
+\end{align}
+
+\subsection{Der Stack von \ref{sec:VF_H2O_Menge} verbraucht bei Nennstrom stündlich 904 Liter Wasserstoff (Messung bei 24°C (= 297,15 K) und 1018mbar (= 101,8 kPa) äußerem Luftdruck). 
+Bestimmen und kommentieren Sie den Faraday'schen Wirkungsgrad. Wie groß ist der elektroenergetische Wirkungsgrad?}
+
+\textcolor{red}{\Huge Faraday Wirkungsgrad ergibt unsinnige Werte}
+
+Der elektroenergetische Wikrungsgrad lässt sich mti hilfe der \autoref{eq:230619_Elektroenergetisch} berechnen.
+Hierbei wurde der term $\frac{t}{V_{Praktisch}}$ zu $\frac{1}{\dot{V}_{Praktisch}}$ umgeformt.
+Der Brennwert von Wasserstoff wurde als $\Delta H_{H_2} = 3,54\frac{Wh}{l}$ \cite{dH-H2} angenommen.
+Daraus ergibt sich ein Elektroenergetischer Wirkungsgrad von $\eta_{Elektroenergetisch} = 0,374981 \equiv 37,4981 \%$.
+
+\subsection{Berechnen Sie die Wärmeentwicklung an der Brennstoffzelle im Betriebsfall.}
+
+
+
+\subsection{Wie groß ist der elektrische Wirkungsgrad, wenn der Stack eine Wärmeleistung von
+230W produziert und bei einer Spannung von 42V ein Strom von 10 A entnommen werden kann?}

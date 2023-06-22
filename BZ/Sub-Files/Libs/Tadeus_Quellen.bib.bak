@@ -11,8 +11,21 @@
 }
 
 @Misc{Faraday_G,
-  note  = {Accesed 18.06.2023},
-  title = {Faraday'schen Gesetze},
+  howpublished = {\url{https://www.chemie.de/lexikon/Faradaysche_Gesetze.html}},
+  note         = {Accesed 18.06.2023},
+  title        = {Faraday'schen Gesetze},
+}
+
+@Misc{dH-H2,
+  howpublished = {\url{https://www.fluessiggas1.de/heizwert-brennwert/}},
+  note         = {Accessed 21.06.2023},
+  title        = {Brennwert von Gasen},
+}
+
+@Misc{Gaskonstante,
+  howpublished = {\url{https://www.chemie.de/lexikon/Universelle_Gaskonstante.html}},
+  note         = {Accessed 21.06.2023},
+  title        = {Universelle Geskonstante},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
