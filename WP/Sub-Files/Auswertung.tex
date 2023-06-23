@@ -60,6 +60,8 @@ $$\dot V_{L}=\frac{5,84 kW}{ 1,2 \frac{kg}{m^3} \cdot 1 \frac{kJ}{kg \cdot K} \c
 
 Der benötigte Luftstrom beträgt nach Formel \ref{eq:110623_benoetigter_Luftstrom} 0,973$\frac{m^3}{s}$. 
 \subsubsection{Berechnen Sie die äußere Carnot-Leistungszahl der Anlage \texorpdfstring{$\epsilon_{Carnot,a}$}{} anhand der erreichten Mitteltemperatur der Nutzwärme TmN =(TKessel + TRück)/2 und der Umgebungstemperatur.}
+\label{subsubsec:Carnot}
+
 Für die äußere Carnot-Leistungszahl der Anlage benötigt man die Umgebungstemperatur $T_{U}=$24°C= 297,15K und die mittlere Temperatur der Nutzwärme.
 
 \begin{equation}
@@ -136,7 +138,7 @@ $$\epsilon_{Carnot, Innen}=\frac{316,15 K}{316,15 K-291,15 K}=12,6$$
     \label{eq:Isentropenwirkungsgrad}
 \end{equation}
 
-$$\eta_{is}=\frac{433 kJ/kg-425 kJ/kg}{448 kJ/kg-425 kJ/kg}=0,6521$$
+$$\eta_{is}=\frac{433 \frac{kJ}{kg}-425 \frac{kJ}{kg}}{448 \frac{kJ}{kg}-425 \frac{kJ}{kg}}=0,6521$$
 
 Der Isentropenwirkungsgrad für diesen Fall beträgt demnach 0,6521.\\
 
@@ -351,11 +353,29 @@ $$ t= \frac{24,4 MJ}{8,14 kW}=2995 s= 49,9 min$$
 
 \subsection{Zusatzaufgabe}
 
+Die Exergie Verluste werden mit Hilfe des Carnot-Wirkungsgrads und der abgegebenen Nutzwärme bestimmt.
+Der Carnot-Wirkungsgrad ist der Kehrwert der Carnot Leistungszahl welche in \autoref{subsubsec:Carnot} als 13,25 berechnet wurde.
+
+\begin{equation}
+    \eta_{Carnot}=\frac{1}{\epsilon_{Carnot}}
+\end{equation}
+
+$$\eta_{Carnot}=\frac{1}{13,25}= 7,5 \%$$
+
+Die Exergie Verluste ergeben dann:
+
+\begin{equation}
+   \Delta \dot{E_V}= \dot{Q_{Nutz}} \cdot\eta_{Carnot}
+\end{equation}
+
+$$\Delta \dot{E_V}= 8,14kW \cdot 7,5\%= 614W$$
+
+
 \subsection{Fehlerbetrachtung}
 Auffallend ist, dass innerhalb der drei Messungen die Temperatur im Speicher,
 trotz laufender Wärmepumpe, sinkt. Das kann verschiedene Ursachen haben:
 \begin{itemize}
-    \item der Speicher war nicht mehr gedämmt, das bedeutet er gibt immer Wärme an die Umgebung ab
+    \item der Speicher ist ungedämmt, dass bedeutet er gibt immer Wärme an die Umgebung ab
     \item der kalte Luftstrom der Wärmepumpe könnte dann durch den vorhandenen Luftstrom noch zusätzlich konvektiv gekühlt haben 
 \item ungenaue Kalibrierung der Messgeräte
 \item Ablesefehler
