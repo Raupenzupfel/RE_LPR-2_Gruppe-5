@@ -1,4 +1,3 @@
-\newpage
 \section{Auswertung}
 \label{sec:Auswertung}
 \subsection{Energiebilanz der Anlage und äußere Leistungszahl}
@@ -67,7 +66,7 @@ Für die äußere Carnot-Leistungszahl der Anlage benötigt man die Umgebungstem
     T_{mN}=\frac{T_{Kessel}+T_{Rück}}{2}
 \end{equation}
 
-$$T_{mN}=\frac{51,6^{\circ}C+44,9^{\circ}C}{2}=48,25^{\circ}= 321,4 KC$$
+$$T_{mN}=\frac{51,6^{\circ}C+44,9^{\circ}C}{2}=48,25^{\circ}C= 321,4 K$$
 
 Die äußere Carnot-Leistungszahl berechnet sich dann wie folgt: 
 
@@ -92,9 +91,9 @@ notierten Enthalpien ablesen.
     \hline
     \multicolumn{1}{|l|}{Arbeitspunkt} & Bezeichnung                  & \multicolumn{1}{l|}{Temperatur in °C} & \multicolumn{1}{l|}{Enthalpie in kJ/kg} \\ \hline
     1                                  & Temperatur nach Verdampfer   & 18                                    & 425                                     \\ \hline
-    2                                  & Heißgastemperatur            & 63                                    & 448                                     \\ \hline
+    2                                  & Heißgastemperatur            & 66                                   & 448                                     \\ \hline
     3                                  & Temperatur nach Verflüssiger & 43                                    & 280                                     \\ \hline
-    4                                  & Temperatur vor Verdampfer    & 16                                    & 280                                     \\ \hline
+    4                                  & Temperatur vor Verdampfer    & 15                                    & 280                                     \\ \hline
     \end{tabular}%
     }
     \caption{Arbeitspunkte entsprechend Messreihe 1}
@@ -204,48 +203,49 @@ Er umfasst daher alle Verluste im gesamten System.
 
 
 \subsection{Energiebilanzen Einzelapparate}
-
-\subsubsection{} 
 \label{subsec:Massenstrom}
-\subsubsection*{Arbeitsmittelmassenstrom Kondensator/Verdampfer}
+\subsubsection{Arbeitsmittelmassenstrom Kondensator/Verdampfer}
 \begin{equation}
    \dot m_{AM} = \frac{\dot Q_{Kond}}{(h_3 - h_2)}
    \label{eq:230623_massestrom}
 \end{equation}
-Mit $\dot Q_{Kondensator}=8,14kW$, $h_2=448\frac{kJ}{kg}$ und $h_3=280\frac{kJ}{kg}$ wird der Massenstrom des Kondensators nach \autoref*{eq:230623_massestrom} berechnet:
+Mit $\dot Q_{Kondensator}=8,14kW$, $h_2=403\frac{kJ}{kg}$ und $h_3=276\frac{kJ}{kg}$ wird der Massenstrom des Kondensators nach \autoref*{eq:230623_massestrom} berechnet:
 
-$$ \dot m_{AM} = \frac{8,14kW}{|(280\frac{kJ}{kg} - 448\frac{kJ}{kg})|} = 0,04845 \frac{kg}{s} $$
+$$ \dot m_{AM} = \frac{8,14kW}{|(276\frac{kJ}{kg} - 403\frac{kJ}{kg})|} = 0,0641 \frac{kg}{s} $$
 
 \begin{equation}
   \dot m_{AM} = \frac{\dot Q_{Verd}}{|(h_1-h_4)|}
     \label{eq230623_massestrom_ver}
 \end{equation}
 
-Mit $\dot Q_{Verd}=5,84kW$, $h_1=448\frac{kJ}{kg}$ und $h_4=280\frac{kJ}{kg}$ wird der Massenstrom des Kondensators nach \autoref*{eq:230623_massestrom_ver} berechnet:
-$$\dot m_{AM} = \frac{5,84 kW}{|(h_1-h_4)|} = 0,04027 \frac{kg}{s}$$
+Mit $\dot Q_{Verd}=5,84kW$, $h_1=425\frac{kJ}{kg}$ und $h_4=223\frac{kJ}{kg}$ wird der Massenstrom des Kondensators nach \autoref*{eq230623_massestrom_ver} berechnet:
+$$\dot m_{AM} = \frac{5,84 kW}{|(h_1-h_4)|} = 0,0289 \frac{kg}{s}$$
 
-$$\overline{\dot m_{AM}} = \frac{\dot m_{AM_{Kond}}+\dot m_{AM_{Verd}}}{2} = \frac{0,04845 \frac{kg}{s}+0,04027 \frac{kg}{s}}{2} = 0,04436 \frac{kg}{s} $$
+$$\overline{\dot m_{AM}} = \frac{\dot m_{AM_{Kond}}+\dot m_{AM_{Verd}}}{2} = \frac{0,0543 \frac{kg}{s}+0,0289 \frac{kg}{s}}{2} = 0,0465 \frac{kg}{s} $$
 
 
 
 \subsubsection{Verdichterleistung und Verdichterwirkungsgrad}
 
+Die Verdichterleistung wird als mechanische Leistung nach \autoref{eq:230623_Verdichterleistung} berechnet.
+
 \begin{equation}
     P_{mech} = \dot m_{AM} \cdot (h_2-h_1) = \dot m_{AM}\cdot (h_{2,is}-h_1)
-\label{230623_Verdichterleistung}
+\label{eq:230623_Verdichterleistung}
 \end{equation}
-$$  P_{mech} = 0,04436 \cdot (448-425)\frac{kJ}{kg} = 1,02028 kW  $$
+$$  P_{mech} = 0,04436 \frac{kg}{s} \cdot (448-425)\frac{kJ}{kg} = 1,02 kW $$
 
 \begin{equation}
   \eta_{Ver} = \frac{P_{mech}}{P_{el}}=\frac{\dot m_{AM}\cdot (h_2-h_1)}{P_{el}}=\frac{\dot m_{AM}\cdot (h_2,is-h_1)}{P_{el}\cdot \eta_{is}}
 \label{eq:230623_Verdichterwirkungsgrad}
 \end{equation}
 
-$$ \eta_{Ver} = \frac{1020,28 W}{2243,2W} = 0,4548 \approx 45,48 \%$$
+$$\eta_{Ver} = \frac{0,04436 \frac{kg}{s}\cdot (448-425)\frac{kJ}{kg}}{P_{el}\cdot \eta_{is}}= 0,4548 \approx 45,48 \% $$
+
 \subsubsection{Der Durchmesser der Heißgasleitung beträgt 16 mm, der der Kondensatleitung 10
 mm. Berechnen Sie mithilfe der aus Diagramm bzw. Dampftafel abgelesenen spezifischen Volumina die Strömungsgeschwindigkeiten von Gas und Flüssigkeit.}
 
-Das spezifische Volumen des Gases kann aus dem lg(p)-h Diagramm abgelesen werden zu: $V_{Gas}=0,02 m^3/kg$. Die Dichte, welches der Kehrwert des spezifischen Volumens ist, ergibt sich als $\rho=50 kg/m^3$. 
+Das spezifische Volumen des Gases kann aus dem lg(p)-h Diagramm abgelesen werden zu: $V_{Gas}=0,02 \frac{m^3}{kg}$. Die Dichte, welches der Kehrwert des spezifischen Volumens ist, ergibt sich als $\rho=50 \frac{kg}{m^3}$. 
 Mit dem durchschnittlichen Massenstrom aus \autoref{subsec:Massenstrom} können die Strömungsgeschwindigkeiten über den Volumenstrom nach folgenden Gleichungen berechnet werden.
 
 \begin{equation}
@@ -266,11 +266,11 @@ Werden \autoref{eq:230620_Volumenstrom} und \autoref{eq:230620_Volumenstrom2} gl
 \end{equation}
 
 Am Arbeitspunkt 1 ergibt sich die Strömungsgeschwindigkeit:
-$$v=\frac{0,0444 kg/s}{\frac{\pi}{4}\cdot 50 kg/m^3 \cdot (0,016 m)^2}=4,42 m/s $$
+$$v=\frac{0,0444 \frac{kg}{s}}{\frac{\pi}{4}\cdot 50 \frac{kg}{m^3} \cdot (0,016 m)^2}=4,42 \frac{m}{s} $$
 
 Der Druck am Arbeitspunkt 3 kann aus dem lg(p)-h Diagramm als $p=30 bar$ abgelesen werden. Mithilfe dessen lässt sich die Dichte aus der Dampftafel als $\rho=914,34 kg/m^3$ bestimmen.
 Die Strömungsgeschwindigkeit der Flüssigkeit am Arbeitspunkt 3 berechnet sich dann zu:
-$$v=\frac{0,0444 kg/s}{\frac{\pi}{4}\cdot 914,37 kg/m^3 \cdot (0,01 m)^2}=0,618 m/s $$
+$$v=\frac{0,0444 \frac{kg}{s}}{\frac{\pi}{4}\cdot 914,37 kg/m^3 \cdot (0,01 m)^2}=0,618 \frac{m}{s} $$
 
 \subsubsection{Skizzieren Sie ein T,A-Schaubild des kleinen Gegenstrom-Plattenwärmeübertragers
 zwischen internem und externem Heizkreis. Berechnen Sie den erreichten k-Wert,
@@ -278,33 +278,39 @@ wenn der Apparat eine Wärmeübertragerfläche eine Fläche von \texorpdfstring{
 
 \begin{figure}[!ht]
     \centering
-    \includegraphics[width=0.5\textwidth]{Abbildungen/TA_Diagramm.jpg}
+    \includegraphics[width=0.5\textwidth]{Abbildungen/TA.Diagramm.jpeg}
     \caption{T,A-Schaubild eines Gegenstrom-Plattenwärmeübertragers}
     \label{fig:TA,Diagramm}
 \end{figure}
 
-Für die Berechnung des K-Werts muss im Vorfeld $\Delta T_M$ bestimmt werden. Das passiert nach folgender Gleichung.
+Für die Berechnung des K-Werts muss im Vorfeld $\Delta T_M$ bestimmt werden. Das passiert nach folgenden Gleichungen.
+
+Die maximale Temperaturdifferenz wird aus der Speicher-Rücklauftemperatur und der Kesselrücklauftemperatur bestimmt.
 
 \begin{equation}
     \Delta T_{MAX}= \Delta T_{HA}-\Delta T_{KE}
     \label{eq:230621_DeltaTMAX}
 \end{equation}
 
-$$\Delta T_{MAX}= 41\text{°}C-24 \text{°} C= 17K$$
+
+
+$$\Delta T_{MAX}= 44,9\text{°}C-25 \text{°} C= 19,9K$$
+
+Die minimale Temperaturdifferenz wird aus der Speicher-Vorlauftemperatur und der tatsächlichen Kesseltemperarur berechnet.
 
 \begin{equation}
     \Delta T_{MIN}= \Delta T_{HE}-\Delta T_{KA}
     \label{eq:230621_DeltaTMIN}
 \end{equation}
 
-$$\Delta T_{MIN}= 54 \text{°} C-51 \text{°} C= 3K$$
+$$\Delta T_{MIN}= 51,6 \text{°} C-45 \text{°} C= 6,6K$$
 
 \begin{equation}
     \Delta T_{M}= \frac{\Delta T_{MAX}-\Delta T_{MIN}}{ln\frac{\Delta T_{MAX}}{\Delta T_{MIN}}}
     \label{eq:230621_DeltaTM}
 \end{equation}
 
-$$\Delta T_M= \frac{17K-3K}{ln\frac{17K}{3K}}= 8,07K$$
+$$\Delta T_M= \frac{19,9K-6,6K}{ln\frac{19,9K}{6,6K}}= 12,05K$$
 
 Mithilfe der \autoref{eq:230621_Q} und der Heizleistung lässt sich der k-Wert bestimmen.
 
@@ -318,7 +324,7 @@ Mithilfe der \autoref{eq:230621_Q} und der Heizleistung lässt sich der k-Wert b
     \label{eq:230621_k}
 \end{equation}
 
-$$k=\frac{8,14 kW}{ 0,4m^2 \cdot 8,07K}=6,3 kW/m^2K$$
+$$k=\frac{8,14 kW}{ 0,4m^2 \cdot 12,05K}=1,69 \frac{kW}{m^2K}$$
 
 \subsubsection{Wie lange dauert es bei konstanter Wärmepumpenleistung, bis ausgehend von einer
 konstanten Anfangstemperatur \texorpdfstring{$T_{Sp,U}$}{} der gesamte Speicherinhalt (450 l) aufgeheizt ist?}
@@ -329,7 +335,7 @@ Die Wärmemenge die benötigt wird um den Speicher aufzuheizen berechnet sich na
 Q = m \cdot c_p \cdot \Delta T = \rho \cdot V \cdot c_p \cdot \Delta T
 \end{equation}
 
-$$Q= 997 kg/m^3 \cdot 0,45 m^3 \cdot 4,18 kJ/kgK (35 \text{°} C-22 \text{°} C)K=24,4 MJ$$
+$$ Q = 997 \frac{kg}{m^3} \cdot 0,45 m^3 \cdot 4,18 \frac{kJ}{kg K} (35 \text{°} C-22 \text{°} C)K=24,4 MJ$$
 
 Da die Heizleistung nur eine Energieangabe pro Zeiteinheit ist lässt sich die Zeit durch eine einfache Gleichung bestimmen.
 
@@ -342,3 +348,17 @@ Da die Heizleistung nur eine Energieangabe pro Zeiteinheit ist lässt sich die Z
 \end{equation}
 
 $$ t= \frac{24,4 MJ}{8,14 kW}=2995 s= 49,9 min$$
+
+\subsection{Zusatzaufgabe}
+
+\subsection{Fehlerbetrachtung}
+Auffallend ist, dass innerhalb der drei Messungen die Temperatur im Speicher,
+trotz laufender Wärmepumpe, sinkt. Das kann verschiedene Ursachen haben:
+\begin{itemize}
+    \item der Speicher war nicht mehr gedämmt, das bedeutet er gibt immer Wärme an die Umgebung ab
+    \item der kalte Luftstrom der Wärmepumpe könnte dann durch den vorhandenen Luftstrom noch zusätzlich konvektiv gekühlt haben 
+\item ungenaue Kalibrierung der Messgeräte
+\item Ablesefehler
+\end{itemize}
+
+
