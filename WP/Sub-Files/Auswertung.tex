@@ -21,7 +21,7 @@ Die tatsächliche äußere Leistungszahl berechnet sich wie in Formel \ref{eq:11
 Welcher Luftvolumenstrom muss durchgesetzt werden, wenn die Luft um 5 K abgekühlt wird?}
 Um den aus der Umgebung aufgenommenen Wärmestrom zu bestimmen, muss die Gesammt-Energiebilanz der Anlage verwendet werden:
 \begin{equation}
-\dot Q_{Verd}=\dot Q_{Verd}-P_{el}
+\dot Q_{Verd}=\dot Q_{Kondensator}-P_{el}
 \label{eq:110623_aeußere Leistungszahl}
 \end{equation}
 Mit der berechneten Heizleistung von 8,14kW und einer elektrischen Leistung von 2304W ergibt sich ein vom Verdampfer aufgenommerner Wärmestrom von 5,84kW. Nun wird der benötigte Luftstrom, unter der Annahme, dass die durchströmende Luft um 5K abgekühlt wird, berechnet.
@@ -89,18 +89,36 @@ ermittelt werden. Die Berechnung ergibt dann eine innere Carnot-Leistungszahl vo
 
     Mittels der nun bekannten isentropen Enthalpie für Arbeitspunkt 2 kann mittels \autoref{eq:Isentropenwirkungsgrad} der Isentropenwirkungsgrad ermittelt werden.
 \begin{equation}
-    \eta_{is}=\frac{h_{2,is}-h_{1}}{h_{2}-h_{1}}=\frac{433 kJ/kg-425 kJ/kg}{448 kJ/kg-425 kJ/kg}=0,6521
+    \eta_{is}=\frac{h_{2,is}-h_{1}}{h_{2}-h_{1}}
     \label{eq:Isentropenwirkungsgrad}
 \end{equation}
 
+$$\eta_{is}=\frac{433 kJ/kg-425 kJ/kg}{448 kJ/kg-425 kJ/kg}=0,6521$$
+
 Der Isentropenwirkungsgrad für diesen Fall beträgt demnach 0,6521.\\
 
+
+\subsubsection*{Innere Leistungszahlen}
+
+\begin{equation}
+   \epsilon_{VP,i} = \frac{h_{2,is}-h_{pH}}{h_{2,is}-h^{''}_{p0}}
+\label{eq:230623_Leistungszahl_VPI}
+\end{equation}
+
+Aus der Dampftafel für das Kältemittel R410a wurden die Werte $h"_{p0}=425,46 \frac{kJ}{kg}$ und $h_{pH}= 225,03 \frac{kJ}{kg}$ entnommen und mit den Werten aus \autoref*{Arbeitspunkte} in \autoref{eq:230623_Leistungszahl_VPI} eingesetzt
+$$\epsilon_{VP,i} = \frac{h_{2,is}-h_{pH}}{h_{2,is}-h^{''}_{p0}}$$
+
+\begin{equation}
+    \epsilon_{real,i}= \frac{h_2-h_3}{h_2-h_1}
+\end{equation}
+
+$$\epsilon_{real,i}= \frac{(448-280)\frac{kJ}{kg}}}{(448-425)\frac{kJ}{kg}} = 7,30 $$
 
 \subsection{Leistungszahlen und Verlustursachen}
 
 % Leistungszahl auflistung nach finalisierung von Niels und Lukas
 
-$$\epsilon_{Carnot,Au"sen} = 13,25$$
+$$\epsilon_{Carnot,Außen} = 13,25$$
 $$\epsilon_{Carnot,Innen} = 11,7$$
 $$\epsilon_{VP,Innen} = x,xx$$
 $$\epsilon_{Real,Innen} = x,xx$$
@@ -255,4 +273,20 @@ $$ t= \frac{24,4 MJ}{8,14 kW}=2995 s= 49,9 min$$
 \subsubsection*{Arbeitsmittelmassenstrom Kondensator/Verdampfer}
 \begin{equation}
    \dot m_{AM} = \frac{\dot Q_{Kond}}{(h_3 - h_2)}
+   \label{eq:230623_massestrom}
 \end{equation}
+Mit $\dot Q_{Kondensator}=8,14kW$, $h_2=448\frac{kJ}{kg}$ und $h_3=280\frac{kJ}{kg}$ wird der Massenstrom des Kondensators nach \autoref*{eq:230623_massestrom} berechnet:
+
+$$ \dot m_{AM} = \frac{8,14kW}{|(280\frac{kJ}{kg} - 448\frac{kJ}{kg})|} = 0,04845 \frac{kg}{s} $$
+
+\begin{equation}
+  \dot m_{AM} = \frac{\dot Q_{Verd}}{|(h_1-h_4)|}
+    \label{eq230623_massestrom_ver}
+\end{equation}
+
+Mit $\dot Q_{Verd}=5,84kW$, $h_1=448\frac{kJ}{kg}$ und $h_4=280\frac{kJ}{kg}$ wird der Massenstrom des Kondensators nach \autoref*{eq:230623_massestrom} berechnet:
+$$\dot m_{AM} = \frac{5,84 kW}{|(h_1-h_4)|} = 0,04027 \frac{kg}{s}$$
+
+$$\overline{\dot m_{AM}} = \frac{\dot m_{AM_{Kond}}+\dot m_{AM_{Verd}}}{2} = \frac{0,04845 \frac{kg}{s}+0,04027 \frac{kg}{s}}{2} = 0,04436 \frac{kg}{s} $$
+
+
