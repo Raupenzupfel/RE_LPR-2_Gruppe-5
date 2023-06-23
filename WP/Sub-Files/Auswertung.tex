@@ -14,7 +14,7 @@ Mit einem Massenstrom von 0,38 $\frac{kg}{s}$, einer Vorlauftemperatur von 48°C
 \subsubsection{Berechnen Sie die äußere Leistungszahl der Anlage}
 Die tatsächliche äußere Leistungszahl berechnet sich wie in Formel \ref{eq:110623_aeußere Leistungszahl_tatsächlich} dargestellt und beträgt 3,53.
 \begin{equation}
-\epsilon_{real,a} = \frac{\dot Q_{Nutz}}{P_{el}}
+\epsilon_{Real,Au"sen} = \frac{\dot Q_{Nutz}}{P_{el}}
 \label{eq:110623_aeußere Leistungszahl_tatsächlich}
 \end{equation}
 \subsubsection{Berechnen Sie aus der Gesamt-Energiebilanz der Anlage den aus der Umgebung aufgenommenen Wärmestrom im Verdampfer.
@@ -101,27 +101,27 @@ Der Isentropenwirkungsgrad für diesen Fall beträgt demnach 0,6521.\\
 % Leistungszahl auflistung nach finalisierung von Niels und Lukas
 
 $$\epsilon_{Carnot,Au"sen} = 13,25$$
-$$\epsilon_{Carnot,innen} = 11,7$$
-$$\epsilon_{VP,i} = x,xx$$
-$$\epsilon_{Real,i} = x,xx$$
-$$\epsilon_{real,a} = 3,53$$
+$$\epsilon_{Carnot,Innen} = 11,7$$
+$$\epsilon_{VP,Innen} = x,xx$$
+$$\epsilon_{Real,Innen} = x,xx$$
+$$\epsilon_{Real,Au"sen} = 3,53$$
 
-Wie ersichtlich ist, gibt $\epsilon_{Carnot,a}$ die maximale Leistungszahl an. 
+Wie ersichtlich ist, gibt $\epsilon_{Carnot,A"sen}$ die maximale Leistungszahl an. 
 Dies liegt daran, dass der äußere Carnot-Wirkungsgrad einen idealisierten Prozess darstellt, bei dem Verluste vollständig vernachlässigt werden. 
 Er vergleicht lediglich die Temperaturänderung der mittleren Nutzwärme mit der Umgebungstemperatur.
 
-Der äußere Carnot-Wirkungsgrad ist größer als der innere Carnot-Wirkungsgrad $\epsilon_{Carnot,i}$, da sich der innere auf die Kondensations- und Verdampfungstemperatur stützt. 
+Der äußere Carnot-Wirkungsgrad ist größer als der innere Carnot-Wirkungsgrad $\epsilon_{Carnot,Innen}$, da sich der innere auf die Kondensations- und Verdampfungstemperatur stützt. 
 Um die Wärme auf den Prozess zu übertragen und wieder abzugeben, sind Temperaturunterschiede an den beiden Wärmetauschern erforderlich. 
 Bei der Wärmepumpe erfolgt die Wärmeübertragung am Verdampfer und am Kondensator. 
 Diese Verluste der Wärmeübertragung werden beim inneren Carnot-Wirkungsgrad berücksichtigt.
 
-Die innere Leistungszahl für den Vergleichsprozess $\epsilon_{VP,i}$ wurde mithilfe der theoretischen Enthalpien des Kältemittelkreislaufs berechnet.
+Die innere Leistungszahl für den Vergleichsprozess $\epsilon_{VP,Innen}$ wurde mithilfe der theoretischen Enthalpien des Kältemittelkreislaufs berechnet.
 Dies sind abgelesene Werte aus Diagrammen oder Tabellen und können daher etwas ungenauer sein. 
 Der theoretische Carnot-Prozess zur allgemeinen Wärmeübertragung wird nun durch einen realen Kältemittelkreislauf realisiert. 
 Das Kältemittel Solkane 410A weist stoffspezifische Enthalpien auf. 
 Dadurch entstehen Verluste aufgrund des Stoffs und der tatsächlichen Prozessführung.
 
-Als vorletzte Leistungszahl haben wir die reale innere Leistungszahl $\epsilon_{Real,i}$.
+Als vorletzte Leistungszahl haben wir die reale innere Leistungszahl $\epsilon_{Real,Innen}$.
 Diese ist geringer, da die Übergänge im realen Verlauf nicht isentrop, sondern irreversibel sind. 
 Die Druck- und Reibungsverluste einzelner Bauteile werden nun berücksichtigt. 
 Der Verdampfer sollte das Arbeitsmittel leicht überhitzen, da es sonst bereits in der Leitung zum Verdichter kondensieren könnte. 
@@ -135,7 +135,7 @@ Die Kondensation findet aufgrund der Verluste nicht isobar statt.
 
 Die Drossel arbeitet relativ effizient, aber nicht isenthalp.
 
-Die geringste Leistungszahl weist die äußere Leistungszahl $\epsilon_{Au"sen}$ auf. 
+Die geringste Leistungszahl weist die äußere Leistungszahl $\epsilon_{Real,Au"sen}$ auf. 
 Dieser Wert berücksichtigt den tatsächlich benötigten Nutzwärmestrom und die dafür erforderliche elektrische Verdichterleistung. 
 Er umfasst daher alle Verluste im gesamten System.
 
