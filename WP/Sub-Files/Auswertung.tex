@@ -3,39 +3,81 @@
 \label{sec:Auswertung}
 \subsection{Energiebilanz der Anlage und äußere Leistungszahl}
 In diesem Teil werden die Leistungszahlen und die Energiebilanz der Anlage berechnet.
+
 \subsubsection{Prüfen Sie die im Bedienmodul angegebene Heizleistung anhand Vor- und Rücklauftemperatur und Heizdurchfluss}
 \label{subsubsec:Heizleistung}
+
 Die Heizleistung lässt sich mit der folgenden Formel berechnen:
+
 \begin{equation}
 \dot Q_{Kond}= \dot m \cdot cp_{W} \cdot (T_{V} - T_{R})
 \label{eq:110623_Heizleistung}
 \end{equation}
+
+Dafür muss vorher der Massenstrom über den Volumenstrom nach folgender Formel bestimmt werden.
+
+\begin{equation}
+    \dot{m}= \dot{V}\cdot \rho
+\end{equation}
+
+$$\dot{m}= 0,391 \cdot 10^{-3} \cdot 990 \frac{kg}{m^3}=0,38 \frac{m}{s}$$
+
+Mit Hilfe dieses Massenstroms kann die Heizleistung berechnet werden.
+
+$$\dot Q_{Kond}= 0,38 \frac{kg}{s} \cdot 4,2 \frac{kJ}{kg \cdot K} \cdot (48 ^{\circ}C - 43 ^{\circ}C) = 8,14 \frac{kJ}{s}$$
+
 Mit einem Massenstrom von 0,38 $\frac{kg}{s}$, einer Vorlauftemperatur von 48°C und Rücklauftemperatur von 43°C im Kondensator ergibt sich daraus mit Formel \ref{eq:110623_Heizleistung} eine Heizleistung von 8,14 $\frac{kJ}{s}$ bzw $kW$. Wobei auf dem Display eine Heizleistung von 8,3kW angezeit wird, was nur minimal von unserem errechneten Wert abweicht.
 \subsubsection{Berechnen Sie die äußere Leistungszahl der Anlage}
-Die tatsächliche äußere Leistungszahl berechnet sich wie in Formel \ref{eq:110623_aeußere Leistungszahl_tatsächlich} dargestellt und beträgt 3,53.
+Die tatsächliche äußere Leistungszahl berechnet sich wie in Formel \ref{eq:110623_aeußere Leistungszahl_tatsächlich} dargestellt und beträgt 3,54.
+
 \begin{equation}
 \epsilon_{Real,Au"sen} = \frac{\dot Q_{Nutz}}{P_{el}}
 \label{eq:110623_aeußere Leistungszahl_tatsächlich}
 \end{equation}
+
+$$ \epsilon_{Real,Au"sen} = \frac{8,14 kW}{2,3 kW} = 3,54$$
+
 \subsubsection{Berechnen Sie aus der Gesamt-Energiebilanz der Anlage den aus der Umgebung aufgenommenen Wärmestrom im Verdampfer.
 Welcher Luftvolumenstrom muss durchgesetzt werden, wenn die Luft um 5 K abgekühlt wird?}
 Um den aus der Umgebung aufgenommenen Wärmestrom zu bestimmen, muss die Gesammt-Energiebilanz der Anlage verwendet werden:
+
 \begin{equation}
-\dot Q_{Verd}=\dot Q_{Kondensator}-P_{el}
+\dot Q_{Verd}=\dot Q_{Kond}-P_{el}
 \label{eq:110623_aeußere Leistungszahl}
 \end{equation}
-Mit der berechneten Heizleistung von 8,14kW und einer elektrischen Leistung von 2304W ergibt sich ein vom Verdampfer aufgenommerner Wärmestrom von 5,84kW. Nun wird der benötigte Luftstrom, unter der Annahme, dass die durchströmende Luft um 5K abgekühlt wird, berechnet.
+
+$$\dot Q_{Verd}= 8,14 kW-2,304 kW= 5,84kW $$
+
+
+Mit der berechneten Heizleistung von 8,14kW und einer elektrischen Leistung von 2304W ergibt sich ein vom Verdampfer aufgenommenen Wärmestrom von 5,84kW. Nun wird der benötigte Luftstrom, unter der Annahme, dass die durchströmende Luft um 5K abgekühlt wird, berechnet.
+
 \begin{equation}
 \dot V_{L}=\frac{\dot Q_{verd}}{\rho_{Luft} \cdot cp_{Luft} \cdot \Delta T}
 \label{eq:110623_benoetigter_Luftstrom}
 \end{equation}
-Der benötigte Luftstrom beträgt nach Formel \ref{eq:110623_benoetigter_Luftstrom} 1,36$\frac{m^3}{s}$. 
+
+$$\dot V_{L}=\frac{5,84 kW}{ 1,2 \frac{kg}{m^3} \cdot 1 \frac{kJ}{kg \cdot K} \cdot 5K}= 0,973 \frac{m^3}{s}$$
+
+
+Der benötigte Luftstrom beträgt nach Formel \ref{eq:110623_benoetigter_Luftstrom} 0,973$\frac{m^3}{s}$. 
 \subsubsection{Berechnen Sie die äußere Carnot-Leistungszahl der Anlage \texorpdfstring{$\epsilon_{Carnot,a}$}{} anhand der erreichten Mitteltemperatur der Nutzwärme TmN =(TKessel + TRück)/2 und der Umgebungstemperatur.}
-Für die äußere Carnot-Leistungszahl der Anlage benötigt man die Umgebungstemperatur $T_{U}=$24°C und die mittlere Temperatur der Nutzwärme $T_{mN}=$48,25°C. Die äußere Carnot-Leistungszahl berechnet sich dann wie folgt: 
+Für die äußere Carnot-Leistungszahl der Anlage benötigt man die Umgebungstemperatur $T_{U}=$24°C= 297,15K und die mittlere Temperatur der Nutzwärme.
+
+\begin{equation}
+    T_{mN}=\frac{T_{Kessel}+T_{Rück}}{2}
+\end{equation}
+
+$$T_{mN}=\frac{51,6^{\circ}C+44,9^{\circ}C}{2}=48,25^{\circ}= 321,4 KC$$
+
+Die äußere Carnot-Leistungszahl berechnet sich dann wie folgt: 
+
 \begin{equation}
 \epsilon_{Carnot, Au"sen} = \frac{T_{mN}}{T_{mN}-T_{U}}
 \label{eq:110623_aeußere Carnot Leistungszahl}
 \end{equation}
+
+$$\epsilon_{Carnot, Au"sen} = \frac{321,4 K}{321,4 K-297,15K} = 13,25$$
+
 Sie beläuft sich dabei auf 13,25.
 
 \subsection{Arbeitsmittelkreislauf und innere Leistungszahlen}
@@ -73,9 +115,11 @@ Mit den Temperaturen aus \autoref{tab:Arbeitspunkte} kann mittels \autoref{eq:In
 ermittelt werden. Die Berechnung ergibt dann eine innere Carnot-Leistungszahl von 11,7.
 
     \begin{equation}
-        \epsilon_{Carnot, Innen}=\frac{T_{max}}{T_{max}-T_{min}}=\frac{T_{Kond}}{T_{Kond}-T_{Verd}}=\frac{316,15 K}{316,15 K-289,15 K}=11,7
+        \epsilon_{Carnot, Innen}=\frac{T_{max}}{T_{max}-T_{min}}=\frac{T_{Kond}}{T_{Kond}-T_{Verd}}
         \label{eq:Innere Carnot-Leistungszahl}
     \end{equation}
+
+$$\epsilon_{Carnot, Innen}=\frac{316,15 K}{316,15 K-291,15 K}=12,6$$
 
  In \autoref{fig:lgp-h-Diagramm-is} ist zusätzlich der isentrope Arbeitspunkt 2 eingezeichnet und somit die isentrope Enthalpie für diesen Arbeitspunkt von $440 \frac{kJ}{kg}$
  eingezeichnet und abzulesen.
@@ -112,6 +156,7 @@ $$\epsilon_{VP,i} = \frac{h_{2,is}-h_{pH}}{h_{2,is}-h^{''}_{p0}}$$
     \epsilon_{real,i}= \frac{h_2-h_3}{h_2-h_1}
 \end{equation}
 
+$$\epsilon_{real,i}= \frac{(448-280)\frac{kJ}{kg}}{(448-425)\frac{kJ}{kg}} = 7,30 $$
 $$\epsilon_{real,i}= \frac{(448-280)\frac{kJ}{kg}}{(448-425)\frac{kJ}{kg}} = 7,30 $$
 
 \subsection{Leistungszahlen und Verlustursachen}
