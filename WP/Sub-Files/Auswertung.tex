@@ -91,54 +91,46 @@ notierten Enthalpien ablesen.
     \hline
     \multicolumn{1}{|l|}{Arbeitspunkt} & Bezeichnung                  & \multicolumn{1}{l|}{Temperatur in °C} & \multicolumn{1}{l|}{Enthalpie in kJ/kg} \\ \hline
     1                                  & Temperatur nach Verdampfer   & 18                                    & 425                                     \\ \hline
-    2                                  & Heißgastemperatur            & 66                                   & 448                                     \\ \hline
-    3                                  & Temperatur nach Verflüssiger & 43                                    & 280                                     \\ \hline
-    4                                  & Temperatur vor Verdampfer    & 15                                    & 280                                     \\ \hline
+    2                                  & Heißgastemperatur            & 66                                   & 453                                     \\ \hline
+    3                                  & Verflüssigertemperatur & 45                                    & 276                                     \\ \hline
+    4                                  & Temperatur vor Verdampfer    & 15                                    & 276                                     \\ \hline
     \end{tabular}%
     }
     \caption{Arbeitspunkte entsprechend Messreihe 1}
     \label{tab:Arbeitspunkte}
     \end{table}
 
-    Zusätzlich kann das obere Druckniveau von 29,5 bar und das unter Druckniveau von rund 13 bar abgelesen werden.
-    Des Weiteren ist in \autoref{fig:lgp-h-Diagramm} ersichtlich, dass die Ergebnisse plausibel sind, da der dargestellte Kreisprozess dem erwarteten Bild entspricht.\\
-
     \begin{figure}[!h]
         \centering
-        \includegraphics[width=0.5\textwidth]{Abbildungen/lgp-h-diagramm.jpg}
-        \caption{lg(p)-h-Diagramm mit den Arbeitspunkten aus Messreihe 1}
+        \includegraphics[width=\textwidth]{Abbildungen/lgp-h-diagramm.jpg}
+        \caption{lg(p)-h-Diagramm für den realen Kreisprozess mit Darstellung der Irreversibilität}
         \label{fig:lgp-h-Diagramm}
     \end{figure}
 
+
+    Zusätzlich kann das obere Druckniveau von 28 bar und das unter Druckniveau von rund 12,8 bar abgelesen werden.
+    Des Weiteren ist in \autoref{fig:lgp-h-Diagramm} ersichtlich, dass die Ergebnisse plausibel sind, da der dargestellte Kreisprozess dem erwarteten Bild entspricht. Einzig der minimale Anstieg der Temperatur von Punkt 4 zu Punkt 1 ist ungewöhnlich, allerdings durch einfache Fehler beim Messen oder Verluste am Verdampfer zu erklären.\\
+
 Mit den Temperaturen aus \autoref{tab:Arbeitspunkte} kann mittels \autoref{eq:Innere Carnot-Leistungszahl} die innere Carnot-Leistungszahl
-ermittelt werden. Die Berechnung ergibt dann eine innere Carnot-Leistungszahl von 11,7.
+ermittelt werden. Die Berechnung ergibt dann eine innere Carnot-Leistungszahl von 10,605.
 
     \begin{equation}
         \epsilon_{Carnot, Innen}=\frac{T_{max}}{T_{max}-T_{min}}=\frac{T_{Kond}}{T_{Kond}-T_{Verd}}
         \label{eq:Innere Carnot-Leistungszahl}
     \end{equation}
 
-$$\epsilon_{Carnot, Innen}=\frac{316,15 K}{316,15 K-291,15 K}=12,6$$
+$$\epsilon_{Carnot, Innen}=\frac{318,15 K}{318,15 K-288,15 K}=10,605$$
 
- In \autoref{fig:lgp-h-Diagramm-is} ist zusätzlich der isentrope Arbeitspunkt 2 eingezeichnet und somit die isentrope Enthalpie für diesen Arbeitspunkt von $440 \frac{kJ}{kg}$
- eingezeichnet und abzulesen.
-    
- \begin{figure}[!h]
-        \centering
-        \includegraphics[width=0.5\textwidth]{Abbildungen/lgp-h-diagramm-is.jpg}
-        \caption{lg(p)-h-Diagramm mit dem isentropen Arbeitspunkt 2}
-        \label{fig:lgp-h-Diagramm-is}
-    \end{figure}
-
-    Mittels der nun bekannten isentropen Enthalpie für Arbeitspunkt 2 kann mittels \autoref{eq:Isentropenwirkungsgrad} der Isentropenwirkungsgrad ermittelt werden.
+ In \autoref{fig:lgp-h-Diagramm} ist zusätzlich der isentrope Arbeitspunkt 2 eingezeichnet und somit ist die isentrope Enthalpie für diesen Arbeitspunkt von $445 \frac{kJ}{kg}$abzulesen.
+Mittels der nun bekannten isentropen Enthalpie für Arbeitspunkt 2 kann mittels \autoref{eq:Isentropenwirkungsgrad} der Isentropenwirkungsgrad ermittelt werden.
 \begin{equation}
     \eta_{is}=\frac{h_{2,is}-h_{1}}{h_{2}-h_{1}}
     \label{eq:Isentropenwirkungsgrad}
 \end{equation}
 
-$$\eta_{is}=\frac{433 kJ/kg-425 kJ/kg}{448 kJ/kg-425 kJ/kg}=0,6521$$
+$$\eta_{is}=\frac{445 kJ/kg-425 kJ/kg}{453 kJ/kg-425 kJ/kg}=0,714$$
 
-Der Isentropenwirkungsgrad für diesen Fall beträgt demnach 0,6521.\\
+Der Isentropenwirkungsgrad für diesen Fall beträgt demnach 0,714.\\
 
 
 \subsubsection*{Innere Leistungszahlen}
@@ -148,27 +140,26 @@ Der Isentropenwirkungsgrad für diesen Fall beträgt demnach 0,6521.\\
 \label{eq:230623_Leistungszahl_VPI}
 \end{equation}
 
-Aus der Dampftafel für das Kältemittel R410a wurden die Werte $h"_{p0}=425,46 \frac{kJ}{kg}$ und $h_{pH}= 225,03 \frac{kJ}{kg}$ entnommen und mit den Werten aus \autoref*{Arbeitspunkte} in \autoref{eq:230623_Leistungszahl_VPI} eingesetzt
+Aus der Dampftafel für das Kältemittel R410a wurden die Werte $h"_{p0}=425,46 \frac{kJ}{kg}$ und $h_{pH}= 225,03 \frac{kJ}{kg}$ entnommen und mit den Werten aus \autoref{tab:Arbeitspunkte} in \autoref{eq:230623_Leistungszahl_VPI} eingesetzt
 $$\epsilon_{VP,i} = \frac{h_{2,is}-h_{pH}}{h_{2,is}-h^{''}_{p0}}$$
 
 \begin{equation}
     \epsilon_{real,i}= \frac{h_2-h_3}{h_2-h_1}
 \end{equation}
-
-$$\epsilon_{real,i}= \frac{(448-280)\frac{kJ}{kg}}{(448-425)\frac{kJ}{kg}} = 7,30 $$
-$$\epsilon_{real,i}= \frac{(448-280)\frac{kJ}{kg}}{(448-425)\frac{kJ}{kg}} = 7,30 $$
+$$\epsilon_{VP,i}= \frac{(453-275,84)\frac{kJ}{kg}}{(453-425,46)\frac{kJ}{kg}} = 6,433 $$
+$$\epsilon_{real,i}= \frac{(453-276)\frac{kJ}{kg}}{(453-425)\frac{kJ}{kg}} = 6,321 $$
 
 \subsection{Leistungszahlen und Verlustursachen}
 
 % Leistungszahl auflistung nach finalisierung von Niels und Lukas
 
-$$\epsilon_{Carnot,Außen} = 13,25$$
-$$\epsilon_{Carnot,Innen} = 11,7$$
-$$\epsilon_{VP,Innen} = x,xx$$
-$$\epsilon_{Real,Innen} = x,xx$$
-$$\epsilon_{Real,Au"sen} = 3,53$$
+$$\epsilon_{Carnot,Au"sen} = 13,25$$
+$$\epsilon_{Carnot,Innen} = 10,605$$
+$$\epsilon_{VP,Innen} = 6,433$$
+$$\epsilon_{Real,Innen} = 6,321$$
+$$\epsilon_{Real,Au"sen} = 3,54$$
 
-Wie ersichtlich ist, gibt $\epsilon_{Carnot,A"sen}$ die maximale Leistungszahl an. 
+Wie ersichtlich ist, gibt $\epsilon_{Carnot,Au"sen}$ die maximale Leistungszahl an. 
 Dies liegt daran, dass der äußere Carnot-Wirkungsgrad einen idealisierten Prozess darstellt, bei dem Verluste vollständig vernachlässigt werden. 
 Er vergleicht lediglich die Temperaturänderung der mittleren Nutzwärme mit der Umgebungstemperatur.
 
@@ -206,22 +197,22 @@ Er umfasst daher alle Verluste im gesamten System.
 \label{subsec:Massenstrom}
 \subsubsection{Arbeitsmittelmassenstrom Kondensator/Verdampfer}
 \begin{equation}
-   \dot m_{AM} = \frac{\dot Q_{Kond}}{(h_3 - h_2)}
+   \dot m_{AM} = \frac{\dot Q_{Kond}}{|(h_3 - h_2)|}
    \label{eq:230623_massestrom}
 \end{equation}
-Mit $\dot Q_{Kondensator}=8,14kW$, $h_2=403\frac{kJ}{kg}$ und $h_3=276\frac{kJ}{kg}$ wird der Massenstrom des Kondensators nach \autoref*{eq:230623_massestrom} berechnet:
+Mit $\dot Q_{Kondensator}=8,14kW$, $h_2=453\frac{kJ}{kg}$ und $h_3=276\frac{kJ}{kg}$ wird der Massenstrom des Kondensators nach \autoref*{eq:230623_massestrom} berechnet:
 
-$$ \dot m_{AM} = \frac{8,14kW}{|(276\frac{kJ}{kg} - 403\frac{kJ}{kg})|} = 0,0641 \frac{kg}{s} $$
+$$ \dot m_{AM_{Kond}} = \frac{8,14kW}{|(276\frac{kJ}{kg} - 453\frac{kJ}{kg})|} = 0,04746 \frac{kg}{s} $$
 
 \begin{equation}
-  \dot m_{AM} = \frac{\dot Q_{Verd}}{|(h_1-h_4)|}
+  \dot m_{AM_{Verd}} = \frac{\dot Q_{Verd}}{|(h_1-h_4)|}
     \label{eq230623_massestrom_ver}
 \end{equation}
 
-Mit $\dot Q_{Verd}=5,84kW$, $h_1=425\frac{kJ}{kg}$ und $h_4=223\frac{kJ}{kg}$ wird der Massenstrom des Kondensators nach \autoref*{eq230623_massestrom_ver} berechnet:
-$$\dot m_{AM} = \frac{5,84 kW}{|(h_1-h_4)|} = 0,0289 \frac{kg}{s}$$
+Mit $\dot Q_{Verd}=5,84kW$, $h_1=425\frac{kJ}{kg}$ und $h_4=276\frac{kJ}{kg}$ wird der Massenstrom des Kondensators nach \autoref*{eq230623_massestrom_ver} berechnet:
+$$\dot m_{AM} = \frac{5,84 kW}{|(425\frac{kJ}{kg}-276\frac{kJ}{kg})|} = 0,03907 \frac{kg}{s}$$
 
-$$\overline{\dot m_{AM}} = \frac{\dot m_{AM_{Kond}}+\dot m_{AM_{Verd}}}{2} = \frac{0,0543 \frac{kg}{s}+0,0289 \frac{kg}{s}}{2} = 0,0465 \frac{kg}{s} $$
+$$\overline{\dot m}_{AM} = \frac{\dot m_{AM_{Kond}}+\dot m_{AM_{Verd}}}{2} = \frac{0,04746 \frac{kg}{s}+0,03907 \frac{kg}{s}}{2} = 0,04327 \frac{kg}{s} $$
 
 
 
@@ -230,26 +221,26 @@ $$\overline{\dot m_{AM}} = \frac{\dot m_{AM_{Kond}}+\dot m_{AM_{Verd}}}{2} = \fr
 Die Verdichterleistung wird als mechanische Leistung nach \autoref{eq:230623_Verdichterleistung} berechnet.
 
 \begin{equation}
-    P_{mech} = \dot m_{AM} \cdot (h_2-h_1) = \dot m_{AM}\cdot (h_{2,is}-h_1)
+    P_{mech} = \overline{\dot m}_{AM} \cdot (h_2-h_1)
 \label{eq:230623_Verdichterleistung}
 \end{equation}
-$$  P_{mech} = 0,04436 \frac{kg}{s} \cdot (448-425)\frac{kJ}{kg} = 1,02 kW $$
+$$  P_{mech} = 0,04327 \frac{kg}{s} \cdot (453-425)\frac{kJ}{kg} = 1,211 kW $$
 
 \begin{equation}
-  \eta_{Ver} = \frac{P_{mech}}{P_{el}}=\frac{\dot m_{AM}\cdot (h_2-h_1)}{P_{el}}=\frac{\dot m_{AM}\cdot (h_2,is-h_1)}{P_{el}\cdot \eta_{is}}
+  \eta_{Ver} = \frac{P_{mech}}{P_{el}}=\frac{\overline{\dot m}_{AM}\cdot (h_2-h_1)}{P_{el}}=\frac{\overline{\dot m}_{AM}\cdot (h_2,is-h_1)}{P_{el}\cdot \eta_{is}}
 \label{eq:230623_Verdichterwirkungsgrad}
 \end{equation}
 
-$$\eta_{Ver} = \frac{0,04436 \frac{kg}{s}\cdot (448-425)\frac{kJ}{kg}}{P_{el}\cdot \eta_{is}}= 0,4548 \approx 45,48 \% $$
+$$\eta_{Ver} = \frac{0,04327 \frac{kg}{s}\cdot (445-425)\frac{kJ}{kg}}{1,8 kW \cdot 0,714}= 0,6733 \approx 67,33 \% $$
 
 \subsubsection{Der Durchmesser der Heißgasleitung beträgt 16 mm, der der Kondensatleitung 10
 mm. Berechnen Sie mithilfe der aus Diagramm bzw. Dampftafel abgelesenen spezifischen Volumina die Strömungsgeschwindigkeiten von Gas und Flüssigkeit.}
 
-Das spezifische Volumen des Gases kann aus dem lg(p)-h Diagramm abgelesen werden zu: $V_{Gas}=0,02 \frac{m^3}{kg}$. Die Dichte, welches der Kehrwert des spezifischen Volumens ist, ergibt sich als $\rho=50 \frac{kg}{m^3}$. 
+Das spezifische Volumen des Gases kann aus dem lg(p)-h-Diagramm in \autoref{fig:lgp-h-Diagramm} abgelesen werden zu: $V_{Gas}=0,019 \frac{m^3}{kg}$. Die Dichte, welches der Kehrwert des spezifischen Volumens ist, ergibt sich als $\rho=52,63 \frac{kg}{m^3}$. 
 Mit dem durchschnittlichen Massenstrom aus \autoref{subsec:Massenstrom} können die Strömungsgeschwindigkeiten über den Volumenstrom nach folgenden Gleichungen berechnet werden.
 
 \begin{equation}
-    \dot{V}= \frac{\dot{m}}{\rho }
+    \dot{V}= \frac{\overline{\dot m}_{AM}}{\rho }
     \label{eq:230620_Volumenstrom}
 \end{equation}
 
@@ -261,16 +252,16 @@ Mit dem durchschnittlichen Massenstrom aus \autoref{subsec:Massenstrom} können 
 Werden \autoref{eq:230620_Volumenstrom} und \autoref{eq:230620_Volumenstrom2} gleichgesetzt ergibt sich die Strömungsgeschwindigkeit nach \autoref{eq:230620_Strömungsgeschwindigkeiten}.
 
 \begin{equation}
-    v = \frac{\dot{m}}{\frac{\pi}{4}\cdot \rho \cdot d^2}
+    v = \frac{\overline{\dot m}_{AM}}{\frac{\pi}{4}\cdot \rho \cdot d^2}
     \label{eq:230620_Strömungsgeschwindigkeiten}
 \end{equation}
 
 Am Arbeitspunkt 1 ergibt sich die Strömungsgeschwindigkeit:
-$$v=\frac{0,0444 \frac{kg}{s}}{\frac{\pi}{4}\cdot 50 \frac{kg}{m^3} \cdot (0,016 m)^2}=4,42 \frac{m}{s} $$
+$$v=\frac{0,04327 \frac{kg}{s}}{\frac{\pi}{4}\cdot 52,63 \frac{kg}{m^3} \cdot (0,016 m)^2}=4,089 \frac{m}{s} $$
 
-Der Druck am Arbeitspunkt 3 kann aus dem lg(p)-h Diagramm als $p=30 bar$ abgelesen werden. Mithilfe dessen lässt sich die Dichte aus der Dampftafel als $\rho=914,34 kg/m^3$ bestimmen.
+Der Druck am Arbeitspunkt 3 kann aus dem lg(p)-h Diagramm als $p=28 bar$ abgelesen werden. Mithilfe dessen lässt sich die Dichte aus der Dampftafel als $\rho=935,99 kg/m^3$ bestimmen.
 Die Strömungsgeschwindigkeit der Flüssigkeit am Arbeitspunkt 3 berechnet sich dann zu:
-$$v=\frac{0,0444 \frac{kg}{s}}{\frac{\pi}{4}\cdot 914,37 kg/m^3 \cdot (0,01 m)^2}=0,618 \frac{m}{s} $$
+$$v=\frac{0,04327 \frac{kg}{s}}{\frac{\pi}{4}\cdot 935,99 kg/m^3 \cdot (0,01 m)^2}=0,588 \frac{m}{s} $$
 
 \subsubsection{Skizzieren Sie ein T,A-Schaubild des kleinen Gegenstrom-Plattenwärmeübertragers
 zwischen internem und externem Heizkreis. Berechnen Sie den erreichten k-Wert,
@@ -335,7 +326,7 @@ Die Wärmemenge die benötigt wird um den Speicher aufzuheizen berechnet sich na
 Q = m \cdot c_p \cdot \Delta T = \rho \cdot V \cdot c_p \cdot \Delta T
 \end{equation}
 
-$$ Q = 997 \frac{kg}{m^3} \cdot 0,45 m^3 \cdot 4,18 \frac{kJ}{kg K} (35 \text{°} C-22 \text{°} C)K=24,4 MJ$$
+$$ Q = 997 \frac{kg}{m^3} \cdot 0,45 m^3 \cdot 4,18 \frac{kJ}{kg K} (35 \text{°} C-21 \text{°} C)K=26,25 MJ$$
 
 Da die Heizleistung nur eine Energieangabe pro Zeiteinheit ist lässt sich die Zeit durch eine einfache Gleichung bestimmen.
 
@@ -347,7 +338,7 @@ Da die Heizleistung nur eine Energieangabe pro Zeiteinheit ist lässt sich die Z
  t = \frac{Q}{P_{Heiz}}
 \end{equation}
 
-$$ t= \frac{24,4 MJ}{8,14 kW}=2995 s= 49,9 min$$
+$$ t= \frac{26,25 MJ}{8,14 kW}=3224,82 s= 53,747 min$$
 
 \subsection{Zusatzaufgabe}
 
