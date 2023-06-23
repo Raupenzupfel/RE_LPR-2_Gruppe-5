@@ -283,7 +283,9 @@ wenn der Apparat eine Wärmeübertragerfläche eine Fläche von \texorpdfstring{
     \label{fig:TA,Diagramm}
 \end{figure}
 
-Für die Berechnung des K-Werts muss im Vorfeld $\Delta T_M$ bestimmt werden. Das passiert nach folgender Gleichung.
+Für die Berechnung des K-Werts muss im Vorfeld $\Delta T_M$ bestimmt werden. Das passiert nach folgenden Gleichungen.
+
+Die maximale Temperaturdifferenz wird aus der Speicher-Rücklauftemperatur und der Kesselrücklauftemperatur bestimmt.
 
 \begin{equation}
     \Delta T_{MAX}= \Delta T_{HA}-\Delta T_{KE}
@@ -292,21 +294,23 @@ Für die Berechnung des K-Werts muss im Vorfeld $\Delta T_M$ bestimmt werden. Da
 
 
 
-$$\Delta T_{MAX}= 41\text{°}C-24 \text{°} C= 17K$$
+$$\Delta T_{MAX}= 44,9\text{°}C-25 \text{°} C= 19,9K$$
+
+Die minimale Temperaturdifferenz wird aus der Speicher-Vorlauftemperatur und der tatsächlichen Kesseltemperarur berechnet.
 
 \begin{equation}
     \Delta T_{MIN}= \Delta T_{HE}-\Delta T_{KA}
     \label{eq:230621_DeltaTMIN}
 \end{equation}
 
-$$\Delta T_{MIN}= 54 \text{°} C-51 \text{°} C= 3K$$
+$$\Delta T_{MIN}= 51,6 \text{°} C-45 \text{°} C= 6,6K$$
 
 \begin{equation}
     \Delta T_{M}= \frac{\Delta T_{MAX}-\Delta T_{MIN}}{ln\frac{\Delta T_{MAX}}{\Delta T_{MIN}}}
     \label{eq:230621_DeltaTM}
 \end{equation}
 
-$$\Delta T_M= \frac{17K-3K}{ln\frac{17K}{3K}}= 8,07K$$
+$$\Delta T_M= \frac{19,9K-6,6K}{ln\frac{19,9K}{6,6K}}= 12,05K$$
 
 Mithilfe der \autoref{eq:230621_Q} und der Heizleistung lässt sich der k-Wert bestimmen.
 
@@ -320,7 +324,7 @@ Mithilfe der \autoref{eq:230621_Q} und der Heizleistung lässt sich der k-Wert b
     \label{eq:230621_k}
 \end{equation}
 
-$$k=\frac{8,14 kW}{ 0,4m^2 \cdot 8,07K}=6,3 \frac{kW}{m^2K}$$
+$$k=\frac{8,14 kW}{ 0,4m^2 \cdot 12,05K}=1,69 \frac{kW}{m^2K}$$
 
 \subsubsection{Wie lange dauert es bei konstanter Wärmepumpenleistung, bis ausgehend von einer
 konstanten Anfangstemperatur \texorpdfstring{$T_{Sp,U}$}{} der gesamte Speicherinhalt (450 l) aufgeheizt ist?}
