@@ -230,6 +230,17 @@ $$\overline{\dot m_{AM}} = \frac{\dot m_{AM_{Kond}}+\dot m_{AM_{Verd}}}{2} = \fr
 
 \subsubsection{Verdichterleistung und Verdichterwirkungsgrad}
 
+\begin{equation}
+    P_{mech} = \dot m_{AM} \cdot (h_2-h_1) = \dot m_{AM}\cdot (h_{2,is}-h_1)
+\label{230623_Verdichterleistung}
+\end{equation}
+$$  P_{mech} = 0,04436 \cdot (448-425)\frac{kJ}{kg} = 0,4548 \approx 45,48 \% $$
+
+\begin{equation}
+  \eta_{Ver} = \frac{P_{mech}}{P_{el}}=\frac{\dot m_{AM}\cdot (h_2-h_1)}{P_{el}}=\frac{\dot m_{AM}\cdot (h_2,is-h_1)}{P_{el}\cdot \eta_{is}}
+\label{eq:230623_Verdichterwirkungsgrad}
+\end{equation}
+
 \subsubsection{Der Durchmesser der Heißgasleitung beträgt 16 mm, der der Kondensatleitung 10
 mm. Berechnen Sie mithilfe der aus Diagramm bzw. Dampftafel abgelesenen spezifischen Volumina die Strömungsgeschwindigkeiten von Gas und Flüssigkeit.}
 
@@ -264,7 +275,7 @@ $$v=\frac{0,0444 kg/s}{\frac{\pi}{4}\cdot 914,37 kg/m^3 \cdot (0,01 m)^2}=0,618 
 zwischen internem und externem Heizkreis. Berechnen Sie den erreichten k-Wert,
 wenn der Apparat eine Wärmeübertragerfläche eine Fläche von \texorpdfstring{$A = 0,4 m^2$}{} hat.}
 
-\begin{figure}[!h]
+\begin{figure}[!ht]
     \centering
     \includegraphics[width=0.5\textwidth]{Abbildungen/TA_Diagramm.jpg}
     \caption{T,A-Schaubild eines Gegenstrom-Plattenwärmeübertragers}
@@ -330,8 +341,3 @@ Da die Heizleistung nur eine Energieangabe pro Zeiteinheit ist lässt sich die Z
 \end{equation}
 
 $$ t= \frac{24,4 MJ}{8,14 kW}=2995 s= 49,9 min$$
-
-\subsection{Leistungszahlen und Verlustursachen}
-
-\subsection{Energiebilanzen Einzelapparate}
-
