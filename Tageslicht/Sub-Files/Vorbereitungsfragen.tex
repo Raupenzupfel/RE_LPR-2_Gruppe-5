@@ -1,2 +1,46 @@
 \section{Vorbereitungsfragen}
 \label{sec:Vorbereitungsfragen}
+
+Der k1 wird mit der \autoref{eq:230624_k1} berechnen, wobei $A'_F$ die Lichtdurchlässige fkäche und $A_F$ die Fläche der Rohbauöffnung darstellt.
+Die Rahmen fläche lässt sich mittels der Rahmendicke und dem gegebenen Umfang der Fenster berechenen: $A_{Rahmen} = U_{Fenster} \cdot d_R$. 
+Daraus widerum lässt sich die Lichtdurchlässige Fläche berechnen:  $A'_F = A_{Fenster} - A_{Rahmen}$.
+Es wurde für 'Good Practice' von einer Rhamendicke von $d_{R,GP} = 5cm$ und für den 'Worstcase' $d_{R,WC} = 7 cm$ ausgegangen.
+Daraus ergeben sich $k_{1,GP} = 0,8542$ und $k_{1,WC} = 0,7958$ welche auch in \autoref{tab:230426_Korrektur-Faktoren} zusammengefasst wurden.
+Der $k_2$ kann mittels einer Tabelle in der DIN 5034-3 abgeschätzt werden.
+Der Bestcase der verschmutzung wäre $k_2 = 0,9$ der Worstcase hingegen baträgt $k_2 = 0,5$.
+Da 'Good Practice' allerdings nicht der Bestcase ist, wird von $k_{2,GP} = 0,8$ ausgegangen.
+Der Korrektur Faktor für nicht senkrechten Lichteinfall hingegen hat einen Pauschalwert von $k_3 = 0,85$ und der Transmissionsgrad wurde als $T = 0,9$ vorgegeben.
+Nun kann der Effektive Transmissionsgrad mit der \autoref{eq:230624_Lichttransmissionsgrad} berechnet werden und wurde, so wie alle anderen Faktoren, in \autoref{tab:230426_Korrektur-Faktoren} zusammengefasst.
+
+
+\begin{equation}
+    k_1 = \frac{A'_F}{A_F}
+    \label{eq:230624_k1}
+\end{equation}
+
+\begin{equation}
+    \tau = k_1 \cdot k_2 \cdot k_3 \cdot T
+    \label{eq:230624_Lichttransmissionsgrad}
+\end{equation}
+
+
+\begin{table}[H]
+    \caption{Zusammenfassung der Korrektur Faktoren}
+    \centering
+    \begin{tabular}{|c|c|c|}
+    \hline
+    \rowcolor[HTML]{70AD47} 
+    Korrektur Faktor                                & Good Practice & Worst Case \\\hline
+    \rowcolor[HTML]{CFE5A8} 
+    $k_1$ - Rahmen und Sprossen                     & 85,42\%       & 79,58\%    \\\hline
+    \rowcolor[HTML]{A9D08E} 
+    $k_2$ - Verschmutzung                           & 80\%          & 50\%       \\\hline
+    \rowcolor[HTML]{CFE5A8} 
+    $k_3$ - nicht senkrechter Lichteinfall          & 85\%          & 85\%       \\\hline
+    \rowcolor[HTML]{A9D08E} 
+    T - Transmissionsgrad                           & 90\%          & 90\%       \\\hline
+    \rowcolor[HTML]{CFE5A8} 
+    $\tau$ - Effektiver Lichttransmissionsgrad      & 52,28\%       & 30,44\%   \\\hline
+    \end{tabular}
+    \label{tab:230426_Korrektur-Faktoren}
+\end{table}
