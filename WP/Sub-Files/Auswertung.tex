@@ -344,12 +344,11 @@ Im nächsten Schritt wird die mittlere Temperaturdifferenz bestimmt.
 $$\Delta T_M= \frac{19,9K-6,6K}{ln(\frac{19,9K}{6,6K})}= 12,05K$$
 Die mittlere Temperaturdifferenz beträgt 12,05K.
 \newpage
-Mithilfe der \autoref{eq:230621_Q}, der gegebenen Fläche von $A= 0,4m^2$ und der Heizleistung lässt sich der k-Wert bestimmen.
+Mithilfe der \autoref{eq:230621_Q}, der gegebenen Fläche von $A= 0,4m^2$ und der Heizleistung lässt sich der k-Wert bestimmen, wobei Formel \ref*{eq:230621_Q} umgestellt nach k \autoref{eq:230621_k} ergibt.
 \begin{equation}
     \dot{Q}=k\cdot A \cdot \Delta T_M
     \label{eq:230621_Q}
 \end{equation}
-Formel \ref*{eq:230621_Q}mgestellt nach k:
 \begin{equation}
     k = \frac{\dot{Q}}{ A \cdot \Delta T_M} 
     \label{eq:230621_k}
@@ -358,8 +357,6 @@ Formel \ref*{eq:230621_Q}mgestellt nach k:
 $$k=\frac{8,14 kW}{ 0,4m^2 \cdot 12,05K}=1,69 \frac{kW}{m^2K}$$
 Der ermittelte K-Wert beträgt 1,69 $\frac{kW}{m^2\cdot K}$.
 \subsubsection{Aufheizen des gesamten Speichers}
-Wie lange dauert es bei konstanter Wärmepumpenleistung, bis ausgehend von einer
-konstanten Anfangstemperatur \texorpdfstring{$T_{Sp,U}$}{} der gesamte Speicherinhalt (450 l) aufgeheizt ist?
 Die Wärmemenge die benötigt wird um den Speicher aufzuheizen berechnet sich nach:
 \begin{equation}
 Q = m \cdot c_p \cdot \Delta T = \rho \cdot V \cdot c_p \cdot \Delta T
@@ -367,11 +364,12 @@ Q = m \cdot c_p \cdot \Delta T = \rho \cdot V \cdot c_p \cdot \Delta T
 \end{equation}
 Durch das Umrechnen des Volumens von 450l mit der Dichte $\rho_W$ und einsetzen in Formel \ref{eq230624_Qs}:
 $$ Q = 997 \frac{kg}{m^3} \cdot 0,45 m^3 \cdot 4,18 \frac{kJ}{kg K} (35 \text{°} C-21 \text{°} C)K=26,25 MJ$$
-Die Wärmemenge beträgt 26,25 MJ.
-Da die Heizleistung nur eine Energieangabe pro Zeiteinheit ist lässt sich die Zeit durch eine einfache Gleichung bestimmen.
+Die Wärmeenergie beträgt 26,25 MJ.
+Die Heizleistung ist eine Energieangabe pro Zeiteinheit, wodurch die Zeit durch \autoref{eq:last} bestimmbar ist.
 
 \begin{equation}
     P_{Heiz}= \frac{Q}{t}
+    \label{eq:last}
 \end{equation}
 
 \begin{equation}
@@ -382,21 +380,17 @@ $$ t= \frac{26,25 MJ}{8,14 kW}=3224,82 s= 53,747 min$$
 Um den gesamten Speicherinhalt aufzuheizen Bedarf es eines Betriebs von $\approx$ 54min.
 \subsection{Zusatzaufgabe}
 
-Die Exergie Verluste werden mit Hilfe des Carnot-Wirkungsgrads und der abgegebenen Nutzwärme bestimmt.
-Der Carnot-Wirkungsgrad ist der Kehrwert der Carnot Leistungszahl welche in \autoref{subsubsec:Carnot} als 13,25 berechnet wurde.
+Die Exergie Verluste werden mithilfe des Carnot-Wirkungsgrads und der abgegebenen Nutzwärme bestimmt.
+Der Carnot-Wirkungsgrad ist der Kehrwert der Carnot Leistungszahl, welche in \autoref{subsubsec:Carnot} als 13,25 berechnet ist.
 
 \begin{equation}
-    \eta_{Carnot}=\frac{1}{\epsilon_{Carnot}}
+    \eta_{Carnot}=\frac{1}{\epsilon_{Carnot}}=\frac{1}{13,25}= 7,5 \%
 \end{equation}
 
-$$\eta_{Carnot}=\frac{1}{13,25}= 7,5 \%$$
-
 Die Exergie Verluste ergeben dann:
-
 \begin{equation}
    \Delta \dot{E}_V= \dot{Q}_{Nutz} \cdot\eta_{Carnot}
 \end{equation}
-
 $$\Delta \dot{E_V}= 8,14kW \cdot 7,5\%= 614W$$
 
 
