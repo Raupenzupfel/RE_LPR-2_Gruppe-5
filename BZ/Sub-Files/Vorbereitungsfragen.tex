@@ -185,6 +185,8 @@ $$E_{Chemisch} \Rightarrow E_{Thermisch} \Rightarrow E_{Mechanisch} \Rightarrow 
 Brennstoffzellensysteme durchgehen aufgrund der kalten Verbrennung nur eine Umwandlung:
 $$E_{Chemisch} \Rightarrow E_{Elektrisch}$$
 
+Jeder der Pfeile ist mit einem Wirkungsgrad und dadurch mit verlusten verbunden.
+
 \subsection{Ermitteln Sie für einen 1,2 kW-Brennstoffzellen Stack, der in einem 24-V-System mit
 BleiGel Batteriepuffer im Nennbetrieb arbeitet, die stündlich entstehende Wassermenge.
 Während eines Volladezyklus schwankt die BZ-Zellspannung zwischen 1 und 0,6 Volt.}
@@ -227,16 +229,63 @@ Durch die Multiplikation mit der Zellenanzahl ergibt sich damit die Wassermenge 
 \subsection{Der Stack von \ref{sec:VF_H2O_Menge} verbraucht bei Nennstrom stündlich 904 Liter Wasserstoff (Messung bei 24°C (= 297,15 K) und 1018mbar (= 101,8 kPa) äußerem Luftdruck). 
 Bestimmen und kommentieren Sie den Faraday'schen Wirkungsgrad. Wie groß ist der elektroenergetische Wirkungsgrad?}
 
-\textcolor{red}{\Huge Faraday Wirkungsgrad ergibt unsinnige Werte}
+% \textcolor{red}{\Huge Faraday Wirkungsgrad ergibt unsinnige Werte}
 
-Der elektroenergetische Wikrungsgrad lässt sich mti hilfe der \autoref{eq:230619_Elektroenergetisch} berechnen.
+Zunächst muss das Molarevolumen von Wasserstoff bei angegebenen Druck und Temperaturen ermittelt werden.
+Dazu wurde die spezielle Gaskonstante von Wasserstoff als $R_{i,H_2} = 8,3144 \frac{kPa \cdot l}{mol \cdot K}$ \cite{Gaskonstante} angenommen.
+Mittels \autoref{eq:230624_Molaresvolumen} kann das Molarevolumen von $V_m = 24,2694 l$ bestimmt werden.
+Durch das Umstellen des 2. Farady'schen Gesetz aus \autoref{eq:230618_Volumen-H2-Theoretisch} kann man den Theoeretisch benötigten Wasserstoff Volumenstrom berechnen, wie in \autoref{eq:230624_Volumenstrom-theor} angegeben.
+Mit einem Stom von $I = 50A$, $z = 2$ und der Faradaykonstante von $F = 96485,33 \frac{A \cdot s}{mol}$, ergibt sich ein theoretisch benötigter Waseerstoff Volumenstrom von $\dot{V}_{H_2,Theor.} = 22,6381 \frac{l}{h}$.
+Dieser Volumenstrom bezieht sich jedoch nur auf eine einzelne Brennstoofzelle und muss nun auf den gesmaten Stack hochgerechnet werden.
+Abweichend zu \autoref{sec:VF_H2O_Menge} wird hier von einer mittleren Spannung ausgegangen, welche sich auf $U_{Zelle} = 0,8V$ beläuft und somit eine Zellenanzahl $n_{Zellen} = 30$ angibt.
+Mit \autoref{eq:230624_Faraday-Wirkungsgrad} ergibt sich der Faraday Wirkungsgrad von $\eta_{Faraday} = 75,13 \%$
+
+
+\begin{equation}
+    V_m = \frac{R_{i,H_2} \cdot T}{p}
+    \label{eq:230624_Molaresvolumen}
+\end{equation}
+
+\begin{equation}
+    V_{H_2,Theor.} = \frac{I \cdot t \cdot V_m}{z \cdot F} \Leftrightarrow  \dot{V}_{H_2,Theor.} = \frac{I \cdot V_m}{z \cdot F}
+    \label{eq:230624_Volumenstrom-theor}
+\end{equation}
+
+\begin{equation}
+    \eta_{Faraday} = \frac{n_{Zelle} \cdot \dot{V}_{H_2,Theor.}}{\dot{V}_{H_2}}
+    \label{eq:230624_Faraday-Wirkungsgrad}
+\end{equation}
+
+
+Der elektroenergetische Wikrungsgrad lässt sich mithilfe der \autoref{eq:230619_Elektroenergetisch} berechnen.
 Hierbei wurde der term $\frac{t}{V_{Praktisch}}$ zu $\frac{1}{\dot{V}_{Praktisch}}$ umgeformt.
 Der Brennwert von Wasserstoff wurde als $\Delta H_{H_2} = 3,54\frac{Wh}{l}$ \cite{dH-H2} angenommen.
 Daraus ergibt sich ein Elektroenergetischer Wirkungsgrad von $\eta_{Elektroenergetisch} = 0,374981 \equiv 37,4981 \%$.
 
 \subsection{Berechnen Sie die Wärmeentwicklung an der Brennstoffzelle im Betriebsfall.}
 
+Näherungsweise kann der Thermische Wirkungsgrad als $\eta_{Thermisch} = 1 - \eta_{Elektroenergetisch} = 62,5019 \%$.
+Mit \autoref{eq:230624_Wärmeleistung} und der angegebenen Leistung aus \autoref{sec:VF_H2O_Menge} ergibt sich eine Wärmeleistung von $P_{Wärme} = 750,023 W$. 
 
+\begin{equation}
+    P_{W"arme} = \eta_{Thermisch} \cdot P_{Elektrisch}
+    \label{eq:230624_Wärmeleistung}
+\end{equation}
 
 \subsection{Wie groß ist der elektrische Wirkungsgrad, wenn der Stack eine Wärmeleistung von
 230W produziert und bei einer Spannung von 42V ein Strom von 10 A entnommen werden kann?}
+
+Die Elektrischewirkungsgrad lässt sich durch den Quotienten aus der Elektrischenleistung und der Gesamtleistung berechnen, was in \autoref{eq:230624_el-Wirkungsgrad} Dargestellt wurde. 
+Die Elektrischeleistung bläuft sich nach \autoref{eq:230624_El-Leistung} auf $P_{El} = 420W$. Somit ergibt der Elektrischewirkungsgrad $\eta_{El} = 64,6\%$
+
+\begin{equation}
+    P_{El} = U \cdot I
+    \label{eq:230624_El-Leistung}
+\end{equation}
+
+$$P_{EL} = 42V \cdot 10A = 420W$$
+
+\begin{equation}
+    \eta_{El} = \frac{P_{El}}{P_{El} + P_{Wärme}} = \frac{420 W}{420 W + 230 W} = 0,646 \equiv 64,6 \%
+    \label{eq:230624_el-Wirkungsgrad}
+\end{equation}
