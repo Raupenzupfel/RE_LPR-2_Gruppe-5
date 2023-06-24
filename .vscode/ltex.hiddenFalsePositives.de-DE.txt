@@ -1,2 +1,8 @@
 {"rule":"ZU_SCHRIEBEN_ETC","sentence":"^\\QÜberlegen Sie, warum es zu Unterschieden zwischen Ihren nach Norm und nach Messungen berechneten U-Werten kommen kann.\\E$"}
 {"rule":"EINHEIT_LEERZEICHEN","sentence":"^\\Q0cm\\E$"}
+{"rule":"GERMAN_SPELLER_RULE","sentence":"^\\QÄußere Carnot-Leistungszahl der Anlage \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q.\\E$"}
+{"rule":"GERMAN_SPELLER_RULE","sentence":"^\\QFür die äußere Carnot-Leistungszahl der Anlage wird die Umgebungstemperatur \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q°C= 297,15K und die mittlere Temperatur der Nutzwärme benötigt.\\E$"}
+{"rule":"GERMAN_SPELLER_RULE","sentence":"^\\Q! [HTML]70AD47 [HTML]70AD47 Arbeitspunkt Bezeichnung [HTML]70AD47 Temperatur in °C [HTML]70AD47 Enthalpie in kJ/kg [HTML]CFE5A8 1 Temperatur nach Verdampfer 18 425 [HTML]E2EFDA 2 Heißgastemperatur 66 453 [HTML]CFE5A8 3 Verflüssigertemperatur 45 276 [HTML]E2EFDA 4 Temperatur vor Verdampfer 15 276 Arbeitspunkte entsprechend Messreihe 1\\E$"}
+{"rule":"COMMA_PARENTHESIS_WHITESPACE","sentence":"^\\QT,A-Schaubild eines Gegenstrom-Plattenwärmeübertragers\\E$"}
+{"rule":"COMMA_PARENTHESIS_WHITESPACE","sentence":"^\\QT,A-Schaubild des kleinen Gegenstrom-Plattenwärmeübertragers zwischen internem und externem Heizkreis\\E$"}
+{"rule":"COMMA_PARENTHESIS_WHITESPACE","sentence":"^\\QT,A-Schaubild des kleinen Gegenstrom-Plattenwärmeübertragers/K-Wert.\\E$"}
