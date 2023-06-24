@@ -3,9 +3,9 @@
 \subsection{Energiebilanz der Anlage und äußere Leistungszahl}
 In diesem Teil werden die Leistungszahlen und die Energiebilanz der Anlage berechnet.
 
-\subsubsection{Prüfen Sie die im Bedienmodul angegebene Heizleistung anhand Vor- und Rücklauftemperatur und Heizdurchfluss}
+\subsubsection{Prüfung Heizleistung}
 \label{subsubsec:Heizleistung}
-
+anhand von Heizdurchfluss, Vor- und Rücklauftemperatur
 Die Heizleistung lässt sich mit der folgenden Formel berechnen:
 
 \begin{equation}
@@ -25,8 +25,8 @@ Mit Hilfe dieses Massenstroms kann die Heizleistung berechnet werden.
 
 $$\dot Q_{Kond}= 0,38 \frac{kg}{s} \cdot 4,2 \frac{kJ}{kg \cdot K} \cdot (48 ^{\circ}C - 43 ^{\circ}C) = 8,14 \frac{kJ}{s}$$
 
-Mit einem Massenstrom von 0,38 $\frac{kg}{s}$, einer Vorlauftemperatur von 48°C und Rücklauftemperatur von 43°C im Kondensator ergibt sich daraus mit Formel \ref{eq:110623_Heizleistung} eine Heizleistung von 8,14 $\frac{kJ}{s}$ bzw $kW$. Wobei auf dem Display eine Heizleistung von 8,3kW angezeit wird, was nur minimal von unserem errechneten Wert abweicht.
-\subsubsection{Berechnen Sie die äußere Leistungszahl der Anlage}
+Mit einem Massenstrom von 0,38 $\frac{kg}{s}$, einer Vorlauftemperatur von 48°C und Rücklauftemperatur von 43°C im Kondensator ergibt sich daraus mit Formel \ref{eq:110623_Heizleistung} eine Heizleistung von 8,14 $\frac{kJ}{s}$ bzw $kW$. Wobei auf dem Display eine Heizleistung von 8,3kW angezeit wird, was nur minimal vom errechneten Wert abweicht.
+\subsubsection{Äußere Leistungszahl}
 Die tatsächliche äußere Leistungszahl berechnet sich wie in Formel \ref{eq:110623_aeußere Leistungszahl_tatsächlich} dargestellt und beträgt 3,54.
 
 \begin{equation}
@@ -36,9 +36,8 @@ Die tatsächliche äußere Leistungszahl berechnet sich wie in Formel \ref{eq:11
 
 $$ \epsilon_{Real,Au"sen} = \frac{8,14 kW}{2,3 kW} = 3,54$$
 
-\subsubsection{Berechnen Sie aus der Gesamt-Energiebilanz der Anlage den aus der Umgebung aufgenommenen Wärmestrom im Verdampfer.
-Welcher Luftvolumenstrom muss durchgesetzt werden, wenn die Luft um 5 K abgekühlt wird?}
-Um den aus der Umgebung aufgenommenen Wärmestrom zu bestimmen, muss die Gesammt-Energiebilanz der Anlage verwendet werden:
+\subsubsection{Wärmestrom im Verdampfer aus Gesamt-Energiebilanz}
+Um den aus der Umgebung aufgenommenen Wärmestrom zu bestimmen, muss die Gesamt-Energiebilanz der Anlage verwendet werden:
 
 \begin{equation}
 \dot Q_{Verd}=\dot Q_{Kond}-P_{el}
@@ -50,6 +49,7 @@ $$\dot Q_{Verd}= 8,14 kW-2,304 kW= 5,84kW $$
 
 Mit der berechneten Heizleistung von 8,14kW und einer elektrischen Leistung von 2304W ergibt sich ein vom Verdampfer aufgenommenen Wärmestrom von 5,84kW. Nun wird der benötigte Luftstrom, unter der Annahme, dass die durchströmende Luft um 5K abgekühlt wird, berechnet.
 
+Welcher Luftvolumenstrom muss durchgesetzt werden, wenn die Luft um 5 K abgekühlt wird?
 \begin{equation}
 \dot V_{L}=\frac{\dot Q_{verd}}{\rho_{Luft} \cdot cp_{Luft} \cdot \Delta T}
 \label{eq:110623_benoetigter_Luftstrom}
@@ -59,10 +59,10 @@ $$\dot V_{L}=\frac{5,84 kW}{ 1,2 \frac{kg}{m^3} \cdot 1 \frac{kJ}{kg \cdot K} \c
 
 
 Der benötigte Luftstrom beträgt nach Formel \ref{eq:110623_benoetigter_Luftstrom} 0,973$\frac{m^3}{s}$. 
-\subsubsection{Berechnen Sie die äußere Carnot-Leistungszahl der Anlage \texorpdfstring{$\epsilon_{Carnot,a}$}{} anhand der erreichten Mitteltemperatur der Nutzwärme TmN =(TKessel + TRück)/2 und der Umgebungstemperatur.}
+\subsubsection{Äußere Carnot-Leistungszahl der Anlage \texorpdfstring{$\epsilon_{Carnot,a}$}{}}
 \label{subsubsec:Carnot}
 
-Für die äußere Carnot-Leistungszahl der Anlage benötigt man die Umgebungstemperatur $T_{U}=$24°C= 297,15K und die mittlere Temperatur der Nutzwärme.
+Für die äußere Carnot-Leistungszahl der Anlage wird die Umgebungstemperatur $T_{U}=$24°C= 297,15K und die mittlere Temperatur der Nutzwärme benötigt.
 
 \begin{equation}
     T_{mN}=\frac{T_{Kessel}+T_{Rück}}{2}
@@ -130,12 +130,12 @@ Mittels der nun bekannten isentropen Enthalpie für Arbeitspunkt 2 kann mittels 
     \label{eq:Isentropenwirkungsgrad}
 \end{equation}
 
-$$\eta_{is}=\frac{445 kJ/kg-425 kJ/kg}{453 kJ/kg-425 kJ/kg}=0,714$$
+$$\eta_{is}=\frac{(445-425)\frac{kJ}{kg}}{(453-425)\frac{kJ}{kg}}=0,714$$
 
 Der Isentropenwirkungsgrad für diesen Fall beträgt demnach 0,714.\\
 
 
-\subsubsection*{Innere Leistungszahlen}
+\subsubsection{Innere Leistungszahlen}
 
 \begin{equation}
    \epsilon_{VP,i} = \frac{h_{2,is}-h_{pH}}{h_{2,is}-h^{''}_{p0}}
@@ -262,11 +262,12 @@ $$v=\frac{0,04327 \frac{kg}{s}}{\frac{\pi}{4}\cdot 52,63 \frac{kg}{m^3} \cdot (0
 
 Der Druck am Arbeitspunkt 3 kann aus dem lg(p)-h Diagramm als $p=28 bar$ abgelesen werden. Mit Hilfe dessen lässt sich die Dichte aus der Dampftafel als $\rho=935,99 kg/m^3$ bestimmen.
 Die Strömungsgeschwindigkeit der Flüssigkeit am Arbeitspunkt 3 berechnet sich dann zu:
-$$v=\frac{0,04327 \frac{kg}{s}}{\frac{\pi}{4}\cdot 935,99 kg/m^3 \cdot (0,01 m)^2}=0,588 \frac{m}{s} $$
+$$v=\frac{0,04327 \frac{kg}{s}}{\frac{\pi}{4}\cdot 935,99\frac{kg}{m^3} \cdot (0,01 m)^2}=0,588 \frac{m}{s} $$
 
-\subsubsection{Skizzieren Sie ein T,A-Schaubild des kleinen Gegenstrom-Plattenwärmeübertragers
-zwischen internem und externem Heizkreis. Berechnen Sie den erreichten k-Wert,
-wenn der Apparat eine Wärmeübertragerfläche eine Fläche von \texorpdfstring{$A = 0,4 m^2$}{} hat.}
+\subsubsection{T,A-Schaubild des kleinen Gegenstrom-Plattenwärmeübertragers/K-Wert}
+
+T,A-Schaubild des kleinen Gegenstrom-Plattenwärmeübertragers
+zwischen internem und externem Heizkreis
 
 \begin{figure}[!ht]
     \centering
@@ -275,6 +276,7 @@ wenn der Apparat eine Wärmeübertragerfläche eine Fläche von \texorpdfstring{
     \label{fig:TA,Diagramm}
 \end{figure}
 
+\subsubsection*{K-Wert}
 Für die Berechnung des K-Werts muss im Vorfeld $\Delta T_M$ bestimmt werden. Das passiert nach folgenden Gleichungen.
 
 Die maximale Temperaturdifferenz wird aus der Speicher-Rücklauftemperatur und der Kesselrücklauftemperatur bestimmt.
@@ -298,13 +300,13 @@ Die minimale Temperaturdifferenz wird aus der Speicher-Vorlauftemperatur und der
 $$\Delta T_{MIN}= 51,6 \text{°} C-45 \text{°} C= 6,6K$$
 
 \begin{equation}
-    \Delta T_{M}= \frac{\Delta T_{MAX}-\Delta T_{MIN}}{ln\frac{\Delta T_{MAX}}{\Delta T_{MIN}}}
+    \Delta T_{M}= \frac{\Delta T_{MAX}-\Delta T_{MIN}}{ln(\frac{\Delta T_{MAX}}{\Delta T_{MIN})}}
     \label{eq:230621_DeltaTM}
 \end{equation}
 
-$$\Delta T_M= \frac{19,9K-6,6K}{ln\frac{19,9K}{6,6K}}= 12,05K$$
+$$\Delta T_M= \frac{19,9K-6,6K}{ln(\frac{19,9K}{6,6K})}= 12,05K$$
 
-Mithilfe der \autoref{eq:230621_Q} und der Heizleistung lässt sich der k-Wert bestimmen.
+Mithilfe der \autoref{eq:230621_Q}, der gegebenen Fläche von $A= 0,4m^2$ und der Heizleistung lässt sich der k-Wert bestimmen.
 
 \begin{equation}
     \dot{Q}=k\cdot A \cdot \Delta T_M
@@ -318,9 +320,9 @@ Mithilfe der \autoref{eq:230621_Q} und der Heizleistung lässt sich der k-Wert b
 
 $$k=\frac{8,14 kW}{ 0,4m^2 \cdot 12,05K}=1,69 \frac{kW}{m^2K}$$
 
-\subsubsection{Wie lange dauert es bei konstanter Wärmepumpenleistung, bis ausgehend von einer
-konstanten Anfangstemperatur \texorpdfstring{$T_{Sp,U}$}{} der gesamte Speicherinhalt (450 l) aufgeheizt ist?}
-
+\subsubsection{Auheizen des gesamten Speichers}
+Wie lange dauert es bei konstanter Wärmepumpenleistung, bis ausgehend von einer
+konstanten Anfangstemperatur \texorpdfstring{$T_{Sp,U}$}{} der gesamte Speicherinhalt (450 l) aufgeheizt ist?
 Die Wärmemenge die benötigt wird um den Speicher aufzuheizen berechnet sich nach:
 
 \begin{equation}
