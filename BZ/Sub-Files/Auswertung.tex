@@ -79,7 +79,7 @@ Die Wirkungsgrade werden nach \autoref{eq:230627_Beispiel_wirkungsgrad_Berechnun
 Die Brennstoffzelle hat einen sehr guten Teillastwirkungsgrad. In der zweiten Teillast-Messung ist die Brennstoffzelle wärmer als zuvor und hat ihre optimale Betriebstemperatur erreicht. Die Bauteile der Schaltung (Kompressor und Kühlung) sind eingeschwungen. Es werden bessere Werte als in der ersten Messung bei 20A erreicht. Außerdem auffällig ist der hohe Batteriestrom, dieser ist so hoch, da die Batterie vorher (durch hohe Lastströme) entladen und nun wieder aufgeladen wird. 
 
 
-
+\newpage
 \subsection{Energiebilanz für den Teillastfall}
 
 \begin{figure}[H]
@@ -88,16 +88,18 @@ Die Brennstoffzelle hat einen sehr guten Teillastwirkungsgrad. In der zweiten Te
 \label{fig:20230630_Energiebilanz}
 \end{figure}
 
-\begin{equation}
-  P_{Verlust} = P_{Stack}-P_{Verbrauch}-P_{Batterie}-P_{Kompressor}-P_{Kühlung}
-\label{eq:20230630_Energiebilanz}
-\end{equation}
-
 In einem idealen System ist $P_{Stack}-P_{Gesamtverbrauch}=0$. Im betrachteten Teillastfall wird die Batterie wieder geladen, wodurch ein hoher Batterieladestrom entsteht und Energie entnommen wird.
 Nach \autoref{fig:230618_U-I-Kennlinie} ist ebenfalls zu erkennen, dass sich die Batterie im Ladevorgang befindet. 
 Im reellen System kommt es zu ohmschen und thermischen Verlusten. In der weiteren Betrachtung der Verluste werden diese als $P_{Verlust}$ vereinfacht zusammengefasst.
 Durch aufstellen der Energiebilanz können die Verluste im Teillastfall ermittelt werden.
-$$P_{Verlust}=965,545W -642W-138W-20W-41,43W=124,115W \approx 124W$$
+In Abbildung \autoref{fig:20230630_Energiebilanz} ist Energiebilanz schematisch dargestellt.
+\autoref{eq:20230630_Energiebilanz} gibt die Beziehung zwischen den einzelnen Systemkomponenten wieder.
+\begin{equation}
+  P_{Verlust} = P_{Stack}-P_{Verbrauch}-P_{Batterie}-P_{Kompressor}-P_{Kühlung}
+\label{eq:20230630_Energiebilanz}
+\end{equation}
+Mit den eingesetzten Werten aus Tabelle X werden die Leistungsverluste berechnet:
+$$P_{Verlust}=965,545W-642W-138W-20W-41,43W=124,115W \approx 124W$$
 
 
 \textbf{Messwerte noch ins Protokoll}
