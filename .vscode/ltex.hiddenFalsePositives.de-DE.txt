@@ -6,3 +6,7 @@
 {"rule":"COMMA_PARENTHESIS_WHITESPACE","sentence":"^\\QT,A-Schaubild eines Gegenstrom-Plattenwärmeübertragers\\E$"}
 {"rule":"COMMA_PARENTHESIS_WHITESPACE","sentence":"^\\QT,A-Schaubild des kleinen Gegenstrom-Plattenwärmeübertragers zwischen internem und externem Heizkreis\\E$"}
 {"rule":"COMMA_PARENTHESIS_WHITESPACE","sentence":"^\\QT,A-Schaubild des kleinen Gegenstrom-Plattenwärmeübertragers/K-Wert.\\E$"}
+{"rule":"PUNKT_ENDE_DIREKTE_REDE","sentence":"^\\QDer im Folgenden beschriebene Versuch “Wasserstoff als Energieträger - Automatisiertes Brennstoffzellensystem“\\E$"}
+{"rule":"DE_CASE","sentence":"^\\QDer im Folgenden beschriebene Versuch “Wasserstoff als Energieträger - Automatisiertes Brennstoffzellensystem“\\E$"}
+{"rule":"DE_CASE","sentence":"^\\QDer Fokus soll hierbei besonders auf den folgenden Punkten liegen: Untersuchung und Verständnis des Betriebsverhaltens eines qualifizierten Brennstoffzellensystems Messtechnische Untersuchung der Brennstoffzellenparameter und deren grafische Auswertung Untersuchung verschiedener Betriebspunkte und -zustände zur Veranschaulichung des komplexen Systemverhaltens und der Bewertung der Einflussparameter Antizipation technischer Entscheidungshilfen und -kriterien Endgültig ist\\E$"}
+{"rule":"GERMAN_SPELLER_RULE","sentence":"^\\QDie Brennstoffzelle des Systems ist ein 47-zelliges PEM-Stack\\E$"}
