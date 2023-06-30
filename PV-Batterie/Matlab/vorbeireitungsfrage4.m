@@ -1,3 +1,5 @@
+E_PVS_Komm = cumsum(ts.Ppvs/1000)/3600;
+
 
 plot(ts.t,E_PVS_Komm,'LineWidth',1.5);
 grid on;
