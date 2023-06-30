@@ -12,7 +12,7 @@
 \end{figure}
 
 
-\subsection{Grafische Darstellung der Stackspannung, der Stackleistung, der Verbraucherleistung und des Wasserstoffverbrauchs}
+\subsection{Grafische Darstellung Messdaten}
 
 \begin{figure}[H]
     \centering
@@ -29,7 +29,7 @@
 \end{figure}
 
 
-\subsection{Grafische Darstellung einiger Messgrößen im Bezug zum Verbracuherstrom}
+\subsection{Grafische Darstellung einiger Messgrößen im Bezug zum Verbraucherstrom}
 
 \begin{figure}[H]
     \centering
@@ -94,7 +94,14 @@ Dadurch beginnt die Zellreaktion, bevor eine Leistungsabnahme des Verbrauchers e
 
 
 \subsection{Zusammenwirken von Brennstoffzellenstack, Batteriepuffer und Verbraucher}
-Die Brennstoffzelle liefert 
+Beim Regeln des Laststroms auf um die 43A schaltet sich die Brennstoffzelle im ungünstigesten Fall ab.
+Die bereitgestellte Leistung der Brennstoffzelle reicht nicht aus um die Last auszugleichen und die Batterie fängt an sich zu entladen.
+Wenn die Batterie nicht, schnell genug die nötige Ausgleichsleistung liefert, kommt es zum Ausfall.
+Durch das Herunterregeln von 43 auf 20A wird die Brennstoffzelle in den Teillastetrieb versetzt.
+Die Batterie wird von der Brennstoffzelle geladen.
+
+
+
 
 
 
@@ -137,9 +144,27 @@ In Abbildung \autoref{fig:20230630_Energiebilanz} ist Energiebilanz schematisch 
 \label{eq:20230630_Energiebilanz}
 \end{equation}
 
-Mit den eingesetzten Werten aus Tabelle X werden die Leistungsverluste berechnet:
+Zur Ermittlung der Leistung werden die Messdaten aus \autoref{tab:20230616} genutzt.(Siehe Anhang)
+Die Kompressor Leistung arbeitet bei 69\% und die Kühlung bei 40% der Volllast.
+Die umgerechneten Leistungen werden in \autoref{tab:20230630_PTeillast} aufgeführt. 
+
+
+\begin{table}[H]
+  \centering
+  \caption{Leistungen der Komponenten im Teillastversuch}
+  \label{tab:20230630_PTeillast}
+  \resizebox{\columnwidth}{!}{%
+  \begin{tabular}{|l|l|l|l|l|l|}
+  \hline
+  \rowcolor[HTML]{70AD47} 
+  \textbf{$P_{Stack}$} & \textbf{$P_{Verbrauch}$} & \textbf{$P_{Batterie}$} & \textbf{$P_{Kompressor}$} & \textbf{$P_{Kühlung}$} & \textbf{$P_{Verlust}$} \\ \hline
+  \rowcolor[HTML]{E2EFDA} 
+  965,545W              & 642W                      & 138W                     & 20W                        & 41,43W                  & 124,115W                \\ \hline
+  \end{tabular}%
+  }
+  \end{table}
+
+Mit den eingesetzten Werten aus \autoref{tab:20230630_PTeillast} werden die Leistungsverluste berechnet:
 $$P_{Verlust}=965,545W-642W-138W-20W-41,43W=124,115W \approx 124W$$
 
 $P_{Verlust}$ beträgt $\approx124W$.
-
-\textbf{Messwerte noch ins Protokoll}
