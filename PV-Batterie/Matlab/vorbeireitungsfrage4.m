@@ -24,4 +24,4 @@ xlim([datetime('18-Jul-2016 04:00:00') datetime('25-Jul-2016 03:59:59')]);
 xlabel('Zeit');
 ylabel('Leistung in kW');
 
-saveas(figure(1), 'plot_vorbereitungsfrage4.jpg');
+saveas(figure(1), 'plot_vorbereitungsfrage4s.jpg');
