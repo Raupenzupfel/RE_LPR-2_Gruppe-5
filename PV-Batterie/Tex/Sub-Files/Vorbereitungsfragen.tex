@@ -1,22 +1,28 @@
 \newpage
 \section{Vorbereitungsfragen}
-\subsection{1}
+\subsection{Zeitlichen Verlauf der
+drei Leistungsvariablen über den Zeitvektor t}
 \begin{figure}[H]
     \centering
     \includegraphics[width=\textwidth]{Abbildungen/plot.jpg}
-    \caption{Beschreibung des Plots}
+    \caption{Zeitlicher Verlauf der drei Leistungsvariablen $P_{PVS}, P_{L}$ und $P_{PVS2L}$. Es handelt sich um Sekundenmittelwerte.}
     \label{fig:plot3062023}
 \end{figure}
+In \autoref{fig:plot3062023} ist der Leistungsverlauf der Last, des Pv-systems und die direkt verbrauchte Pv-Systemleistung. Dabei ist zu sehen, dass es starke Tag und Nacht Fluktuationen gibt. 
+Das bedeutet, dass die Höchstwerte immer zur Mittagszeit auftreten, die Leistung morgens ansteigt und abends wieder abfällt. Auch die elektrische Last weist übliche Muster auf, mit höheren Werten nachmittags bis abends. 
+Wobei der direkte Verbrauch über den ganzen zag verteilt ist mit einem Peak am mittag.
 \begin{figure}[H]
     \centering
     \includegraphics[width=\textwidth]{Abbildungen/aufgabe1_plot2.png}
-    \caption{}
+    \caption{Zeitlicher Verlauf der drei Leistungsvariablen $P_{PVS}, P_{L}$ und $P_{PVS2L}$. Es handelt sich um Stundenmittelwerte.}
     \label{fig:plot1_2_3062023}
 \end{figure}
+In \autoref{fig:plot1_2_3062023} sind die stündlichen Mittelwerte. Auch hier ist zu sehen, dass das Pv-System die Leistung die am Tag benötigt wird meistens sehr gut decken kann. Abends oder Nachts ist der Leistungsbedarf der Last nicht von der Leistung des Pv-Systems zu decken.
 \subsection{Ermitteln Sie über den gesamten Messzeitraum die Energiesummen EPVS, EL und EPVS2L der
 Leistungsvariablen PPVS, PL und PPVS2L (Angabe in kWh).}
 Die zu ermittelnden Energiesummen lauten wie folgt:
 \\
+
 
 $E.E_pvs = sum(ts.Ppvs/1000)/3600=149,96kWh;\\
 E.E_l = sum(ts.Pl/1000)/3600=89,08kWh;\\
