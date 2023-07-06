@@ -42,7 +42,7 @@ An der Kathode werden die Elektronen mit den Wasserstoffprotonen und Sauerstoff 
         \label{tab:20230618_BZ-arten}
 \end{table}
 
-\subsection{Skizzieren Sie qualitativ die U-I-Kennlinie einer Brennstoffzelle und erläutern Sie Arbeitsbereiche und markante Betriebsparameter}
+\subsection{U-I-Kennlinie einer Brennstoffzelle, Arbeitsbereiche, Betriebsparameter}
 
 \begin{figure}[H]
     \centering
@@ -57,7 +57,7 @@ Die markierten Bereiche unterscheiden sich jeweils durch die vorherrschenden Ver
 In Bereich 1 sind die Aktivierungsverluste maßgeblich, da eine Energiebarriere der Reaktion überwunden werden muss.
 Im 2. Bereich dominieren die Ohm'schen Verluste, die aufgrund des Transports der Ionen durch den Elektrolyten und der Elektronen durch das Elektrodenmaterial auftreten.
 Im Bereich 3 wird die Reaktion durch die Diffusionsfähigkeit der Gase und der Elektrodenstruktur bestimmt.
-
+\newpage
 \subsection{Die Faraday'schen Gesetze.}
 
 \subsubsection{1. Faraday'sches Gesetz}
@@ -114,18 +114,18 @@ Der elektroenergetische Wirkungsgrad berechnet sich aus gewonnener elektrischer 
     \label{eq:230619_Elektroenergetisch}
 \end{equation}
 
-\subsection{Gleichgewichtsspannung und Thermoneutralspannung bei Standardbedingungen}
+\subsection{Gleichgewichtsspannung und Thermoneutralspannung}
 
 Standardbedingungen beschreiben in diesem Fall den Normaldruck von $1015mBar$, eine Luftfeuchte von $0\%$ und eine Umgebungstemperatur von 25°C.
 Die Thermoneutrale Spannung stellt hier die maximal erreichbare Spannung einer einzelnen Brennstoffzelle dar und beläuft sich bei Standardbedingungen auf $U_{th} = 1,48V$, 
 die Gleichgewichtsspannung hingegen ist die elektrisch maximal nutzbare Spannung und beträgt bei Standardbedingungen $U_0 = 1,23V$ die Differenz zwischen der Thermoneutralen und der Gleichgewichtsspannung lässt sich auf die Entropie des Wassers zurückführen.   
 
-\subsection{Berechnen Sie für den Prozesstemperaturbereich von 0°C bis etwa 1500 °C bei 25°C
-Umgebungstemperatur den Carnot-Wirkungsgrad und den Gibbs-Helmholtz-Wirkungsgrad
-und stellen Sie beide Verläufe in einem Bild grafisch dar! Zur Erleichterung sei auf den
-linearen Enthalpie verlauf hingewiesen.}
+\subsection{Carnot-Wirkungsgrad und Gibbs-Helmholtz-Wirkungsgrad}
 
-Die Wirkungsgrade lassen sich mittels der Gleichungen \ref{eq:230620_Carnot} und \ref{eq:230620_Gibbs-Helmholtz} berechnen. 
+Der angegebene Prozesstemperaturbereich ist von 0°C bis etwa 1500 °C bei 25°C
+Umgebungstemperatur angegeben.
+Der Carnot-Wirkungsgrad wird mit \autoref{eq:230620_Carnot} und der Gibbs-Helmholtz-Wirkungsgrad mit
+   \autoref{eq:230620_Gibbs-Helmholtz} berechnet. 
 $T_{Unten}$ bezeichnet die niedrigere Temperatur im Prozess, $T_{Oben}$ die höhere, $\Delta G_R$ ist die freie Reaktionsenthalpie und $\Delta H_R$ die Enthalpie des Wassers.
 Zur numerischen Ermittlung der Enthalpien wird die beigelegte Grafik und das Programm PowerToys - Bildschirmlineal verwendet.
 Damit werden genaue Pixel-Abstände zwischen den Linien bestimmt und zu den gegeben Einheit umgerechnet.
@@ -177,7 +177,7 @@ Die errechneten Werte können nun mittels Matlab in \autoref{fig:230620_Enthalpi
     \caption{Carnot-Wirkungsgrad und Gibbs-Helmholtz-Wirkungsgrad über der Temperatur}
     \label{fig:230620_Wirkungsgrade}
 \end{figure}
-
+\newpage
 \subsection{Vergleich thermische Energiesysteme mit Brennstoffzellensystemen}
 
 Thermische Energiesysteme haben im Allgemeinen einen geringeren Wirkungsgrad als Brennstoffzellensysteme, da sie  mehr Energieumwandlungen durchlaufen müssen:
@@ -187,11 +187,11 @@ $$E_{Chemisch} \Rightarrow E_{Elektrisch}$$
 
 Jeder der Pfeile ist mit einem Wirkungsgrad und dadurch mit Verlusten verbunden.
 
-\subsection{Ermitteln Sie für einen 1,2 kW-Brennstoffzellen Stack, der in einem 24-V-System mit
-BleiGel Batteriepuffer im Nennbetrieb arbeitet, die stündlich entstehende Wassermenge.
-Während eines Volladezyklus schwankt die BZ-Zellspannung zwischen 1 und 0,6 Volt.}
+\subsection{Menge des entstehenden Wasser}
 \label{sec:VF_H2O_Menge}
 
+Der angegebene Brennstoffzellen Stack hat eine Leistung von 1,2 kW, arbeitet in einem 24V-System mit Blei-Gel Batteriepuffer im Nennbetrieb.
+Die Brennstoffzellen Zellspannung schwankt während des Vollladezyklus zwischen 1 und 0,6V.
 Zunächst muss mit \autoref{eq:230620_n_Zelle} die mögliche anzahl an Brennstoffzellen berechnet werden.
 
 \begin{equation}
@@ -226,11 +226,12 @@ Durch die Multiplikation mit der Zellenanzahl ergibt sich damit die Wassermenge 
     \dot{m}_{gesamt} &= (9,672 \dots 16,12) \frac{kg}{h} \nonumber
 \end{align}
 
-\subsection{Der Stack von \ref{sec:VF_H2O_Menge} verbraucht bei Nennstrom stündlich 904 Liter Wasserstoff (Messung bei 24°C (= 297,15 K) und 1018mbar (= 101,8 kPa) äußerem Luftdruck). 
-Bestimmen und kommentieren Sie den Faraday'schen Wirkungsgrad. Wie groß ist der elektroenergetische Wirkungsgrad?}
+\subsection{Faraday'scher und elektroenergetischer Wirkungsgrad}
 
 % \textcolor{red}{\Huge Faraday Wirkungsgrad ergibt unsinnige Werte}
 
+Der Stack von \ref{sec:VF_H2O_Menge} verbraucht bei Nennstrom stündlich 904 Liter Wasserstoff (Messung bei 24°C (= 297,15 K) und 1018mbar (= 101,8 kPa) äußerem Luftdruck). 
+Bestimmen und kommentieren Sie den Faraday'schen Wirkungsgrad.
 Zunächst muss das molare Volumen von Wasserstoff bei angegebenen Druck und Temperaturen ermittelt werden.
 Dazu wird die spezielle Gaskonstante von Wasserstoff als $R_{i,H_2} = 8,3144 \frac{kPa \cdot l}{mol \cdot K}$ \cite{Gaskonstante} angenommen.
 Mittels \autoref{eq:230624_Molaresvolumen} kann das molare Volumen von $V_m = 24,2694 \frac{l}{mol}$ bestimmt werden.
@@ -278,8 +279,9 @@ Mit \autoref{eq:230624_Wärmeleistung} und der angegebenen Leistung aus \autoref
     \label{eq:230624_Wärmeleistung}
 \end{equation}
 
-\subsection{Wie groß ist der elektrische Wirkungsgrad, wenn der Stack eine Wärmeleistung von
-230W produziert und bei einer Spannung von 42V ein Strom von 10 A entnommen werden kann?}
+\subsection{Elektrischer Wirkungsgrad}
+
+Der gegebene Stack produziert eine Wärmeleistung von 230W und bei einer Spannung von 42V kann ein Strom von 10 A entnommen werden.
 
 Der elektrische Wirkungsgrad lässt sich durch den Quotienten aus elektrischer Leistung und der Gesamtleistung berechnen, was in \autoref{eq:230624_el-Wirkungsgrad} dargestellt wird. 
 Die elektrische Leistung beläuft sich nach \autoref{eq:230624_El-Leistung} auf $P_{El} = 420W$. Somit ergibt der elektrische Wirkungsgrad $\eta_{El} = 64,6\%$
