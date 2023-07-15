@@ -1,16 +1,39 @@
 \section{Vorbereitungsfragen}
 \label{sec:Vorbereitungsfragen}
 
-Der k1 wird mit der \autoref{eq:230624_k1} berechnen, wobei $A'_F$ die lichtdurchlässige Fläche und $A_F$ die Fläche der Rohbauöffnung darstellt.
-Die Rahmenfläche lässt sich mittels der Rahmendicke und dem gegebenen Umfang der Fenster berechnen: $A_{Rahmen} = U_{Fenster} \cdot d_R$. 
-Daraus wiederum lässt sich die lichtdurchlässige Fläche berechnen:  $A'_F = A_{Fenster} - A_{Rahmen}$.
-Es wurde für 'Good Practice' von einer Rahmendicke von $d_{R,GP} = 5cm$ und für den 'Worstcase' $d_{R,WC} = 7 cm$ ausgegangen.
-Daraus ergeben sich $k_{1,GP} = 0,8542$ und $k_{1,WC} = 0,7958$ welche auch in \autoref{tab:230426_Korrektur-Faktoren} zusammengefasst wurden.
-Der $k_2$ kann mittels einer Tabelle in der DIN 5034-3 abgeschätzt werden.
-Der best Case der Verschmutzung wäre $k_2 = 0,9$ der worst Case hingegen beträgt $k_2 = 0,5$.
+Teil der Vorbereitung ist es zwei Szenarien der Raumbeleuchtung für ein Musterbüro zu berechnen. 
+Szenario 1 entspricht 'Good Practice' Szenario zwei soll den 'Worst Case' abdecken.
+Raumabmessungen und Vorgaben sind der Versuchsanleitung zu entnehmen.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{Abbildungen/Raumaufbau.jpg}
+    \caption{Aufbau des Musterbüros [Versuchsanleitung] }
+    \label{fig:abb5}
+\end{figure}
+
+
+K1 wird mit \autoref{eq:230624_k1} berechnet, wobei $A'_F$ die lichtdurchlässige Fläche und $A_F$ die Fläche der Rohbauöffnung darstellt.
+Die Rahmenfläche lässt sich mittels der Rahmendicke und dem gegebenen Umfang der Fenster berechnen: 
+
+\begin{equation}
+    A_{Rahmen} = U_{Fenster} \cdot d_R
+\end{equation}
+
+Daraus wiederum lässt sich die lichtdurchlässige Fläche berechnen:  
+
+
+\begin{equation}
+    A'_F = A_{Fenster} - A_{Rahmen}
+\end{equation}
+
+Für 'Good Practice' wird von einer Rahmendicke von $d_{R,GP} = 5cm$ und für den 'Worstcase' $d_{R,WC} = 7 cm$ ausgegangen.
+Daraus ergeben sich $k_{1,GP} = 0,8542$ und $k_{1,WC} = 0,7958$ welche auch in \autoref{tab:230426_Korrektur-Faktoren} zusammengefasst werden.
+K2 kann mittels einer Tabelle in der DIN 5034-3 abgeschätzt werden.
+Der Best Case der Verschmutzung wäre $k_2 = 0,9$ der Worst Case hingegen beträgt $k_2 = 0,5$.
 Da 'Good Practice' allerdings nicht der best Case ist, wird von $k_{2,GP} = 0,8$ ausgegangen.
-Der Korrekturfaktor für nicht senkrechten Lichteinfall hingegen hat einen Pauschalwert von $k_3 = 0,85$, der Transmissionsgrad wird als $T = 0,9$ vorgegeben.
-Nun kann der effektive Transmissionsgrad mit der \autoref{eq:230624_Lichttransmissionsgrad} berechnet werden und wird, so wie alle anderen Faktoren, in \autoref{tab:230426_Korrektur-Faktoren} zusammengefasst.
+Der Korrekturfaktor für nicht senkrechten Lichteinfall hat einen Pauschalwert von $k_3 = 0,85$, der Transmissionsgrad wird als $T = 0,9$ vorgegeben.
+Nun kann der effektive Transmissionsgrad mit \autoref{eq:230624_Lichttransmissionsgrad} berechnet werden und wird, so wie alle anderen Faktoren, in \autoref{tab:230426_Korrektur-Faktoren} zusammengefasst.
 
 
 \begin{equation}
@@ -62,7 +85,7 @@ Die Berechnungen berücksichtigen dafür durch die zwei unterschiedlichen Szenar
 \subsection{Wie würden Sie die Steuerung der Beleuchtung anpassen?}
 
 Prinzipiell reicht die Beleuchtung für die geforderten Bedingungen vollkommen aus.
-Man könnte darüber nachdenken nach Sonnenuntergang den Dimmwert der zweiten Steuergruppe auf 25 \% zu senken.
+Man könnte darüber nachdenken nach Sonnenuntergang den Dimmwert der zweiten Steuergruppe auf 25 \% zu senken. Auch eine automatische Dimmung die sich den Lichtbedingungen anpasst könnte erwogen werden.
 
 
 
