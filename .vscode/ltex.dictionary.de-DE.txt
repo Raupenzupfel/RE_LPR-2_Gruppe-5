@@ -1,2 +1,13 @@
 lamda-Werte
 lamda-Wert
+Carnot-Leistungszahl
+lg
+Isentropenwirkungsgrad
+isentropen
+isentrope
+Carnot-Wirkungsgrad
+Carnot-Prozess
+Solkane
+Carnot-Wirkungsgrads
+Carnot
+Exergie
