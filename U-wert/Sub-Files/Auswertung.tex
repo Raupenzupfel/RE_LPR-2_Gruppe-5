@@ -22,7 +22,8 @@ nach U umgestellt ergibt sich:
 U = \frac{ T_{i} - T_{si}}{ R_{ si } \cdot  (T_{i} - T_{e})}
   \label{eq:230514_u2}
 \end{equation}
-Der Wärmeübergangskoeffizient für außen $h_{e}$ lässt sich mithilfe des spezifischen Wärmestroms bestimmen. Dabei ist $R_{se}=0,04 \frac{ m^2 \cdot K }{W}$ (siehe DIN4108-4)
+Der Wärmeübergangskoeffizient für außen $h_{e}$ lässt sich mithilfe des spezifischen Wärmestroms bestimmen.
+Dabei ist $R_{se}=0,04 \frac{ m^2 \cdot K }{W}$ (siehe DIN4108-4)
 \begin{equation}
 h_{e}=\frac{ \dot q }{ T_{e} - T_{se} }   \qquad  mit     \qquad       R_{se}=\frac{ 1 }{ h_{e} }
   \label{eq:230514_h_e}
@@ -33,7 +34,7 @@ Anschließend lässt sich die Wärmeleitfähigkeit wie folgt berechnen:
   \label{eq:230514_lamda}
 \end{equation}
 
-\begin{table}[!ht]
+\begin{table}[H]
     \centering
 \caption{Wärmestromdichte $\dot q$,Wärmedurchgangskoeffizienten U und Wärmeleitfähigkeit$\lambda$ }
 \label{tab:230524_Messdaten_Messreihe1(1)}
@@ -61,11 +62,12 @@ Alles in allem ist jedoch davon auszugehen, dass der professionelle Aufbau deutl
 % 
 %
 %
+\newpage
 \subsection{Wärmedurchlasswiderstand R für den zweiten Wandaufbau der 2. Messreihe}
 Der Wärmedurchlasswiderstand lässt sich mit folgender Formel berechnen:
 %
 \begin{equation}
-R_{Durchlass}=\frac{1} {U} - R_{se} - R_{si}
+R_{tot}=\frac{1} {U} - R_{se} - R_{si}
   \label{eq:230522_Wärmewiderstand}
 \end{equation}
 %
@@ -76,28 +78,32 @@ Der Durchlasswiderstand beträgt 0,174 $\frac{ m^2 \cdot K }{W}$.
 %In Tabelle \textcolor{red}{..........}  ist dabei der Wärmewiderstand der verschiedenen Schichten zu sehen.
 
 \subsection{Wärmedurchgangskoeffizienten für beide mehrschichtige Wände}
-Für die Berechnung der Wärmedurchgangskoeffizienten beider mehrschichtiger Wände werden die aufgenommenen Temperaturen gemittelt und dann entsprechend \autoref{eq:230514_u2} berechnet.
-Es ergaben sich folgende Werte:
+Für die Berechnung der Wärmedurchgangskoeffizienten beider mehrschichtiger Wände werden die aufgenommenen Temperaturen gemittelt und dann entsprechend \autoref{eq:230514_u2} berechnet.\\
+Durch Einsetzen der Werte für Wand 1:
 
+$$U_{Wand1} = \frac{(57,7-46,1)K }{ 0,13 \frac{m^2\cdot K}{W}\cdot  (57,7 - 22,9)K}$$
+Der U-Wert für Wand 1 beträgt:
 \begin{equation*}
-  U_{Wand 1} = 2,5715 \frac{W}{m^2 \cdot K}
-\end{equation*}
-\begin{equation*}
-  U_{Wand 2} = 2,9084 \frac{W}{m^2 \cdot K}
+  U_{Wand 1} \approx 2,57 \frac{W}{m^2 \cdot K}
 \end{equation*}
 
+Durch Einsetzen der Werte für Wand 2:
+$$U_{Wand2} = \frac{(57,7-44,6)K }{ 0,13 \frac{m^2\cdot K}{W}\cdot  (57,7 - 22,9)K}$$
+Der U-Wert für Wand 2 beträgt:
+\begin{equation*}
+  U_{Wand 2} \approx 2,9 \frac{W}{m^2 \cdot K}
+\end{equation*}
+\newpage
 Für die Berechnung nach DIN-Norm sind die theoretischen Wärmedurchgangskoeffizienten bereits berechnet worden.
-
-
 \begin{equation*}
-  U_{Wand 1}=1,6362 \frac{W}{m^2 \cdot K}
-\end{equation*}
-\begin{equation*}
-  U_{Wand 2}=1,3311 \frac{W}{m^2 \cdot K}
+  U_{Wand 1,theo.}\approx 1,64 \frac{W}{m^2 \cdot K}, U_{Wand 2,theo.}\approx 1,33 \frac{W}{m^2 \cdot K}
 \end{equation*}
 
 Bei erster Betrachtung wird bei beiden Wänden ein relativ großer Unterschied zwischen den theoretischen und gemessenen Werten für den Wärmedurchgangskoeffizient deutlich.\\
-Hierbei interessant ist, dass in den theoretischen Berechnungen die zweite Wand einen geringeren U-Wert aufweist, während das Ergebnis aus den gemessenen Werten zeigt, dass der U-Wert der ersten Wand geringer ist.
-Die sinnvollste Erklärung hierfür ist, dass für die verwendeten Holz- und XPS-Platten angenommen wurde, dass sie nur unterschiedlich dick sind, aber aus dem exakt gleichen Material bestehen.\\
+In den theoretischen Berechnungen besitzt die zweite Wand einen geringeren U-Wert, während das Ergebnis aus den gemessenen Werten zeigt, dass der U-Wert der ersten Wand geringer ist.
+Die sinnvollste Erklärung hierfür ist, dass für die verwendeten Holz- und XPS-Platten angenommen wurde, dass sie nur unterschiedlich dick sind, aber das Material exakt die gleiche Dichte besitzt.
 Bei Schichtholz, sowie XPS ist für die gewählte Wärmeleitfähigkeit die Dichte der Stoffe entscheidend, welche nicht bekannt ist.
-So kann nicht ausgeschlossen werden das Holz- beziehungsweise XPS-Schichten unterschiedlicher Dichten genutzt wurden.\\
+So kann nicht ausgeschlossen werden das Holz- beziehungsweise XPS-Schichten unterschiedlicher Dichten genutzt wurden.
+Die theoretische Betrachtung wird mit den schlechtesten Möglichen $\lambda$-Werten durchgeführt, daher kann die große Abweichung nicht ausschließlich auf unterschiedliche Dichten zurückzuführen sein.
+In Abbildung \ref{fig:230715_WBK} ist erkennbar, dass um die Halterung der Platten eine Wärmebrücke entsteht. Die Wärmeverluste wirken sich ebenfalls negativ auf den gemessenen U-Wert aus.
+\\

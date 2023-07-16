@@ -56,21 +56,22 @@ Dies hat den Effekt, dass die Innentemperaturen besser gehalten und leichter ger
 	R_{tot}=R_{si}+\sum_{i=1}^N \frac{d_i}{\lambda_i}+R_{se}
 \end{equation}
 
-Die grundlegende Gleichung zur Berechnung von $R_{tot}$ ist \autoref{eq:130723_Wärmedurchgangswiderstand} wobei $R_{si}=0,13\frac{m^2 \cdot K}{W}$ und $R_{se}=0,04\frac{m^2 \cdot K}{W}$  gegebene Werte sind.
+Die grundlegende Gleichung zur Berechnung von $R_{tot}$ ist \autoref{eq:130723_Wärmedurchgangswiderstand}. Gegeben sind die Werte $R_{si}=0,13\frac{m^2 \cdot K}{W}$ und $R_{se}=0,04\frac{m^2 \cdot K}{W}$.
 Für die weitere Berechnung werden für die $\lambda$-Werte der Baustoffe immer die jeweils höchsten Werte angenommen (siehe Excel-Datei). Aus den entsprechenden Normen werden
 die $\lambda$-Werte für Holz \cite[S.20]{lamda-holz-luft} $\lambda_{Holz}=0,24\frac{W}{m\cdot K}$ und Luft\cite[S. 15]{lamda-holz-luft} $\lambda_{Luft}=0,25\frac{W}{m\cdot K}$ abgelesen. (DIN EN ISO 10456:2010-05)
 Der $\lambda$-Wert für XPS \cite[S.23]{lamda-xps} beträgt $\lambda_{XPS}=0,046\frac{W}{m\cdot K}$ (DIN 4108-4:2020-11). Daraus ergibt sich folgende Rechnung:
 
-$$R_{tot}=0,13 \frac{m^2 \cdot K}{W}+ \frac{0,016m}{0,046 \frac{W}{m \cdot K}}+\frac{0,0224}{0,24 \frac{W}{m \cdot K}} +0,04 \frac{m^2 \cdot K}{W}$$
-
-$$R_{tot}=0,61\frac{m^2 \cdot K}{W}$$
+$$R_{tot1}=0,13 \frac{m^2 \cdot K}{W}+ \frac{0,016m}{0,046 \frac{W}{m \cdot K}}+\frac{0,0224}{0,24 \frac{W}{m \cdot K}} +0,04 \frac{m^2 \cdot K}{W}$$
+Der Wärmedurchlasswiderstand für die erste Wand beträgt:
+$$R_{tot1}=0,61\frac{m^2 \cdot K}{W}$$
 Der U-Wert ergibt sich aus dem Kehrwert des Wärmedurchgangswiderstands und beträgt:
 $$U_{Wand 1}=1,6362 \frac{W}{m^2 \cdot K}$$
-
+\newpage
+Die berechnung des Wärmedurchgangswiderstands für den zweiten Messaufbau erfolgt analog:
 $$R_{tot}=0,13\frac{m^2 \cdot K}{W}+ \frac{0,006m}{0,046\frac{W}{m\cdot K}}+ \frac{0,01}{0,025\frac{W}{m\cdot K}} +\frac{0,0122}{0,24\frac{W}{m\cdot K}} +0,04\frac{m^2 \cdot K}{W}$$
 Für die zweite Wand beträgt der Widerstand:
 $$R_{tot}=0,75\frac{m^2 \cdot K}{W}$$
-Analog zum vorherigen Wandaufbau beträgt der U-Wert:
+Dem entsprechend beträgt der U-Wert:
 $$U_{Wand 2}=1,3311 \frac{W}{m^2 \cdot K}$$
 
 
