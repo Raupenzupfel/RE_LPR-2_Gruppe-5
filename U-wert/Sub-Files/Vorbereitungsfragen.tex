@@ -44,9 +44,9 @@ Er wird verwendet, um den Energieverbrauch von Gebäuden zu berechnen, die Effiz
 
 \subsection{Reduzierung der Auswirkungen von Temperaturschwankungen}
 
-Die physikalisch simpelste Lösung, um Temperaturschwankungen von Außen nach Innen entgegenzuwirken, ist es die Wand massiver zu machen, wodurch die Trägheit des Systems erhöht wird.
+Die physikalisch simpelste Lösung, um Temperaturschwankungen von Außen nach Innen entgegenzuwirken, ist es die Wand massiver zu dimensionieren, wodurch die Trägheit des Systems erhöht wird.
 Bei einer hohen Trägheit verhält sich das System wie ein Tiefpassfilter, langsame Temperaturschwankungen sind auf der Innenseite jedoch immernoch merkbar.
-Die bessere Lösung ist es, die Wandkomposition zu verändern und eine bessere Dämmung einzubauen.
+\\Die bessere Lösung ist es, die Wandkomposition zu verändern und eine bessere Dämmung einzubauen.
 Das kann durch mehrere Schichten und/oder interne Luftschichten erzielt werden.
 Dies hat den Effekt, dass die Innentemperaturen besser gehalten und leichter geregelt werden können.
 
@@ -56,10 +56,11 @@ Dies hat den Effekt, dass die Innentemperaturen besser gehalten und leichter ger
 	R_{tot}=R_{si}+\sum_{i=1}^N \frac{d_i}{\lambda_i}+R_{se}
 \end{equation}
 
-Die grundlegende Gleichung zur Berechnung von $R_{tot}$ ist \autoref{eq:130723_Wärmedurchgangswiderstand}. Gegeben sind die Werte $R_{si}=0,13\frac{m^2 \cdot K}{W}$ und $R_{se}=0,04\frac{m^2 \cdot K}{W}$.
+Die grundlegende Gleichung zur Berechnung von $R_{tot}$ ist \autoref{eq:130723_Wärmedurchgangswiderstand}. \\
+Gegeben sind die Werte $R_{si}=0,13\frac{m^2 \cdot K}{W}$ und $R_{se}=0,04\frac{m^2 \cdot K}{W}$.
 Für die weitere Berechnung werden für die $\lambda$-Werte der Baustoffe immer die jeweils höchsten Werte angenommen (siehe Excel-Datei). Aus den entsprechenden Normen werden
 die $\lambda$-Werte für Holz \cite[S.20]{lamda-holz-luft} $\lambda_{Holz}=0,24\frac{W}{m\cdot K}$ und Luft\cite[S. 15]{lamda-holz-luft} $\lambda_{Luft}=0,25\frac{W}{m\cdot K}$ abgelesen. (DIN EN ISO 10456:2010-05)
-Der $\lambda$-Wert für XPS \cite[S.23]{lamda-xps} beträgt $\lambda_{XPS}=0,046\frac{W}{m\cdot K}$ (DIN 4108-4:2020-11). Daraus ergibt sich folgende Rechnung:
+\\Der $\lambda$-Wert für XPS \cite[S.23]{lamda-xps} beträgt $\lambda_{XPS}=0,046\frac{W}{m\cdot K}$ (DIN 4108-4:2020-11). \\ Durch Einsetzen der Werte in \autoref{eq:130723_Wärmedurchgangswiderstand} für Wand 1:
 
 $$R_{tot1}=0,13 \frac{m^2 \cdot K}{W}+ \frac{0,016m}{0,046 \frac{W}{m \cdot K}}+\frac{0,0224}{0,24 \frac{W}{m \cdot K}} +0,04 \frac{m^2 \cdot K}{W}$$
 Der Wärmedurchlasswiderstand für die erste Wand beträgt:
@@ -67,7 +68,7 @@ $$R_{tot1}=0,61\frac{m^2 \cdot K}{W}$$
 Der U-Wert ergibt sich aus dem Kehrwert des Wärmedurchgangswiderstands und beträgt:
 $$U_{Wand 1}=1,6362 \frac{W}{m^2 \cdot K}$$
 \newpage
-Die berechnung des Wärmedurchgangswiderstands für den zweiten Messaufbau erfolgt analog:
+Die Berechnung des Wärmedurchgangswiderstands erfolgt für den zweiten Messaufbau analog:
 $$R_{tot}=0,13\frac{m^2 \cdot K}{W}+ \frac{0,006m}{0,046\frac{W}{m\cdot K}}+ \frac{0,01}{0,025\frac{W}{m\cdot K}} +\frac{0,0122}{0,24\frac{W}{m\cdot K}} +0,04\frac{m^2 \cdot K}{W}$$
 Für die zweite Wand beträgt der Widerstand:
 $$R_{tot}=0,75\frac{m^2 \cdot K}{W}$$
