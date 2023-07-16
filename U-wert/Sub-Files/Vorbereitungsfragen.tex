@@ -19,7 +19,7 @@
 \end{itemize}
 
 
-\subsection{Temperaturverlauf und Wärmestrom durch eine mehrschichtige Wand}
+\subsection{Temperaturverlauf und Wärmestrom durch ein- und mehrschichtige Wände}
 \begin{figure}[H]
 	\centering
 	\begin{subfigure}[c]{0.303\textwidth}
@@ -50,34 +50,34 @@ Die bessere Lösung ist es, die Wandkomposition zu verändern und eine bessere D
 Das kann durch mehrere Schichten und/oder interne Luftschichten erzielt werden.
 Dies hat den Effekt, dass die Innentemperaturen besser gehalten und leichter geregelt werden können.
 
-\subsection{Gesamtwärmedurchgangswiderstand mehrschichtige Wände}
+\subsection{Gesamtwärmedurchgangswiderstand in mehrschichtigen Wänden}
 \begin{equation}
 	\label{eq:130723_Wärmedurchgangswiderstand}
 	R_{tot}=R_{si}+\sum_{i=1}^N \frac{d_i}{\lambda_i}+R_{se}
 \end{equation}
 
-Grundlegende Gleichung zur Berechnung ist \autoref{eq:130723_Wärmedurchgangswiderstand} $R_{si}=0,13\frac{m^2 \cdot K}{W}$ und $R_{se}=0,04\frac{m^2 \cdot K}{W}$ sind gegebene Werte.
-Für die weitere Berechnung werden für die $\lambda$-Werte der Baustoffe immer der schlechteste Wert angenommen(siehe Excel). Aus den entsprechenden Normen werden
+Die grundlegende Gleichung zur Berechnung von $R_{tot}$ ist \autoref{eq:130723_Wärmedurchgangswiderstand} wobei $R_{si}=0,13\frac{m^2 \cdot K}{W}$ und $R_{se}=0,04\frac{m^2 \cdot K}{W}$  gegebene Werte sind.
+Für die weitere Berechnung werden für die $\lambda$-Werte der Baustoffe immer die jeweils höchsten Werte angenommen (siehe Excel-Datei). Aus den entsprechenden Normen werden
 die $\lambda$-Werte für Holz \cite[S.20]{lamda-holz-luft} $\lambda_{Holz}=0,24\frac{W}{m\cdot K}$ und Luft\cite[S. 15]{lamda-holz-luft} $\lambda_{Luft}=0,25\frac{W}{m\cdot K}$ abgelesen. (DIN EN ISO 10456:2010-05)
-Der $\lambda$-Wert für XPS \cite[S.23]{lamda-xps} beträgt $\lambda_{XPS}=0,046\frac{W}{m\cdot K}$ aus (DIN 4108-4:2020-11).
+Der $\lambda$-Wert für XPS \cite[S.23]{lamda-xps} beträgt $\lambda_{XPS}=0,046\frac{W}{m\cdot K}$ (DIN 4108-4:2020-11). Daraus ergibt sich folgende Rechnung:
 
-$$R_{tot}=0,13\frac{m^2 \cdot K}{W}+ \frac{0,016m}{0,046\frac{W}{m\cdot K}}+ \frac{0,01}{0,025\frac{W}{m\cdot}} +\frac{0,0224}{0,024\frac{W}{m\cdot}} +0,13\frac{m^2 \cdot K}{W}$$
+$$R_{tot}=0,13 \frac{m^2 \cdot K}{W}+ \frac{0,016m}{0,046 \frac{W}{m \cdot K}}+\frac{0,0224}{0,24 \frac{W}{m \cdot K}} +0,04 \frac{m^2 \cdot K}{W}$$
 
 $$R_{tot}=0,61\frac{m^2 \cdot K}{W}$$
 Der U-Wert ergibt sich aus dem Kehrwert des Wärmedurchgangswiderstands und beträgt:
 $$U_{Wand 1}=1,6362 \frac{W}{m^2 \cdot K}$$
 
-$$R_{tot}=0,13\frac{m^2 \cdot K}{W}+ \frac{0,006m}{0,046\frac{W}{m\cdot K}}+ \frac{0,01}{0,025\frac{W}{m\cdot}} +\frac{0,0122}{0,024\frac{W}{m\cdot}} +0,13\frac{m^2 \cdot K}{W}$$
+$$R_{tot}=0,13\frac{m^2 \cdot K}{W}+ \frac{0,006m}{0,046\frac{W}{m\cdot K}}+ \frac{0,01}{0,025\frac{W}{m\cdot K}} +\frac{0,0122}{0,24\frac{W}{m\cdot K}} +0,04\frac{m^2 \cdot K}{W}$$
 Für die zweite Wand beträgt der Widerstand:
-$$R_{tot}=0,61\frac{m^2 \cdot K}{W}$$
+$$R_{tot}=0,75\frac{m^2 \cdot K}{W}$$
 Analog zum vorherigen Wandaufbau beträgt der U-Wert:
 $$U_{Wand 2}=1,3311 \frac{W}{m^2 \cdot K}$$
 
 
 
 \subsection{Unterschiede zwischen Norm und berechneten U-Werten}
-Für die Normierung von Werten werden langwierige Messungen über lange Zeiträume erstellt und ein Normwert gebildet.
-Der Versuch stellt in diesem Zeitrahmen nur eine Einzelmessung da. 
-Innerhalb der Architektur von Gebäuden kommt es zu Unterschieden der U-Werte.
+Für die Normierung von Werten werden über lange Zeiträume Messungen erstellt und ein Normwert gebildet.
+Der Versuch stellt in diesem Zeitrahmen nur eine Einzelmessung dar. 
+Innerhalb der Architektur von Gebäuden kommt es zu unterschiedlichen U-Werten durch bauliche Unterschiede.
 In den oberen Stockwerken führt die Luftzirkulation und damit einhergehende Konvektion zu einem anderen U-Wert als im Kellergeschoss, wo die angrenzende Erdschicht Einfluss nimmt.
 Andere klimatische Rahmenbedingungen können dazu führen, dass sich U-Werte regional unterscheiden. 
