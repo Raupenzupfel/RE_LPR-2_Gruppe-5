@@ -96,6 +96,9 @@ $$\lambda = \frac{44,73}{6,5 \frac{m}{s}}\approx 6,88$$
 
 
 \subsection{Dimensionslose Kennzahlen}
+\subsubsection*{Mittelwert und Turbulenzintensität der gemessenen Windgeschwindigkeit}
+\subsubsection*{Windleistung $P_{Wind}$}
+Zu Begin wird die reine theoretische Windleistung über Formel \autoref{eq:230615_Leistung_Wind} ermittelt:
 
 \begin{equation}
     \centering
@@ -103,8 +106,13 @@ $$\lambda = \frac{44,73}{6,5 \frac{m}{s}}\approx 6,88$$
     \label{eq:230615_Leistung_Wind}
 \end{equation}
 
+Es werden hierfür die gemessenen und gegebenen Kenndaten eingefügt:
 $$P_{Wind} = \frac{1,2 \frac{kg}{m^3}}{2} \cdot \pi \cdot (0,17 m)^2 \cdot (6,43)^3 \approx 14,46 W$$
+Die theoretische Leistung die aus dem Wind entnommen werden kann liegt bei 14,46W.
 
+\subsubsection*{Rotordrehzahl $n_{Rotor}$}
+
+\subsubsection*{Drehmoment $M_{Gen}$ und mechanische Leistung $P_{Mech}$}
 \begin{equation}
     \centering
     M_{Gen} = 33,931\frac{mNm}{mV} \cdot U_{Rotor} + 3,1519 mNm - M_{Reibung}
@@ -121,14 +129,15 @@ $$M_{Gen} = 33,931\frac{mNm}{mV} \cdot 2,1631 + 3,1519 mNm - 6,3mNm \approx 70,2
 
 $$P_{Mech} = 70,25 \cdot 2 \pi \frac{1318,4 \frac{1}{min}}{60\frac{s}{min}} \approx 9,7W$$
 
+\subsubsection*{Momentenbeiwert $c_m$}
 \begin{equation}
     \centering
     c_M = \frac{M_{Gen}}{ \frac{\rho}{2} \cdot \pi \cdot r_{Rotor}^3 \cdot v_1^2}
     \label{eq:230615_Momentenbeiwert}
 \end{equation}
-
 $$c_M = \frac{70,25}{ \frac{1,2 \frac{kg}{m^3}}{2} \cdot \pi \cdot (0,17 m)^3 \cdot (6,43)^2}\approx 0,184$$
 
+\subsubsection*{Generatorleistung $P_{el}$}
 \begin{equation}
     \centering
     P_{El} = U \cdot I
@@ -137,6 +146,8 @@ $$c_M = \frac{70,25}{ \frac{1,2 \frac{kg}{m^3}}{2} \cdot \pi \cdot (0,17 m)^3 \c
 
 $$P_{El} = 3V \cdot 0,915A \approx 2,745W$$
 
+
+\subsubsection*{Leistungsbeiwert $c_p$}
 % \begin{equation}
 %     \centering
 %     c_P = c_M \cdot \lambda
@@ -145,6 +156,12 @@ $$P_{El} = 3V \cdot 0,915A \approx 2,745W$$
 
 % $$c_P = c_M \cdot \lambda$$
 
+\subsubsection*{Generatorspannung $U_{Gen}$}
+
+\subsubsection*{Generatorstrom $I_{Gen}$}
+
+\subsubsection*{Lastwiderstand $R_{Last}$}
+\subsubsection*{Generatorwirkungsgrad $\eta_{Gen}$}
 \begin{equation}
     \centering
     \eta_{Gen} = \frac{P_{El}}{P_{Mech}}
@@ -160,7 +177,7 @@ $$\eta_{Gen} = \frac{2,745W}{9,7W} \approx 0,2833 \approx 28,33\% $$
 \end{equation}
 
 $$\eta_{Gesamt} = \frac{2,745}{14,46}\approx 0,1898 = 18,98\%$$
-
+\subsubsection*{Schubkraft $F_S$}
 \begin{equation}
     \centering
     F_S = F_{S,Mess} \cdot \frac{l}{h_N} \cdot f_{Korr}
@@ -168,7 +185,7 @@ $$\eta_{Gesamt} = \frac{2,745}{14,46}\approx 0,1898 = 18,98\%$$
 \end{equation}
 
 $$F_S = 0,8853N \cdot \frac{0,467m}{0,73m} \cdot 3,267 = 1,85N$$
-
+\subsubsection*{Schubbeiwert$c_s$}
 \begin{equation}
     \centering
     C_S = \frac{F_S}{\frac{\rho}{2} \cdot \pi \cdot r_{Rotor}^2 \cdot v_1^2}
