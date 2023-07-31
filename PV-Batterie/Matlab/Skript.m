@@ -82,7 +82,7 @@ E_PVS_Komm = cumsum(ts.Ppvs/1000)/3600;
 subplot(2,2,4)
 plot(ts.t,E_PVS_Komm,'LineWidth',1.5);
 grid on;
-title('Kommulierte Einstrahlung');
+title('Kummulierte Einstrahlung');
 legend('P_{PVS,Komm.}','Location','northeast');
 xlim([datetime('18-Jul-2016 04:00:00') datetime('25-Jul-2016 03:59:59')]);
 xlabel('Zeit');
@@ -132,23 +132,23 @@ clear i tm.intervall2;
 %% 4.1.1
 
 figure(2),
-subplot(2,1,1)
+%%subplot(2,1,1)
 plot(ts.t,ts.Pbs/1000,ts.t,s.Pbssim/1000,'LineWidth',1.5);
 grid on;
 title('Leistungsflüsse');
 legend('P_{BS}','P_{BS,Sim.}','Location','northeast');
-xlim([datetime('18-Jul-2016 04:00:00') datetime('25-Jul-2016 03:59:59')]);
+xlim([datetime('24-Jul-2016 11:50:00') datetime('24-Jul-2016 12:00:00')]);
 xlabel('Zeit');
 ylabel('Leistung in kW');
 
-subplot(2,1,2)
-plot(tm.t,tm.P_BS/1000,tm.t,tm.P_BSsim/1000,'LineWidth',1.5);
-grid on;
-title('Leistungsflüsse mittelwertbildung');
-legend('P_{BS}','P_{BS,Sim.}','Location','northeast');
-xlim([datetime('18-Jul-2016 04:00:00') datetime('25-Jul-2016 03:59:59')]);
-xlabel('Zeit');
-ylabel('Leistung in kW');
+%%subplot(2,1,2)
+%%plot(tm.t,tm.P_BS/1000,tm.t,tm.P_BSsim/1000,'LineWidth',1.5);
+%%grid on;
+%%title('Leistungsflüsse Mittelwertbildung');
+%%legend('P_{BS}','P_{BS,Sim.}','Location','northeast');
+%%xlim([datetime('19-Jul-2016 11:30:00') datetime('19-Jul-2016 12:00:00')]);
+%%xlabel('Zeit');
+%%ylabel('Leistung in kW');
 
 %% 4.1.2
 
@@ -163,13 +163,13 @@ ylabel('P_{BS,Sim} in kW');
 
 %% 4.2.1
 
-E_BS_Komm = cumsum(ts.Pbs/1000)/3600;
-E_BSSim_Komm = cumsum(s.Pbssim/1000)/3600;
+E_BS_Komm = cumsum(ts.Pbs)/1000/3600;
+E_BSSim_Komm = cumsum(s.Pbssim)/1000/3600;
 
 figure(4);
 plot(ts.t,E_BS_Komm,ts.t,E_BSSim_Komm);
 grid on;
-title('Kommulierte Leistungen');
+title('Kumulierte Leistungen');
 legend('E_{BS}','E_{BS,Sim.}','Location','northeast');
 xlim([datetime('18-Jul-2016 04:00:00') datetime('25-Jul-2016 03:59:59')]);
 xlabel('Zeit');
