@@ -70,7 +70,7 @@ Die kumulierten Summen werden mithilfe des 'cumsum'-Befehls und der Plot-Funktio
     \caption{Kumulierte Leistungen}
     \label{fig:plot1_230730}
 \end{figure}
-
+Anschließend wurden sowohl die positiven wie auch die negativen Leistungsströme in \autoref{fig:plot1_230730_2} und \autoref{fig:plot1_230730_3} kummuliert dargestellt.
 \begin{figure}[H]
     \centering
     \includegraphics[width=\textwidth]{Abbildungen/plot5.png}
@@ -84,6 +84,9 @@ Die kumulierten Summen werden mithilfe des 'cumsum'-Befehls und der Plot-Funktio
     \caption{Kummulierte negative Leistungsströme}
     \label{fig:plot1_230730_3}
 \end{figure}
+Dabei ist zu sehen, dass die simulierten Werte immer größer sind als die gemessenen. Dies lässt vermuten, dass die Simulation 
+nicht die tatsächlichen Verluste der Leistungs-auf und -abgabe mit Berücksichtigt. Weitere Fehlerquellen könnten dabei durch Messfehler oder eine nicht Berücksichtigung von Faktoren wie Alterung des Batteriesystems sein.\\
+
 
 Die für Aufgabe 7.2.2 der Versuchsanleitung \cite[S. 11]{Laboranleitung} verlangten Werte wurden in der Struktur Ergebnisse in Matlab zusammengefasst.
 Energiesummen der Leistungen lassen sich jeweils durch die Funktion cumsum() ermitteln, der absolute Fehler der Energiesummen lässt sich mit der Differenz aus den realen Energiesummen und den simulierten Energiesummen errechnen und der relative aus dem Quotienten zwischen dem absoluten Fehler und der dazugehörigen Energiesumme.
