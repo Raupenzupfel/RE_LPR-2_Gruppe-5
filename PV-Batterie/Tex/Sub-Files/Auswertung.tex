@@ -62,6 +62,8 @@ Also Beispielsweise darauf, dass die Simulation bereits eine Leistung aufnimmt, 
 Besondere Streuungen sind außerdem im 3. Quadranten zwischen -1 und 0 zu erkennen, was durch das dynamische Regelverhalten bei stark schwankenden Lasten erklärt werden kann. 
 
 \subsection{Vergleich der Energiesummen}
+\subsubsection{Abweichungen zwischen den kumulierten Energiesummen der gemessenen und
+simulierten Energieaufnahme und -abgabe des Batteriesystems}
 Die kumulierten Summen werden mithilfe des 'cumsum'-Befehls und der Plot-Funktion in \autoref{fig:plot1_230730} dargestellt.
 
 \begin{figure}[H]
@@ -87,7 +89,8 @@ Anschließend wurden sowohl die positiven wie auch die negativen Leistungsström
 Dabei ist zu sehen, dass die simulierten Werte immer größer sind als die gemessenen. Dies lässt vermuten, dass die Simulation 
 nicht die tatsächlichen Verluste der Leistungs-auf und -abgabe mit Berücksichtigt. Weitere Fehlerquellen könnten dabei durch Messfehler oder eine nicht Berücksichtigung von Faktoren wie Alterung des Batteriesystems sein.\\
 
-
+\subsubsection{Energiesummen, Nutzungsgrade des Batterieumrichters,
+Batteriespeichers und Batteriesystems}
 Die für Aufgabe 7.2.2 der Versuchsanleitung \cite[S. 11]{Laboranleitung} verlangten Werte wurden in der Struktur Ergebnisse in Matlab zusammengefasst.
 Energiesummen der Leistungen lassen sich jeweils durch die Funktion cumsum() ermitteln, der absolute Fehler der Energiesummen lässt sich mit der Differenz aus den realen Energiesummen und den simulierten Energiesummen errechnen und der relative aus dem Quotienten zwischen dem absoluten Fehler und der dazugehörigen Energiesumme.
 Die AC-Batterieladung wurde ermittelt, indem nur die Batterieleistungsflüsse geloggt wurden, welche größer als 0 waren.
@@ -112,7 +115,7 @@ Der AC2BAT-Nutzungsgrad wurde mit $\frac{AC-Batterieladung}{DC_Batterieladung}$ 
    
     DC-Batterieentladung in kWh                 &$E_{BATD}$                          & 35,46                                              & 35,99                                  & -0,529                                         & -1,5                                    \\ \hline
      
-    AV2BAT-Nutzungsgrad in \%                  &$\bar{\eta}_{AC2BAT}$               & 95,5                                              & 94,3                                  & 1,22                                         & 1,28                                    \\ \hline
+    AC2BAT-Nutzungsgrad in \%                  &$\bar{\eta}_{AC2BAT}$               & 95,5                                              & 94,3                                  & 1,22                                         & 1,28                                    \\ \hline
    
     {\makecell{Nutzungsgrad\\der Batterie in \%}} &$\bar{\eta}_{BAT}$                & 92                                               & 92,7                                  & -0,69                                        & -0,75                                   \\ \hline
   
@@ -121,3 +124,14 @@ Der AC2BAT-Nutzungsgrad wurde mit $\frac{AC-Batterieladung}{DC_Batterieladung}$ 
     AC-Systemnutzungsgrad in\%                &$\bar{\eta}_{AC}$                   & 83,7                                              & 82,8                                  & 0,86                                         & 1,02                                    \\ \hline
  \end{tabular}
 \end{table}
+
+Die Simulation erweist sich im Allgemeinen als sehr genau, da alle Abweichungen über den 
+gesamten Messzeitraum bei maximal etwas über 2,5 \% liegen. 
+Insbesondere wurde der Entladevorgang genauer simuliert als der Ladevorgang, 
+was vermuten lässt, dass die Entladung verlustärmer als die Ladung des Systems ist.
+Es ist anzumerken, dass die Simulation die Verluste 
+nur teilweise berücksichtigt hat, und die in der Realität gemessenen Wirkungsgrade tatsächlich fast alle höher sind als in der Simulation.
+\\
+Um die Ursachen der Differenzen zwischen Messung und Simulation zu ermitteln, müsste man die Methode zur Berechnung der mittleren 
+Wirkungsgrade in der Simulation untersuchen und 
+die Unterschiede in der Nutzung, den äußeren Bedingungen wie Temperatur und Einstrahlung sowie anderen Faktoren berücksichtigen. Eine genaue Analyse dieser Aspekte könnte dabei helfen, die Abweichungen zwischen den Mess- und Simulationsdaten zu erklären.
