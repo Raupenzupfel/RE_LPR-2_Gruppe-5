@@ -175,6 +175,47 @@ xlim([datetime('18-Jul-2016 04:00:00') datetime('25-Jul-2016 03:59:59')]);
 xlabel('Zeit');
 ylabel('Energie in kWh');
 
+E_BS_Komm = cumsum(ts.Pbs)/1000/3600;
+E_BSSim_Komm = cumsum(s.Pbssim)/1000/3600;
+
+E_BS_Komm = cumsum(ts.Pbs)/1000/3600;
+E_BSSim_Komm = cumsum(s.Pbssim)/1000/3600;
+
+% Separate positive and negative power flows
+positive_power = max(0, ts.Pbs);
+negative_power = min(0, ts.Pbs);
+positive_power_sim = max(0, s.Pbssim);
+negative_power_sim = min(0, s.Pbssim);
+
+% Kumulative positive und negative Leistungsströme
+E_Positive_BS_Komm = cumsum(positive_power)/1000/3600;
+E_Negative_BS_Komm = cumsum(negative_power)/1000/3600;
+E_Positive_BSSim_Komm = cumsum(positive_power_sim)/1000/3600;
+E_Negative_BSSim_Komm = cumsum(negative_power_sim)/1000/3600;
+
+% Plot für kumulative positive Leistungsströme
+figure(5);
+plot(ts.t, E_Positive_BS_Komm, ts.t, E_Positive_BSSim_Komm);
+grid on;
+title('Kummulierte Positive Leistungsströme');
+legend('E_{Positiv_{BS}}', 'E_{Positiv_{BS,Sim.}}', 'Location', 'northeast');
+xlim([datetime('18-Jul-2016 04:00:00') datetime('25-Jul-2016 03:59:59')]);
+xlabel('Zeit');
+ylabel('Energie in kWh');
+saveas(gcf, 'plot5.png');
+
+% Plot für kumulative negative Leistungsströme
+figure(6);
+plot(ts.t, E_Negative_BS_Komm, ts.t, E_Negative_BSSim_Komm);
+grid on;
+title('Kumulierte Negative Leistungsströme');
+legend('E_{Negativ_{BS}}', 'E_{Negativ_{BS,Sim.}}', 'Location', 'northeast');
+xlim([datetime('18-Jul-2016 04:00:00') datetime('25-Jul-2016 03:59:59')]);
+xlabel('Zeit');
+ylabel('Energie in kWh');
+saveas(gcf, 'plot6.png');
+
+
 %% 4.2.2
 
 Ergebnisse.E_Bat_C.real = sum(max(0,ts.Pbat/1000)/3600);                 % Battery DC Charge         - E_DC2Bat

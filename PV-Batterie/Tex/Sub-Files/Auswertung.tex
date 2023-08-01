@@ -52,11 +52,13 @@ Das Streudiagramm wurde mit der Scatter-Funktion erstellt und in \autoref{fig:pl
     \label{fig:plot1_230730_1}
 \end{figure}
 
-Die Linie der Gleichheit verläuft diagonal vom dritten in den zweiten Quadranten und ist klar erkennbar. Das lässt schlussfolgern, dass die Simulation mit den realen Werten in vielen Punkten übereinstimmt.
+
+
+Die Linie der Gleichheit verläuft diagonal vom dritten in den zweiten Quadranten und ist klar erkennbar. Wäre die Simulation identisch mit den realen Werten, so würden alle Punkte auf dieser Diagonalen liegen. Das lässt schlussfolgern, dass die Simulation mit den realen Werten in vielen Punkten übereinstimmt, jedoch nicht in allen.
 Klar zu erkennen sind die Grenzen des Systems bei 2,5 kW beziehungsweise -2,5 kW welche durch die maximale Lade- und Entladeleistung definiert werden.
 
-Besondere Abweichungen lassen sich an den zwei Nullinien erkennen. Die Gerade zwischen dem 2. und 4. Quadranten zeigt Abweichungen zwischen den realen Werten welche steigen während die simulierten Werte bei null bleiben. Die senkrechte Linie beschreibt das Gleiche nur umgekehrt, die simulierten Werte steigen bei gleichbleibenden Realen.
-Dies könnte durch das Laden bei Leistungsdefiziten oder Überschüssen verursacht werden.
+Besondere Abweichungen lassen sich an den zwei Nullinien erkennen. Die Gerade zwischen dem 1. und 4. Quadranten zeigt Abweichungen zwischen den realen Werten welche steigen während die simulierten Werte bei null bleiben. Die senkrechte Linie auf der y-Achse beschreibt das Gleiche nur umgekehrt, die simulierten Werte steigen bei gleichbleibenden Realen. Dieser Effekt beruht wie im vorherigen Kapitel beschrieben auf den verschiedenen Reaktionszeiten der beiden Systeme. 
+Also Beispielsweise darauf, dass die Simulation bereits eine Leistung aufnimmt, bevor das reale System überhaupt angefangen hat oder das reale System noch Leistungsflüsse ausführt, die im idealen schon beendet wurden.
 Besondere Streuungen sind außerdem im 3. Quadranten zwischen -1 und 0 zu erkennen, was durch das dynamische Regelverhalten bei stark schwankenden Lasten erklärt werden kann. 
 
 \subsection{Vergleich der Energiesummen}
@@ -69,9 +71,22 @@ Die kumulierten Summen werden mithilfe des 'cumsum'-Befehls und der Plot-Funktio
     \label{fig:plot1_230730}
 \end{figure}
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{Abbildungen/plot5.png}
+    \caption{Kummulierte positive Leistungsströme}
+    \label{fig:plot1_230730_2}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{Abbildungen/plot6.png}
+    \caption{Kummulierte negative Leistungsströme}
+    \label{fig:plot1_230730_3}
+\end{figure}
 
 Die für Aufgabe 7.2.2 der Versuchsanleitung \cite[S. 11]{Laboranleitung} verlangten Werte wurden in der Struktur Ergebnisse in Matlab zusammengefasst.
-Energiesummen der Leistungen lassen sich jeweils durch die Funktion sum() ermitteln, der absolute Fehler der Energiesummen lässt sich mit der Differenz aus den realen Energiesummen und den simulierten Energiesummen errechnen und der relative aus dem Quotienten zwischen dem absoluten Fehler und der dazugehörigen Energiesumme.
+Energiesummen der Leistungen lassen sich jeweils durch die Funktion cumsum() ermitteln, der absolute Fehler der Energiesummen lässt sich mit der Differenz aus den realen Energiesummen und den simulierten Energiesummen errechnen und der relative aus dem Quotienten zwischen dem absoluten Fehler und der dazugehörigen Energiesumme.
 Die AC-Batterieladung wurde ermittelt, indem nur die Batterieleistungsflüsse geloggt wurden, welche größer als 0 waren.
 Die Batterieentladung bildet dabei das Gegenstück und sind nur die Batterieleistungsflüsse, die kleiner als 0 waren.
 Für die DC-Batterieladung und -Entladung wurde genauso vorgegangen, nur das hier die Batteriesystemleistungsflüsse verwendet wurden.
