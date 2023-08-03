@@ -11,3 +11,7 @@ Solkane
 Carnot-Wirkungsgrads
 Carnot
 Exergie
+Generatorstrom
+Generatorwirkungsgrad
+Generatordrehmoment
+Generatormoment

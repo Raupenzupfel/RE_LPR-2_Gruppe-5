@@ -32,7 +32,7 @@ In \autoref{fig:Pitch_Wind} ist die Kalibrierungsunschärfe dargestellt. Der kal
 \end{figure}
 
 In \autoref{fig:Momentenbeiwert_Anlauf} sind der theoretische Momentenbeiwert $c_{M,0}$ und der praktische $c_{M,1}$ in Abhängigkeit der Windgeschwindigkeit dargestellt.
-Das praktische Anlaufmoment ist gegenüber dem theoretischen etwas niedriger, was vorallem durch die Abweichung der Windgeschwindigkeit vom Soll-Wert zu erklären ist.
+Das praktische Anlaufmoment ist gegenüber dem theoretischen etwas niedriger, was vor allem durch die Abweichung der Windgeschwindigkeit vom Soll-Wert zu erklären ist.
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.9\textwidth]{cm_Anlauf}
@@ -40,7 +40,7 @@ Das praktische Anlaufmoment ist gegenüber dem theoretischen etwas niedriger, wa
     \label{fig:Momentenbeiwert_Anlauf}
 \end{figure}
 
-\subsection{Leerlauf und Maximale Schnelllaufzahl}
+\subsection{Leerlauf und maximale Schnelllaufzahl}
 Im Rahmen der Untersuchungen wurden bei verschiedenen konstanten Windgeschwindigkeiten verschiedene Messungen durchgeführt.
  Die Auswertung dieser Messungen beinhaltet mehrere wichtige Parameter, die für jede der untersuchten Windgeschwindigkeiten dargestellt werden. Die entsprechenden Werte sind in der folgenden Tabelle zusammengefasst:
 
@@ -87,7 +87,7 @@ Im Rahmen der Untersuchungen wurden bei verschiedenen konstanten Windgeschwindig
      präzise Ausrichtung zur Anströmung des Windes zu ermitteln, in der Tabelle dargestellt. Ebenfalls wurde die Generator-Leerlaufspannung $U_{Gen_0}$ erfasst, 
      um die elektrischen Eigenschaften des Generators im Leerlauf zu untersuchen. Ein weiterer relevanter Wert ist die Leerlaufdrehzahl des Rotors $n_0$, 
      die Auskunft über die Rotor-Drehzahl bei fehlender Last gibt. Zudem wurde die Blattspitzengeschwindigkeit des Rotors $u_{tip}$ ermittelt, um die Geschwindigkeit an den äußersten Enden der Rotorblätter zu bestimmen. 
-     Die Schnelllaufzahl $\lambda$, als Verhältnis zwischen der relativen Windgeschwindigkeit und der Blattspitzengeschwindigkeit, wurde untersucht, um die aerodynamische Effizienz des Systems zu bewerten. Besonders wichtig war die Vermerkung der maximalen
+     Die Schnelllaufzahl $\lambda$, als Verhältnis zwischen der relativen Windgeschwindigkeit und der Blattspitzengeschwindigkeit, wurde untersucht, um die aerodynamische Effizienz des Systems zu bewerten. Besonders wichtig war das Vermerken der maximalen
     Schnelllaufzahl $\lambda_{max}$ für jede Windgeschwindigkeit $v_{Wind}$, um die optimale Auslastung des Rotors bei verschiedenen Windbedingungen zu erkennen. Die Auswertung dieser Parameter lieferte
     wertvolle Erkenntnisse über das Verhalten des Windkraftsystems bei unterschiedlichen Windgeschwindigkeiten und ermöglichte die gezielte Verbesserung der Leistungsfähigkeit und Effizienz der Anlage. Diese Erkenntnisse tragen zur Weiterentwicklung und 
     Optimierung von Windenergieanlagen bei,
@@ -146,7 +146,7 @@ Die gemessenen und ermittelten Werte sind in \autoref{tab:2307028_Dimensionslose
     \caption{Turbulenzintensität Vorlauf und Rücklauf}
     \label{fig:Turbulenzintensität}
 \end{figure}
-Die Turbulenzintesität ist im Vorlauf mit Werten bis 0,5\% verschwindend gering und damit vernachlässigbar. Die Turbulenzintensität des Nachlaufs unterliegt starken Schwankung, was auf die Versuchsbedingungen zurückzuführen ist.
+Die Turbulenzintensität ist im Vorlauf mit Werten bis 0,5\% verschwindend gering und damit vernachlässigbar. Die Turbulenzintensität des Nachlaufs unterliegt starken Schwankung, was auf die Versuchsbedingungen zurückzuführen ist.
 
 \subsubsection*{Geschwindigkeitsreduktion$\frac{v_3}{v_1}$}
 Unter Lastzunahme nimmt die Geschwindigkeitsreduktion bis zur Auslegungsschnelllaufzahl ab, anschließend steigt das Verzögerungsverhältnis wieder. 
@@ -168,14 +168,14 @@ Zu Begin wird die reine theoretische Windleistung über Formel \autoref{eq:23061
 
 Es werden hierfür die gemessenen und gegebenen Kenndaten eingefügt:
 $$P_{Wind} = \frac{1,2 \frac{kg}{m^3}}{2} \cdot \pi \cdot (0,17 m)^2 \cdot (6,43)^3 \approx 14,46 W$$
-Die theoretische Leistung die aus dem Wind entnommen werden kann liegt bei 14,46W.
+Die theoretische Leistung, die aus dem Wind entnommen werden kann, liegt bei 14,46W.
 
 \subsubsection*{Rotordrehzahl $n_{Rotor}$}
 Über die Lastregelung ist eine variable Drehzahlregelung möglich. In \autoref{tab:2307028_DimensionsloseKennzahlen} ist die Regelung anhand der Werte erkennbar. Eine Erhöhung der Last führt zu einem Absinken der Drehzahl.
 \subsubsection*{Drehmoment $M_{Gen}$}
 Ausgehend von der Annahme,
- dass entgegen der Beschriftung in der LabView-Tabelle das Generator Drehmoment in mV gemessen wird und einer Umrechnung bedarf, 
- werden unter Verwendung von \autoref{eq:230615_Genratormoment} die benötigten Werte ermittelt:
+dass entgegen der Beschriftung in der LabView-Tabelle das Generatordrehmoment in mV gemessen wird und einer Umrechnung bedarf, 
+werden unter Verwendung von \autoref{eq:230615_Genratormoment} die benötigten Werte ermittelt:
 
 \begin{equation}
     \centering
@@ -183,7 +183,7 @@ Ausgehend von der Annahme,
     \label{eq:230615_Genratormoment}
 \end{equation}
 
-Ein exemplarische Rechnung mit gemessenen Werte für das Generatormoment $M_{Gen}$:
+Eine exemplarische Rechnung mit gemessenen Werte für das Generatormoment $M_{Gen}$:
 
 $$M_{Gen} = 33,931\frac{mNm}{mV} \cdot 2,1631 + 3,1519 mNm - 6,3mNm \approx 70,25 mNm$$
 Das Nenndrehmoment des Generators liegt bei $71 mNm$. Für die exemplarische Betrachtung und für den Vergleich mit Tabellenwerten werden die Werte aus der betreffenden Messreihe verwendet.
@@ -244,11 +244,15 @@ Exemplarisch beträgt der $c_P$ mit den ermittelten Werten $c_M = $ und $\lambda
     \label{fig:cp_last}
 \end{figure}
 \subsubsection*{Generatorspannung $U_{Gen}$}
-Mit zunehmender Last sinkt die Generatorspannung U. Wieso?
+Mit zunehmender Last sinkt die Generatorspannung $U_{Gen}$, weil der Generator
+mehr erzeugt als vorher, dadurch die Drehzahl des Generators erhöht, die Verluste
+steigen und dadurch endgültig die Spannung sinkt. 
 \subsubsection*{Generatorstrom $I_{Gen}$}
-Mit zunehmender Last steigt der Generatorstrom I. Wieso?
+Mit zunehmender Last steigt der Generatorstrom I, weil die Drehzahl erhöht
+wird und somit mehr Strom induziert wird.
+
 \subsubsection*{Lastwiderstand $R_{Last}$}
-Einordnung: Prozentuale Erhöhung doch der Lastwiderstand am Generator sinkt. (Ist richtig so) Wieso? Aufbau des Generatorkreises nochmal anschauen.
+Einordnung: Prozentuale Erhöhung (VON WAS?) doch der Lastwiderstand am Generator sinkt. (Ist richtig so) Wieso? Aufbau des Generatorkreises nochmal anschauen. (WARUM MACHEN WIR DAS ÜBERHAUPT?)
 \subsubsection*{Generatorwirkungsgrad $\eta_{Gen}$}
 Der Generatorwirkungsgrad wird über \autoref{eq:230615_Generatorwirkungsgrad} bestimmt:
 \begin{equation}
@@ -305,7 +309,7 @@ Mit zunehmender Schnelllaufzahl steigt der Schubbeiwert an. Der maximale ermitte
 \subsubsection*{Tabelle Messwerte und Dimensionslose Kennzahlen}
 \begin{table}[H]
     \centering
-    \caption{Dimensionslose Kennzahlen }
+    \caption{Dimensionslose Kennzahlen}
     \label{tab:2307028_DimensionsloseKennzahlen}
     \LARGE
     \resizebox{\columnwidth}{!}{%
@@ -363,5 +367,5 @@ Mit zunehmender Schnelllaufzahl steigt der Schubbeiwert an. Der maximale ermitte
 \subsection{Feedback zum Versuch}
 
 Der Versuch vermittelt ein gutes Verständnis über die Notwendigkeit und den Gebrauch des Pitchwinkels. Allerdings wäre eine Überarbeitung des Programms, welche die Messdaten aufnimmt 
-empfehlenswert, da diese sehr schwer nachzuvollziehen sind. Auch eine genauere Erklärung zu dem Programm, den Messdaten und den Einheiten in welche die Daten aufgenommen werden könnte in der Versuchsanleitung hilfreich sein.
+empfehlenswert, da diese sehr schwer nachzuvollziehen sind. Auch eine genauere Erklärung zu dem Programm, den Messdaten und den Einheiten, in welche die Daten aufgenommen werden, könnte in der Versuchsanleitung hilfreich sein.
 (Zu viel Kritik? lieber weg lassen?)
