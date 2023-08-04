@@ -4,6 +4,7 @@ Das gegebene Matlab Skript 'Skript.m' wurde gemäß der Versuchsanleitung \cite[
 Zuerst wurde der gegebene Datensatz 'Datensatz.m' überarbeitet und in die Struktur ts zusammengefasst, um ein übersichtlicheres Arbeiten in Matlab zu ermöglichen.
 Dieser veränderte Datensatz wurde als 'DatensatzModified.m' abgespeichert und im restlichen verlauf der Durchführung verwendet.
 
+
 \subsection{Vergleich der Leistungsflüsse}
 Der Vergleich zwischen den simulierten und gemessenen Leistungen wurde mittels der Plot-Funktion in \autoref{fig:plot_230730} dargestellt,
 dabei wurden zur Übersichtlichkeit zusätzlich Kurzzeitmittelwerte gebildet um einen Leistungsverlauf in Minutenwerten darzustellen.
@@ -17,7 +18,7 @@ dabei wurden zur Übersichtlichkeit zusätzlich Kurzzeitmittelwerte gebildet um 
 
 \newpage
 Auffälligkeiten beziehungsweise Abweichungen zwischen realem und simuliertem Leistungsfluss zeigen sich in verschiedenen Zeiträumen.
-Der Zeitraum des 19. Juli wurde ausgesucht, um eventuelle Fehlerquellen zu identifizieren. Es können zwei Zeiträume identifiziert werden in denen starke Abweichungen zwischen Real- und Simulationswerten entsteht. Zwischen 8 Uhr und 9 Uhr morgens wird ein Ladezustand der Batterie simuliert, tatsächlich wird diese jedoch erst ab ca. 9.10 Uhr geladen.
+Der Zeitraum des 19. Juli (\autoref{fig:plot_230731}) wurde ausgesucht, um eventuelle Fehlerquellen zu identifizieren. Es können zwei Zeiträume identifiziert werden in denen starke Abweichungen zwischen Real- und Simulationswerten entsteht. Zwischen 8 Uhr und 9 Uhr morgens wird ein Ladezustand der Batterie simuliert, tatsächlich wird diese jedoch erst ab ca. 9.10 Uhr geladen. Am Nachmittag zwischen 14 und 15 Uhr wird die Batterie weiterhin geladen, während kein Leistungsfluss simuliert wird.
 
 
 \begin{figure}[H]
@@ -27,7 +28,7 @@ Der Zeitraum des 19. Juli wurde ausgesucht, um eventuelle Fehlerquellen zu ident
     \label{fig:plot_230731}
 \end{figure}
 
-
+Die Abweichungen zwischen simulierten und realen Werten kommt zustande, da das simulierte System sofort reagiert, was beim realen System nicht möglich ist. Dies lässt sich in \autoref{fig:plot1_230731} gut erkennen.
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.95\textwidth]{Abbildungen/8.09.jpg}
@@ -35,13 +36,15 @@ Der Zeitraum des 19. Juli wurde ausgesucht, um eventuelle Fehlerquellen zu ident
     \label{fig:plot1_230731}
 \end{figure}
 
+In \autoref{fig:plot2_230731} ist erkenntlich, dass auf einen relativ großen Simulationsfehler viele kleinere Folgefehler folgen können, da das System versucht den ersten auszugleichen.
+
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.95\textwidth]{Abbildungen/11.54.jpg}
     \caption{Vergleich der Leistungsflüsse}
     \label{fig:plot2_230731}
 \end{figure}
-Die Abweichungen zwischen simulierten und realen Werten kommt zustande, da das simulierte System sofort reagiert, was beim realen System nicht möglich ist. Dies lässt sich in \autoref{fig:plot_230731} schwer erkennen, umso besser ist dies jedoch in  \autoref{fig:plot1_230731} und in \autoref{fig:plot2_230731} gut erkennen.
+
 
 Das Streudiagramm wurde mit der Scatter-Funktion erstellt und in \autoref{fig:plot1_230730_1} dargestellt und soll ein Verständnis zum Betriebsverhalten des Batteriesystems vermitteln. Jeder Punkt stellt einen sekündlichen Wert der Messzeit über 7 Tage dar.
 \begin{figure}[H]
